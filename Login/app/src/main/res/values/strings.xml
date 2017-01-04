@@ -1,0 +1,75 @@
+<resources>
+    <!--영어 번역본 적용 2016-10-18-->
+    <string name="app_name">Sign Up</string>
+
+    <string name="loading">Working</string>
+    <string name="id">ID</string>
+    <string name="id_hint">Please enter your ID</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Please enter your password.</string>
+    <string name="password_check_hint">Please enter your password retype</string>
+    <string name="login">Log in</string>
+    <string name="Initial">Initialization</string>
+    <string name="commax_user_text">Create your Commax ID?</string>
+    <string name="name">Name</string>
+
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+
+    <string name="phone_number">Phone Number</string>
+    <string name="send">Send</string>
+    <string name="check">Ok</string>
+    <string name="before">Prev</string>
+    <string name="next">Next</string>
+
+    <string name="password_check">Retype Password</string>
+    <string name="email">Email</string>
+
+
+    <!--pxd lotte-->
+    <string name="information_input">Enter information</string>
+    <string name="register">Registration</string>
+    <string name="id_overlap_check">Duplication check</string>
+    <string name="please_check_id_overlap">Please check the ID duplication</string>
+
+    <string name="unavailable_Id">The ID already exists. Please enter another ID</string>
+    <string name="available_id">The ID is available</string>
+    <string name="register_success">Your sign up is complete.</string>
+    <string name="user_information">User Information</string>
+    <string name="password_change">P/W Change</string>
+    <string name="user_initial">Initialization</string>
+    <string name="passwrod_change_success">The password is changed.</string>
+    <string name="id_length_check">The ID can be 4~20 characters</string>
+    <string name="password_length_check">The password can be 6~20 characters</string>
+
+
+    <string name="password_passwordcheck_different">Passwords do not match Please check password again</string>
+
+    <string name="user_id_initialize_success">The user ID is initialized</string>
+    <string name="name_length_check">The length of the name is within20 characters</string>
+    <string name="user_id_initial_message">Are you sure you will reset your ID?</string>
+    <string name="ok">OK</string>
+    <string name="cancle">Cancle</string>
+    <string name="select_nationCode">Please select your living country</string>
+    <string name="network_error">A network error has occurred.</string>
+    <string name="edit_alpha_num_only">The letters and numbers can be input</string>
+    <string name="edit_alpha_num_etc_only">You can enterletters, numbers and !@#$%^<![CDATA[&]]>*_=+[]>\\?</string>
+    <string name="nation_code">Living Country</string>
+    <string name="select_nation">Select Country</string>
+    <string name="file_error">File error</string>
+    <string name="check_internet_connect">A network error. Please check your internet connection</string>
+    <string name="do_it_again">Touch it again</string>
+    <string name="mac_error">Please check your internet connection and restart the App</string>
+
+    <!--번역 적용 안됨 2016-11-01 -->
+    <string name="adult_certification">Adult Certification</string>
+    <string name="birth">Birth date</string>
+    <string name="day">Day</string>
+    <string name="id_not_available_word">The letters and numbers can be input</string>
+    <string name="optional_guide_text">Is required.</string>
+    <string name="password_not_available_word">Only available alphabet , number and special character</string>
+    <string name="vertification_code">Vertification Code</string>
+
+    <!--로컬 서버 통신-->
+    <string name="localserver_status_check">Please check Local Server status</string>
+</resources>

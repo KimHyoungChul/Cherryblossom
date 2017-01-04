@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--2016-11-01 번역 적용 완료 -->
+    <string name="app_name">会員登録</string>
+    <string name="loading">作動中</string>
+
+    <string name="id">ユーザID</string>
+    <string name="id_hint">IDをご入力ください。</string>
+    <string name="password">パスワード</string>
+    <string name="password_hint">パスワードを入力してください。</string>
+    <string name="password_check_hint">パスワード確認をご入力ください。</string>
+    <string name="login">ログイン</string>
+    <string name="Initial">初期化</string>
+    <string name="commax_user_text">Commaxメンバーじゃないでしょうか？</string>
+    <string name="name">名前</string>
+
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="phone_number">電話番号</string>
+    <string name="send">送信</string>
+    <string name="check">確認</string>
+    <string name="before">以前</string>
+    <string name="next">次の</string>
+
+    <string name="password_check">パスワード確認</string>
+    <string name="email">Eメール</string>
+
+
+    <!--pxd for lotte-->
+    <string name="information_input">情報の入力</string>
+    <string name="register">登録</string>
+    <string name="id_overlap_check">重複チェック</string>
+    <string name="please_check_id_overlap">ID重複チェックをしてください。</string>
+    <string name="unavailable_Id">既に使用されているIDです。別のIDをご入力ください。</string>
+    <string name="available_id">使用可能なIDです。</string>
+    <string name="register_success">会員登録が完了しました。</string>
+    <string name="user_information">ユーザー情報</string>
+    <string name="password_change">P/W変更</string>
+    <string name="user_initial">初期化</string>
+    <string name="passwrod_change_success">パスワードが変更されました。</string>
+    <string name="id_length_check">IDは4～20文字以内でご入力ください。</string>
+    <string name="password_length_check">パスワードは6～20文字以内でご入力ください。。</string>
+
+
+    <string name="password_passwordcheck_different">パスワードが一致しません。もう一度ご確認ください。</string>
+
+    <string name="user_id_initialize_success">ユーザーIDが初期化されました。</string>
+    <string name="name_length_check">名前は20文字以内です。</string>
+    <string name="user_id_initial_message">IDを初期化しますか？</string>
+    <string name="ok">確認</string>
+    <string name="cancle">キャンセル</string>
+    <string name="select_nationCode">国を選択してください</string>
+    <string name="network_error">ネットワークエラーが発生しました。</string>
+    <string name="edit_alpha_num_only">英数字のみ入力可能です。</string>
+    <string name="edit_alpha_num_etc_only">英数字、!@#$%^<![CDATA[&]]>*_=+[]>\\?は入力可能です。</string>
+    <string name="nation_code">居住国</string>
+    <string name="select_nation">国の選択</string>
+    <string name="file_error">ファイルエラー</string>
+    <string name="check_internet_connect">ネットワークエラーです。インターネット回線をご確認ください。</string>
+    <string name="do_it_again">もう一度タッチしてください。</string>
+    <string name="mac_error">インターネット回線を確認して、アプリを再起動させてください。</string>
+
+    <!--번역 적용 안됨 2016-11-01 -->
+    <string name="adult_certification">大人の認定</string>
+    <string name="birth">お誕生日</string>
+    <string name="id_not_available_word">英数字のみ入力可能です。</string>
+    <string name="optional_guide_text">は必須入力項目です。</string>
+    <string name="password_not_available_word">のみ利用可能なアルファベット、数字、特殊文字</string>
+    <string name="vertification_code">検証コード</string>
+
+    <!--로컬 서버 통신-->
+    <string name="localserver_status_check">ローカルサーバーのステータスを確認してください</string>
+</resources>

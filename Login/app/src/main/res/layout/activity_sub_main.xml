@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_dc_pop">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_bar_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/menu_bar_side_padding"
+        android:paddingRight="@dimen/menu_bar_side_padding"
+        android:paddingTop="@dimen/menu_bar_top_padding"
+        android:paddingBottom="@dimen/menu_bar_bottom_padding">
+
+        <com.commax.login.Common.ImageBT android:id="@+id/back_button_sub"
+            android:layout_width="@dimen/menu_back_btn"
+            android:layout_height="@dimen/menu_back_btn"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:src="@mipmap/btn_coach_close"
+            android:background="@android:color/transparent"
+            android:visibility="visible"
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.login"
+            my:imageOpacity="0.6"
+            android:onClick="onClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/component_edit_size"
+            android:gravity="center"
+            android:text="@string/user_information"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/all_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="@dimen/component_width"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="@dimen/component_width"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/component_layout_bottom_padding">
+
+                <LinearLayout
+                    android:layout_width="@dimen/component_text_width"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginRight="@dimen/component_line_right_padding">
+
+                    <TextView
+                        android:id="@+id/id_text"
+                        android:layout_width="@dimen/component_text_width"
+                        android:layout_height="@dimen/component_text_height"
+                        android:text="@string/id"
+                        android:textSize="@dimen/component_text_size"
+                        android:textColor="@color/component_textview_color"
+                        android:gravity="center" />
+
+                    <View
+                        android:layout_height="2dip"
+                        android:layout_width="fill_parent"
+                        android:background="@color/edit_line_normal" />
+                </LinearLayout>
+
+                <com.commax.login.Common.ClearEditText
+                    android:id="@+id/user_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="@dimen/component_edit_size"
+                    android:editable="false" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="@dimen/component_width"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/component_layout_bottom_padding">
+
+                <LinearLayout
+                    android:layout_width="@dimen/component_text_width"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginRight="@dimen/component_line_right_padding">
+
+                    <TextView
+                        android:layout_width="@dimen/component_text_width"
+                        android:layout_height="@dimen/component_text_height"
+                        android:text="@string/password"
+                        android:textSize="@dimen/component_text_size"
+                        android:textColor="@color/component_textview_color"
+                        android:gravity="center" />
+
+                    <View
+                        android:layout_height="2dip"
+                        android:layout_width="fill_parent"
+                        android:background="@color/edit_line_normal" />
+                </LinearLayout>
+
+                <com.commax.login.Common.ClearEditText
+                    android:id="@+id/user_pwd"
+                    android:layout_width="@dimen/component_edit_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textCursorDrawable="@drawable/edit_cursor"
+                    android:editable="false"
+                    android:textSize="@dimen/component_edit_size" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/component_id_btn_layout_width"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/component_id_btn_botton_padding"
+                    android:paddingLeft="@dimen/component_id_btn_left_padding">
+
+                    <Button
+                        android:id="@+id/user_pwd_change"
+                        android:layout_width="@dimen/component_id_btn_width"
+                        android:layout_height="@dimen/component_id_btn_height"
+                        android:text="@string/password_change"
+                        android:onClick="onClick"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/middle_round_btn_seletor"
+                        android:textColor="@drawable/middle_button_text_color"
+                        android:textColorHighlight="@drawable/middle_button_text_color"
+                        android:textColorLink="@drawable/middle_button_text_color"
+                        android:textSize="@dimen/componene_id_btn_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/round_bt_layout_height"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/user_initial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/round_bt_height"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/user_initial"
+                    android:textColor="@drawable/round_button_text_color"
+                    android:background="@drawable/round_button_selector"
+                    android:onClick="onClick"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/round_under_btn_text_size"
+                    android:paddingRight="@dimen/round_bt_left_right_padding"
+                    android:paddingLeft="@dimen/round_bt_left_right_padding"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loading_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/loading"
+            android:paddingTop="4dip"
+            android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

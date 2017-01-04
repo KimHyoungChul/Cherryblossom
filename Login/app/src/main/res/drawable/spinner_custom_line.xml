@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:top="@dimen/spinner_line_top_padding">
+                <shape android:shape="line">
+                    <stroke android:width="1dip" android:color="#b5b6c4" />
+                    <size android:width="1dp" />
+                </shape>
+            </item>
+            <!--화살표-->
+            <item android:top="@dimen/spinner_dropdown_top_padding">
+                <bitmap android:src="@mipmap/btn_dropdown_n" android:gravity="right" />
+            </item>
+
+        </layer-list>
+    </item>
+
+</selector>

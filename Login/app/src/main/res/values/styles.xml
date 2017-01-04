@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorControlActivated">#6a71cc</item>
+        <item name="colorControlNormal">#b5b6c4</item>
+        <item name="android:dropDownListViewStyle">@style/mySpinnerStyle</item>
+        <!--<item name="colorControlNormal">#FF0000</item>-->
+    </style>
+    <!--custom spinner-->
+    <style name="custom_spinner">
+        <item name="android:background">@drawable/spinner_custom_line</item>
+    </style>
+
+    <style name="SpinnerChecked">
+        <item name="android:checkMark">@drawable/spinner_checked</item>
+    </style>
+
+    <style name="mySpinnerStyle" parent="android:Widget.ListView.DropDown">
+        <item name="android:divider">#b5b6c4</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+</resources>
