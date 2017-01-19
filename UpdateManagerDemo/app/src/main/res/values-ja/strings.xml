@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">アップデートマネージャ</string>
+    <string name="title">アップデートマネージャ</string>
+    <string name="loading" >作動中</string>
+    <string name="menu_download" >ダウンロード </string>
+    <string name="menu_all" >すべて</string>
+    <string name="upgrade">アップグレード</string>
+    <string name="install">インストール</string>
+    <string name="newest">最新</string>
+    <string name="update">更新</string>
+    <string name="cancle">キャンセル</string>
+    <string name="newestversion">これは最新バージョンです</string>
+    <string name="updatedialog_message">更新版がありますか更新しますか？</string>
+    <string name="network_connect_error">ネットワークエラーです。インターネット回線をご確認ください。</string>
+    <string name="networkdownloading">ネットワークからダウンロードする</string>
+    <string name="noti_title">アップデートアプリが存在する</string>
+    <string name="notification_message"> アップデートアプリが存在する</string>
+</resources>

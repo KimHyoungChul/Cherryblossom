@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">更新管理器</string>
+    <string name="title">更新管理器</string>
+    <string name="loading" >启动中</string>
+    <string name="menu_download" >下载</string>
+    <string name="menu_all" >所有</string>
+    <string name="upgrade">升级</string>
+    <string name="install">安装</string>
+    <string name="newest">最新</string>
+    <string name="newestversion">这是最新版本</string>
+    <string name="updatedialog_message">存在更新版本是否要更新？</string>
+    <string name="update">更新</string>
+    <string name="cancle">取消</string>
+    <string name="networkdownloading">从网络下载</string>
+    <string name="noti_title">存在更新应用程序</string>
+    <string name="network_connect_error">网络错误，请重新确认网络连接状态</string>
+    <string name="notification_message"> 存在更新应用程序</string>
+</resources>

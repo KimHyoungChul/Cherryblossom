@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">업데이트 매니저</string>
+    <string name="title">업데이트 매니저</string>
+    <string name="loading" >동작중</string>
+    <string name="menu_download" >다운로드</string>
+    <string name="menu_all" >전체</string>
+    <string name="upgrade">업데이트</string>
+    <string name="install">설치</string>
+    <string name="newest">최신버전</string>
+    <string name="newestversion">최신 버전 입니다.</string>
+    <string name="update">업데이트</string>
+    <string name="cancle">취소</string>
+    <string name="updatedialog_message">업데이트 버전이 존재 합니다.\n업데이트를 진행 하시겠습니까?</string>
+    <string name="networkdownloading">네트워크에서 다운로드 중입니다.</string>
+    <string name="noti_title">업데이트 앱이 존재합니다.</string>
+    <string name="notification_message">개 업데이트 앱이 존재합니다.</string>
+    <string name="network_connect_error">네트워크 에러입니다. 인터넷 연결을 확인해주세요.</string>
+</resources>

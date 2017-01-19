@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.commax.updatemanager.MainActivity">
+    <!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+    <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+    <!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+    <!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_title_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_title_1depth"
+        >
+        <com.commax.updatemanager.Common.ImageBT
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:layout_marginLeft="@dimen/component_ImageBT_paddin_left"
+            android:src="@mipmap/btn_title_back_white_n"
+            android:background="@android:color/transparent"
+            android:visibility="visible"
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.updatemanager"
+            my:imageOpacity="0.6"
+            android:onClick="onClick"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/title"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/component_Appname_textsize"
+            android:layout_weight="1"
+            />
+
+        <com.commax.updatemanager.Common.ImageBT
+            android:id="@+id/start_service"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/component_ImageBT_paddin_left"
+            android:src="@mipmap/ic_home_down_p"
+            android:background="@android:color/transparent"
+            android:visibility="visible"
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.updatemanager"
+            my:imageOpacity="0.6"
+            android:onClick="onClick"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:divider="@color/lightgrey"
+        android:dividerHeight="@dimen/component_listview_divider"
+        >
+    </ListView>
+    <LinearLayout android:id="@+id/loading_container"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:visibility="gone"
+                  android:gravity="center">
+
+        <ProgressBar style="?android:attr/progressBarStyleLarge"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content" />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceSmall"
+                  android:text="@string/loading"
+                  android:paddingTop="@dimen/loading_view_paddin_top"
+                  android:singleLine="true"
+                  android:textColor="@color/textColor"/>
+    </LinearLayout>
+</LinearLayout>

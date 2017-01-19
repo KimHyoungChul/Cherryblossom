@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Update Manager</string>
+    <string name="title">Update Manager</string>
+    <string name="loading" >Working</string>
+    <string name="menu_download" >Download</string>
+    <string name="menu_all" >ALL</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="install">Installation</string>
+    <string name="newest">Newest</string>
+    <string name="newestversion">This is the newest version</string>
+    <string name="updatedialog_message">Update version exist \nDo you want to Update?</string>
+    <string name="update">Update</string>
+    <string name="cancle">Cancle</string>
+    <string name="networkdownloading">Downloading from Newtwork</string>
+    <string name="noti_title">Update Apps exist</string>
+    <string name="network_connect_error">A network error. Please check your internet connection </string>
+    <string name="notification_message"> Update Apps exist</string>
+</resources>

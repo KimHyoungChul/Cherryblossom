@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/component_list_padding"
+    android:gravity="center_vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/component_list_padding"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="@dimen/component_list_icon_width_height"
+            android:layout_height="@dimen/component_list_icon_width_height"
+            android:layout_marginRight="@dimen/component_list_icon_paddin_light"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application Name"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="version  :     "
+                    android:textColor="@color/textColor"/>
+                    <TextView
+                        android:id="@+id/app_version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColor"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColor"
+                        android:text="Package :   "
+                        android:visibility="gone"/>
+                    <TextView
+                        android:id="@+id/app_package"
+                        android:layout_width="@dimen/component_list_appname_width"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/app_name"
+                        android:textColor="@color/textColor"
+                        android:text="Package Name"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/app_upgrade"
+                android:layout_width="@dimen/component_list_button_width"
+                android:layout_height="match_parent"
+                android:text="Upgrade"
+                android:textSize="@dimen/component_list_button_textsize"
+                android:textColor="@color/textColor"
+                android:background="@drawable/control_bg_common"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
