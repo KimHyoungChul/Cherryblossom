@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/favorite_msgbox_body_top_margin"
+        android:id="@+id/top_margin">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/SCREEN_WIDTH"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/body_layout"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_layout">
+
+            <TextView
+                android:id="@+id/message_text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:textColor="#7b7ea0"
+                android:textSize="@dimen/favorite_msgbox_text_title"
+                android:text="@string/message_favorite_title">
+
+            </TextView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/favorite_msgbox_body_item_margin"
+                android:id="@+id/item_margin"></LinearLayout>
+
+            <TextView
+                android:text="@string/message_favorite_guide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_text_content"
+                android:textSize="@dimen/favorite_msgbox_text_content"
+                android:textColor="#800c1a3d"
+                android:lineSpacingExtra="@dimen/favorite_msgbox_text_content_linespace"
+                android:gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/favorite_msgbox_body_mid_margin"
+            android:layout_height="match_parent"
+            android:id="@+id/mid_margin"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_layout"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/favorite_msgbox_icon_width"
+                android:layout_height="@dimen/favorite_msgbox_icon_width"
+                android:id="@+id/imageView"
+                android:background="@mipmap/img_dc_favorite_info" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/column_list_width"
+    android:layout_height="@dimen/column_list_height"
+    android:id="@+id/container_layout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_header_height"
+        android:id="@+id/title_layout">
+        <ImageView
+            android:id="@+id/btn_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_change_bt_favorite"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:layout_marginLeft="@dimen/list_header_left_margin"
+            android:layout_marginRight="@dimen/list_header_interval_margin"
+            android:layout_marginTop="@dimen/list_header_top_margin" />
+
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="멀티센서"
+            android:layout_gravity="center_vertical"
+            android:textColor="#34325c"
+            android:textSize="@dimen/cardlist_header_title"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/list_header_top_margin"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_smallpower"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_change_bt_smallpower"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/list_header_top_margin"
+            android:layout_marginLeft="@dimen/list_header_interval_margin"
+            android:layout_marginRight="@dimen/list_header_right_margin"
+            android:background="@drawable/circle_bt_smallpower" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/body_layout"
+        android:gravity="top|center"
+        android:layout_marginLeft="@dimen/card_smartmeter_body_left_margin"
+        android:layout_marginRight="@dimen/card_smartmeter_body_right_margin"
+        android:paddingTop="@dimen/card_smartmeter_body_top_margin"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_smartmeter_height"
+            android:id="@+id/electricMeter_layout"
+            android:gravity="left|center">
+
+            <ImageView
+                android:id="@+id/icon_detector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_smartmeter_item_left_margin"
+                android:src="@mipmap/ic_dc_sensor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_multisensor_sensor_string"
+                android:id="@+id/eletric_name"
+                android:textSize="@dimen/smartmeter_name"
+                android:textColor="#646378"
+                android:layout_marginLeft="@dimen/card_smartmeter_item_mid1_margin" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right|center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/motion_value"
+                    android:textSize="@dimen/smartmeter_value"
+                    android:textColor="#6b73c9"
+                    android:layout_marginLeft="@dimen/card_smartmeter_item_mid2_margin"
+                    android:text="Undeteced"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eletric_unit"
+                    android:layout_marginRight="@dimen/card_smartmeter_item_right_margin"
+                    android:textSize="@dimen/smartmeter_unit"
+                    android:textColor="#6b73c9"
+                    android:singleLine="false"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dddfe4" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_smartmeter_height"
+            android:id="@+id/gasMeter_layout"
+            android:gravity="left|center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/icon_gas"
+                android:layout_marginLeft="@dimen/card_smartmeter_item_left_margin"
+                android:src="@mipmap/ic_dc_temp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_multisensor_temperature"
+                android:id="@+id/gas_name"
+                android:textSize="@dimen/smartmeter_name"
+                android:textColor="#646378"
+                android:layout_marginLeft="@dimen/card_smartmeter_item_mid1_margin" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right|center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:id="@+id/temperature_value"
+                    android:textSize="@dimen/smartmeter_value"
+                    android:textColor="#6b73c9"
+                    android:layout_marginLeft="@dimen/card_smartmeter_item_mid2_margin" />
+
+                <TextView
+                    android:id="@+id/temperature_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="c"
+                    android:layout_marginRight="@dimen/card_smartmeter_item_right_margin"
+                    android:textSize="@dimen/smartmeter_unit"
+                    android:textColor="#6b73c9"
+                    android:singleLine="false" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dddfe4" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_smartmeter_height"
+            android:id="@+id/waterMeter_layout"
+            android:gravity="left|center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/icon_water"
+                android:layout_marginLeft="@dimen/card_smartmeter_item_left_margin"
+                android:src="@mipmap/ic_dc_humid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_multisensor_humidity"
+                android:id="@+id/water_name"
+                android:textSize="@dimen/smartmeter_name"
+                android:textColor="#646378"
+                android:layout_marginLeft="@dimen/card_smartmeter_item_mid1_margin" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right|center"
+                >
+                <TextView
+                    android:id="@+id/humid_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30"
+                    android:textSize="@dimen/smartmeter_value"
+                    android:textColor="#6b73c9"
+                    android:layout_marginLeft="@dimen/card_smartmeter_item_mid2_margin"
+                    />
+
+                <TextView
+                    android:id="@+id/humidity_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:layout_marginRight="@dimen/card_smartmeter_item_right_margin"
+                    android:textSize="@dimen/smartmeter_unit"
+                    android:textColor="#6b73c9"
+                    android:singleLine="false"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dddfe4" />
+
+        <LinearLayout
+            android:id="@id/battery_layout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_smartmeter_height"
+            android:paddingTop="@dimen/card_multisensor_body_top_padding"
+            android:gravity="left|center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_smartmeter_item_left_margin"
+                android:src="@mipmap/ic_dc_battery" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_multisensor_battery"
+                android:textSize="@dimen/smartmeter_name"
+                android:textColor="#646378"
+                android:layout_marginLeft="@dimen/card_smartmeter_item_mid1_margin" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right|center"
+                >
+                <TextView
+                    android:id="@+id/battery_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.5"
+                    android:textSize="@dimen/smartmeter_value"
+                    android:textColor="#6b73c9"
+                    android:layout_marginLeft="@dimen/card_smartmeter_item_mid2_margin"
+                    />
+
+                <TextView
+                    android:id="@+id/battery_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LOW"
+                    android:layout_marginRight="@dimen/card_smartmeter_item_right_margin"
+                    android:textSize="@dimen/smartmeter_unit"
+                    android:textColor="#6b73c9"
+                    android:singleLine="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ebecf0" />
+    </LinearLayout>
+
+</LinearLayout>

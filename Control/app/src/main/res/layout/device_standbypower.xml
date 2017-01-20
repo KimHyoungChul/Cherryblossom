@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/column_list_width"
+    android:layout_height="@dimen/column_list_height"
+    android:id="@+id/container_layout"
+    android:longClickable="false">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_header_height"
+        android:weightSum="1"
+        android:id="@+id/title_layout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_favorite"
+            android:src="@drawable/icon_change_bt_favorite"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:layout_marginLeft="@dimen/list_header_left_margin"
+            android:layout_marginRight="@dimen/list_header_interval_margin"
+            android:layout_marginTop="@dimen/list_header_top_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대기전력"
+            android:id="@+id/title_textview"
+            android:layout_gravity="center_vertical"
+            android:textColor="#34325c"
+            android:textSize="@dimen/cardlist_header_title"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/list_header_top_margin" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_smallpower"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_change_bt_smallpower"
+            android:visibility="visible"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/list_header_top_margin"
+            android:layout_marginLeft="@dimen/list_header_interval_margin"
+            android:layout_marginRight="@dimen/list_header_right_margin"
+            android:background="@drawable/circle_bt_smallpower" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_body_height"
+        android:id="@+id/body_layout"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/card_standbypower_body_left_margin"
+        android:layout_marginRight="@dimen/card_standbypower_body_right_margin">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_standbypower_body_top_margin"
+            android:id="@+id/top_margin"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ststus_layout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|center"
+                android:id="@+id/power_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.5"
+                    android:id="@+id/text_pwr_value"
+                    android:textSize="@dimen/standbypwr_value"
+                    android:textColor="#312f62" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="W"
+                    android:id="@+id/text_pwrunit"
+                    android:textColor="#646378"
+                    android:textSize="@dimen/standbypwr_unit"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/card_standbypower_type"
+                android:id="@+id/text_value"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#800c1a3d"
+                android:textSize="@dimen/standbypwr_name"
+                android:gravity="center"
+                android:textIsSelectable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_standbypower_body_middle_margin"
+            android:id="@+id/middle_margin" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opmode_layout"
+            android:gravity="center"
+            android:layout_gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_standbypower_mode"
+                android:id="@+id/text_opmode"
+                android:textSize="@dimen/fan_mode_text"
+                android:textColor="#646378"
+                android:layout_marginRight="@dimen/card_standbypower_item_margin"
+                android:gravity="center" />
+
+            <Button
+                android:layout_width="@dimen/round_small_btn_width"
+                android:layout_height="@dimen/round_small_btn_height"
+                android:text="수동"
+                android:id="@+id/btn_opmode"
+                android:textSize="@dimen/fan_mode_valuetext"
+                android:singleLine="true"
+                android:background="@drawable/round_small_bt_selector"
+                android:textColor="@drawable/text_small_color_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_standbypower_body_bottom_margin"
+            android:id="@+id/bottom_margin"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/more_column_height"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/more_layout">
+
+        <TextView
+            android:layout_width="@dimen/more_text_width"
+            android:layout_height="wrap_content"
+            android:text="@string/more_titlebar_string"
+            android:id="@+id/btn_more"
+            android:textColor="@drawable/text_more_color_selector"
+            android:textSize="@dimen/more_header_title"
+            android:gravity="right"
+            android:clickable="true" />
+
+        <ImageView
+            android:layout_width="@dimen/more_icon_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_more"
+            android:src="@mipmap/btn_more_n" />
+    </LinearLayout>
+
+</LinearLayout>

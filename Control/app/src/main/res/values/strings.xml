@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Control</string>
+
+    <!-- guard message string -->
+    <string name="message_dbread_string">The device information is being read.</string>
+    <string name="message_dbupdate_string">The device information is being renewed.</string>
+    <string name="message_docontrol_string">Device control in progress.</string>
+    <string name="message_adddevice_string">The device has been registered.</string>
+    <string name="message_removedevice_string">The device has been removed.</string>
+    <string name="message_move_page">Move to the selected page.</string>
+    <string name="message_move_more">Move to the detailed control page.</string>
+    <string name="message_info_title">Information</string>
+    <string name="message_check_network">Please check your network connection.</string>
+    <string name="message_check_ds">The device has not been connected to service application program. Please check your network connection.</string>
+    <string name="message_device_not_found">There is no device searched.</string>
+    <string name="message_control_fail">The device control has failed. Please check your device status.</string>
+    <string name="message_favorite_title">Add to favorites</string>
+    <string name="message_favorite_guide">Please press the star shaped icon\non the top of device card\n and then it will be added to favorites.</string>
+    <string name="message_low_battery">It requires battery exchange.</string>
+
+    <!-- menu titlebar string -->
+    <string name="main_titlebar_string">Control</string>
+    <string name="sub1_titlebar_string">Favorites</string>
+    <string name="sub2_titlebar_string">Light</string>
+    <string name="sub3_titlebar_string">Indoor</string>
+    <string name="sub4_titlebar_string">Energy</string>
+    <string name="sub5_titlebar_string">Safety</string>
+
+    <!-- common button string -->
+    <string name="more_titlebar_string">MORE</string>
+    <string name="button_ok_string">OK</string>
+    <string name="button_cancel_string">Cancel</string>
+    <string name="button_on_string">ON</string>
+    <string name="button_off_string">OFF</string>
+    <string name="text_current_string">Current</string>
+    <string name="menu_add_string">Device Add</string>
+    <string name="menu_edit_string">Device Edit</string>
+
+    <!-- card_groupswitch string -->
+    <string name="card_groupLight_titlebar_string">Entire Lighting</string>
+    <string name="card_groupFCU_titlebar_string">Entire FCU</string>
+    <string name="card_groupBoiler_titlebar_string">Entire Boiler</string>
+    <string name="card_groupAircon_titlebar_string">Entire Aircon</string>
+    <string name="card_groupFan_titlebar_string">Entire Fan</string>
+    <string name="card_groupCurtain_titlebar_string">Entire Curtain</string>
+    <string name="card_groupStandbyPwr_titlebar_string">Entire StandbyPower</string>
+
+    <!-- card_lightswitch string -->
+    <string name="card_light_titlebar_string">Light</string>
+    <string name="card_light_status_on">Light On</string>
+    <string name="card_light_status_off">Light Off</string>
+    <string name="card_light_status_on_number">-Power On</string>
+    <string name="card_light_status_off_number">Power Off</string>
+
+    <!-- card_dimmerswitch string -->
+    <string name="card_dimmerswitch_titlebar_string">Light</string>
+    <string name="card_dimmerswitch_level">Illuminance</string>
+
+    <!-- card_curtain string -->
+    <string name="card_curtain_titlebar_string">Curtain</string>
+    <string name="card_curtain_control_open">Open</string>
+    <string name="card_curtain_control_close">Close</string>
+    <string name="card_curtain_control_stop">Stop</string>
+    <string name="card_curtain_status_open">Opened</string>
+    <string name="card_curtain_status_open_number">-Opened</string>
+    <string name="card_curtain_status_close">Closed</string>
+    <string name="card_curtain_status_stop">Pause</string>
+
+    <!-- card_thermostat string -->
+    <string name="card_thermostat_awaymode_text">Away On</string>
+    <string name="card_thermostat_button_on">ON</string>
+    <string name="card_thermostat_button_away">AWAY</string>
+    <string name="card_thermostat_titlebar_string">Total</string>
+    <string name="card_thermostat_status_awayon">On</string>
+    <string name="card_thermostat_status_awayoff">Off</string>
+    <string name="card_thermostat_status_awayon_number">-Set On</string>
+
+    <!-- card_aircon string -->
+    <string name="card_aircon_titlebar_string">Aircon</string>
+    <string name="card_aircon_curtemperature">Current</string>
+
+    <!-- card_boiler string -->
+    <string name="card_boiler_titlebar_string">Boiler</string>
+    <string name="card_boiler_curtemperature">Current</string>
+
+    <!-- card_fcu string -->
+    <string name="card_fcu_titlebar_string">FCU</string>
+    <string name="card_fcu_curtemperature">Current</string>
+    <string name="card_fcu_mdoe">Driving Mode</string>
+    <string name="card_fcu_awayon">Away On</string>
+    <string name="card_fcu_mode_ventilation">Vent...</string>
+    <string name="card_fcu_speed">Air Speed</string>
+    <string name="card_fcu_speed1">High</string>
+    <string name="card_fcu_speed2">Medium</string>
+    <string name="card_fcu_speed3">Low</string>
+
+    <!-- card_fan string -->
+    <string name="card_fan_titlebar_string">FAN</string>
+    <string name="card_fan_mode">Driving Mode</string>
+    <string name="card_fan_mode_auto">Auto</string>
+    <string name="card_fan_mode_manual">Manual</string>
+
+    <!-- card_standbypower string -->
+    <string name="card_standbypower_titlebar_string">Standby Power</string>
+    <string name="card_standbypower_type">Current Standby Power</string>
+    <string name="card_standbypower_mode">Mode</string>
+    <string name="card_standbypower_mode_auto">Auto</string>
+    <string name="card_standbypower_mode_manual">Manual</string>
+    <string name="card_standbypower_cutoff">Cut-Off</string>
+
+    <!-- card_gaslock string -->
+    <string name="card_gaslock_titlebar_string">Gas Valve</string>
+    <string name="card_gaslock_btn_name">Lock</string>
+    <string name="card_gaslock_status_lock">Closed</string>
+    <string name="card_gaslock_status_unlock">Opened</string>
+    <string name="card_gaslock_status_on_number"> -Opened</string>
+    <string name="card_gaslock_not_use_open">Only available lock setting feature for safety</string>
+
+    <!-- card_doorlock string -->
+    <string name="card_doorlock_titlebar_string">Door Lock</string>
+    <string name="card_doorlock_btn_name">Open</string>
+    <string name="card_doorlock_status_lock">Door Open</string>
+    <string name="card_doorlock_status_unlock">Door Close</string>
+    <string name="card_doorlock_status_on_number"> -Opened</string>
+    <string name="card_doorlock_battery_string">Battery</string>
+
+    <!-- card_magnetic string -->
+    <string name="card_magnetic_titlebar_string">Magnetic Sensor</string>
+    <string name="card_magnetic_status_normal">Normal</string>
+    <string name="card_magnetic_status_detected">Detected</string>
+    <string name="card_magnetic_battery_string">Battery</string>
+    <string name="card_magnetic_battery_alarm">Need to Battery Replacement</string>
+
+    <!-- card_smartmeter string -->
+    <string name="card_smartmeter_titlebar_string">SmartMetering</string>
+    <string name="card_smartmeter_electric_meter">Ele...</string>
+    <string name="card_smartmeter_gas_meter">Gas</string>
+    <string name="card_smartmeter_water_meter">Water</string>
+    <string name="card_smartmeter_warm_meter">Warm</string>
+    <string name="card_smartmeter_heat_meter">Heat</string>
+
+    <!-- card multisensor string-->
+    <string name="card_multisensor_sensor_string">Sensor</string>
+    <string name="card_multisensor_temperature">Temperature</string>
+    <string name="card_multisensor_humidity">Humidity</string>
+    <string name="card_multisensor_battery">Battery</string>
+    <string name="card_multi_status_undetected">Undetected</string>
+
+
+    <!-- #More string -->
+    <!--가번역 -->
+    <string name="popup_device_add_text">Please press the connection button of the device.\nIt may take up to one minute, depending on network conditions. If the connection is not smooth, please try again.</string>
+    <string name="device_added">Device adding is completed</string>
+    <string name="try_agin">Device not connected. Try one more time</string>
+</resources>

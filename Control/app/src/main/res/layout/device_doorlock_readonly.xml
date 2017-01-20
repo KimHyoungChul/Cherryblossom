@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/column_list_width"
+    android:layout_height="@dimen/column_list_height"
+    android:id="@+id/container_layout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_header_height"
+        android:weightSum="1"
+        android:id="@+id/title_layout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_favorite"
+            android:src="@drawable/icon_change_bt_favorite"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:layout_marginLeft="@dimen/list_header_left_margin"
+            android:layout_marginRight="@dimen/list_header_interval_margin"
+            android:layout_marginTop="@dimen/list_header_top_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/card_doorlock_titlebar_string"
+            android:id="@+id/title_textview"
+            android:layout_gravity="center_vertical"
+            android:textColor="#34325c"
+            android:textSize="@dimen/cardlist_header_title"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/list_header_top_margin"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_smallpower"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_change_bt_smallpower"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/list_header_top_margin"
+            android:layout_marginLeft="@dimen/list_header_interval_margin"
+            android:layout_marginRight="@dimen/list_header_right_margin"
+            android:background="@drawable/circle_bt_smallpower" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_body_height"
+        android:id="@+id/body_layout"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_detectsensor_body_top_margin"
+            android:id="@+id/top_margin"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/status_layout"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:gravity="top|center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/card_detectsensor_body_icon_height"
+                android:id="@+id/icon_doorlock"
+                android:src="@drawable/icon_change_bt_doorlock" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_detectsensor_body_mid_margin"
+                android:id="@+id/middle_margin"></LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="열려있음"
+                android:id="@+id/text_status"
+                android:textColor="#646378"
+                android:textSize="@dimen/doorlock_status" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/battery_layout"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_doorlock_battery_string"
+                    android:id="@+id/text_battery"
+                    android:textColor="#9b9bb5"
+                    android:textSize="@dimen/doorlock_battery"
+                    android:layout_marginRight="@dimen/card_detectsensor_body_text_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80"
+                    android:id="@+id/text_battery_value"
+                    android:textColor="#9b9bb5"
+                    android:textSize="@dimen/doorlock_battery_value" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:id="@+id/text_battery_unit"
+                    android:textColor="#9b9bb5"
+                    android:textSize="@dimen/doorlock_battery_value" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_detectsensor_body_bottom_margin"
+            android:id="@+id/bottom_margin"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/more_column_height"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/more_layout">
+
+        <ImageView
+            android:layout_width="@dimen/card_detectsensor_icon_battery_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_lowbattery"
+            android:src="@mipmap/ic_dc_notice" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message_low_battery"
+            android:id="@+id/text_lowbattery"
+            android:textColor="#ea3233"
+            android:textSize="@dimen/doorlock_battery_low"
+            android:gravity="right"
+            android:clickable="true"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+
+    <!-- Default screen resoulition -->
+    <dimen name="SCREEN_WIDTH">1920dp</dimen>
+    <dimen name="SCREEN_HEIGHT">1080dp</dimen>
+
+    <!-- #drawable dimension -->
+    <dimen name="normal_btn_stroke">4dp</dimen>
+    <dimen name="round_btn_radius">38dp</dimen>
+    <dimen name="round_btn_width">200dp</dimen>
+    <dimen name="round_btn_height">76dp</dimen>
+    <dimen name="round_btn_stroke">2dp</dimen>
+    <dimen name="round_small_btn_radius">38dp</dimen>
+    <dimen name="round_small_btn_width">138dp</dimen>
+    <dimen name="round_small_btn_height">52dp</dimen>
+    <dimen name="round_small_btn_stroke">2dp</dimen>
+    <dimen name="tab_btn_radius">38dp</dimen>
+    <dimen name="tab_btn_width">252dp</dimen>
+    <dimen name="tab_btn_height">76dp</dimen>
+    <dimen name="seekbar_circle_x_radius">165dp</dimen>
+    <dimen name="seekbar_circle_y_radius">165dp</dimen>
+    <dimen name="circle_stroke_width">10dp</dimen>
+    <dimen name="pointer_radius">12dp</dimen>
+    <dimen name="pointer_halo_width">8dp</dimen>
+    <dimen name="pointer_halo_border_width">2dp</dimen>
+
+    <!-- #font size dimension -->
+    <dimen name="toast_text_size">30dp</dimen>
+
+    <dimen name="main_header_title">48dp</dimen>
+    <dimen name="tablist_header_title">36dp</dimen>
+    <dimen name="cardlist_header_title">36dp</dimen>
+    <dimen name="more_header_title">26dp</dimen>
+
+    <dimen name="list_mode_name">40dp</dimen>
+    <dimen name="list_mode_value">36dp</dimen>
+    <dimen name="btn_control_name">44dp</dimen>
+    <dimen name="btn_control_status">48dp</dimen>
+
+    <dimen name="elevator_floor_name">74dp</dimen>
+    <dimen name="elevator_floor_unit">44dp</dimen>
+
+    <dimen name="thermostat_control_text">44dp</dimen>
+    <dimen name="thermostat_control_status">44dp</dimen>
+
+    <dimen name="fan_mode_text">32dp</dimen>
+    <dimen name="fan_mode_valuetext">28dp</dimen>
+
+    <dimen name="standbypwr_value">96dp</dimen>
+    <dimen name="standbypwr_unit">76dp</dimen>
+    <dimen name="standbypwr_name">28dp</dimen>
+
+    <dimen name="smartmeter_name">28dp</dimen>
+    <dimen name="smartmeter_value">38dp</dimen>
+    <dimen name="smartmeter_unit">32dp</dimen>
+
+    <dimen name="gaslock_name">56dp</dimen>
+    <dimen name="gaslock_status">48dp</dimen>
+
+    <dimen name="doorlock_name">56dp</dimen>
+    <dimen name="doorlock_status">48dp</dimen>
+    <dimen name="doorlock_battery">28dp</dimen>
+    <dimen name="doorlock_battery_value">32dp</dimen>
+    <dimen name="doorlock_battery_low">26dp</dimen>
+
+    <dimen name="detectsensor_status">48dp</dimen>
+    <dimen name="detectsensor_battery">28dp</dimen>
+    <dimen name="detectsensor_battery_value">32dp</dimen>
+    <dimen name="detectsensor_battery_low">26dp</dimen>
+
+    <dimen name="seekbar_control_name">26dp</dimen>
+    <dimen name="seekbar_control_value">106dp</dimen>
+    <dimen name="seekbar_control_unit1">70dp</dimen>
+    <dimen name="seekbar_control_unit2">80dp</dimen>
+
+    <dimen name="favorite_msgbox_text_title">44dp</dimen>
+    <dimen name="favorite_msgbox_text_content">32dp</dimen>
+    <dimen name="favorite_msgbox_text_content_linespace">16dp</dimen>
+
+    <!-- #layout -->
+    <!-- container body dimension -->
+    <dimen name="main_headerbox_height">240dp</dimen>
+    <dimen name="main_header_height">128dp</dimen>
+    <dimen name="main_header_left_margin">48dp</dimen>
+    <dimen name="main_header_interval_margin">48dp</dimen>
+    <dimen name="main_header_right_margin">48dp</dimen>
+    <dimen name="menutab_header_height">112dp</dimen>
+    <dimen name="menutab_name_width">260dp</dimen>
+    <dimen name="menutab_name_height">76dp</dimen>
+    <dimen name="menutab_top_margin">10dp</dimen>
+    <dimen name="menutab_box_left_margin">20dp</dimen>
+    <dimen name="menutab_left_margin">60dp</dimen>
+    <dimen name="menutab_interval_margin">40dp</dimen>
+    <dimen name="menutab_right_margin">60dp</dimen>
+    <dimen name="menutab_bottom_margin">26dp</dimen>
+    <dimen name="menutab_button_margin">48dp</dimen>
+
+    <!-- column_list margin dimension -->
+    <dimen name="column_list_width">426dp</dimen>
+    <dimen name="column_list_height">840dp</dimen>
+    <dimen name="list_header_height">124dp</dimen>
+    <dimen name="list_header_top_margin">20dp</dimen>
+    <dimen name="list_header_left_margin">40dp</dimen>
+    <dimen name="list_header_interval_margin">10dp</dimen>
+    <dimen name="list_header_right_margin">40dp</dimen>
+    <dimen name="list_body_height">636dp</dimen> <!-- 636dp -->
+    <dimen name="list_body_top_margin">114dp</dimen>
+    <dimen name="list_body_bottom_margin">191dp</dimen>
+    <dimen name="more_column_width">148dp</dimen>
+    <dimen name="more_column_height">80dp</dimen>
+    <dimen name="more_text_width">108dp</dimen>
+    <dimen name="more_icon_width">60dp</dimen>
+    <dimen name="more_icon_top">4dp</dimen>
+
+    <!-- seekbar margin dimension ??? -->
+    <dimen name="seekbar_control_bottom_margin">26dp</dimen>
+    <dimen name="seekbar_icon_top_margin">48dp</dimen>
+    <dimen name="seekbar_text_top_margin">70dp</dimen>
+    <dimen name="seekbar_control_top_margin">200dp</dimen>
+    <dimen name="seekbar_text_middle_margin">26dp</dimen>
+
+    <!-- card_lightswitch dimension -->
+    <dimen name="card_lightswitch_height">222dp</dimen>
+    <dimen name="card_lightswitch_inner_margin">62dp</dimen>
+    <dimen name="card_lightswitch_body_top_margin">128dp</dimen>
+    <dimen name="card_lightswitch_body_left_margin">32dp</dimen>
+    <dimen name="card_lightswitch_body_right_margin">32dp</dimen>
+    <dimen name="card_lightswitch_body_middle_margin">32dp</dimen>
+    <dimen name="card_lightswitch_body_bottom_margin">186dp</dimen>
+
+    <!-- card_dimmerswitch dimension -->
+    <dimen name="card_dimmerswitch_body_top_margin">114dp</dimen>
+    <dimen name="card_dimmerswitch_body_left_margin">48dp</dimen>
+    <dimen name="card_dimmerswitch_body_right_margin">48dp</dimen>
+    <dimen name="card_dimmerswitch_body_bottom_margin">186dp</dimen>
+
+    <!-- card_curtain dimension -->
+    <dimen name="card_curtain_body_top_margin">136dp</dimen>
+    <dimen name="card_curtain_body_left_margin">32dp</dimen>
+    <dimen name="card_curtain_body_right_margin">32dp</dimen>
+    <dimen name="card_curtain_body_mid1_margin">36dp</dimen>
+    <dimen name="card_curtain_body_mid2_margin">44dp</dimen>
+    <dimen name="card_curtain_body_bottom_margin">186dp</dimen>
+
+    <!-- card_thermostat dimension -->
+    <dimen name="card_thermostat_body_top_margin">136dp</dimen>
+    <dimen name="card_thermostat_body_left_margin">32dp</dimen>
+    <dimen name="card_thermostat_body_right_margin">32dp</dimen>
+    <dimen name="card_thermostat_body_mid1_margin">8dp</dimen>
+    <dimen name="card_thermostat_body_mid2_margin">22dp</dimen>
+    <dimen name="card_thermostat_body_mid3_margin">8dp</dimen>
+    <dimen name="card_thermostat_body_bottom_margin">136dp</dimen>
+
+    <!-- card_aircon dimension -->
+    <dimen name="card_aircon_body_top_margin">114dp</dimen>
+    <dimen name="card_aircon_body_left_margin">48dp</dimen>
+    <dimen name="card_aircon_body_right_margin">48dp</dimen>
+    <dimen name="card_aircon_body_bottom_margin">186dp</dimen>
+
+    <!-- card_boiler dimension -->
+    <dimen name="card_boiler_body_top_margin">114dp</dimen>
+    <dimen name="card_boiler_body_left_margin">48dp</dimen>
+    <dimen name="card_boiler_body_right_margin">48dp</dimen>
+    <dimen name="card_boiler_body_bottom_margin">186dp</dimen>
+
+    <!-- card_fcu dimension -->
+    <dimen name="card_fcu_body_top_margin">114dp</dimen>
+    <dimen name="card_fcu_body_left_margin">48dp</dimen>
+    <dimen name="card_fcu_body_right_margin">48dp</dimen>
+    <dimen name="card_fcu_body_bottom_margin">186dp</dimen>
+
+    <!-- card_fan dimension -->
+    <dimen name="card_fan_height">222dp</dimen>
+    <dimen name="card_fan_body_top_margin">128dp</dimen>
+    <dimen name="card_fan_body_left_margin">32dp</dimen>
+    <dimen name="card_fan_body_right_margin">32dp</dimen>
+    <dimen name="card_fan_body_middle_margin">32dp</dimen>
+    <dimen name="card_fan_body_bottom_margin">186dp</dimen>
+    <dimen name="card_fan_text_item_width">128dp</dimen>
+    <dimen name="card_fan_item_margin">14dp</dimen>
+
+    <!-- card_standbypower dimension -->
+    <dimen name="card_standbypower_body_top_margin">158dp</dimen>
+    <dimen name="card_standbypower_body_left_margin">32dp</dimen>
+    <dimen name="card_standbypower_body_right_margin">32dp</dimen>
+    <dimen name="card_standbypower_body_middle_margin">64dp</dimen>
+    <dimen name="card_standbypower_body_bottom_margin">272dp</dimen>
+    <dimen name="card_standbypower_item_margin">60dp</dimen>
+
+    <!-- card_standbypower_simple dimension -->
+    <dimen name="card_standbypower_simple_height">222dp</dimen>
+    <dimen name="card_standbypower_simple_top_margin">128dp</dimen>
+    <dimen name="card_standbypower_simple_left_margin">32dp</dimen>
+    <dimen name="card_standbypower_simple_right_margin">32dp</dimen>
+    <dimen name="card_standbypower_simple_middle_margin">32dp</dimen>
+    <dimen name="card_standbypower_simple_bottom_margin">186dp</dimen>
+    <dimen name="card_standbypower_simple_item_margin">60dp</dimen>
+
+    <!-- card_elevator dimension -->
+    <dimen name="card_elevator_body_top_margin">136dp</dimen>
+    <dimen name="card_elevator_body_left_margin">32dp</dimen>
+    <dimen name="card_elevator_body_right_margin">32dp</dimen>
+    <dimen name="card_elevator_body_middle1_margin">18dp</dimen>
+    <dimen name="card_elevator_body_middle2_margin">34dp</dimen>
+    <dimen name="card_elevator_body_bottom_margin">186dp</dimen>
+
+    <!-- card_smartmeter dimension ??? -->
+    <dimen name="card_smartmeter_height">128dp</dimen>
+    <dimen name="card_smartmeter_body_top_margin">42dp</dimen>
+    <dimen name="card_smartmeter_body_left_margin">40dp</dimen>
+    <dimen name="card_smartmeter_body_right_margin">40dp</dimen>
+    <dimen name="card_smartmeter_body_bottom_margin">44dp</dimen>
+    <dimen name="card_smartmeter_item_left_margin">24dp</dimen>
+    <dimen name="card_smartmeter_item_right_margin">24dp</dimen>
+    <dimen name="card_smartmeter_item_mid1_margin">10dp</dimen>
+    <dimen name="card_smartmeter_item_mid2_margin">12dp</dimen>
+    <dimen name="card_smartmeter_under_line">2dp</dimen>
+
+    <!-- card_gaslock dimension -->
+    <dimen name="card_gaslock_height">222dp</dimen>
+    <dimen name="card_gaslock_body_top_margin">128dp</dimen>
+    <dimen name="card_gaslock_body_left_margin">32dp</dimen>
+    <dimen name="card_gaslock_body_right_margin">32dp</dimen>
+    <dimen name="card_gaslock_body_middle_margin">32dp</dimen>
+    <dimen name="card_gaslock_body_bottom_margin">186dp</dimen>
+
+    <!-- card_doorlock dimension -->
+    <dimen name="card_doorlock_height">222dp</dimen>
+    <dimen name="card_doorlock_body_top_margin">128dp</dimen>
+    <dimen name="card_doorlock_body_left_margin">32dp</dimen>
+    <dimen name="card_doorlock_body_right_margin">32dp</dimen>
+    <dimen name="card_doorlock_body_middle_margin">32dp</dimen>
+    <dimen name="card_doorlock_body_bottom_margin">186dp</dimen>
+
+    <!-- card_detectsensor dimension ??? -->
+    <dimen name="card_detectsensor_body_top_margin">88dp</dimen>
+    <dimen name="card_detectsensor_body_left_margin">32dp</dimen>
+    <dimen name="card_detectsensor_body_right_margin">32dp</dimen>
+    <dimen name="card_detectsensor_body_mid_margin">20dp</dimen>
+    <dimen name="card_detectsensor_body_icon_height">276dp</dimen>
+    <dimen name="card_detectsensor_body_text_margin">10dp</dimen>
+    <dimen name="card_detectsensor_body_bottom_margin">120dp</dimen>
+    <dimen name="card_detectsensor_icon_battery_width">64dp</dimen>
+
+    <!--Alert Dialog dimension-->
+    <dimen name="dialog_title_top">48dp</dimen>
+    <dimen name="dialog_width">916dp</dimen>
+    <dimen name="dialog_height">652dp</dimen>
+    <dimen name="dialog_leftmargin">90dp</dimen>
+    <dimen name="dialog_rightmargin">90dp</dimen>
+    <dimen name="dialog_title_width">796dp</dimen>
+    <dimen name="dialog_title_text">44dp</dimen>
+    <dimen name="dialog_title_text_bottom">20dp</dimen>
+    <dimen name="dialog_title_line_height">4dp</dimen>
+    <dimen name="dialog_contents_top">64dp</dimen>
+    <dimen name="dialog_contents_height">216dp</dimen>
+    <dimen name="dialog_contents_text">48dp</dimen>
+    <dimen name="dialog_button_top">64dp</dimen>
+    <dimen name="dialog_button_width">296dp</dimen>
+    <dimen name="dialog_button_height">104dp</dimen>
+    <dimen name="dialog_button_radius">52dp</dimen>
+    <dimen name="dialog_button_stroke">2dp</dimen>
+
+    <!--Toast dimension -->
+    <dimen name="toast_text">40dp</dimen>
+    <dimen name="toast_text_bottom">0dp</dimen>
+    <dimen name="toast_text_left_right">40dp</dimen>
+    <dimen name="toast_right_left">394dp</dimen>
+    <dimen name="toast_height">122dp</dimen>
+    <dimen name="toast_width">1150dp</dimen>
+
+    <!-- favorite_msgbox dimension -->
+    <dimen name="favorite_msgbox_body_top_margin">196dp</dimen> <!-- 212dp -->
+    <dimen name="favorite_msgbox_body_item_margin">28dp</dimen>
+    <dimen name="favorite_msgbox_body_mid_margin">100dp</dimen>
+    <dimen name="favorite_msgbox_icon_width">440dp</dimen>
+
+
+    <!-- #More dimension -->
+    <!--about menu-->
+    <dimen name="title_bar_back_btn">72dp</dimen>
+    <dimen name="title_bar_power_btn">72dp</dimen>
+    <dimen name="title_bar_height">126dp</dimen>
+    <dimen name="title_bar_side_padding">48dp</dimen>
+    <dimen name="title_bar_top_padding">28dp</dimen>
+    <dimen name="title_bar_bottom_padding">26dp</dimen>
+    <dimen name="title_text_size">48dp</dimen>
+    <dimen name="title_text_bottom_padding">16dp</dimen>
+    <dimen name="title_bar_underline">2dp</dimen>
+
+    <!--nickname edit-->
+    <dimen name="nickname_guide_text_size">40dp</dimen>
+    <dimen name="nickname_guide_height">148dp</dimen>
+    <dimen name="nickname_sub_header_textsize">40dp</dimen>
+    <dimen name="nickname_sub_header_height">80dp</dimen>
+    <dimen name="nickname_sub_header_right_left_padding">60dp</dimen>
+    <dimen name="nickname_list_top_bottom_padding">34dp</dimen>
+    <dimen name="nickname_list_right_left_padding">60dp</dimen>
+    <dimen name="nickname_list_edit_text_size">48dp</dimen>
+
+</resources>
