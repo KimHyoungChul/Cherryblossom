@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SpinnerChecked"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingLeft="@dimen/spinner_test_left_padding"
+    android:textSize="@dimen/component_spinner_text_size"
+    android:textColor="@drawable/spinner_text_checked"
+    android:background="@drawable/spinner_component_selector"
+    android:paddingTop="@dimen/component_line_top_bottm_padding"
+    android:paddingBottom="@dimen/component_line_top_bottm_padding"
+    />
+<!-- new ui 에서 spinner 색상 변경됨에따른 분리 처리 필요로 보임 -->

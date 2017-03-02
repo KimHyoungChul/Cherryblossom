@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">회원가입</string>
+    <string name="loading">동작중</string>
+    <string name="optional_guide_text">는 필수입력 사항입니다.</string>
+    <string name="id">아이디</string>
+    <string name="id_hint">아이디를 입력하세요</string>
+    <string name="password">비밀번호</string>
+    <string name="password_hint">비밀번호를 입력하세요</string>
+    <string name="password_check_hint">비밀번호 확인을 입력하세요</string>
+    <string name="login">로그인</string>
+    <string name="Initial">초기화</string>
+    <string name="commax_user_text">코맥스 회원이 아니신가요?</string>
+    <string name="name">이름</string>
+    <string name="birth">생년월일</string>
+    <string name="year">년</string>
+    <string name="month">월</string>
+    <string name="day">일</string>
+    <string name="phone_number">휴대폰 번호</string>
+    <string name="send">보내기</string>
+    <string name="check">확인</string>
+    <string name="before">이전</string>
+    <string name="next">다음</string>
+    <string name="adult_certification">성인 인증</string>
+    <string name="password_check">비밀번호 확인</string>
+    <string name="email">E-mail</string>
+    <string name="vertification_code">확인 코드</string>
+
+    <!--login pxd lotte-->
+    <string name="information_input">정보 입력</string>
+    <string name="register">등록</string>
+    <string name="id_overlap_check">중복확인</string>
+    <string name="please_check_id_overlap">ID 중복확인을 해주세요.</string>
+    <string name="unavailable_Id">이미 존재하는 ID 입니다. 다른 ID를 입력해주세요.</string>
+    <string name="available_id">사용 가능한 ID 입니다.</string>
+    <string name="register_success">회원가입이 완료되었습니다.</string>
+    <string name="user_information">사용자 정보</string>
+    <string name="password_change">비밀번호 변경</string>
+    <string name="user_initial">초기화</string>
+    <string name="passwrod_change_success">비밀 번호가 변경 되었습니다.</string>
+    <string name="id_length_check">아이디는 4 ~ 20자가 가능합니다.</string>
+    <string name="password_length_check">비밀번호는 6 ~ 20자가 가능합니다.</string>
+    <string name="id_not_available_word">ID는 숫자와 알파벳만 입력 가능합니다. </string>
+    <string name="password_not_available_word">비밀번호는 숫자, 알파벳, 특수기호만 입력 가능합니다.</string>
+    <string name="password_passwordcheck_different">비밀번호가 맞지 않습니다.</string>
+
+    <string name="user_id_initialize_success">사용자 아이디가 초기화 되었습니다.</string>
+    <string name="name_length_check">이름의 길이는 20자 이내 입니다.</string>
+    <string name="user_id_initial_message">아이디를 초기화 하시겠습니까?</string>
+    <string name="ok">확인</string>
+    <string name="cancle">취소</string>
+    <string name="select_nationCode">국가를 선택해 주세요.</string>
+    <string name="network_error">네트워크 에러가 발생하였습니다.</string>
+    <string name="edit_alpha_num_only">영문과 숫자만 입력 가능합니다.</string>
+    <string name="edit_alpha_num_etc_only">영문, 숫자, !@#$%^<![CDATA[&]]>*_=+[]>\\? 만 입력 가능합니다.</string>
+    <string name="nation_code">거주 국가</string>
+    <string name="select_nation">국가 선택</string>
+    <string name="file_error">파일 에러</string>
+    <string name="check_internet_connect">네트워크 에러입니다. 인터넷 연결을 확인해주세요.</string>
+    <string name="do_it_again">다시 눌러주세요.</string>
+    <string name="mac_error">인터넷 연결을 확인하고 앱을 다시 시작해주세요.</string>
+
+    <!--인터넷 연결 안될경우 다이얼로그 띄워서 해당 앱 종료-->
+    <string name="no_network_response">서버로 부터 응답이 없습니다.\n네트워크 상태를 확인해주세요.</string>
+    <string name="notification">알림</string>
+
+    <!--로컬 서버 통신-->
+    <string name="localserver_status_check">단지 서버를 점검해주세요.</string>
+    <!--ux 이관 메세지-->
+    <string name="ux_server_guide_message">모바일 통화를 원활하게 하기 위해서 클라우드서버로 당신의 계정을 이관합니다. 또한 기존 모바일앱은 삭제 후, 새로운 모바일앱(COMMAX SMART CALL)을 설치하셔야 합니다.</string>
+    <!-- UC , Access 정상 가입 안되었을 경우 다이얼로그 , 가번역 -->
+    <string name="access_uc_retry_dialog_message">통화서버에 사용자 계정이 등록되지 않았습니다.</string>
+
+</resources>

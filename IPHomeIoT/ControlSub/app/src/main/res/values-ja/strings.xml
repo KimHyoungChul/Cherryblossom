@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Controlsub</string>
+    <!--standbypower-->
+    <string name="real_time_standbypower">リアルタイム待機電力</string>
+    <string name="standbypower">待機電力</string>
+    <string name="working_mode">運転モード</string>
+    <string name="auto">自動</string>
+    <string name="manual">マニュアル</string>
+    <string name="cutoff_value">ブロック値</string>
+    <string name="off_text">消灯</string>
+    <!--standby power cut offdialog-->
+    <string name="cancle">キャンセル</string>
+    <string name="ok">確認</string>
+    <string name="cutoff_setting">ブロック値の設定</string>
+    <string name="cutoff_value_min_max">遮断値の範囲[0～99]</string>
+
+    <!--FCU-->
+    <string name="current">現在</string>
+    <string name="cooling">冷房</string>
+    <string name="heating">暖房</string>
+    <string name="circulating">換気</string>
+    <string name="circular">換気</string>
+    <string name="FCU">冷暖房</string>
+    <string name="high">強</string>
+    <string name="medium">中</string>
+    <string name="low">弱</string>
+    <string name="wind_speed">風速</string>
+    <string name="outgoing_mode">外出モード</string>
+    <string name="on_english_only">ON</string>
+    <string name="off_english_only">OFF</string>
+    <string name="fcu_number_limit">セッティング許容値は[0～99]です。</string>
+    <string name="away_on">外出</string>
+    <string name="please_reset">機器を初期化した後、\nもう一度機器登録を行ってからご使用ください。</string>
+    <string name="not_controled">デバイス制御に失敗しました。\nデバイス状態をご確認ください。</string>
+
+    <!--기기편집-->
+    <string name="device_name_edit">機器を選択して名前を変更してみてください。</string>
+    <string name="loading">作動中</string>
+    <string name="edit_device">機器の編集</string>
+    <string name="light_str">照明</string>
+    <string name="indoor_str">室内環境</string>
+    <string name="energy_str">エネルギー</string>
+    <string name="nickname_change_success">ニックネームが変更されました。</string>
+    <string name="nickname_change_fail">ニックネームの変更に失敗しました。</string>
+    <string name="notification">お知らせ</string>
+    <string name="no_nickname">機器名が入力されていない機器があります。</string>
+
+    <!--기기 편집 삭제 모드-->
+    <string name="safety_str">安全</string>
+    <string name="complete_string">完了</string>
+    <string name="device_selected"> 個選択済み</string>
+    <string name="do_it_again">もう一度タッチしてください。</string>
+
+    <!-- MainAcitivity guide text-->
+    <string name="no_device">デバイス値がありません。</string>
+    <string name="not_support_device">該当のデバイスは詳細ページを提供しません。</string>
+
+    <!--HVAC-->
+    <string name="HVAC">Climate</string>
+    <string name="fan">Fan</string>
+    <string name="wind_high">High</string>
+    <string name="wind_med">Med</string>
+    <string name="wind_low">Low</string>
+    <string name="havc_operation">Operation</string>
+
+    <!--디바이스 삭제-->
+    <string name="device_delete_select_all">すべて選択</string>
+
+    <!--Device Delete Dialog 가번역 -->
+    <string name="device_delete">デバイスを削除する</string>
+    <string name="device_delete_dialog_text">選択したデバイスを削除してもよろしいですか？ 削除後、デバイスを接続する必要があります。</string>
+
+    <!--기기연동 방법 -->
+    <string name="the_way_of_device_connection">The way of device connection</string>
+    <string name="device_image_can_be_different">※ Device Image can be different</string>
+    <string name="commax_company_name">COMMAX</string>
+
+    <!--4구전등-->
+    <string name="switch_of_4_light_device_name">Switch of 4 lights</string>
+    <string name="switch_of_4_light_guide_text">① Click the Add Device button on WallPad or mobile app.\n② Press and release the Pairing button and a "Beep" beep will sound for 4 seconds.\nWait 5 to 10 seconds and your device will be registered.</string>
+    <!--2구전등-->
+    <string name="switch_of_2_light_device_name">Switch of 2 lights</string>
+    <string name="switch_of_2_light_guide_text">① Click the Add Device button on WallPad or mobile app.\n② Press and release the Pairing button and a "Beep" beep will sound for 4 seconds.\nWait 5 to 10 seconds and your device will be registered.</string>
+    <!--멀티 센서 PIR-->
+    <string name="multisensor_pir_device_name">PIR MultiSensor</string>
+    <string name="multisensor_pir_guide_text">① If you attach the first battery or press the Pairing button, the red LED will blink for 30 seconds, and it will be in Pairing standby state.\n② Press the Add Device button on WallPad or mobile phone and wait for 5 ~ 10 seconds.\n③ When the pairing is completed, the green LED will blink and the unit will be registered.</string>
+    <!--대기 전력 차단 스위치-->
+    <string name="standby_power_device_name">Stand by Power</string>
+    <string name="standby_power_guide_text">① Click the Add Device button on WallPad or mobile app.\n② When you press the Pairing button in the initial state, the yellow LED flashes 1 or 2 times. Wait 5 to 10 seconds and your device will be registered.</string>
+    <!--가스 밸브 차단 스위치 -->
+    <string name="gas_valve_switch_device_name">Gas Valve Switch</string>
+    <string name="gas_valve_switch_guide_text">① Make the gas valve breaker closed.\n② Click the Add Device button on WallPad or mobile app.\n③ If you press the Pairing button more than 5 seconds, "P" flickers on the LCD. At this time, release the button and press the valve switch to open it.\n④ When connected, the antenna icon appears. Wait 15 ~ 25 seconds and the device will be registered.</string>
+    <!--가스 감지기-->
+    <string name="gas_detect_device_name">Gas detector</string>
+    <string name="gas_detect_guide_text">① Click the Add Device button on WallPad or mobile app.\n② Press and release the Pairing button and the green LED will blink 1 or 2 times. Wait 5 to 10 seconds and your device will be registered.</string>
+    <!--마그네틱 센서 (도어센서)-->
+    <string name="magnetic_sensor_device_name">Magnetic Sensor</string>
+    <string name="magnetic_sensor_guide_text">① Click the Add Device button on WallPad or mobile app.\n② Press the Pairing button and the red LED will blink for 30 seconds.\n③ When the device registration is completed, the red LED turns off when it is completed.</string>
+    <!--스마트 플러그-->
+    <string name="smart_plug_device_name">Smart Plug</string>
+    <string name="smart_plug_guide_text">① Click the Add Device button on WallPad or mobile app.\n② Press and hold the Pairing button, the LED will blink.\n③ After releasing the Pairing button, wait 5 ~ 10 seconds and the machine will be registered.</string>
+    <!--누수 감지기-->
+    <string name="water_sensor_device_name">Leak detector</string>
+    <string name="water_sensor_guide_text">① Click the Add Device button on WallPad or mobile app.\n② Press the Pairing button and the red LED will blink for 30 seconds.\n③ When the device registration is completed, the red LED turns off when it is completed.</string>
+
+    <string name="no_support_text">英数字、~!@#$%^<![CDATA[&]]>*()_+=?/";:,. は入力可能です。</string>
+    <string name="menu_add_string">Device Add</string>
+    <string name="popup_device_add_text">Please press the connection button of the device.\nIt may take up to one minute, depending on network conditions. If the connection is not smooth, please try again.</string>
+    <string name="try_agin">Device not connected. Try one more time</string>
+    <string name="device_added">Device adding is completed</string>
+</resources>

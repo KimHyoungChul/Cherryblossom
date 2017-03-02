@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/column_list_width"
+    android:layout_height="@dimen/column_list_height"
+    android:id="@+id/container_layout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_header_height"
+        android:weightSum="1"
+        android:id="@+id/title_layout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_favorite"
+            android:src="@drawable/icon_change_bt_favorite"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:layout_marginLeft="@dimen/list_header_left_margin"
+            android:layout_marginRight="@dimen/list_header_interval_margin"
+            android:layout_marginTop="@dimen/list_header_top_margin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="마그네틱 센서"
+            android:id="@+id/title_textview"
+            android:layout_gravity="center_vertical"
+            android:textColor="#34325c"
+            android:textSize="@dimen/cardlist_header_title"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/list_header_top_margin"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_smallpower"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_change_bt_smallpower"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/list_header_top_margin"
+            android:layout_marginLeft="@dimen/list_header_interval_margin"
+            android:layout_marginRight="@dimen/list_header_right_margin"
+            android:background="@drawable/circle_bt_smallpower" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_body_height"
+        android:id="@+id/body_layout"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/card_detectsensor_body_left_margin"
+        android:layout_marginRight="@dimen/card_detectsensor_body_right_margin">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/status_layout"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="@dimen/card_detectsensor_body_top_margin"
+            android:gravity="top|center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/card_detectsensor_body_icon_height"
+                android:id="@+id/icon_sensor"
+                android:src="@drawable/icon_change_bt_detectsensor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이상없음"
+                android:id="@+id/text_status"
+                android:textColor="#646378"
+                android:textSize="@dimen/detectsensor_status"
+                android:paddingTop="@dimen/card_detectsensor_body_mid_margin"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/battery_layout"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_magnetic_battery_string"
+                    android:id="@+id/text_battery"
+                    android:textColor="#9b9bb5"
+                    android:textSize="@dimen/detectsensor_battery"
+                    android:layout_marginRight="@dimen/card_detectsensor_body_text_margin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80"
+                    android:id="@+id/text_battery_value"
+                    android:textColor="#9b9bb5"
+                    android:textSize="@dimen/detectsensor_battery_value" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:id="@+id/text_battery_unit"
+                    android:textColor="#9b9bb5"
+                    android:textSize="@dimen/detectsensor_battery_value" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/more_column_height"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:id="@+id/more_layout"
+        android:layout_marginTop="@dimen/card_detectsensor_body_bottom_margin"
+        >
+        <ImageView
+            android:layout_width="@dimen/card_detectsensor_icon_battery_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_lowbattery"
+            android:src="@mipmap/ic_dc_notice" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message_low_battery"
+            android:id="@+id/text_lowbattery"
+            android:textColor="#ea3233"
+            android:textSize="@dimen/doorlock_battery_low"
+            android:clickable="true"
+            android:singleLine="true" />
+    </LinearLayout>
+
+</LinearLayout>

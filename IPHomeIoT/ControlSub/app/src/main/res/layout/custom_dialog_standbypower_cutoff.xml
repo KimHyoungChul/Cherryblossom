@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/all_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/init_popup_bg_width"
+    android:layout_height="@dimen/init_popup_bg_height"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingTop="@dimen/popup_title_text_marginTop"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/popup_title_marginLeftRight"
+        android:layout_marginRight="@dimen/popup_title_marginLeftRight"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/popup_title_text_paddingBottom"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/cutoff_setting"
+            android:textColor="@color/popup_title_text_color"
+            android:textSize="@dimen/popup_title_textSize" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/popup_title_underline_height"
+            android:background="#ebecf0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/init_content_marginLeftRight"
+        android:layout_marginRight="@dimen/init_content_marginLeftRight"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/init_content_marginTopBottom"
+            android:textSize="@dimen/component_cutoff_guide"
+            android:text="@string/cutoff_value_min_max"
+            android:gravity="center"
+            android:textColor="@color/data_number_text"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/init_content_layout_height"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <com.commax.controlsub.Common.ImageBT
+                android:id="@+id/cutoff_minus_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_dc_minus_n"
+                android:background="@drawable/circle_bt_smallpower_cutoff_dialog"
+                android:visibility="visible"
+                xmlns:my="http://schemas.android.com/apk/res/com.commax.controlsub"
+                my:imageOpacity="0.6"
+                android:layout_marginLeft="@dimen/component_image_left_padding"
+                android:layout_marginRight="@dimen/component_image_right_padding"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="@dimen/init_popup_bg_marginBottom"
+                android:paddingBottom="@dimen/init_popup_bg_marginBottom"
+                >
+                <EditText
+                    android:id="@+id/cutoff_edittext"
+                    android:layout_width="@dimen/init_content_data_width"
+                    android:layout_height="@dimen/init_content_data_height"
+                    android:text="000.0w"
+                    android:textSize="@dimen/component_dialog_text_size"
+                    android:textColor="@color/data_number_text"
+                    android:singleLine="true"
+                    android:gravity="center_horizontal"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:digits="0123456789"
+                    />
+               <!-- <View
+                    android:id="@+id/edittext_underline"
+                    android:layout_height="@dimen/title_bar_underline"
+                    android:layout_width="match_parent"
+                    android:background="@color/popup_edit_underline_normar"
+                    />-->
+                <!--android:background="@drawable/edittext_underline"-->
+                <!--android:layout_gravity="bottom"-->
+            </LinearLayout>
+
+            <com.commax.controlsub.Common.ImageBT
+                android:id="@+id/cutoff_plus_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_dc_plus_n"
+                android:visibility="visible"
+                xmlns:my="http://schemas.android.com/apk/res/com.commax.controlsub"
+                my:imageOpacity="0.6"
+                android:layout_marginLeft="@dimen/component_image_left_padding"
+                android:layout_marginRight="@dimen/component_image_right_padding"
+                android:background="@drawable/circle_bt_smallpower_cutoff_dialog"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/init_content_marginTopBottom"
+        android:layout_marginBottom="@dimen/popup_title_text_marginBottom"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/round_bt_height"
+                android:background="@drawable/round_button_selector"
+                android:text="@string/cancle"
+                android:textColor="@drawable/round_button_text_color"
+                android:textSize="@dimen/popup_btn_textSize" />
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/round_bt_height"
+                android:layout_marginLeft="@dimen/popup_btn_marginLeft"
+                android:background="@drawable/round_button_selector"
+                android:text="@string/ok"
+                android:textColor="@drawable/round_button_text_color"
+                android:textSize="@dimen/popup_btn_textSize"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

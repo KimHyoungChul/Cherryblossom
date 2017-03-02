@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:color="@color/component_btn_text_focus" android:state_pressed="true"/>-->
+    <!--<item android:color="@color/component_btn_text_selected" android:state_selected="true"/>-->
+    <item android:state_enabled="false" android:color="@color/data_number_text_disable"/>
+    <item android:color="@color/data_number_text" />
+
+</selector>

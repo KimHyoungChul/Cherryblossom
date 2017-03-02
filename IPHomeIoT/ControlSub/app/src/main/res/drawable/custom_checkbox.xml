@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 체크박스 해제상태  -->
+    <item android:drawable="@mipmap/btn_checkbox_n" android:state_checked="false" />
+    <!-- 체크박스 선택상태 -->
+    <item android:drawable="@mipmap/btn_checkbox_s" android:state_checked="true" />
+
+    <item android:state_selected="true" android:drawable="@mipmap/btn_checkbox_s"/>
+
+    <item android:state_selected="false" android:drawable="@mipmap/btn_checkbox_n"/>
+
+    <!-- default state -->
+    <item android:drawable="@mipmap/btn_checkbox_n" />
+</selector>

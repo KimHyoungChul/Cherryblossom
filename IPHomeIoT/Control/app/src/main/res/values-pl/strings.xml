@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kontrola</string>
+    <!-- guard message string -->
+    <string name="message_dbread_string">Informacje na temat urządzenia są czytane. </string>
+    <string name="message_dbupdate_string">Informacje na temat urządzenia są odnawiane.</string>
+    <!--<string name="message_docontrol_string">Device control in progress.</string>-->
+    <string name="message_adddevice_string">Urządzenie zostało zarejestrowane.</string>
+    <string name="message_removedevice_string">Urządzenie zostało usunięte.</string>
+    <string name="message_move_page">Przesunie się do wybranej strony.</string>
+    <string name="message_move_more">Przesunie się do szczegółowej strony kontrolnej.</string>
+    <string name="message_info_title">Powiadomienie</string>
+    <string name="message_check_network">Proszę sprawdzić swoje połączenie sieciowe</string>
+    <string name="message_check_ds">Urządzenie nie zostało podłączone do programu aplikacji usługowej. Proszę sprawdzić swoje połączenie z siecią. </string>
+    <string name="message_device_not_found">Nie jest poszukiwane żadne urządzenie.</string>
+    <string name="message_control_fail">Sterowanie urządzeniem nie powiodło się  Proszę sprawdzić status urządzenia</string>
+    <string name="message_favorite_title">Dodaj do ulubionych</string>
+    <string name="message_favorite_guide">Proszę o wciśniecie ikonki o kształcie gwiazdki na szczycie karty urządzenia, i będzie wówczas dodane do ulubionych.</string>
+    <string name="message_low_battery">To wymaga zmiany baterii. </string>
+
+    <!-- menu titlebar string -->
+    <string name="main_titlebar_string">Kontrola</string>
+    <string name="sub1_titlebar_string">Ulubione</string>
+    <string name="sub2_titlebar_string">Światło</string>
+    <string name="sub3_titlebar_string">warunki wewnątrz</string><!--Indoor condition-->
+    <string name="sub4_titlebar_string">Energia</string>
+    <string name="sub5_titlebar_string">Bezpieczeństwo</string>
+
+    <!-- common button string -->
+    <string name="more_titlebar_string">Więcej szczegółów</string><!--More details-->
+    <string name="button_ok_string">OK</string>
+    <string name="button_cancel_string">Anuluj</string>
+    <string name="button_on_string">Włączono</string><!--현재 안쓰고있음-->
+    <string name="button_off_string">Wyłączono</string><!--현재 안쓰고있음-->
+    <string name="text_current_string">Prąd</string>
+    <string name="menu_add_string">Dodaj urządzenie</string>
+    <string name="menu_edit_string">Edytować urządzenie</string>
+
+    <!-- card_groupswitch string -->
+    <string name="card_groupLight_titlebar_string">Całe oświetlenie</string>
+<!--    <string name="card_groupFCU_titlebar_string">Entire FCU</string>
+    <string name="card_groupBoiler_titlebar_string">Entire Boiler</string>
+    <string name="card_groupAircon_titlebar_string">Entire Aircon</string>
+    <string name="card_groupFan_titlebar_string">Entire Fan</string>
+    <string name="card_groupCurtain_titlebar_string">Entire Curtain</string>
+    <string name="card_groupStandbyPwr_titlebar_string">Entire StandbyPower</string>-->
+
+    <!-- card_lightswitch string -->
+    <string name="card_light_titlebar_string">Światło</string>
+    <string name="card_light_status_on">Włączono</string>
+    <string name="card_light_status_off">Wyłączono</string>
+<!--    <string name="card_light_status_on_number">-Power On</string>
+    <string name="card_light_status_off_number">Power Off</string>-->
+
+    <!-- card_dimmerswitch string -->
+    <string name="card_dimmerswitch_titlebar_string">Światło</string>
+    <string name="card_dimmerswitch_level">natężenie oświetlenia</string>
+
+    <!-- card_curtain string -->
+    <string name="card_curtain_titlebar_string">kurtyna</string>
+    <string name="card_curtain_control_open">Otwarte</string>
+    <string name="card_curtain_control_close">Zamknięte</string>
+    <string name="card_curtain_control_stop">Stop</string>
+    <string name="card_curtain_status_open">Otwarte</string>
+    <!--<string name="card_curtain_status_open_number">-Opened</string>-->
+    <string name="card_curtain_status_close">Zamknięte</string>
+    <!--<string name="card_curtain_status_stop">Pause</string>-->
+
+    <!-- card_thermostat string -->
+    <string name="card_thermostat_awaymode_text">Tryb Poza domem</string><!--사용안함-->
+    <string name="card_thermostat_button_on">Włączono</string>
+    <string name="card_thermostat_button_away">Poza</string>
+    <!--<string name="card_thermostat_titlebar_string">Entire FCU</string>&lt;!&ndash;사용안함&ndash;&gt;-->
+    <string name="card_thermostat_status_awayon">Włączono</string><!--사용안함-->
+    <string name="card_thermostat_status_awayoff">Wyłączono</string>
+    <string name="card_thermostat_status_awayon_number">-włączone</string>
+
+    <!-- card_aircon string -->
+    <!--<string name="card_aircon_titlebar_string">Aircon</string>-->
+    <string name="card_aircon_curtemperature">Prąd</string>
+
+    <!-- card_boiler string -->
+    <!--<string name="card_boiler_titlebar_string">Boiler</string>-->
+    <string name="card_boiler_curtemperature">Prąd</string>
+
+    <!-- card_fcu string -->
+    <!--<string name="card_fcu_titlebar_string">FCU</string>-->
+    <string name="card_fcu_curtemperature">Prąd</string>
+    <string name="card_fcu_mdoe">Tryb napędu</string>
+    <string name="card_fcu_awayon">Tryb Wyjścia na Zewnątrz</string><!--Going out mode  , 사용하지 않음-->
+    <string name="card_fcu_mode_ventilation">Wentylacja</string><!--Ventilation , 사용하지 않음-->
+    <string name="card_fcu_speed">wietrzny</string>
+    <string name="card_fcu_speed1">Wysoki</string>
+    <string name="card_fcu_speed2">Średnia</string>
+    <string name="card_fcu_speed3">Niska</string>
+
+    <!-- card_fan string -->
+    <!--<string name="card_fan_titlebar_string">FAN</string>--><!--사용안함-->
+    <string name="card_fan_mode">Tryb napędu</string>
+    <string name="card_fan_mode_auto">Auto</string>
+    <string name="card_fan_mode_manual">Ręczne</string>
+
+    <!-- card_standbypower string -->
+    <string name="card_standbypower_titlebar_string">Moc w gotowości</string>
+    <string name="card_standbypower_type">Aktualna moc w gotowości</string>
+    <string name="card_standbypower_mode">Tryb</string>
+    <string name="card_standbypower_mode_auto">Auto</string>
+    <string name="card_standbypower_mode_manual">Ręczne</string>
+    <string name="card_standbypower_cutoff">Wartość odcięcia</string><!--Cut-off value-->
+
+    <!-- card_gaslock string -->
+    <string name="card_gaslock_titlebar_string">Wyłącznik zaworu gazu</string><!--Gas valve breaker , 사용안함-->
+    <!--    <string name="card_gaslock_btn_name">Lock</string>
+        <string name="card_gaslock_status_lock">Closed</string>-->
+    <string name="card_gaslock_status_unlock">Otwarte</string>
+    <!--<string name="card_gaslock_status_on_number"> -Opened</string>--><!--사용안함-->
+    <string name="card_gaslock_not_use_open">Blokada gazu jest dostępna, tylko za pośrednictwem zdalnej kontroli bezpieczeńśtwa.</string>
+
+    <!-- card_doorlock string -->
+    <!--<string name="card_doorlock_titlebar_string">Door Lock</string>&lt;!&ndash;Digital Door Lock&ndash;&gt;-->
+    <string name="card_doorlock_btn_name">Otwarte</string>
+    <!--<string name="card_doorlock_status_lock">Door Close</string>-->
+    <string name="card_doorlock_status_unlock">Otwarte</string>
+    <!--<string name="card_doorlock_status_on_number"> -Opened</string>-->
+    <string name="card_doorlock_battery_string">Bateria</string>
+
+    <!-- card_magnetic string -->
+    <string name="card_magnetic_titlebar_string">Czujnik magnetyczny</string>
+    <string name="card_magnetic_status_normal">Niewykryty</string><!--Undetected-->
+    <string name="card_magnetic_status_detected">Wykryty</string>
+    <string name="card_magnetic_battery_string">Bateria</string>
+    <string name="card_magnetic_battery_alarm">To wymaga zmiany baterii.</string><!--It requires battery exchange. -->
+
+    <!-- card_smartmeter string -->
+    <string name="card_smartmeter_titlebar_string">inteligentne pomiary</string>
+    <string name="card_smartmeter_electric_meter">Elektryczność</string><!--Electricity-->
+    <string name="card_smartmeter_gas_meter">gaz</string>
+    <string name="card_smartmeter_water_meter">woda</string>
+    <string name="card_smartmeter_warm_meter">gorąca woda</string>
+    <string name="card_smartmeter_heat_meter">ogrzewanie</string>
+
+    <!-- card multisensor string-->
+    <string name="card_multisensor_sensor_string">Czujnik</string>
+    <string name="card_multisensor_temperature">temperatury</string>
+    <string name="card_multisensor_humidity">Wilgotność</string>
+    <string name="card_multisensor_battery">Bateria</string>
+    <string name="card_multi_status_undetected">Niewykryty</string>
+
+
+    <!-- #More string -->
+    <string name="popup_device_add_text">Proszę wcisnąć przycisk połączenia na swoim urządzeniu.\nMoże to zająć do jednej minuty w zależności od statusu łączności. Proszę spróbować ponownie, jeśli połączenie nie jest dobre.</string>
+    <string name="device_added">Urządzenie zostało dodane</string>
+    <string name="try_agin">Urządzenie nie jest podłączone. Proszę spróbować ponownie.</string>
+
+
+
+    <!--가번역 -->
+    <string name="card_groupFCU_titlebar_string">toda FCU</string>
+    <string name="card_groupBoiler_titlebar_string">Caldeira inteira</string>
+    <string name="card_groupAircon_titlebar_string">Ar condicionado inteiro</string>
+    <string name="card_groupFan_titlebar_string">Ventilador inteiro</string>
+    <string name="card_groupCurtain_titlebar_string">Cortina completa</string>
+    <string name="card_groupStandbyPwr_titlebar_string">Toda a energia em espera</string>
+    <string name="card_light_status_on_number">-Włączono</string>
+    <string name="card_light_status_off_number">Wyłączono</string>
+    <string name="card_curtain_status_open_number">-Aberto</string>
+    <string name="card_curtain_status_stop">Pausa</string>
+    <string name="card_thermostat_titlebar_string">toda FCU</string><!--사용안함-->
+    <string name="card_aircon_titlebar_string">Aircon</string>
+    <string name="card_boiler_titlebar_string">Caldeira</string>
+    <string name="card_fcu_titlebar_string">FCU</string>
+    <string name="card_doorlock_titlebar_string">Fechadura da porta</string><!--Digital Door Lock-->
+    <string name="message_docontrol_string">Controle do dispositivo em andamento.</string>
+    <string name="card_fan_titlebar_string">VENTILADOR</string>
+    <string name="card_gaslock_btn_name">Bloquear</string>
+    <string name="card_gaslock_status_lock">Fechar</string>
+    <string name="card_gaslock_status_on_number"> -Aberto</string>
+    <string name="card_doorlock_status_lock">Porta Fechar</string>
+    <string name="card_doorlock_status_on_number"> -Aberto</string>
+
+
+</resources>

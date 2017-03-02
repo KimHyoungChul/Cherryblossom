@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingRight="@dimen/nickname_list_right_left_padding"
+    android:paddingBottom="@dimen/nickname_list_top_bottom_padding"
+    android:paddingTop="@dimen/nickname_list_top_bottom_padding"
+    android:paddingLeft="@dimen/nickname_list_right_left_padding"
+    >
+    <CheckBox
+        android:id="@+id/delete_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@drawable/custom_checkbox"
+        android:button="@null"
+        android:layout_marginRight="15dp"
+        />
+    <com.commax.controlsub.DeviceListEdit.ClearEditText
+        android:id="@+id/nickname_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/nickname_list_edit_text_size"
+        android:background="@null"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:gravity="center_vertical"
+        android:textColor="@drawable/devicedelete_component_text_color"
+        android:textCursorDrawable="@null"
+        android:text="NickName"
+        android:inputType="textEmailAddress"/>
+</LinearLayout>

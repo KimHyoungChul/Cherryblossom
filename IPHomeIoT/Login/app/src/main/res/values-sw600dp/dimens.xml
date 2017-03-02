@@ -1,0 +1,168 @@
+<resources>
+   <!-- &lt;!&ndash;10inch&ndash;&gt;
+    &lt;!&ndash; Default screen margins, per the Android Design guidelines. &ndash;&gt;
+    &lt;!&ndash;about circle button&ndash;&gt;
+    <dimen name="circle_size">148dp</dimen>
+    <dimen name="round_bt_height">52dp</dimen>
+    <dimen name="round_bt_layout_height">93dp</dimen>
+    <dimen name="round_under_btn_text_size">22sp</dimen>
+    &lt;!&ndash;about menu&ndash;&gt;
+    <dimen name="menu_back_btn">36dp</dimen>
+    <dimen name="menu_bar_height">64dp</dimen>
+    <dimen name="menu_bar_side_padding">24dp</dimen>
+    <dimen name="menu_bar_top_padding">14dp</dimen>
+    <dimen name="menu_bar_bottom_padding">13dp</dimen>
+    &lt;!&ndash;about component &ndash;&gt;
+    <dimen name="component_width">500dp</dimen>
+    &lt;!&ndash;about title&ndash;&gt;
+    <dimen name="title_text_size">32sp</dimen>
+    <dimen name="title_text_bottom_padding">8dp</dimen>
+    &lt;!&ndash;about text&ndash;&gt;
+    <dimen name="component_text_size">18sp</dimen>
+    <dimen name="component_text_height">45dp</dimen>
+    &lt;!&ndash;about edit&ndash;&gt;
+    <dimen name="component_edit_size">24sp</dimen>
+    <dimen name="component_edit_height">36dp</dimen>
+    <dimen name="component_edit_width">230dp</dimen>
+    &lt;!&ndash;component middle button&ndash;&gt;
+    <dimen name="component_id_eidt_width">386dp</dimen>
+    <dimen name="component_id_layout_height">69dp</dimen>
+    <dimen name="component_id_btn_layout_width">114dp</dimen>
+    <dimen name="component_id_btn_width">104dp</dimen>
+    <dimen name="componene_id_btn_text_size">15sp</dimen>
+    <dimen name="component_id_btn_height">44dp</dimen>
+    <dimen name="component_id_btn_top_padding">24dp</dimen>
+    <dimen name="component_id_btn_botton_padding">1dp</dimen>
+    <dimen name="component_id_btn_left_padding">6dp</dimen>
+    &lt;!&ndash;&ndash;&gt;
+    <dimen name="component_text_right_padding">28dp</dimen>
+    <dimen name="component_text_width">150dp</dimen>
+    <dimen name="component_layout_bottom_padding">10dp</dimen>
+    <dimen name="component_line_right_padding">10dp</dimen>-->
+
+
+
+    <!--7inch , Full IP 곱하기 1.25 -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+ <!--about circle button-->
+ <dimen name="circle_size">185dp</dimen>
+ <dimen name="round_bt_height">65dp</dimen>
+ <dimen name="round_bt_layout_height">116dp</dimen>
+ <dimen name="round_under_btn_text_size">27dp</dimen>
+ <dimen name="round_under_btn_radius">32dip</dimen>
+ <dimen name="round_bt_left_right_padding">10dp</dimen>
+ <!--about menu-->
+ <dimen name="menu_back_btn">45dp</dimen>
+ <dimen name="menu_bar_height">80dp</dimen>
+ <dimen name="menu_bar_side_padding">30dp</dimen>
+ <dimen name="menu_bar_top_padding">17dp</dimen>
+ <dimen name="menu_bar_bottom_padding">16dp</dimen>
+ <!--about component -->
+ <dimen name="component_width">625dp</dimen>
+ <dimen name="component_layout_top_padding">0dp</dimen>
+ <!--about title-->
+ <dimen name="title_text_size">40dp</dimen>
+ <dimen name="title_text_bottom_padding">10dp</dimen>
+ <!--about text-->
+ <dimen name="component_text_size">22dp</dimen>
+ <dimen name="component_text_height">54dp</dimen>
+ <dimen name="component_text_optional_guide_height">31dp</dimen>
+ <dimen name="component_text_optional">25dp</dimen>
+ <dimen name="component_text_optional_guide_size">20dp</dimen>
+ <!--about edit-->
+ <dimen name="component_edit_size">30dp</dimen>
+ <dimen name="component_edit_height">45dp</dimen>
+ <dimen name="component_edit_width">287dp</dimen>
+ <!--edittext x button-->
+
+ <!--component middle button-->
+ <dimen name="component_id_eidt_width">482dp</dimen>
+ <dimen name="component_id_layout_height">86dp</dimen>
+ <dimen name="component_id_btn_layout_width">142dp</dimen>
+ <dimen name="component_id_btn_width">130dp</dimen>
+ <dimen name="componene_id_btn_text_size">18dp</dimen>
+ <dimen name="component_id_btn_height">55dp</dimen>
+ <dimen name="component_id_btn_top_padding">30dp</dimen>
+ <dimen name="component_id_btn_botton_padding">1dp</dimen>
+ <dimen name="component_id_btn_left_padding">7dp</dimen>
+ <dimen name="component_id_btn_radius">27dip</dimen>
+ <!---->
+ <dimen name="component_text_right_padding">35dp</dimen>
+ <dimen name="component_text_width">187dp</dimen>
+ <!--spinner-->
+ <dimen name="component_spinner_text_size">25dp</dimen>
+ <dimen name="component_spinner_height">62dp</dimen>
+ <dimen name="component_layout_bottom_padding">0dp</dimen>
+ <dimen name="component_line_right_padding">12dp</dimen>
+ <dimen name="component_line_top_bottm_padding">4dp</dimen>
+
+ <!--edit popup common-->
+ <dimen name="popup_bg_width">572dp</dimen>
+ <dimen name="popup_bg_height">502dp</dimen>
+ <dimen name="popup_bg_marginTop">15dp</dimen>
+ <dimen name="popup_bg_marginBottom">12dp</dimen>
+ <dimen name="popup_bg_marginLeftRight">22dp</dimen>
+
+ <dimen name="popup_title_width">197dp</dimen>
+ <dimen name="popup_title_textSize">27dp</dimen>
+ <dimen name="popup_title_marginLeftRight">36dp</dimen>
+ <dimen name="popup_title_text_marginTop">30dp</dimen>
+ <dimen name="popup_title_text_marginBottom">40dp</dimen>
+ <dimen name="popup_title_text_paddingBottom">12dp</dimen>
+ <dimen name="popup_title_underline_width">537dp</dimen>
+ <dimen name="popup_title_underline_height">2dp</dimen>
+
+
+ <dimen name="popup_btn_marginLeft">12dp</dimen>
+ <dimen name="popup_btn_textSize">27dp</dimen>
+
+ <!--edit dialog-->
+ <dimen name="edit_scrollview_height">588dp</dimen>
+ <dimen name="edit_scrollview_marginLeftRight">76dp</dimen>
+ <dimen name="edit_scrollview_marginTop">40dp</dimen>
+ <dimen name="edit_scrollview_marginBottom">70dp</dimen>
+
+ <dimen name="edit_width">420dp</dimen>
+ <dimen name="edit_height">40dp</dimen>
+ <dimen name="edit_paddingLeft">12dp</dimen>
+ <dimen name="edit_marginBottom">25dp</dimen>
+
+ <dimen name="edit_underline_width">420dp</dimen>
+ <dimen name="edit_underline_height">2dp</dimen>
+ <dimen name="edit_underline_marginBottom">25dp</dimen>
+ <dimen name="edit_textSize">27dp</dimen>
+
+ <!-- initialize dialog -->
+ <dimen name="init_popup_bg_width">610dp</dimen>
+ <dimen name="init_popup_bg_height">407dp</dimen>
+ <dimen name="init_popup_bg_marginTop">15dp</dimen>
+ <dimen name="init_popup_bg_marginBottom">12dp</dimen>
+ <dimen name="init_popup_bg_marginLeftRight">22dp</dimen>
+ <dimen name="init_content_layout_height">135dp</dimen>
+ <dimen name="init_content_marginLeftRight">56dp</dimen>
+ <dimen name="init_content_marginTopBottom">40dp</dimen>
+
+
+ <dimen name="component_text_underline">2dp</dimen>
+ <dimen name="component_text_top_margin">0dp</dimen>
+
+ <!--custom toast-->
+ <dimen name="toast_text_size">18dp</dimen>
+ <!--custon spinner-->
+ <dimen name="spinner_test_left_padding">28dp</dimen>
+ <dimen name="spinner_check_image_right_padding">16dp</dimen>
+ <dimen name="spinner_down_image_right_padding">12dp</dimen>
+ <dimen name="spinner_line_top_padding">50dp</dimen>
+ <dimen name="spinner_dropdown_top_padding">30dp</dimen>
+
+
+ <!--custom toast pxd-->
+ <dimen name="toast_text">22dp</dimen>
+ <dimen name="toast_text_bottom">0dp</dimen>
+ <dimen name="toast_text_left_right">25dp</dimen>
+ <dimen name="toast_right">136dp</dimen>
+ <dimen name="toast_left">135dp</dimen>
+ <dimen name="toast_height">100dp</dimen>
+ <dimen name="toast_width">730dp</dimen>
+
+</resources>

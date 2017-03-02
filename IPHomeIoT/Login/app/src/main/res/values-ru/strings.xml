@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--영어로 구글 가번역 적용 2016-11-09-->
+    <string name="app_name">Зарегистрироваться</string>
+
+    <string name="loading">За работой</string>
+    <string name="id">Я БЫ</string>
+    <string name="id_hint">Пожалуйста, введите свой идентификатор</string>
+    <string name="password">пароль</string>
+    <string name="password_hint">Пожалуйста введите ваш пароль.</string>
+    <string name="password_check_hint">Пожалуйста, введите ваш пароль Повторный ввод</string>
+    <string name="login">Авторизоваться</string>
+    <string name="Initial">инициализация</string>
+    <string name="commax_user_text">Создать свой Commax ID?</string>
+    <string name="name">имя</string>
+
+    <string name="year">Год</string>
+    <string name="month">Месяц</string>
+
+    <string name="phone_number">Номер телефона</string>
+    <string name="send">послать</string>
+    <string name="check">ОК</string>
+    <string name="before">Пред</string>
+    <string name="next">следующий</string>
+
+    <string name="password_check">Повторите ввод пароля</string>
+    <string name="email">Эл. адрес</string>
+
+
+    <!--pxd lotte-->
+    <string name="information_input">Введите информацию</string>
+    <string name="register">Постановка на учет</string>
+    <string name="id_overlap_check">Дублирование проверка</string>
+    <string name="please_check_id_overlap">Пожалуйста, проверьте дублирования идентификатора</string>
+
+    <string name="unavailable_Id">ID уже существует. Пожалуйста, введите другой идентификатор</string>
+    <string name="available_id">Идентификатор доступен</string>
+    <string name="register_success">Ваш Регистрация завершена.</string>
+    <string name="user_information">информация о пользователе</string>
+    <string name="password_change">P/W Изменить</string>
+    <string name="user_initial">инициализация</string>
+    <string name="passwrod_change_success">Пароль будет изменен.</string>
+    <string name="id_length_check">Идентификатор может быть 4 ~ 20 символов</string>
+    <string name="password_length_check">Пароль может состоять из 6 ~ 20 знаков</string>
+
+
+    <string name="password_passwordcheck_different">Пароли не совпадают Пожалуйста, проверьте пароль еще раз</string>
+
+    <string name="user_id_initialize_success">Идентификатор пользователя инициализируется</string>
+    <string name="name_length_check">Длина имени находится в пределах 20 символов</string>
+    <string name="user_id_initial_message">Вы уверены, что сбросит свой идентификатор?</string>
+    <string name="ok">ОК</string>
+    <string name="cancle">Отмена</string>
+    <string name="select_nationCode">Пожалуйста, выберите страну живой</string>
+    <string name="network_error">Произошла сетевая ошибка.</string>
+    <string name="edit_alpha_num_only">Буквы и цифры могут быть введены</string>
+    <string name="edit_alpha_num_etc_only">Можно вводить буквы, цифры и !@#$%^<![CDATA[&]]>*_=+[]>\\?</string>
+    <string name="nation_code">Жизнь Страна</string>
+    <string name="select_nation">Выберите страну</string>
+    <string name="file_error">ошибка файла</string>
+    <string name="check_internet_connect">Ошибка сети. Пожалуйста, проверьте подключение к интернету</string>
+    <string name="do_it_again">Нажмите ее снова</string>
+    <string name="mac_error">Пожалуйста, проверьте подключение к Интернету и перезапустить приложение</string>
+    <!--2016-11-09 70UX -->
+    <string name="ux_server_guide_message">Для облегчения мобильных вызовов New перенесет свой аккаунт на сервер облака. Кроме того, пожалуйста, удалите существующий мобильное приложение и установить новое мобильное приложение (COMMAX SMART CALL).</string>
+    <!--로컬 서버 연동 -->
+    <string name="localserver_status_check">Проверьте комплексный сервер</string>
+    <string name="no_network_response">Нет ответа от сервера.\nПожалуйста, проверьте сетевой статус</string>
+    <string name="notification">Уведомление</string>
+
+    <!--번역 적용 안됨 2016-11-01 -->
+    <string name="adult_certification">Взрослый Сертификация</string>
+    <string name="birth">Дата рождения</string>
+    <string name="day">День</string>
+    <string name="id_not_available_word">Буквы и цифры могут быть введены</string>
+    <string name="optional_guide_text">Необходимо.</string>
+    <string name="password_not_available_word">Доступно только алфавит, номер и специальный символ</string>
+    <string name="vertification_code">Код подтверждения</string>
+    <string name="access_uc_retry_dialog_message">Учетная запись пользователя не зарегистрирован на сервере обработки вызовов.</string>
+
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--title-->
+    <color name="title_text">#44496b</color>
+    <color name="title_bar_underline">#b5b6c3</color>
+    <!--component bar-->
+    <color name="component_bar">#dddfe4</color>
+    <!--standbypower-->
+    <color name="data_number_text">#312f62</color>
+    <color name="data_number_text_disable">#80312f62</color>
+    <color name="scale_text">#646378</color>
+    <color name="standbypower_text">#0c1a3d</color>
+    <color name="circular_under_small_text">#800c1a3d</color>
+    <color name="mode_text">#E634325c</color>
+    <color name="component_btn_text_nomal">#6b73c9</color>
+    <color name="component_btn_text_focus">#5d64b0</color>
+    <color name="component_btn_text_selected">#ffffff</color>
+    <!--standbypower cutoff dialg-->
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="button_pressed_text_color">#e5e5e5</color>
+    <color name="popup_title_text_color">#818294</color>
+    <color name="popup_edit_underline_normar">#cdcddf</color>
+    <color name="popup_edit_underline_pressed">#6a71cc</color>
+
+    <!--FCU-->
+    <color name="circular_seek_bar_off">#e4e3ea</color>
+
+    <!--nick name edit page-->
+    <color name="nickname_list_divider">#cdcddf</color>
+    <color name="list_header">#f0f1f9</color>
+    <color name="sub_header_text_color">#6b71cc</color>
+
+    <!--device delete two button dialog-->
+    <color name="dialog_button_normal_color_cancle">#ffffff</color>
+    <color name="dialog_button_pressed_color_cancle">#e5e5e5</color>
+
+    <color name="dialog_button_normal_text_cancle">#534e7f</color>
+    <color name="dialog_button_pressed_text_cancle">#423e66</color>
+
+    <!--circle progress bar-->
+    <color name="circle_progress">#6a71cc</color>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">제어sub</string>
+    <!--standbypower-->
+    <string name="real_time_standbypower">실시간 대기전력</string>
+    <string name="standbypower">대기전력</string>
+    <string name="working_mode">운전모드</string>
+    <string name="auto">자동</string>
+    <string name="manual">수동</string>
+    <string name="cutoff_value">차단값</string>
+    <string name="off_text">꺼짐</string>
+    <!--standby power cut offdialog-->
+    <string name="cancle">취소</string>
+    <string name="ok">확인</string>
+    <string name="cutoff_setting">차단값 설정</string>
+    <string name="cutoff_value_min_max">차단값 범위 [0~99]</string>
+
+    <!--FCU-->
+    <string name="current">현재</string>
+    <string name="cooling">냉방</string>
+    <string name="heating">난방</string>
+    <string name="circulating">환기</string>
+    <string name="circular">환기</string>
+    <string name="FCU">냉난방기</string>
+    <string name="high">강</string>
+    <string name="medium">중</string>
+    <string name="low">약</string>
+    <string name="wind_speed">풍속</string>
+    <string name="outgoing_mode">외출모드</string>
+    <string name="on_english_only">ON</string>
+    <string name="off_english_only">OFF</string>
+    <string name="fcu_number_limit">세팅 허용 값은 [0~99] 입니다.</string>
+    <string name="away_on">외출</string>
+    <string name="please_reset">기기 초기화 진행 후 다시 기기등록 진행 후 사용해 주세요.</string>
+    <string name="not_controled">디바이스 제어를 실패하였습니다. 디바이스 상태를 확인해주세요.</string>
+
+    <!--기기편집-->
+    <string name="device_name_edit">기기를 선택하여 이름을 변경해보세요.</string>
+    <string name="loading">로딩</string>
+    <string name="edit_device">기기 편집</string>
+    <string name="light_str">조명</string>
+    <string name="indoor_str">실내환경</string>
+    <string name="energy_str">에너지</string>
+    <string name="nickname_change_success">닉네임이 변경되었습니다.</string>
+    <string name="nickname_change_fail">닉네임 변경이 실패하였습니다.</string>
+    <string name="notification">알림</string>
+    <string name="no_nickname">기기명이 입력되지 않은 기기가 있습니다.</string>
+
+    <!--기기 편집 삭제 모드-->
+    <string name="device_delete">기기 삭제</string>
+    <string name="safety_str">안전</string>
+    <string name="complete_string">완료</string>
+    <string name="device_delete_dialog_text">선택한기기를 삭제하시겠습니까? 삭제 후 기기추가를 통해 해당 기기를 연동해야 합니다.</string>
+    <string name="device_selected"> 개 선택됨</string>
+    <string name="do_it_again">다시 눌러주세요.</string>
+
+
+    <!-- MainAcitivity guide text-->
+    <string name="no_device">디바이스 값이 없습니다.</string>
+    <string name="not_support_device">해당 디바이스는 상세페이지를 제공하지 않습니다.</string>
+
+    <!--디바이스 삭제-->
+    <string name="device_delete_select_all">전체 선택</string>
+
+    <!--HVAC-->
+    <string name="HVAC">Climate</string>
+    <string name="fan">Fan</string>
+    <string name="wind_high">High</string>
+    <string name="wind_med">Med</string>
+    <string name="wind_low">Low</string>
+    <string name="havc_operation">Operation</string>
+
+
+    <!--기기연동 방법 -->
+    <string name="the_way_of_device_connection">기기 연동 방법</string>
+    <string name="device_image_can_be_different">※ 제품별 외관은 다소 상이할 수 있습니다.</string>
+    <string name="commax_company_name">코맥스</string>
+
+    <!--4구전등-->
+    <string name="switch_of_4_light_device_name">4구 조명 스위치 </string>
+    <string name="switch_of_4_light_guide_text">① WallPad 또는 모바일앱에서 기기 추가 버튼을 누릅니다.\n② Pairing 버튼을 눌렀다 떼면  “삐~” 비프음이 4초간 발생합니다.\n③ 5~10초 기다리면 기기가 등록됩니다.</string>
+    <!--2구전등-->
+    <string name="switch_of_2_light_device_name">2구 스위치 </string>
+    <string name="switch_of_2_light_guide_text">① WallPad 또는 모바일앱에서 기기 추가 버튼을 누릅니다.\n② Pairing 버튼을 눌렀다 떼면 “삐~” 비프음이 4초간 발생합니다.\n③ 5~10초 기다리면 기기가 등록됩니다.</string>
+    <!--멀티 센서 PIR-->
+    <string name="multisensor_pir_device_name">PIR멀티센서</string>
+    <string name="multisensor_pir_guide_text">① 최초 배터리를 장착하거나 Pairing 버튼을 누르면 적색 LED가 30초간 깜박이며, Pairing 대기 상태가 됩니다.\n② WallPad 혹은 휴대폰에서 기기 추가 버튼을 누르고, 5~10초 기다립니다.\n③ Pairing이 완료 되면 녹색 LED가 깜박이며, 기기가 등록됩니다.</string>
+    <!--대기 전력 차단 스위치-->
+    <string name="standby_power_device_name">대기전력 차단기</string>
+    <string name="standby_power_guide_text">① WallPad 혹은 모바일앱에서 기기 추가 버튼을 누릅니다.\n② Pairing 버튼을 누르면 황색 LED가 1~2번 깜박입니다.\n③ 5~10초 기다리면 기기가 등록됩니다.</string>
+    <!--가스 밸브 차단 스위치 -->
+    <string name="gas_valve_switch_device_name">가스밸브 차단기</string>
+    <string name="gas_valve_switch_guide_text">① 가스 밸브 차단기를 닫힘 상태로 만듭니다.\n② WallPad 혹은 모바일앱에서 기기 추가 버튼을 누릅니다.\n③ Pairing 버튼을 5초 이상 누르면 LCD에 “P”가 깜박입니다. 이때 버튼에서 손을 떼고 밸브 스위치를 눌러 열림 상태로 만듭니다.\n④ 연결이 되면 안테나 아이콘이 나타나며 15~25초 기다리면 기기가 등록됩니다.</string>
+   <!--가스 감지기-->
+    <string name="gas_detect_device_name">가스 감지기</string>
+    <string name="gas_detect_guide_text">① WallPad 혹은 모바일앱에서 기기 추가 버튼을 누릅니다.\n② Pairing 버튼을 눌렀다 떼면 녹색 LED가 1~2번 깜박입니다.\n③ 5~10초 기다리면 기기가 등록됩니다.</string>
+    <!--마그네틱 센서 (도어센서)-->
+    <string name="magnetic_sensor_device_name">마그네틱 도어센서</string>
+    <string name="magnetic_sensor_guide_text">① WallPad 혹은 모바일앱에서 기기 추가 버튼을 누릅니다.\n② Pairing 버튼을 누르면 적색 LED가 30초간 깜박입니다.\n③ 기기등록이 완료되면 적색 LED가 꺼집니다. </string>
+    <!--스마트 플러그-->
+    <string name="smart_plug_device_name">스마트 플러그</string>
+    <string name="smart_plug_guide_text">① WallPad 혹은 모바일앱에서 기기 추가 버튼을 누릅니다.\n② Pairing 버튼을 누르면 LED가 깜박입니다.\n③ 5~10초 기다리면 기기가 등록됩니다.</string>
+    <!--누수 감지기-->
+    <string name="water_sensor_device_name">누수감지기</string>
+    <string name="water_sensor_guide_text">① WallPad 혹은 모바일앱에서 기기 추가 버튼을 누릅니다.\n② Pairing 버튼을 누르면 적색 LED가 30초간 깜박입니다.\n③ 기기등록이 완료되면 완료 되면 적색 LED가 꺼집니다</string>
+
+
+    <!--가번역 -->
+
+    <string name="no_support_text">글자, 숫자, ~!@#$%^<![CDATA[&]]>*()_+=?/";:,. 만 입력 가능합니다.</string>
+
+    <string name="popup_device_add_text">기기의 연결 버튼을 눌러주세요.\n통신 상태에 따라 최대 1분 정도 소요됩니다.\n연결이 원활하지 않을 시 다시 시도해주세요.</string>
+    <string name="device_added">기기가 추가되었습니다.</string>
+    <string name="try_agin">기기가 연결되지 않았습니다. 다시 시도해주세요.</string>
+    <string name="menu_add_string">Device Add</string>
+</resources>

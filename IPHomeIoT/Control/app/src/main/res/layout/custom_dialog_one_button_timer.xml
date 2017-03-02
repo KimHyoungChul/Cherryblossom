@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/multiple_max_popup_bg_width"
+    android:layout_height="@dimen/multiple_max_popup_bg_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/multiple_max_popup_title_marginLeftRight"
+        android:layout_marginRight="@dimen/multiple_max_popup_title_marginLeftRight"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/multiple_max_popup_title_text_paddingBottom"
+            android:paddingTop="@dimen/multiple_max_popup_title_text_marginTop"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/popup_title_text_color"
+            android:textSize="@dimen/multiple_max_popup_title_textSize"
+            android:text="text"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/multiple_max_popup_title_underline_height"
+            android:background="#ebecf0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/multiple_max_content_layout_height"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <FrameLayout
+            android:layout_width="@dimen/popup_component_timer_round_width"
+            android:layout_height="@dimen/popup_component_timer_round_hegit"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialog_timer_bg"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:text="00:00"
+                android:textColor="@drawable/popup_btn_ok_textcolor"
+                android:textSize="@dimen/popup_compoennt_timer_text_size"
+                android:layout_marginBottom="@dimen/popup_component_timer_round_tail_width_height"
+                />
+                <LinearLayout
+                    android:layout_width="@dimen/popup_component_timer_round_tail_width_height"
+                    android:layout_height="@dimen/popup_component_timer_round_tail_width_height"
+                    android:background="@drawable/bg_device_add_time_bottom_tail"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom|center_horizontal"
+                    >
+                </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/multiple_max_popup_component_bottom_padding"
+            >
+            <com.commax.control.Common.TwoLevelCircularProgressBar
+                android:id="@+id/circle_progressbar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="@dimen/multiple_max_popup_component_circleprogress_size"
+                android:layout_height="157dp"
+                android:layout_gravity="center"
+                android:progress="0"
+                app:tlcp_strokeWidth="10dp"
+                app:tlcp_progress="5"
+                app:tlcp_progress_color="@color/circle_progress"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_dc_device_img"
+                android:layout_gravity="center"
+                android:background="@null"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:paddingLeft="@dimen/multiple_max_content_marginLeftRight"
+            android:paddingRight="@dimen/multiple_max_content_marginLeftRight"
+            android:id="@+id/popup_component"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/popup_title_text_color"
+            android:textSize="@dimen/popup_component_text_size"
+            android:text="@string/popup_device_add_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/multiple_max_popup_title_underline_height"
+            android:background="#ebecf0"
+            android:visibility="gone"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/popup_btn_toppadding"
+            >
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/round_bt_height"
+                android:background="@drawable/popup_btn_cancle_shape"
+                android:text="@string/button_cancel_string"
+                android:textColor="@drawable/popup_btn_cancle_textcolor"
+                android:textSize="@dimen/popup_btn_textSize"
+                android:onClick="onClick"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

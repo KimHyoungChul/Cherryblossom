@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- disable text color when the power off-->
+    <color name="data_number_text_disable">#80312f62</color>
+    <color name="data_number_text">#312f62</color>
+
+    <!--Pop Up text color-->
+    <color name="popup_title_text_color">#818294</color>
+    <!--pop up cancle text color-->
+    <color name="dialog_button_normal_text_cancle">#534e7f</color>
+    <color name="dialog_button_pressed_text_cancle">#423e66</color>
+
+    <!--circle progress bar-->
+    <color name="circle_progress">#6a71cc</color>
+    <!--tab text color-->
+    <color name="tab_disable_textcolor">#33ffffff</color>
+</resources>

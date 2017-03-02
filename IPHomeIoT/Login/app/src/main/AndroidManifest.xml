@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.commax.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- A20  -->
+   <!-- <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_apps_main_app20_n"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/A20AppTheme">
+        <activity android:name="com.commax.login.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+                  android:windowSoftInputMode="adjustResize"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.commax.login.SubActivity" />
+
+        <receiver android:name=".Common.BroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.commax.login.Create_account_ACTION"></action>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.commax.login.cloud.Create_account_ACTION"></action>
+            </intent-filter>
+        </receiver>
+    </application>-->
+
+    <!--A64-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_apps_main_app20_n"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.commax.login.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustResize"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.commax.login.SubActivity" />
+
+        <receiver android:name=".Common.BroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.commax.login.Create_account_ACTION"></action>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.commax.login.cloud.Create_account_ACTION"></action>
+            </intent-filter>
+        </receiver>
+    </application>
+
+
+    <!--넥셀 -->
+        <!--<application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_apps_main_app20_n"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/Base.AlertDialog.AppCompat.Light"
+            >
+
+            <activity android:name="com.commax.login.MainActivity"
+                android:theme="@android:style/Theme.NoTitleBar"
+                >
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="com.commax.loginnexel.MainActivity"></action>
+                </intent-filter>
+
+            </activity>
+            <activity android:name="com.commax.login.SubActivity"
+                android:theme="@android:style/Theme.NoTitleBar"
+                />
+
+            <receiver android:name="com.commax.login.Common.BroadcastReceiver">
+                <intent-filter>
+                    <action android:name="com.commax.login.Create_account_ACTION"></action>
+                </intent-filter>
+                 <intent-filter>
+                <action android:name="com.commax.login.cloud.Create_account_ACTION"></action>
+            </intent-filter>
+            </receiver>
+        </application>-->
+</manifest>

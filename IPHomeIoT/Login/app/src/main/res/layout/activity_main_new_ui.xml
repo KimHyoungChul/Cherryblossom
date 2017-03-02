@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg_sign_up">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_bar_height"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/menu_bar_side_padding"
+        android:paddingRight="@dimen/menu_bar_side_padding"
+        android:paddingTop="@dimen/menu_bar_top_padding"
+        android:paddingBottom="@dimen/menu_bar_bottom_padding"
+        android:gravity="center">
+
+        <com.commax.login.Common.ImageBT
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/menu_back_btn"
+            android:layout_height="@dimen/menu_back_btn"
+            android:gravity="left"
+            android:src="@mipmap/btn_title_close_white_n"
+            android:background="@android:color/transparent"
+            android:visibility="visible"
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.login"
+            my:imageOpacity="0.6"
+            android:onClick="onClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/information_input"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/component_edit_size"
+            android:textColor="@color/text_color"
+         />
+    </RelativeLayout>
+  <!--  <View
+        android:layout_height="@dimen/component_text_underline"
+        android:layout_width="fill_parent"
+        android:background="@color/titlebar_under_line" />-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/all_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/component_layout_top_padding"
+            android:layout_gravity="center_horizontal"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textSize="@dimen/component_text_optional_guide_size"
+                    android:textColor="@color/text_optional" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/optional_guide_text"
+                    android:textSize="@dimen/component_text_optional_guide_size"
+                    android:textColor="@color/text_color"
+                    android:gravity="center" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="@dimen/component_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="@dimen/component_width"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/component_layout_bottom_padding">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/component_text_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="@dimen/component_line_right_padding">
+
+                        <TextView
+                            android:id="@+id/name_text"
+                            android:layout_width="@dimen/component_text_width"
+                            android:layout_height="@dimen/component_text_height"
+                            android:text="@string/name"
+                            android:textSize="@dimen/component_text_size"
+                            android:gravity="center"
+                            android:layout_gravity="bottom"
+                            android:textColor="@color/component_textview_color" />
+
+                        <View
+                            android:layout_height="@dimen/component_text_underline"
+                            android:layout_width="fill_parent"
+                            android:background="@color/component_textview_line_color" />
+                    </LinearLayout>
+
+                    <com.commax.login.Common.ClearEditText
+                        android:id="@+id/name_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="@dimen/component_edit_size"
+                        android:paddingLeft="@dimen/component_line_right_padding"
+                        android:inputType="textUri"
+                        android:textColor="@color/text_color"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/component_width"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/component_layout_bottom_padding">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/component_text_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="@dimen/component_line_right_padding">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/component_text_height"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/component_text_height"
+                                android:text="*"
+                                android:textSize="@dimen/component_text_optional"
+                                android:textColor="@color/text_optional" />
+
+                            <TextView
+                                android:id="@+id/id_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/component_text_height"
+                                android:text="@string/id"
+                                android:textSize="@dimen/component_text_size"
+                                android:textColor="@color/component_textview_color"
+                                android:gravity="center" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_height="@dimen/component_text_underline"
+                            android:layout_width="fill_parent"
+                            android:background="@color/component_textview_line_color" />
+                    </LinearLayout>
+
+                    <com.commax.login.Common.ClearEditText
+                        android:id="@+id/id_input_register"
+                        android:layout_width="@dimen/component_edit_width"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="textUri"
+                        android:imeOptions="actionDone"
+                        android:textSize="@dimen/component_edit_size"
+                        android:textColor="@color/text_color"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="@dimen/component_id_btn_layout_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/component_id_btn_botton_padding"
+                        android:paddingLeft="@dimen/component_id_btn_left_padding">
+
+                        <Button
+                            android:id="@+id/id_overlap_check"
+                            android:layout_width="@dimen/component_id_btn_width"
+                            android:layout_height="@dimen/component_id_btn_height"
+                            android:text="@string/id_overlap_check"
+                            android:onClick="onClick"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/middle_round_btn_seletor"
+                            android:textColor="@drawable/middle_button_text_color"
+                            android:textColorHighlight="@drawable/middle_button_text_color"
+                            android:textColorLink="@drawable/middle_button_text_color"
+                            android:textSize="@dimen/componene_id_btn_text_size" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/component_width"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/component_layout_bottom_padding">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/component_text_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="@dimen/component_line_right_padding">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/component_text_height"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/component_text_height"
+                                android:text="*"
+                                android:textSize="@dimen/component_text_optional"
+                                android:textColor="@color/text_optional" />
+
+                            <TextView
+                                android:id="@+id/nation1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/component_text_height"
+                                android:text="@string/nation_code"
+                                android:textSize="@dimen/component_text_size"
+                                android:textColor="@color/component_textview_color"
+                                android:gravity="center" />
+                        </LinearLayout>
+                        <View
+                            android:layout_height="@dimen/component_text_underline"
+                            android:layout_width="fill_parent"
+                            android:background="@color/component_textview_line_color" />
+                    </LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/nationcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/component_spinner_height"
+                        android:gravity="center"
+                        style="@style/custom_spinner"
+                        android:theme="@style/ThemeOverlay.AppCompat.Light"
+                        android:popupBackground="@drawable/spinner_component_background"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/component_width"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/component_layout_bottom_padding">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/component_text_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="@dimen/component_line_right_padding">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/component_text_height"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/component_text_height"
+                                android:text="*"
+                                android:textSize="@dimen/component_text_optional"
+                                android:textColor="@color/text_optional" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/component_text_height"
+                                android:text="@string/password"
+                                android:textSize="@dimen/component_text_size"
+                                android:textColor="@color/component_textview_color"
+                                android:gravity="center" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_height="@dimen/component_text_underline"
+                            android:layout_width="fill_parent"
+                            android:background="@color/component_textview_line_color"/>
+                    </LinearLayout>
+
+                    <com.commax.login.Common.ClearEditText
+                        android:id="@+id/password_input_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="textPassword"
+                        android:textSize="@dimen/component_edit_size"
+                        android:textColor="@color/text_color"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/component_width"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/component_layout_bottom_padding">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/component_text_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="@dimen/component_line_right_padding">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/component_text_height"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/component_text_height"
+                                android:text="*"
+                                android:textSize="@dimen/component_text_optional"
+                                android:textColor="@color/text_optional" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/component_text_height"
+                                android:text="@string/password_check"
+                                android:textSize="@dimen/component_text_size"
+                                android:singleLine="true"
+                                android:textColor="@color/component_textview_color"
+                                android:gravity="center" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_height="@dimen/component_text_underline"
+                            android:layout_width="fill_parent"
+                            android:background="@color/component_textview_line_color"/>
+
+                    </LinearLayout>
+
+                    <com.commax.login.Common.ClearEditText
+                        android:id="@+id/password_input_register_check"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="textPassword"
+                        android:textSize="@dimen/component_edit_size"
+                        android:textColor="@color/text_color"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/round_bt_layout_height"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/register_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/round_bt_height"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/register"
+                    android:background="@drawable/round_button_selector"
+                    android:textColor="@drawable/round_button_text_color"
+                    android:onClick="onClick"
+                    android:textSize="@dimen/round_under_btn_text_size"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/round_bt_left_right_padding"
+                    android:paddingLeft="@dimen/round_bt_left_right_padding"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:id="@+id/loading_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/loading"
+            android:textColor="@color/component_textview_color"
+            android:paddingTop="4dip"
+            android:singleLine="true" />
+    </LinearLayout>
+
+
+</LinearLayout>

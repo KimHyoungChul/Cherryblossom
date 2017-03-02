@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Điều khiển</string>
+
+    <!-- guard message string -->
+    <string name="message_dbread_string">Các thông tin thiết bị đang được đọc.</string>
+    <string name="message_dbupdate_string">Các thông tin thiết bị đang được canh tân.</string>
+    <!--<string name="message_docontrol_string">디바이스 제어 중입니다.</string>-->
+    <string name="message_adddevice_string">Thiết bị này đã được đăng ký.</string>
+    <string name="message_removedevice_string">Thiết bị này đã được gỡ bỏ.</string>
+    <string name="message_move_page">Nó sẽ di chuyển đến các trang đã chọn.</string>
+    <string name="message_move_more">Nó sẽ di chuyển đến trang kiểm soát chi tiết.</string>
+    <string name="message_info_title">thông báo</string>
+    <string name="message_check_network">Vui lòng kiểm tra kết nối netword</string>
+    <string name="message_check_ds">Thiết bị này đã không được kết nối để phục vụ chương trình ứng dụng. Vui lòng kiểm tra kết nối mạng của bạn.</string>
+    <string name="message_device_not_found">Không có thiết bị tìm kiếm.</string>
+    <string name="message_control_fail">Các thiết bị điều khiển đã thất bại Vui lòng kiểm tra tình trạng thiết bị của bạn </string>
+    <string name="message_favorite_title">Thêm vào mục yêu thích</string>
+    <string name="message_favorite_guide">Vui lòng nhấn vào biểu tượng sao hình trên cùng của thẻ điện thoại, và sau đó \nnó sẽ được thêm vào mục yêu thích.</string>
+    <string name="message_low_battery">Nó đòi hỏi phải trao đổi pin.</string>
+
+
+    <!-- menu titlebar string -->
+    <string name="main_titlebar_string">Điều khiển</string>
+    <string name="sub1_titlebar_string">Favorites</string>
+    <string name="sub2_titlebar_string">Ánh sáng</string>
+    <string name="sub3_titlebar_string">điều kiện trong nhà</string>
+    <string name="sub4_titlebar_string">Năng lượng</string>
+    <string name="sub5_titlebar_string">sự an toàn</string>
+
+    <!-- common button string -->
+    <string name="more_titlebar_string">Thêm các chi tiết</string>
+    <string name="button_ok_string">Đồng ý</string>
+    <string name="button_cancel_string">hủy bỏ</string>
+    <string name="button_on_string">ON</string>
+    <string name="button_off_string">OFF</string>
+    <string name="text_current_string">Hiện hành</string>
+    <string name="menu_add_string">Thêm thiết bị</string>
+    <string name="menu_edit_string">Sửa thiết bị</string>
+
+    <!-- card_groupswitch string -->
+    <string name="card_groupLight_titlebar_string">toàn bộ chiếu sáng</string>
+<!--    <string name="card_groupFCU_titlebar_string">전체냉난방</string>
+    <string name="card_groupBoiler_titlebar_string">전체난방</string>
+    <string name="card_groupAircon_titlebar_string">전체냉방</string>
+    <string name="card_groupFan_titlebar_string">전체환기</string>
+    <string name="card_groupCurtain_titlebar_string">전체커튼</string>
+    <string name="card_groupStandbyPwr_titlebar_string">전체대기전력</string>-->
+
+    <!-- card_lightswitch string -->
+    <string name="card_light_titlebar_string">Ánh sáng</string>
+    <string name="card_light_status_on">Trên</string>
+    <string name="card_light_status_off">Tắt</string>
+    <!--<string name="card_light_status_on_number">개 켜져있음</string>-->
+    <string name="card_light_status_off_number"> Tắt</string>
+
+    <!-- card_dimmerswitch string -->
+    <string name="card_dimmerswitch_titlebar_string">Ánh sáng</string>
+    <string name="card_dimmerswitch_level">rọi</string>
+
+    <!-- card_curtain string -->
+    <string name="card_curtain_titlebar_string">tấm màn</string>
+    <string name="card_curtain_control_open">Mở</string>
+    <string name="card_curtain_control_close">Gần</string>
+    <string name="card_curtain_control_stop">Dừng lại</string>
+    <string name="card_curtain_status_open">Mở</string>
+    <string name="card_curtain_status_close">Gần</string>
+<!--    <string name="card_curtain_status_open_number">개 열려있음</string>
+    <string name="card_curtain_status_stop">열기멈춤</string>-->
+
+    <!-- card_thermostat string -->
+    <string name="card_thermostat_awaymode_text">Đi ra khỏi chế độ</string><!--사용안함-->
+    <string name="card_thermostat_button_on">ON</string>
+    <string name="card_thermostat_button_away">Đi ra ngoài</string>
+<!--    <string name="card_thermostat_titlebar_string">전체냉난방</string>
+    <string name="card_thermostat_status_awayon">설정됨</string>-->
+    <string name="card_thermostat_status_awayoff">Tắt</string>
+    <string name="card_thermostat_status_awayon_number">kích hoạt</string>
+
+    <!-- card_aircon string -->
+    <!--<string name="card_aircon_titlebar_string">에어컨</string>-->
+    <string name="card_aircon_curtemperature">Hiện hành</string>
+
+    <!-- card_boiler string -->
+    <!--<string name="card_boiler_titlebar_string">보일러</string>-->
+    <string name="card_boiler_curtemperature">Hiện hành</string>
+
+    <!-- card_fcu string -->
+    <string name="card_fcu_titlebar_string">điều hòa không khí và sưởi ấm</string>
+    <string name="card_fcu_curtemperature">Hiện hành</string>
+    <string name="card_fcu_mdoe">Chế độ lái</string>
+    <string name="card_fcu_awayon">Đi ra khỏi chế độ</string>
+    <string name="card_fcu_mode_ventilation">thông gió</string>
+    <string name="card_fcu_speed">gió</string>
+    <string name="card_fcu_speed1">Cao</string>
+    <string name="card_fcu_speed2">Trung bình</string>
+    <string name="card_fcu_speed3">thấp</string>
+
+    <!-- card_fan string -->
+    <!--<string name="card_fan_titlebar_string">환풍기</string>-->
+    <string name="card_fan_mode">Chế độ lái</string>
+    <string name="card_fan_mode_auto">Tự động</string>
+    <string name="card_fan_mode_manual">Hướng dẫn sử dụng</string>
+
+    <!-- card_standbypower string -->
+    <string name="card_standbypower_titlebar_string">điện dự phòng</string>
+    <string name="card_standbypower_type">điện dự phòng hiện tại</string>
+    <string name="card_standbypower_mode">Chế độ</string>
+    <string name="card_standbypower_mode_auto">Tự động</string>
+    <string name="card_standbypower_mode_manual">Hướng dẫn sử dụng</string>
+    <string name="card_standbypower_cutoff">giá trị cut-off</string>
+
+    <!-- card_gaslock string -->
+    <string name="card_gaslock_titlebar_string">ngắt van gas</string>
+<!--    <string name="card_gaslock_btn_name">잠그기</string>
+    <string name="card_gaslock_status_lock">잠겨있음</string>-->
+    <string name="card_gaslock_status_unlock">Mở</string>
+    <!--<string name="card_gaslock_status_on_number">개 열려있음</string>-->
+    <string name="card_gaslock_not_use_open">Gas khóa chỉ có sẵn bằng cách điều khiển từ xa cho an toàn.</string>
+
+    <!-- card_doorlock string -->
+    <string name="card_doorlock_titlebar_string">Khóa cửa kỹ thuật số</string>
+    <string name="card_doorlock_btn_name">Mở cửa</string>
+    <!--<string name="card_doorlock_status_lock">잠겨있음</string>-->
+    <string name="card_doorlock_status_unlock">Mở</string>
+    <!--<string name="card_doorlock_status_on_number">개 열려있음</string>-->
+    <string name="card_doorlock_battery_string">Ắc quy</string>
+
+    <!-- card_magnetic string -->
+    <string name="card_magnetic_titlebar_string">cảm biến từ tính</string>
+    <!--<string name="card_magnetic_status_normal">이상없음</string>-->
+    <string name="card_magnetic_status_detected">phát hiện</string>
+    <string name="card_magnetic_battery_string">Ắc quy</string>
+    <string name="card_magnetic_battery_alarm">Nó đòi hỏi phải trao đổi pin.</string>
+
+    <!-- card_smartmeter string -->
+    <string name="card_smartmeter_titlebar_string">smartmetering</string>
+    <string name="card_smartmeter_electric_meter">Điện</string>
+    <string name="card_smartmeter_gas_meter">ga</string>
+    <string name="card_smartmeter_water_meter">nước</string>
+    <string name="card_smartmeter_warm_meter">nước nóng</string>
+    <string name="card_smartmeter_heat_meter">sưởi</string>
+
+    <!-- card multisensor string-->
+    <string name="card_multisensor_sensor_string">cảm biến</string>
+    <!--<string name="card_multisensor_temperature">온도</string>-->
+    <string name="card_multisensor_humidity">Độ ẩm</string>
+    <string name="card_multisensor_battery">Ắc quy</string>
+    <string name="card_multi_status_undetected">không bị phát hiện</string>
+
+    <!-- #More string -->
+    <!--edit-->
+    <string name="popup_device_add_text">Hãy chạm vào nút kết nối.\nTùy thuộc vào kết nối, nó có thể mất đến một phút.\nVui lòng thử lại khi nó có kết nối truyền thông xấu.</string>
+    <string name="device_added">Thiết bị này được thêm vào</string>
+    <string name="try_agin">Thiết bị này không được kết nối. Vui lòng thử lại.</string>
+
+    <!--가번역 -->
+    <string name="message_docontrol_string">Việc kiểm soát các thiết bị.</string>
+    <string name="card_groupFCU_titlebar_string">Full điều hòa không khí</string>
+    <string name="card_groupBoiler_titlebar_string">Full sưởi ấm</string>
+    <string name="card_groupAircon_titlebar_string">Full điều hòa không khí</string>
+    <string name="card_groupFan_titlebar_string">thông gió đầy đủ</string>
+    <string name="card_groupCurtain_titlebar_string">rèm cửa đầy đủ</string>
+    <string name="card_groupStandbyPwr_titlebar_string">Điện dự phòng đầy đủ</string>
+    <string name="card_light_status_on_number"> Steady</string>
+    <string name="card_curtain_status_open_number"> là mở</string>
+    <string name="card_curtain_status_stop">mở cửa</string>
+    <string name="card_thermostat_titlebar_string">Full điều hòa không khí</string>
+    <string name="card_thermostat_status_awayon">nó được thiết lập</string>
+    <string name="card_aircon_titlebar_string">điều hòa không khí</string>
+    <string name="card_boiler_titlebar_string">Nồi hơi</string>
+    <string name="card_fan_titlebar_string">thông gió</string>
+    <string name="card_gaslock_btn_name">khóa</string>
+    <string name="card_gaslock_status_lock">khóa lại</string>
+    <string name="card_gaslock_status_on_number"> là mở</string>
+    <string name="card_doorlock_status_lock">khóa lại</string>
+    <string name="card_doorlock_status_on_number"> là mở</string>
+    <string name="card_magnetic_status_normal">không hơn</string>
+    <string name="card_multisensor_temperature">nhiệt độ</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_header_title"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/nickname_sub_header_height"
+    android:paddingRight="@dimen/nickname_sub_header_right_left_padding"
+    android:paddingLeft="@dimen/nickname_sub_header_right_left_padding"
+    android:textSize="@dimen/nickname_sub_header_textsize"
+    android:text="header"
+    android:textColor="@color/sub_header_text_color"
+    android:background="@color/list_header"
+
+    >
+</TextView>

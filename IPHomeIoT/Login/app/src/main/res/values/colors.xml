@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--edit text underline & cursor color-->
+    <color name="colorAccent">#6a71cc</color>
+    <color name="edit_line_normal">#b5b6c4</color>
+    <!---->
+    <color name="component_text_color">#0c1a3d</color>
+    <color name="component_textview_color">#8c8ccd</color>
+    <color name="component_textview_guide_color">#800c1a3d</color>
+    <color name="component_btn_text_nomal">#6b73c9</color>
+    <color name="component_btn_text_focus">#5d64b0</color>
+    <!--test color-->
+    <color name="text_optional">#FF0000</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="button_pressed_text_color">#e5e5e5</color>
+
+    <color name="popup_title_text_color">#818294</color>
+    <color name="popup_edit_text_color">#0c1a3d</color>
+
+    <!--다이얼로그 cancle-->
+    <color name="dialog_button_normal_text_cancle">#534e7f</color>
+    <color name="dialog_button_pressed_text_cancle">#423e66</color>
+
+
+    <!-- New UI layout color 2017-02-17 -->
+    <color name="titlebar_under_line">#727179</color>
+    <color name="text_color">#ffffff</color>
+    <color name="component_textview_line_color">#62626b</color>
+    <color name="component_edittext_line_color">#6c77ff</color>
+    <color name="component_edittext_line_normal_color">#b5b6c4</color>
+
+</resources>

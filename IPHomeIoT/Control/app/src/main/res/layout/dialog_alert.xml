@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="@dimen/dialog_height"
+    android:orientation="vertical"
+    android:id="@+id/alert_dialog_layout"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/body_layout"
+        android:layout_marginLeft="@dimen/dialog_leftmargin"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/dialog_rightmargin">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dialog_title_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message_info_title"
+                android:textColor="#818294"
+                android:textSize="@dimen/dialog_title_text"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dialog_title_text_bottom"/>
+
+            <ImageView
+                android:layout_width="@dimen/dialog_title_width"
+                android:layout_height="@dimen/dialog_title_line_height"
+                android:background="#ebecf0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dialog_contents_top"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialog_contents_height"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/dialog_contents_text"
+                android:text="안녕하세요">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dialog_button_top"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/dialog_button_top">
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="@dimen/dialog_button_width"
+                android:layout_height="@dimen/dialog_button_height"
+                android:background="@drawable/popup_btn_ok_shape"
+                android:text="@string/button_ok_string"
+                android:textColor="@drawable/popup_btn_ok_textcolor"
+                android:textSize="@dimen/dialog_contents_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

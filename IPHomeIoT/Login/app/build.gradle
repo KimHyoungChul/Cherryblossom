@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    useLibrary 'org.apache.http.legacy'
+
+    //A20 , A64
+    defaultConfig {
+        applicationId "com.commax.login"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0.6"
+    }
+    //For Nexell
+  /*  defaultConfig {
+        applicationId "com.commax.login"
+        minSdkVersion 9
+        targetSdkVersion 10
+        versionCode 1
+        versionName "1.0.0"
+    }*/
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../Univ_key/key")
+            storePassword "cmxmantis00"
+            keyAlias "commax"
+            keyPassword "cmxmantis00"
+        }
+    }
+
+    //outputFile name
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            //output.outputFile = new File(
+            //        output.outputFile.parent,
+            //        output.outputFile.name.replace(".apk", "-${variant.versionName}.apk"))
+            def newName = "${variant.applicationId}-${variant.versionName}.apk"
+            output.outputFile = new File(output.outputFile.parent, newName)
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile files('libs/ksoap2-android-assembly-2.4-jar-with-dependencies.jar')
+    compile files('libs/pam_db_interface.jar')
+}
