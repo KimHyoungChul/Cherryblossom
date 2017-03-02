@@ -1,0 +1,92 @@
+11-03 15:16:39.239 19874-19874/com.commax.login D/Customdialog_password_change:  pwd : 123456@#$%***
+11-03 15:16:39.249 19874-20678/com.commax.login D/JSONHelper_sub:  server ip  : https://biz.ruvie.co.kr:4000/v1/user/me
+11-03 15:16:39.259 19874-20678/com.commax.login D/JSONHelper_sub: password changed
+11-03 15:16:39.259 19874-20678/com.commax.login D/JSONHelper_sub: token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInJlc291cmNlTm9cIjpcIk15SExzdXpLTW93M3FEcXR1SXdJMTF2cHV5dXFNdTF0RHBFOHdHSG5vcG4ydER0RkZFXCIsXCJtb2RlbFwiOlwiQ0FWLTcwR1grXCIsXCJ0eXBlXCI6XCJXUFwiLFwiY291bnRyeUNvZGVcIjpcIktPUlwiLFwicmVnaW9uQ29kZVwiOlwiQVNJQVwiLFwicmVnRGF0ZVwiOlwiMjAxNi0wOC0yOVQxMDo1MToxOVpcIixcInZlcnNpb25cIjp7XCJsYXRlc3RId1ZlclwiOm51bGwsXCJsYXRlc3RGd1ZlclwiOm51bGwsXCJlbmZvcmNlbWVudEZsYWdcIjpudWxsLFwidXJsXCI6bnVsbH19fDE0NzgxNTM3NzQyMjki.3dfB3lFyuYWbE-HkT4NAVU_zW99AUwJDdAkgunC56Mg
+11-03 15:16:39.269 19874-20678/com.commax.login D/ChangePassword: json : {"user":{"password":"123456%40%23%24%25***"}}
+11-03 15:16:39.479 19874-20678/com.commax.login D/ChangePassword: status  : 400
+11-03 15:16:39.479 19874-20678/com.commax.login D/ChangePassword: status : 400
+11-03 15:16:39.489 19874-20678/com.commax.login I/ChangePassword: DATA response = {"errorCode":"0131","errorMessage":"Type error 'username' or 'password'"}
+
+
+11-03 15:14:46.359 19874-19874/com.commax.login D/Customdialog_password_change:  pwd : 123456@#$%&
+11-03 15:14:46.359 19874-20727/com.commax.login D/JSONHelper_sub:  server ip  : https://biz.ruvie.co.kr:4000/v1/user/me
+11-03 15:14:46.359 19874-20727/com.commax.login D/JSONHelper_sub: password changed
+11-03 15:14:46.369 19874-20727/com.commax.login D/JSONHelper_sub: token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInJlc291cmNlTm9cIjpcIk15SExzdXpLTW93M3FEcXR1SXdJMTF2cHV5dXFNdTF0RHBFOHdHSG5vcG4ydER0RkZFXCIsXCJtb2RlbFwiOlwiQ0FWLTcwR1grXCIsXCJ0eXBlXCI6XCJXUFwiLFwiY291bnRyeUNvZGVcIjpcIktPUlwiLFwicmVnaW9uQ29kZVwiOlwiQVNJQVwiLFwicmVnRGF0ZVwiOlwiMjAxNi0wOC0yOVQxMDo1MToxOVpcIixcInZlcnNpb25cIjp7XCJsYXRlc3RId1ZlclwiOm51bGwsXCJsYXRlc3RGd1ZlclwiOm51bGwsXCJlbmZvcmNlbWVudEZsYWdcIjpudWxsLFwidXJsXCI6bnVsbH19fDE0NzgxNTM2NjE0NzAi.of5PRvaoAspCWbFW47HPKo2Art_u4K1TN3d8LZrgDnM
+11-03 15:14:46.379 19874-20727/com.commax.login D/ChangePassword: json : {"user":{"password":"123456%40%23%24%25%26"}}
+11-03 15:14:46.379 19874-20727/com.commax.login D/ChangePassword: urlConnection exe
+11-03 15:14:46.389 19874-20727/com.commax.login D/ChangePassword:  check 
+11-03 15:14:46.539 19874-20727/com.commax.login D/ChangePassword: status  : 400
+11-03 15:14:46.539 19874-20727/com.commax.login D/ChangePassword: status : 400
+11-03 15:14:46.539 19874-20727/com.commax.login I/ChangePassword: DATA response = {"errorCode":"0131","errorMessage":"Type error 'username' or 'password'"}
+
+
+11-03 15:20:57.149 19874-19874/com.commax.login D/Customdialog_password_change:  pwd : 123456@#$%&*
+11-03 15:20:57.149 19874-20727/com.commax.login D/JSONHelper_sub:  server ip  : https://biz.ruvie.co.kr:4000/v1/user/me
+11-03 15:20:57.149 19874-20727/com.commax.login D/JSONHelper_sub: password changed
+11-03 15:20:57.169 19874-20727/com.commax.login D/JSONHelper_sub: token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInJlc291cmNlTm9cIjpcIk15SExzdXpLTW93M3FEcXR1SXdJMTF2cHV5dXFNdTF0RHBFOHdHSG5vcG4ydER0RkZFXCIsXCJtb2RlbFwiOlwiQ0FWLTcwR1grXCIsXCJ0eXBlXCI6XCJXUFwiLFwiY291bnRyeUNvZGVcIjpcIktPUlwiLFwicmVnaW9uQ29kZVwiOlwiQVNJQVwiLFwicmVnRGF0ZVwiOlwiMjAxNi0wOC0yOVQxMDo1MToxOVpcIixcInZlcnNpb25cIjp7XCJsYXRlc3RId1ZlclwiOm51bGwsXCJsYXRlc3RGd1ZlclwiOm51bGwsXCJlbmZvcmNlbWVudEZsYWdcIjpudWxsLFwidXJsXCI6bnVsbH19fDE0NzgxNTQwMzY3MDYi.5yYrL_IEHkowFHgBfGNOo0F5AcnkQCjgnA8uasxCiKI
+11-03 15:20:57.199 19874-20727/com.commax.login D/ChangePassword: json : {"user":{"password":"123456%40%23%24%25%26*"}}
+11-03 15:20:57.199 19874-20727/com.commax.login D/ChangePassword: urlConnection exe
+11-03 15:20:57.199 19874-20727/com.commax.login D/ChangePassword:  check 
+11-03 15:20:57.439 19874-20727/com.commax.login D/ChangePassword: status  : 400
+11-03 15:20:57.439 19874-20727/com.commax.login D/ChangePassword: status : 400
+11-03 15:20:57.439 19874-20727/com.commax.login I/ChangePassword: DATA response = {"errorCode":"0131","errorMessage":"Type error 'username' or 'password'"}
+
+11-03 15:23:43.539 19874-19874/com.commax.login D/Customdialog_password_change:  pwd : @#$%&*
+11-03 15:23:43.539 19874-20657/com.commax.login D/JSONHelper_sub:  server ip  : https://biz.ruvie.co.kr:4000/v1/user/me
+11-03 15:23:43.549 19874-20657/com.commax.login D/JSONHelper_sub: password changed
+11-03 15:23:43.549 19874-20657/com.commax.login D/JSONHelper_sub: token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInJlc291cmNlTm9cIjpcIk15SExzdXpLTW93M3FEcXR1SXdJMTF2cHV5dXFNdTF0RHBFOHdHSG5vcG4ydER0RkZFXCIsXCJtb2RlbFwiOlwiQ0FWLTcwR1grXCIsXCJ0eXBlXCI6XCJXUFwiLFwiY291bnRyeUNvZGVcIjpcIktPUlwiLFwicmVnaW9uQ29kZVwiOlwiQVNJQVwiLFwicmVnRGF0ZVwiOlwiMjAxNi0wOC0yOVQxMDo1MToxOVpcIixcInZlcnNpb25cIjp7XCJsYXRlc3RId1ZlclwiOm51bGwsXCJsYXRlc3RGd1ZlclwiOm51bGwsXCJlbmZvcmNlbWVudEZsYWdcIjpudWxsLFwidXJsXCI6bnVsbH19fDE0NzgxNTQwMzY3MDYi.5yYrL_IEHkowFHgBfGNOo0F5AcnkQCjgnA8uasxCiKI
+11-03 15:23:43.559 19874-20657/com.commax.login D/ChangePassword: json : {"user":{"password":"%40%23%24%25%26*"}}
+11-03 15:23:43.559 19874-20657/com.commax.login D/ChangePassword: urlConnection exe
+11-03 15:23:43.559 19874-20657/com.commax.login D/ChangePassword:  check 
+11-03 15:23:44.929 19874-20657/com.commax.login D/ChangePassword: status  : 200
+
+
+11-03 15:24:34.689 19874-19874/com.commax.login D/Customdialog_password_change:  pwd : @#$%&*@#$%&*
+11-03 15:24:34.689 19874-20727/com.commax.login D/JSONHelper_sub:  server ip  : https://biz.ruvie.co.kr:4000/v1/user/me
+11-03 15:24:34.689 19874-20727/com.commax.login D/JSONHelper_sub: password changed
+11-03 15:24:34.699 19874-20727/com.commax.login D/JSONHelper_sub: token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInJlc291cmNlTm9cIjpcIk15SExzdXpLTW93M3FEcXR1SXdJMTF2cHV5dXFNdTF0RHBFOHdHSG5vcG4ydER0RkZFXCIsXCJtb2RlbFwiOlwiQ0FWLTcwR1grXCIsXCJ0eXBlXCI6XCJXUFwiLFwiY291bnRyeUNvZGVcIjpcIktPUlwiLFwicmVnaW9uQ29kZVwiOlwiQVNJQVwiLFwicmVnRGF0ZVwiOlwiMjAxNi0wOC0yOVQxMDo1MToxOVpcIixcInZlcnNpb25cIjp7XCJsYXRlc3RId1ZlclwiOm51bGwsXCJsYXRlc3RGd1ZlclwiOm51bGwsXCJlbmZvcmNlbWVudEZsYWdcIjpudWxsLFwidXJsXCI6bnVsbH19fDE0NzgxNTQwMzY3MDYi.5yYrL_IEHkowFHgBfGNOo0F5AcnkQCjgnA8uasxCiKI
+11-03 15:24:34.709 19874-20727/com.commax.login D/ChangePassword: json : {"user":{"password":"%40%23%24%25%26*%40%23%24%25%26*"}}
+11-03 15:24:34.709 19874-20727/com.commax.login D/ChangePassword: urlConnection exe
+11-03 15:24:34.709 19874-20727/com.commax.login D/ChangePassword:  check 
+11-03 15:24:35.009 19874-20727/com.commax.login D/ChangePassword: status  : 400
+11-03 15:24:35.009 19874-20727/com.commax.login D/ChangePassword: status : 400
+11-03 15:24:35.009 19874-20727/com.commax.login I/ChangePassword: DATA response = {"errorCode":"0131","errorMessage":"Type error 'username' or 'password'"}
+
+11-03 15:25:05.419 19874-19874/com.commax.login D/Customdialog_password_change:  pwd : qwerty@#$%&*
+11-03 15:25:05.419 19874-19953/com.commax.login D/JSONHelper_sub:  server ip  : https://biz.ruvie.co.kr:4000/v1/user/me
+11-03 15:25:05.419 19874-19953/com.commax.login D/JSONHelper_sub: password changed
+11-03 15:25:05.429 19874-19953/com.commax.login D/JSONHelper_sub: token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInJlc291cmNlTm9cIjpcIk15SExzdXpLTW93M3FEcXR1SXdJMTF2cHV5dXFNdTF0RHBFOHdHSG5vcG4ydER0RkZFXCIsXCJtb2RlbFwiOlwiQ0FWLTcwR1grXCIsXCJ0eXBlXCI6XCJXUFwiLFwiY291bnRyeUNvZGVcIjpcIktPUlwiLFwicmVnaW9uQ29kZVwiOlwiQVNJQVwiLFwicmVnRGF0ZVwiOlwiMjAxNi0wOC0yOVQxMDo1MToxOVpcIixcInZlcnNpb25cIjp7XCJsYXRlc3RId1ZlclwiOm51bGwsXCJsYXRlc3RGd1ZlclwiOm51bGwsXCJlbmZvcmNlbWVudEZsYWdcIjpudWxsLFwidXJsXCI6bnVsbH19fDE0NzgxNTQwMzY3MDYi.5yYrL_IEHkowFHgBfGNOo0F5AcnkQCjgnA8uasxCiKI
+11-03 15:25:05.429 19874-19953/com.commax.login D/ChangePassword: json : {"user":{"password":"qwerty%40%23%24%25%26*"}}
+11-03 15:25:05.429 19874-19953/com.commax.login D/ChangePassword: urlConnection exe
+11-03 15:25:05.429 19874-19953/com.commax.login D/ChangePassword:  check 
+11-03 15:25:05.599 19874-19953/com.commax.login D/ChangePassword: status  : 400
+11-03 15:25:05.599 19874-19953/com.commax.login D/ChangePassword: status : 400
+11-03 15:25:05.609 19874-19953/com.commax.login I/ChangePassword: DATA response = {"errorCode":"0131","errorMessage":"Type error 'username' or 'password'"}
+
+
+11-03 15:26:28.639 19874-19874/com.commax.login D/Customdialog_password_change:  pwd : 123456@#$%!?
+11-03 15:26:28.659 19874-20685/com.commax.login D/JSONHelper_sub:  server ip  : https://biz.ruvie.co.kr:4000/v1/user/me
+11-03 15:26:28.659 19874-20685/com.commax.login D/JSONHelper_sub: password changed
+11-03 15:26:28.659 19874-20685/com.commax.login D/JSONHelper_sub: token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInJlc291cmNlTm9cIjpcIk15SExzdXpLTW93M3FEcXR1SXdJMTF2cHV5dXFNdTF0RHBFOHdHSG5vcG4ydER0RkZFXCIsXCJtb2RlbFwiOlwiQ0FWLTcwR1grXCIsXCJ0eXBlXCI6XCJXUFwiLFwiY291bnRyeUNvZGVcIjpcIktPUlwiLFwicmVnaW9uQ29kZVwiOlwiQVNJQVwiLFwicmVnRGF0ZVwiOlwiMjAxNi0wOC0yOVQxMDo1MToxOVpcIixcInZlcnNpb25cIjp7XCJsYXRlc3RId1ZlclwiOm51bGwsXCJsYXRlc3RGd1ZlclwiOm51bGwsXCJlbmZvcmNlbWVudEZsYWdcIjpudWxsLFwidXJsXCI6bnVsbH19fDE0NzgxNTQwMzY3MDYi.5yYrL_IEHkowFHgBfGNOo0F5AcnkQCjgnA8uasxCiKI
+11-03 15:26:28.669 19874-20685/com.commax.login D/ChangePassword: json : {"user":{"password":"123456%40%23%24%25%21%3F"}}
+11-03 15:26:28.669 19874-20685/com.commax.login D/ChangePassword: urlConnection exe
+11-03 15:26:28.669 19874-20685/com.commax.login D/ChangePassword:  check 
+11-03 15:26:28.809 19874-20685/com.commax.login D/ChangePassword: status  : 400
+11-03 15:26:28.809 19874-20685/com.commax.login D/ChangePassword: status : 400
+11-03 15:26:28.819 19874-20685/com.commax.login I/ChangePassword: DATA response = {"errorCode":"0131","errorMessage":"Type error 'username' or 'password'"}
+
+
+
+11-03 15:27:06.489 19874-19874/com.commax.login D/Customdialog_password_change:  pwd : @#$%!?
+11-03 15:27:06.499 19874-20678/com.commax.login D/JSONHelper_sub:  server ip  : https://biz.ruvie.co.kr:4000/v1/user/me
+11-03 15:27:06.499 19874-20678/com.commax.login D/JSONHelper_sub: password changed
+11-03 15:27:06.499 19874-20678/com.commax.login D/JSONHelper_sub: token : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInJlc291cmNlTm9cIjpcIk15SExzdXpLTW93M3FEcXR1SXdJMTF2cHV5dXFNdTF0RHBFOHdHSG5vcG4ydER0RkZFXCIsXCJtb2RlbFwiOlwiQ0FWLTcwR1grXCIsXCJ0eXBlXCI6XCJXUFwiLFwiY291bnRyeUNvZGVcIjpcIktPUlwiLFwicmVnaW9uQ29kZVwiOlwiQVNJQVwiLFwicmVnRGF0ZVwiOlwiMjAxNi0wOC0yOVQxMDo1MToxOVpcIixcInZlcnNpb25cIjp7XCJsYXRlc3RId1ZlclwiOm51bGwsXCJsYXRlc3RGd1ZlclwiOm51bGwsXCJlbmZvcmNlbWVudEZsYWdcIjpudWxsLFwidXJsXCI6bnVsbH19fDE0NzgxNTQwMzY3MDYi.5yYrL_IEHkowFHgBfGNOo0F5AcnkQCjgnA8uasxCiKI
+11-03 15:27:06.509 19874-20678/com.commax.login D/ChangePassword: json : {"user":{"password":"%40%23%24%25%21%3F"}}
+11-03 15:27:06.509 19874-20678/com.commax.login D/ChangePassword: urlConnection exe
+11-03 15:27:06.519 19874-20678/com.commax.login D/ChangePassword:  check 
+11-03 15:27:06.629 19874-19877/com.commax.login D/dalvikvm: GC_CONCURRENT freed 1788K, 17% free 9540K/11472K, paused 6ms+19ms, total 128ms
+11-03 15:27:07.019 19874-20678/com.commax.login D/ChangePassword: status  : 200
+
+
+
+

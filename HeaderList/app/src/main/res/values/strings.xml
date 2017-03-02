@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CMX Manager</string>
+    <string name="title">Commax App Update Manager</string>
+    <string name="loading" >Loading...</string>
+    <string name="menu_download" >Download</string>
+    <string name="menu_all" >ALL</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="install">Install</string>
+    <string name="addinstall">More Install</string>
+    <string name="newest">Newest</string>
+    <string name="newestversion">This is newest version</string>
+    <string name="updatedialog_message">Update version exist \nDo you want to Update?</string>
+    <string name="cancle">Cancle</string>
+    <string name="networkdownloading">Downloading from Newtwork</string>
+    <string name="noti_title">Commax Update Apps exist</string>
+    <string name="notification_message1">Update apps exist</string>
+    <string name="ok">OK</string>
+    <string name="ip_setting_title">IP setting</string>
+</resources>
