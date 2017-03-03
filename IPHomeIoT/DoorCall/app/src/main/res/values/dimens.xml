@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="topmenu_height">70dp</dimen>
+    <dimen name="bottommenu_height">120dp</dimen>
+    <dimen name="subdisplay_width">240dp</dimen>
+    <dimen name="subdisplay_height">180dp</dimen>
+    <dimen name="calling_animate_width">202dp</dimen>
+</resources>

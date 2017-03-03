@@ -1,0 +1,12 @@
+<resources>
+<string name="app_name">基本主题</string>
+<string name="month">月</string>
+<string name="day">天</string>
+<string name="am">上午</string>
+<string name="pm">下午</string>
+<string name="add_mode">添加模式</string>
+
+    <!--Boot-->
+    <string name="boot_title">Welcome!</string>
+    <string name="boot_sub_title">Preparing for the operating system.\nPlease wait a moment.</string>
+</resources>

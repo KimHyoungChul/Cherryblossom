@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_header_layout_height">84.6dp</dimen>
+    <dimen name="title_tab_layout_height">74.6dp</dimen>
+    <dimen name="title_back_btn_marginLeft">32dp</dimen>
+    <dimen name="title_edit_btn_marginRight">32dp</dimen>
+    <dimen name="title_appname_text_size">32dp</dimen>
+    <dimen name="title_btn_size">48dp</dimen>
+    <dimen name="title_underline_height">1dp</dimen>    
+    
+    <dimen name="title_tab_btn_width">100dp</dimen>
+    <dimen name="title_tab_btn_height">50.6dp</dimen>
+    <dimen name="title_tab_btn_textsize">24dp</dimen>
+    <dimen name="title_tab_btn_marginLeft">26.6dp</dimen>
+    <dimen name="title_tab_btn_paddingLeftRight">32dp</dimen>
+    
+    <dimen name="toast_symbol_marginTop">144dp</dimen>
+    <dimen name="toast_symbol_marginBottom">14.6dp</dimen>
+    <dimen name="toast_text_height">74.6dp</dimen>
+    <dimen name="toast_header_marginBottom">158.6dp</dimen>
+    <dimen name="toast_header_textsize">62.6dp</dimen>
+    <dimen name="toast_bottom_textsize">38.6dp</dimen>
+    
+    <dimen name="common_toast_width">778.6dp</dimen>
+    <dimen name="common_toast_height">81dp</dimen>
+    <dimen name="common_toast_textSize">26.6sp</dimen>
+    
+    <dimen name="goout_header_marginBottom">20dp</dimen>
+    <dimen name="goout_timer_height">145dp</dimen>
+    <dimen name="goout_timer_textsize">150.6dp</dimen>
+    <dimen name="goout_timer_marginBottom">-20dp</dimen>
+    <dimen name="goout_btn_close_height">144dp</dimen>
+    <dimen name="goout_btn_close_img_width">48dp</dimen>
+    <dimen name="goout_btn_close_img_height">48dp</dimen>
+    <dimen name="goout_btn_close_layout_marginLeft">32dp</dimen>
+    <dimen name="goout_btn_close_layout_marginTop">18.6dp</dimen>
+    
+        <!--12.5 inch-->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--spinner-->
+    <dimen name="component_spinner_text_size">28dp</dimen>
+    <dimen name="component_spinner_height">55dp</dimen>
+    <dimen name="component_layout_bottom_padding">13dp</dimen>
+    <dimen name="component_line_right_padding">13dp</dimen>
+    <dimen name="spinner_dropdown_height">72dp</dimen>
+    <dimen name="spinner_test_left_padding">13dp</dimen>
+    <dimen name="spinner_test_bottom_padding">1dp</dimen>
+    <dimen name="spinner_check_image_right_padding">17dp</dimen>
+    <dimen name="spinner_down_image_right_padding">13dp</dimen>
+    <dimen name="spinner_line_top_padding">49dp</dimen>
+    <dimen name="spinner_dropdown_top_padding">28dp</dimen>
+    
+    <!--about circle button-->
+    <dimen name="circle_size">128dp</dimen>
+    <dimen name="round_under_btn_radius">34.6dip</dimen>
+
+    <!--custom toast-->
+    <dimen name="toast_text_size">20dp</dimen>
+</resources>

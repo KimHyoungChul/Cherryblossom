@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="@dimen/missed_item_width"
+    android:layout_height="match_parent" tools:context=".MainActivity" android:gravity="center">
+
+    <FrameLayout
+        android:id="@+id/lay_img"
+        android:layout_width="@dimen/missed_item_img"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/missed_item_img_top"
+        android:layout_marginLeft="@dimen/missed_item_img_left"
+        android:layout_marginRight="@dimen/missed_item_img_right">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@mipmap/ic_rp_visitor"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/missed_item_badge_top"
+            android:layout_marginLeft="@dimen/missed_item_badge_left"
+            android:id="@+id/lay_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/badge"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:paddingRight="@dimen/missed_item_badge_padding"
+            android:paddingLeft="@dimen/missed_item_badge_padding">
+
+            <TextView
+                android:id="@+id/tv_badge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="N"
+                android:textColor="#fff"
+                android:textSize="@dimen/missed_item_badge_text"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="@dimen/missed_item_type_width"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="@string/visitor"
+        android:textSize="@dimen/missed_item_type_text"
+        android:textColor="#fff"
+        android:layout_below="@+id/lay_img"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/missed_item_type_top"/>
+
+</RelativeLayout>

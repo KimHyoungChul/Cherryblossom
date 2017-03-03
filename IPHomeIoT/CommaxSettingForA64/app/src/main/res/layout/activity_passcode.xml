@@ -1,0 +1,353 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d9000000"
+    android:orientation="vertical" >
+
+    <!-- 타이틀 닫기 버튼 -->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/titleLayout"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/pw_btn_close_layout_height" >-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_close"-->
+            <!--android:layout_width="@dimen/pw_btn_close_img_width"-->
+            <!--android:layout_height="@dimen/pw_btn_close_img_height"-->
+            <!--android:layout_marginLeft="@dimen/pw_btn_close_layout_marginLeft"-->
+            <!--android:layout_marginTop="@dimen/pw_btn_close_layout_marginTop"-->
+            <!--android:background="@drawable/btn_title_close_white_n" />-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/pw_btn_close_layout_height" >
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/pw_btn_close_img_width"
+            android:layout_height="@dimen/pw_btn_close_img_height"
+            android:layout_marginLeft="@dimen/pw_btn_close_layout_marginLeft"
+            android:layout_marginTop="@dimen/pw_btn_close_layout_marginTop"
+            android:background="@drawable/btn_title_close_white_n" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/pw_keypad_layout_paddingLeft"
+            android:paddingRight="@dimen/pw_keypad_layout_paddingRight" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pw_keypad_img_layout_marginBottom"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/imageButton1"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+
+                <TextView
+                    android:id="@+id/imageButton2"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:layout_marginLeft="@dimen/pw_keypad_img_layout_marginLeft"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+
+                <TextView
+                    android:id="@+id/imageButton3"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:layout_marginLeft="@dimen/pw_keypad_img_layout_marginLeft"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pw_keypad_img_layout_marginBottom"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/imageButton4"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+
+                <TextView
+                    android:id="@+id/imageButton5"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:layout_marginLeft="@dimen/pw_keypad_img_layout_marginLeft"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+
+                <TextView
+                    android:id="@+id/imageButton6"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:layout_marginLeft="@dimen/pw_keypad_img_layout_marginLeft"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pw_keypad_img_layout_marginBottom"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/imageButton7"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+
+                <TextView
+                    android:id="@+id/imageButton8"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:layout_marginLeft="@dimen/pw_keypad_img_layout_marginLeft"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+
+                <TextView
+                    android:id="@+id/imageButton9"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:layout_marginLeft="@dimen/pw_keypad_img_layout_marginLeft"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="9"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/pw_keypad_img_layout_marginBottom"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/imageButton"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:background="@drawable/btn_default_normal" />
+
+                <TextView
+                    android:id="@+id/imageButton0"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:layout_marginLeft="@dimen/pw_keypad_img_layout_marginLeft"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+
+                <TextView
+                    android:id="@+id/imageButtonDelete"
+                    android:layout_width="@dimen/pw_keypad_img_width"
+                    android:layout_height="@dimen/pw_keypad_img_height"
+                    android:layout_marginLeft="@dimen/pw_keypad_img_layout_marginLeft"
+                    android:background="@drawable/pw_kepad_shape"
+                    android:gravity="center"
+                    android:text="◀"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_keypad_textSize" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="448dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+            
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pw_input_layout_layout_marginTop"
+                    android:gravity="center"
+                    android:text="@string/passcode_input"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/pw_input_string_textSize" />
+            
+            <LinearLayout
+                android:id="@+id/digitLayout"
+                    android:layout_width="@dimen/pw_input_password_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/pw_input_password_layout_marginTop"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+                
+                <FrameLayout
+                    android:id="@+id/digitInput1"
+                    android:layout_width="@dimen/pw_input_password_text_width"
+                    android:layout_height="@dimen/pw_input_password_text_height"
+                    android:layout_marginRight="@dimen/pw_input_password_text_marginLeft"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/underLine1"
+                        android:layout_width="@dimen/pw_input_password_text_width"
+                        android:layout_height="@dimen/pw_input_password_underline_height"
+                        android:layout_marginTop="@dimen/pw_input_password_text_marginTop"
+                        android:background="#dfe8ee" />
+                    <ImageView
+                        android:id="@+id/dot1"
+                        android:layout_width="@dimen/pw_input_password_dot_size"
+                        android:layout_height="@dimen/pw_input_password_dot_size"
+                        android:layout_gravity="center" />
+                    <TextView
+                        android:id="@+id/digitText1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/pw_input_password_textSize" />
+                </FrameLayout>
+                
+                <FrameLayout
+                    android:id="@+id/digitInput2"
+                    android:layout_width="@dimen/pw_input_password_text_width"
+                    android:layout_height="@dimen/pw_input_password_text_height"
+                    android:layout_marginRight="@dimen/pw_input_password_text_marginLeft"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/underLine2"
+                        android:layout_width="@dimen/pw_input_password_text_width"
+                        android:layout_height="@dimen/pw_input_password_underline_height"
+                        android:layout_marginTop="@dimen/pw_input_password_text_marginTop"
+                        android:background="#dfe8ee" />
+                    <ImageView
+                        android:id="@+id/dot2"
+                        android:layout_width="@dimen/pw_input_password_dot_size"
+                        android:layout_height="@dimen/pw_input_password_dot_size"
+                        android:layout_gravity="center" />
+                    <TextView
+                        android:id="@+id/digitText2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/pw_input_password_textSize" />
+                </FrameLayout>
+                
+                <FrameLayout
+                    android:id="@+id/digitInput3"
+                    android:layout_width="@dimen/pw_input_password_text_width"
+                    android:layout_height="@dimen/pw_input_password_text_height"
+                    android:layout_marginRight="@dimen/pw_input_password_text_marginLeft"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/underLine3"
+                        android:layout_width="@dimen/pw_input_password_text_width"
+                        android:layout_height="@dimen/pw_input_password_underline_height"
+                        android:layout_marginTop="@dimen/pw_input_password_text_marginTop"
+                        android:background="#dfe8ee" />
+                    <ImageView
+                        android:id="@+id/dot3"
+                        android:layout_width="@dimen/pw_input_password_dot_size"
+                        android:layout_height="@dimen/pw_input_password_dot_size"
+                        android:layout_gravity="center" />
+                    <TextView
+                        android:id="@+id/digitText3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/pw_input_password_textSize" />
+                </FrameLayout>
+                
+                <FrameLayout
+                    android:id="@+id/digitInput4"
+                    android:layout_width="@dimen/pw_input_password_text_width"
+                    android:layout_height="@dimen/pw_input_password_text_height"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/underLine4"
+                        android:layout_width="@dimen/pw_input_password_text_width"
+                        android:layout_height="@dimen/pw_input_password_underline_height"
+                        android:layout_marginTop="@dimen/pw_input_password_text_marginTop"
+                        android:background="#dfe8ee" />
+                    <ImageView
+                        android:id="@+id/dot4"
+                        android:layout_width="@dimen/pw_input_password_dot_size"
+                        android:layout_height="@dimen/pw_input_password_dot_size"
+                        android:layout_gravity="center" />
+                    <TextView
+                        android:id="@+id/digitText4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/pw_input_password_textSize" />
+                </FrameLayout>
+            </LinearLayout>
+            
+            <!--  
+            <Button
+                	android:id="@+id/btn_ok"
+                    android:layout_width="@dimen/pw_btn_ok_width"
+                    android:layout_height="@dimen/pw_btn_ok_height"
+                    android:layout_marginTop="@dimen/pw_btn_ok_layout_marginTop"
+                    android:gravity="center"
+                    android:background="@drawable/pw_btn_ok_shape"
+                    android:text="@string/passcode_btn_ok"
+                    android:textColor="@drawable/pw_btn_ok_textcolor"
+                    android:textSize="@dimen/pw_btn_ok_textSize" />
+                    
+                    -->
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

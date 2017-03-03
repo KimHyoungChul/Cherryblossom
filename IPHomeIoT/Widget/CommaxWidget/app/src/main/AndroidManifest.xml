@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.commax.commaxwidget">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.commax.commaxwidget.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".WidgetProviderSmartPlug"
+            android:label="SmartPlug">
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_smart_plug" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.commax.commaxwidget.ACTION_UPDATE_SMART_PLUG_WIDGET" />
+                <action android:name="com.commax.commaxwidget.ACTION_UPDATE_NO_SMART_PLUG_WIDGET" />
+
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".WidgetProviderDetectSensor"
+            android:label="DetectSensor">
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_detect_sensor" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.commax.commaxwidget.ACTION_UPDATE_DETECT_SENSOR_WIDGET" />
+                <action android:name="com.commax.commaxwidget.ACTION_UPDATE_NO_DETECT_SENSOR_WIDGET" />
+            </intent-filter>
+        </receiver>
+
+       <!-- <receiver
+            android:name=".WidgetProviderWeather_1_1"
+            android:label="Weather">
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_weather_1_1" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.commax.commaxwidget.ACTION_UPDATE_WEATHER_WIDGET" />
+            </intent-filter>
+        </receiver>
+-->
+        <receiver
+            android:name=".WidgetProviderWeather_2_1"
+            android:label="Weather">
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_weather_2_1" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.commax.commaxwidget.ACTION_UPDATE_WEATHER_WIDGET" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".WidgetProviderWeather_2_2"
+            android:label="Weather">
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_weather_2_2" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.commax.commaxwidget.ACTION_UPDATE_WEATHER_WIDGET" />
+                <action android:name="com.commax.commaxwidget.ACTION_REFRESH_WIDGET" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.commax.commaxwidget.receiver.CustomBroadCastReceiver">
+            <intent-filter>
+                <action android:name="com.commax.commaxwidget.ACTION_LOTATION_WIDGET" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.commax.commaxwidget.MainService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" />
+    </application>
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trang chủ (Set điều khiển)</string>
+
+    <string name="need_sync">Không biết tình trạng thiết bị\nVui lòng kiểm tra tình trạng thiết bị của bạn</string>
+    <string name="working">Đang làm việc..</string>
+    <string name="control_fail">Các thiết bị điều khiển đã thất bại\nVui lòng kiểm tra tình trạng thiết bị của bạn</string>
+    <string name="space_name_short">Tên không gian trống rỗng. Vui lòng nhập</string>
+    <string name="light">Ánh sáng</string>
+
+    <!--Room-->
+    <string name="living_room">Phòng khách</string>
+    <string name="main_room">Phong chinh</string>
+    <string name="bed_room">Phòng ngủ</string>
+    <string name="kitchen">Nhà bếp</string>
+
+    <!--Apps-->
+    <string name="home">Trang chủ</string>
+    <string name="home_coach">xe</string>
+    <string name="mode">Mode</string>
+    <string name="control">Control</string>
+    <string name="apps">Apps</string>
+    <string name="add_mode">Bối cảnh</string>
+    <string name="menu">Thực đơn</string>
+
+    <string name="info_notice">Thông báo</string>
+
+    <!--Others-->
+    <string name="more_details">Thêm các chi tiết</string>
+    <string name="edit_mode">Chế độ chỉnh sửa</string>
+    <string name="ok">được</string>
+    <string name="alert_ok">Xác nhận</string>
+    <string name="cancel">hủy bỏ</string>
+    <string name="alert">thông báo</string>
+
+    <!--Add space-->
+    <string name="add_space">Thêm một không gian</string>
+    <string name="edit_space">Không gian editing</string>
+    <string name="write_space_name">Viết tên của không gian mới</string>
+    <string name="background">ảnh nền</string>
+    <string name="space_name"> Tên Space</string>
+    <string name="check_place_alert">Bạn có chắc chắn bạn muốn xóa nền không gian? Những thiết bị thuộc về các biểu tượng khu vực nền, biểu tượng ứng dụng, widget cũng sẽ bị xóa cùng một lúc.</string>
+
+    <!--Edit space-->
+    <string name="edit_space_list">Không gian của Sửa Danh sách</string>
+    <string name="more_space">Không gian phải có ít nhất một người nữa</string>
+
+    <!--Control 자동,수동 번역 체크 필요-->
+    <string name="auto">Tự động</string>
+    <string name="manual">Hướng dẫn sử dụng</string>
+    <string name="unknown">không xác định</string>
+    <string name="home_reporter">Reporter</string>
+    <string name="register_doorphone_camera_at_setting">Đăng ký camera cửa trong thiết lập COMMAX.</string>
+
+    <!--Tips-->
+    <string name="tips_add_space">Thêm một không gian</string>
+    <string name="tips_add_space_detail">Thêm không gian mới cho vị trí đặt thiết bị</string>
+    <string name="tips_indicator">hiển thị thông tin không gian</string>
+    <string name="tips_indicator_detail">Di chuyển không gian khác kéo nền từ bên này sang bên kia</string>
+    <string name="tips_edit_space">Không gian Editing</string>
+    <string name="tips_edit_space_detail">Đặt thiết bị điều khiển trong không gian và thay đổi tên không gian</string>
+    <string name="tips_quick_menu">menu chức năng</string>
+    <string name="tips_quick_menu_detail">Chức năng chính của Wallpad</string>
+    <string name="tips_scene">kiểm soát cảnh</string>
+    <string name="tips_scene_detail">kiểm soát hàng loạt theo ngữ cảnh về chế độ an Away và</string>
+    <string name="tips_detail_menu1">hướng dẫn hữu ích cho cuộc sống gia đình</string>
+    <string name="tips_detail_menu2">Tất cả các ứng dụng của Wallpad</string>
+    <string name="tips_detail_menu3">Tất cả các mục thông tin giá trị căn nhà của tôi</string>
+    <string name="tips_detail_menu4">thông tin thiết bị kết nối và kiểm soát</string>
+    <string name="tips_info">tóm tắt\nthông tin giá trị</string>
+    <string name="tips_info_detail">Tóm tắt của tất cả các thông tin giá trị kết nối với tường pad</string>
+    <string name="do_not_show_anymore">Không có chi cho ngày hôm nay</string>
+    <string name="tips_device_placement">↓ Kéo và thả biểu tượng của thiết bị của bạn vào khu vực hình chữ nhật.</string>
+
+    <!--Boot-->
+    <string name="boot_title">Chào mừng bạn!</string>
+    <string name="boot_sub_title">Chuẩn bị cho hệ điều hành.\nXin vui lòng chờ. </string>
+
+    <!--Gas Lock-->
+    <string name="only_locking">Gas khóa chỉ có sẵn bằng cách điều khiển từ xa cho an toàn.</string>
+
+    <string name="no_support_text">Bạn có thể nhập các chữ cái, số ,~!@#$%^<![CDATA[&]]>*()_+=?/";:,.</string>
+</resources>

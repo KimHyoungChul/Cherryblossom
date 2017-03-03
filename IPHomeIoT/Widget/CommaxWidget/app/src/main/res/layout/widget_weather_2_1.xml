@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/condition_image_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="1dp"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/bg_img_2_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.commax.commaxwidget.MainActivity">
+
+        <RelativeLayout
+            android:id="@+id/layer_middle_first"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/region_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_toStartOf="@+id/weather_setting_btn"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:maxLines="1"
+                android:text="Location"
+                android:textColor="@color/white"
+                android:textSize="22dp" />
+
+            <ImageView
+                android:id="@+id/weather_setting_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@+id/weather_update_btn"
+                android:src="@drawable/btn_widget_setting" />
+
+            <ImageView
+                android:id="@+id/weather_update_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/btn_widget_refresh" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layer_middle_second"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/layer_middle_first"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/condition_image_2_1"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="13dp"
+                android:src="@drawable/ic_widget_sunny" />
+
+            <TextView
+                android:id="@+id/temp_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_toStartOf="@+id/temp_scale"
+                android:text="-20"
+                android:textColor="#ffffff"
+                android:textSize="47dp" />
+
+            <TextView
+                android:id="@+id/temp_scale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/temp_text"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:text="℃"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

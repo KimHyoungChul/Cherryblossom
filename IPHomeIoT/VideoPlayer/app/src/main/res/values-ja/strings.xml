@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">訪問者の確認</string>
+    <string name="title">訪問者の確認</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="today">今日</string>
+    <string name="last7">前 7週間</string>
+    <string name="oldDays">古い項目</string>
+    <string name="cancel">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="selectItem">項目選択</string>
+    <string name="allSelect">すべて選択</string>
+    <string name="selected">選択済み</string>
+    <string name="deletePopTitle">削除</string>
+    <string name="deletePopContents">確認をタッチすると選択された項目は削除され、復元できなくなります。</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">キャンセル</string>
+    <string name="absence">absence</string>
+</resources>

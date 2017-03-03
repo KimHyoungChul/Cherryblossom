@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">우리집 리포터</string>
+
+    <!--EMS-->
+    <string name="elec">전기</string>
+    <string name="gas">가스</string>
+    <string name="water">수도</string>
+    <string name="hot_water">온수</string>
+    <string name="heating">난방</string>
+
+    <!--Weather-->
+    <string name="weather0">태풍</string>
+    <string name="weather1">열대폭풍</string>
+    <string name="weather2">허리케인</string>
+    <string name="weather3">강한 뇌우</string>
+    <string name="weather4">뇌우</string>
+    <string name="weather5">진눈깨비</string>
+    <string name="weather6">진눈깨비</string>
+    <string name="weather7">진눈깨비</string>
+    <string name="weather8">진눈깨비</string>
+    <string name="weather9">이슬비</string>
+    <string name="weather10">진눈깨비</string>
+    <string name="weather11">소나기</string>
+    <string name="weather12">소나기</string>
+    <string name="weather13">소낙눈</string>
+    <string name="weather14">눈조금</string>
+    <string name="weather15">폭설</string>
+    <string name="weather16">눈</string>
+    <string name="weather17">우박</string>
+    <string name="weather18">진눈깨비</string>
+    <string name="weather19">먼지</string>
+    <string name="weather20">안개</string>
+    <string name="weather21">안개</string>
+    <string name="weather22">연무</string>
+    <string name="weather23">강풍</string>
+    <string name="weather24">바람</string>
+    <string name="weather25">추위</string>
+    <string name="weather26">구름</string>
+    <string name="weather27">대체로 흐림</string>
+    <string name="weather28">대체로 흐림</string>
+    <string name="weather29">구름조금</string>
+    <string name="weather30">구름조금</string>
+    <string name="weather31">맑음</string>
+    <string name="weather32">맑음</string>
+    <string name="weather33">맑음</string>
+    <string name="weather34">맑음</string>
+    <string name="weather35">진눈깨비</string>
+    <string name="weather36">폭염</string>
+    <string name="weather37">국지성 뇌우</string>
+    <string name="weather38">산발성 뇌우</string>
+    <string name="weather39">산발성 뇌우</string>
+    <string name="weather40">산발성 소나기</string>
+    <string name="weather41">폭설</string>
+    <string name="weather42">눈</string>
+    <string name="weather43">대설</string>
+    <string name="weather44">구름조금</string>
+    <string name="weather45">뇌우</string>
+    <string name="weather46">눈보라</string>
+    <string name="weather47">국지성 뇌우 소나기</string>
+
+    <!--Air-->
+    <string name="o3">오존농도</string>
+    <string name="dust">미세먼지농도</string>
+    <string name="total_air">통합대기지수</string>
+    <string name="uv">자외선지수</string>
+
+    <string name="good">좋음</string>
+    <string name="normal">보통</string>
+    <string name="bad">나쁨</string>
+    <string name="so_bad">매우나쁨</string>
+    <string name="danger">위험</string>
+    <string name="high">높음</string>
+    <string name="low">낮음</string>
+    <string name="extremely_high">매우높음</string>
+
+    <string name="reference">출처</string>
+    <string name="korea_environment">한국환경공단</string>
+    <string name="korea_air">기상청</string>
+
+    <string name="calls">통화</string>
+    <string name="visitor">방문자</string>
+    <string name="delivery">택배</string>
+
+    <!--Pop-up and Header-->
+    <string name="ok">완료</string>
+    <string name="search">검색</string>
+    <string name="cancel">취소</string>
+    <string name="alert">알림</string>
+
+    <!--Toast-->
+    <string name="retry">정확한 지역명을 다시 입력해주세요.</string>
+    <string name="connection_err">네트워크 연결을 확인해주세요.</string>
+    <string name="save_success">지역정보가 저장되었습니다.</string>
+    <string name="input_city">지역명을 입력해주세요.</string>
+    <string name="searching">검색중..</string>
+    <string name="select_location">지역을 선택해주세요.</string>
+    <string name="save_fail">지역정보 저장에 실패하였습니다. 다시 시도해주세요.</string>
+    <string name="no_result">검색 결과가 없습니다.</string>
+
+    <!--Setting Info-->
+    <string name="info_weather">오늘 날씨 정보</string>
+    <string name="info_air">오늘 대기오염 상태 정보</string>
+    <string name="info_health_life">오늘 생활지수 상태 정보</string>
+    <string name="info_today_ems">오늘 전기 사용량 정보</string>
+    <string name="info_month_ems">이달 에너지 사용량 정보</string>
+    <string name="info_missed">부재중 정보</string>
+    <string name="info_parking">주차정보</string>
+    <string name="info_notice">공지사항</string>
+    <string name="info_indoor_temp">실내온도 정보</string>
+    <string name="info_indoor_humid">실내습도 정보</string>
+    <string name="info_support">지원</string>
+    <string name="info_smart_plug">스마트 플러그 정보</string>
+
+    <string name="category_weather">날씨 정보</string>
+    <string name="category_car">교통정보</string>
+    <string name="category_home">우리집 환경 정보</string>
+
+    <string name="category_outdoor">실외환경</string>
+    <string name="category_energy">에너지</string>
+    <string name="category_indoor">실내환경</string>
+    <string name="category_public">단지서비스</string>
+    <string name="category_missed">부재중 기록</string>
+
+    <!--Today Energy-->
+    <string name="today_save">어제대비 절약</string>
+    <string name="today_same">어제대비 적정</string>
+    <string name="today_over">어제대비 초과</string>
+
+    <!--Month Energy-->
+    <string name="save">절약</string>
+    <string name="same">적정</string>
+    <string name="over">초과</string>
+
+    <!--Setting Location-->
+    <string name="setting_location_info">지역 정보 설정</string>
+    <string name="input_location">지역명을 입력해주세요.</string>
+    <string name="search_result">검색 결과</string>
+
+    <!--Others-->
+    <string name="our_home_reporter">우리집 리포터</string>
+    <string name="notice_list">공지사항 목록</string>
+    <string name="do_not_show_again">다시보지않기</string>
+    <string name="parking_area"> 주차구역</string>
+    <string name="edit_our_home_reporter">우리집 리포터 편집</string>
+    <string name="show_more">더보기</string>
+    <string name="notice_weather">본 정보는 실시간 관측된 자료이며, 현지사정이나 수신상태에 의해 차이가 발생할 수 있습니다.</string>
+
+    <!--Support-->
+    <string name="user_manuals">사용자 메뉴얼</string>
+
+    <string name="no_support_text">영문, 숫자, ~!@#$%^<![CDATA[&]]>*()_+=?/";:,. 만 입력 가능합니다.</string>
+
+    <!--Device info-->
+    <string name="indoor_temp">실내온도</string>
+    <string name="indoor_humid">실내습도</string>
+    <string name="show_details">자세히 보기</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Видеонаблюдение</string>
+    <string name="favorites">Избранное</string>
+    <string name="preview">Видеонаблюдение Просмотр</string>
+    <string name="registration">Регистрация</string>
+    <string name="comment_preview">If the video is not displayed, check the status of CCTV or contact your administrator.</string>
+</resources>

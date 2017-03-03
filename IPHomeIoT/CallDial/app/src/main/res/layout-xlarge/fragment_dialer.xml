@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="#EBF2F7" >
+        <ImageView
+            android:id="@+id/imgAddContactButton"
+            android:layout_width="@dimen/fragment_dialer_call_place_split_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#EBF2F7"
+            android:src="@mipmap/btn_apps_keypad_add_n" >
+        </ImageView>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#EBF2F7" >
+		    <TextView
+		        android:id="@+id/txtInputDialNumber"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:background="#EBF2F7"
+		        android:gravity="center"
+		        android:maxLines="1"
+		        android:textColor="#0C1A3D"
+		        android:textSize="@dimen/fragment_dialer_input_dial_number_font_size" >
+		    </TextView>
+	    </FrameLayout>
+        <FrameLayout
+            android:layout_width="@dimen/fragment_dialer_direct_call_split_width"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="#EBF2F7" >
+	        <ImageView
+	            android:id="@+id/imgDeleteButton"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:background="#EBF2F7"
+	            android:src="@mipmap/btn_apps_keypad_cancel_n" >
+        	</ImageView>
+        </FrameLayout>
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        <LinearLayout
+            android:layout_width="@dimen/fragment_dialer_direct_call_split_width"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_dialer_call_place_gap_height" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/txtCallPstnButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_dialer_call_place_height"
+                android:layout_marginBottom="@dimen/fragment_dialer_call_place_margin_bottom"
+                android:layout_marginLeft="@dimen/fragment_dialer_call_place_margin_left"
+                android:layout_marginRight="@dimen/fragment_dialer_call_place_margin_right"
+                android:layout_marginTop="@dimen/fragment_dialer_call_place_margin_top"
+                android:background="@drawable/call_disable_btn_shape"
+                android:gravity="center"
+                android:paddingLeft="@dimen/fragment_dialer_call_place_padding"
+                android:paddingRight="@dimen/fragment_dialer_call_place_padding"
+                android:text="@string/STR_PSTN"
+                android:textSize="@dimen/fragment_dialer_call_place_font_size" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtCallGenerButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_dialer_call_place_height"
+                android:layout_marginBottom="@dimen/fragment_dialer_call_place_margin_bottom"
+                android:layout_marginLeft="@dimen/fragment_dialer_call_place_margin_left"
+                android:layout_marginRight="@dimen/fragment_dialer_call_place_margin_right"
+                android:layout_marginTop="@dimen/fragment_dialer_call_place_margin_top"
+                android:background="@drawable/call_disable_btn_shape"
+                android:gravity="center"
+                android:paddingLeft="@dimen/fragment_dialer_call_place_padding"
+                android:paddingRight="@dimen/fragment_dialer_call_place_padding"
+                android:text="@string/STR_NEIGHBOR"
+                android:textSize="@dimen/fragment_dialer_call_place_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtCallInsideButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_dialer_call_place_height"
+                android:layout_marginLeft="@dimen/fragment_dialer_call_place_margin_left"
+                android:layout_marginRight="@dimen/fragment_dialer_call_place_margin_right"
+                android:layout_marginTop="@dimen/fragment_dialer_call_place_margin_top"
+                android:background="@drawable/call_disable_btn_shape"
+                android:gravity="center"
+                android:paddingLeft="@dimen/fragment_dialer_call_place_padding"
+                android:paddingRight="@dimen/fragment_dialer_call_place_padding"
+                android:text="@string/STR_EXTENSION"
+                android:textSize="@dimen/fragment_dialer_call_place_font_size" >
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/fragment_dialer_input_number_split_width"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/txtDialOneButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtDialFourButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtDialSevenButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtDialStarButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/fragment_dialer_input_number_split_width"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/txtDialTwoButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtDialFiveButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtDialEightButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtDialZeroButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/fragment_dialer_input_number_split_width"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/txtDialThreeButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtDialSixButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtDialNineButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+            <TextView
+                android:id="@+id/txtDialPoundButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="#"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_call_number_font_size" >
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/fragment_dialer_input_number_call_split_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+            <ImageView
+                android:id="@+id/imgDialCallButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:src="@mipmap/btn_apps_keypad_call_n" >
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/fragment_dialer_direct_call_split_width"
+            android:layout_height="match_parent"
+            android:background="#ECECF1"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/btnDoorCallButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fragment_dialer_direct_call_margin_bottom"
+                android:background="#ECECF1"
+                android:drawableTop="@mipmap/btn_apps_keypad_my_n"
+                android:text="@string/STR_DOOR"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_direct_call_font_size" >
+            </Button>
+            <Button
+                android:id="@+id/btnGuardCallButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fragment_dialer_direct_call_margin_bottom"
+                android:layout_marginTop="@dimen/fragment_dialer_direct_call_margin_top"
+                android:background="#ECECF1"
+                android:drawableTop="@mipmap/btn_apps_keypad_security_n"
+                android:text="@string/STR_GUARD"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_direct_call_font_size" >
+            </Button>
+            <Button
+                android:id="@+id/btnOfficeCallButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fragment_dialer_direct_call_margin_top"
+                android:background="#ECECF1"
+                android:drawableTop="@mipmap/btn_apps_keypad_office_n"
+                android:text="@string/STR_OFFICE"
+                android:textColor="#6A71CC"
+                android:textSize="@dimen/fragment_dialer_direct_call_font_size" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <!-- 타이틀 바 -->
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_header_layout_height"
+            android:background="#ffffff" >
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/title_back_btn_marginLeft"
+                android:background="@drawable/btn_title_back_n" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/str_sensor_use_check"
+                android:textColor="#44496b"
+                android:textSize="@dimen/title_appname_text_size" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_underline_height"
+            android:background="#b5b6c3" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- 전체 선택 -->
+
+        <LinearLayout
+            android:id="@+id/menu_Setall"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/omov_menubar_layout_height"
+            android:layout_weight="1"
+            android:background="@drawable/omov_menubar_selector"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_Setall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/omov_menubar_text_marginLeft"
+                android:gravity="center"
+                android:text="@string/str_setAll"
+                android:textColor="#0ec8ac"
+                android:textSize="@dimen/omov_menubar_txtSize" />
+        </LinearLayout>
+
+        <!-- 전체 해제 -->
+
+        <LinearLayout
+            android:id="@+id/menu_Desetall"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/omov_menubar_layout_height"
+            android:layout_weight="1"
+            android:background="@drawable/omov_menubar_selector"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_Desetall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/omov_menubar_text_marginLeft"
+                android:gravity="center"
+                android:text="@string/str_desetAll"
+                android:textColor="#0ec8ac"
+                android:textSize="@dimen/omov_menubar_txtSize" />
+        </LinearLayout>
+
+        <!-- 설정 -->
+
+        <LinearLayout
+            android:id="@+id/menu_Set"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/omov_menubar_layout_height"
+            android:layout_weight="1"
+            android:background="@drawable/omov_menubar_selector"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_Set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/omov_menubar_text_marginLeft"
+                android:gravity="center"
+                android:text="@string/str_set"
+                android:textColor="#0ec8ac"
+                android:textSize="@dimen/omov_menubar_txtSize" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#ffffff" >
+
+        <FrameLayout
+            android:id="@+id/frameLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/sucv_framework_paddingLeft"
+            android:paddingRight="@dimen/sucv_framework_paddingRight" >
+
+            <CheckBox
+                android:id="@+id/ckb_sector1"
+                android:layout_width="@dimen/sucv_check_width"
+                android:layout_height="@dimen/sucv_check_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/popup_set_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/tv_sector1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="@dimen/sucv_framework_txt_paddingRight"
+                android:text="@string/str_sector1"
+                android:textSize="@dimen/sucv_framework_txt_Size" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/sucv_framework_paddingLeft"
+            android:paddingRight="@dimen/sucv_framework_paddingRight" >
+
+            <CheckBox
+                android:id="@+id/ckb_sector2"
+                android:layout_width="@dimen/sucv_check_width"
+                android:layout_height="@dimen/sucv_check_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/popup_set_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/tv_sector2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="@dimen/sucv_framework_txt_paddingRight"
+                android:text="@string/str_sector2"
+                android:textSize="@dimen/sucv_framework_txt_Size" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/sucv_framework_paddingLeft"
+            android:paddingRight="@dimen/sucv_framework_paddingRight" >
+
+            <CheckBox
+                android:id="@+id/ckb_sector3"
+                android:layout_width="@dimen/sucv_check_width"
+                android:layout_height="@dimen/sucv_check_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/popup_set_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/tv_sector3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="@dimen/sucv_framework_txt_paddingRight"
+                android:text="@string/str_sector3"
+                android:textSize="@dimen/sucv_framework_txt_Size" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/sucv_framework_paddingLeft"
+            android:paddingRight="@dimen/sucv_framework_paddingRight" >
+
+            <CheckBox
+                android:id="@+id/ckb_sector4"
+                android:layout_width="@dimen/sucv_check_width"
+                android:layout_height="@dimen/sucv_check_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/popup_set_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/tv_sector4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="@dimen/sucv_framework_txt_paddingRight"
+                android:text="@string/str_sector4"
+                android:textSize="@dimen/sucv_framework_txt_Size" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/sucv_framework_paddingLeft"
+            android:paddingRight="@dimen/sucv_framework_paddingRight" >
+
+            <CheckBox
+                android:id="@+id/ckb_sector5"
+                android:layout_width="@dimen/sucv_check_width"
+                android:layout_height="@dimen/sucv_check_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/popup_set_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/tv_sector5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="@dimen/sucv_framework_txt_paddingRight"
+                android:text="@string/str_sector5"
+                android:textSize="@dimen/sucv_framework_txt_Size" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

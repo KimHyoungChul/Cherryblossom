@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="@dimen/energy_item_width"
+    android:layout_height="match_parent" tools:context=".MainActivity" android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/energy_type_top"
+        android:layout_marginLeft="@dimen/energy_type_left"
+        android:background="@mipmap/ic_rp_eletric_high"/>
+
+    <LinearLayout
+        android:id="@+id/lay_value"
+        android:layout_marginTop="@dimen/energy_value_top"
+        android:layout_marginLeft="@dimen/energy_type_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/iv_type">
+
+        <TextView
+            android:id="@+id/tv_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="340"
+            android:textSize="@dimen/energy_value_text"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/tv_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="kWh"
+            android:textSize="@dimen/energy_unit_text"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:layout_below="@+id/lay_value"
+        android:text=""
+        android:textSize="@dimen/energy_status_text"
+        android:textColor="#fff"
+        android:layout_marginLeft="@dimen/energy_type_left"/>
+
+</RelativeLayout>

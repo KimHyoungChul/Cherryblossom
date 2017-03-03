@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Visitor</string>
+    <string name="title">Visitor</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="today">Today</string>
+    <string name="last7">The Last 7 days</string>
+    <string name="oldDays">The Old Days</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="selectItem">Select Item</string>
+    <string name="allSelect">Select All</string>
+    <string name="selected">Selected</string>
+    <string name="deletePopTitle">Delete</string>
+    <string name="deletePopContents">When you click OK, the selected item will be deleted and can not be recovered.</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="absence">missed</string>
+</resources>

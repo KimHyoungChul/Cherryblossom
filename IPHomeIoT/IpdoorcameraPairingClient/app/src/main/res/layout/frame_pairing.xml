@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+     >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="도어폰 페어링 클라이언트"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="#000000"
+            />
+
+
+    <Button
+        android:id="@+id/sendDeviceInfo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="sendDeviceInfo"
+        android:layout_below="@id/appTitle"
+        android:text="페어링"
+        android:textSize="20sp"
+
+        />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container">
+
+    <LinearLayout
+        android:id="@+id/list_back"
+        android:gravity="center" android:layout_marginLeft="@dimen/list_device_margin"
+        android:background="@drawable/list_device_bg_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="@dimen/list_device_left_margin"
+            android:id="@+id/iv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_sethome2_light"/>
+
+        <TextView
+            android:layout_marginLeft="@dimen/list_device_middle_margin"
+            android:layout_marginRight="@dimen/list_device_right_margin"
+            android:id="@+id/tv_name"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:maxWidth="@dimen/list_device_max_width"
+            android:layout_height="@dimen/list_device_height"
+            android:text=""
+            android:textSize="@dimen/list_device_name_text"
+            android:focusable="true"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:focusableInTouchMode="true"
+            android:includeFontPadding="false"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

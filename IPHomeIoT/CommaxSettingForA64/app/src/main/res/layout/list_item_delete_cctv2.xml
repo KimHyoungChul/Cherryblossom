@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.commax.settings.util.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkableLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_items_big_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/item_checkbox_icon_width"
+        android:layout_height="@dimen/item_checkbox_icon_height"
+        android:layout_marginLeft="@dimen/item_checkbox_icon_left_margin"
+        android:duplicateParentState="true"
+        android:src="@drawable/checkbox_selector"
+        android:id="@+id/deviceCheckbox" />
+
+    <com.commax.settings.font.NotoRegularTextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0c1a3d"
+        android:textSize="@dimen/item_value_text_size"
+        android:layout_marginLeft="@dimen/list_items_value_left_margin" />
+
+</com.commax.settings.util.CheckableLinearLayout>

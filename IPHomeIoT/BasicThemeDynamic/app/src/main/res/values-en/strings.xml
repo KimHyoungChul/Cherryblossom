@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Basic Theme</string>
+    <string name="month"></string>
+    <string name="day"></string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <!--Add Mode에서 Scene으로 변경 -->
+    <!--<string name="add_mode">Add Mode</string>-->
+    <string name="add_mode">Scene</string>
+
+    <!--Boot-->
+    <string name="boot_title">Welcome!</string>
+    <string name="boot_sub_title">Preparing for the operating system.\nPlease wait a moment.</string>
+</resources>

@@ -1,0 +1,55 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="line_width">1dp</dimen>
+
+    <!--Date Time-->
+    <dimen name="time_container_width">120dp</dimen>
+    <dimen name="time_container_right">30dp</dimen>
+    <dimen name="time_container_top">5dp</dimen>
+    <dimen name="time_min_text">44dp</dimen>
+    <dimen name="date_container_width">200dp</dimen>
+    <dimen name="day_right">10dp</dimen>
+    <dimen name="day_top">20dp</dimen>
+    <dimen name="day_text">16dp</dimen>
+    <dimen name="day">18dp</dimen>
+    <dimen name="month_right">5dp</dimen>
+    <dimen name="month_text_top">20dp</dimen>
+    <dimen name="month_top">18dp</dimen>
+    <dimen name="english_time_right">10dp</dimen>
+    <dimen name="english_time_top">20dp</dimen>
+
+    <!--Apps-->
+    <!--<dimen name="app_title_height">28dp</dimen>-->
+    <dimen name="app_title_width">120dp</dimen>
+    <dimen name="app_title_text">16dp</dimen>
+    <dimen name="app_title_text_top">15dp</dimen>
+
+    <!--Menu-->
+    <dimen name="menu_text">12dp</dimen>
+    <dimen name="menu_mode_width">116dp</dimen>
+    <dimen name="menu_mode_text_width">78dp</dimen>
+    <dimen name="menu_mode_text_height">108dp</dimen>
+    <dimen name="menu_mode_text">20dp</dimen>
+    <dimen name="menu_margin">8dp</dimen>
+
+    <!--NetErr-->
+    <dimen name="net_err_height">42dp</dimen>
+    <dimen name="info_width">136dp</dimen>
+    <dimen name="net_err_left">14dp</dimen>
+    <dimen name="net_err_top">12dp</dimen>
+    <dimen name="net_err_margin">10dp</dimen>
+
+    <!--Boot-->
+    <dimen name="boot_title">38dp</dimen>
+    <dimen name="boot_title_top">60dp</dimen>
+    <dimen name="boot_sub_title">18dp</dimen>
+    <dimen name="boot_sub_title_margin">16dp</dimen>
+    <dimen name="boot_sub_title_bottom">52dp</dimen>
+    <dimen name="boot_progress_width">500dp</dimen>
+    <dimen name="boot_progress_height">6dp</dimen>
+    <dimen name="boot_progress_margin">30dp</dimen>
+
+</resources>

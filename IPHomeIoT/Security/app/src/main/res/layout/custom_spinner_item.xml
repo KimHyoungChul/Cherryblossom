@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="@dimen/omov_spinner_frame_width"
+    android:layout_height="@dimen/spinner_dropdown_height"
+    android:gravity="center_vertical|left"
+    android:paddingLeft="@dimen/spinner_test_left_padding"
+    android:paddingRight="@dimen/spinner_test_left_padding"
+    android:paddingBottom="@dimen/spinner_test_bottom_padding"
+    android:textSize="@dimen/component_spinner_text_size"
+    android:textColor="@drawable/spinner_custom_text_checked"
+    android:background="@drawable/spinner_custom_component_selector" />

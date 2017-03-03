@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="sucv_btn_paddingTop">10dip</dimen>
+  <dimen name="sucv_btn_txt_Size">18sp</dimen>  
+  <dimen name="sucv_framework_paddingLeft">30dip</dimen> 
+  <dimen name="sucv_framework_paddingRight">30dip</dimen>
+  <dimen name="sucv_framework_txt_paddingRight">55dip</dimen>
+  <dimen name="sucv_framework_txt_Size">16sp</dimen>
+</resources>

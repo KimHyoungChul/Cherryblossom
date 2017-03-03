@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ホーム(セットコントロール)</string>
+
+    <string name="need_sync">デバイス状態を確認できません。\nデバイス状態をご確認ください。</string>
+    <string name="working">作動中..</string>
+    <string name="control_fail">デバイス制御に失敗しました。\nデバイス状態をご確認ください。</string>
+    <string name="space_name_short">新たに作成するスペースの名前をつけてください。</string>
+    <string name="light">照明</string>
+
+    <!--Room-->
+    <string name="living_room">リビングルーム</string>
+    <string name="main_room">閨室</string>
+    <string name="bed_room">寝室</string>
+    <string name="kitchen">キッチン</string>
+
+    <!--Apps-->
+    <string name="home">ホーム</string>
+    <string name="home_coach">コーチ</string>
+    <string name="mode">モード</string>
+    <string name="control">制御</string>
+    <string name="apps">アップス</string>
+    <string name="add_mode">シーン</string>
+    <string name="menu">メニュー</string>
+
+    <string name="info_notice">お知らせ</string>
+
+    <!--Others-->
+    <string name="more_details">その他</string>
+    <string name="edit_mode">編集モード</string>
+    <string name="ok">完了</string>
+    <string name="alert_ok">確認</string>
+    <string name="cancel">キャンセル</string>
+    <string name="alert">お知らせ</string>
+
+    <!--Add space-->
+    <string name="add_space">空間の追加</string>
+    <string name="edit_space">空間の編集</string>
+    <string name="write_space_name">空間名の入力</string>
+    <string name="background">背景の写真</string>
+    <string name="space_name"> 空間名</string>
+    <string name="check_place_alert">スペースの背景を削除しますか？スペースの背景に属している機器のアイコン、アプリのアイコン、ウィジェットも同時に削除されます。</string>
+
+    <!--Edit space-->
+    <string name="edit_space_list">空間リストの編集</string>
+    <string name="more_space">空間は最低1つ以上です。</string>
+
+    <!--Control-->
+    <string name="auto">自動</string>
+    <string name="manual">手動</string>
+    <string name="unknown">不明</string>
+    <string name="home_reporter">レポーター</string>
+    <string name="register_doorphone_camera_at_setting">Commax設定でドアカバーを登録する</string>
+
+    <string name="do_not_show_anymore">非表示にする</string>
+
+    <!--Boot-->
+    <string name="boot_title">Welcome!</string>
+    <string name="boot_sub_title">Preparing for the operating system.\nPlease wait a moment.</string>
+
+    <!--Gas Lock-->
+    <string name="only_locking">Only available lock setting feature for safety</string>
+
+    <string name="no_support_text">英数字、~!@#$%^<![CDATA[&]]>*()_+=?/";:,. は入力可能です。</string>
+
+</resources>

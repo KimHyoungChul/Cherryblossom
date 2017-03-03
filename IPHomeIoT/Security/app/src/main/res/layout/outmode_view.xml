@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout_power"
+            android:layout_width="@dimen/control_layout_width"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/control_layout_paddingLeftRight"
+            android:paddingRight="@dimen/control_layout_paddingLeftRight" >
+
+            <FrameLayout
+                android:id="@+id/btn_control_bg"
+                android:layout_width="@dimen/control_symbol_bg_Size"
+                android:layout_height="@dimen/control_symbol_bg_Size"
+                android:layout_marginBottom="@dimen/control_symbol_bg_marginBottom"
+                android:layout_marginTop="@dimen/control_symbol_bg_marginTop"
+                android:background="@drawable/bg_mode_icon_s" >
+
+                <ImageView
+                    android:id="@+id/btn_control_icon"
+                    android:layout_width="@dimen/control_symbol_img_Size"
+                    android:layout_height="@dimen/control_symbol_img_Size"
+                    android:layout_gravity="center"
+                    android:background="@drawable/mode_outdoor_icon_s" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/text_setCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/str_header_outmode"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/control_textSize" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/control_btn_marginTop"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_option"
+                    android:layout_width="@dimen/control_btn_width"
+                    android:layout_height="@dimen/control_btn_height"
+                    android:layout_marginRight="@dimen/control_btn_marginRight"
+                    android:background="@drawable/popup_btn_cancel_shape"
+                    android:text="@string/str_edit"
+                    android:textColor="@drawable/popup_btn_cancel_textcolor"
+                    android:textSize="@dimen/omv_release_btn_textSize" />
+
+                <Button
+                    android:id="@+id/btn_set"
+                    android:layout_width="@dimen/control_btn_width"
+                    android:layout_height="@dimen/control_btn_height"
+                    android:background="@drawable/popup_btn_ok_shape"
+                    android:text="@string/str_prevset"
+                    android:textColor="@drawable/popup_btn_ok_textcolor"
+                    android:textSize="@dimen/omv_set_btn_textSize" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/dividerLine"
+            android:layout_width="2dp"
+            android:layout_height="900dp"
+            android:background="#b5b6c4" />
+
+        <ScrollView
+            android:id="@+id/layout_sector"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/sector_layout_marginLeft"
+            android:layout_marginRight="@dimen/sector_layout_marginRight" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@+id/delaytime"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_delaytime"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_outmode_delaytime"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_delaytime"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/text_delaytime_min"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/returntime"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_returntime"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_outmode_returntime"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_returntime"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <!--
+                    <TextView
+                        android:id="@+id/text_returntime_min"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:layout_marginRight="170dp"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" /> -->
+
+                    <TextView
+                        android:id="@+id/text_returntime_sec"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/sector_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_sector_1"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_sector1"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/onoff_sector_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/sector_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_sector_2"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_sector2"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/onoff_sector_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/sector_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_sector_3"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_sector3"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/onoff_sector_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/sector_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_sector_4"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_sector4"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/onoff_sector_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/sector_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_sector_5"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_sector5"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/onoff_sector_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameCapture"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_capture"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_capture"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_capture"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/onoff_capture"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameTurnoffLight"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_TurnoffLight"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_all_light_close"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_TurnoffLight"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/onoff_TurnoffLight"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameCloseGas"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_CloseGas"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_gasclose"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_CloseGas"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/onoff_CloseGas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frameBypassCall"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/sector_layout_height"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/text_BypassCall"
+                        android:layout_width="@dimen/omv_list_layout_width"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_bypass_call"
+                        android:textColor="#34325c"
+                        android:textSize="@dimen/sector_textSize" />
+
+                    <ImageView
+                        android:id="@+id/underline_BypassCall"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sector_underline_height"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/textview_sector_shape" />
+
+                    <TextView
+                        android:id="@+id/onoff_BypassCall"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/sector_text_paddingLeftRight"
+                        android:text="@string/str_prevstate_off"
+                        android:textColor="#6b73c9"
+                        android:textSize="@dimen/sector_onoff_Size" />
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

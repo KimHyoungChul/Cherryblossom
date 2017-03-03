@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">우리집 코치</string>
+
+    <!-- Main Title -->
+    <string name="title_elec">전기 절약법을 알아보세요.</string>
+    <string name="title_gas">가스 절약법을 알아보세요.</string>
+    <string name="title_water">수도 절약법을 알아보세요.</string>
+    <string name="title_hotwater">온수 절약법을 알아보세요.</string>
+    <string name="title_heater">난방 절약법을 알아보세요.</string>
+    <string name="title_indoor">쾌적한 실내환경 조성법을 알아보세요.</string>
+
+    <!-- Sub Title -->
+    <string name="sub_title">해당 정보는 일반적인 팁입니다. 개인별 주거 환경에 따라 다소 차이가 있을 수 있습니다.</string>
+
+    <!-- TipButton & ViewTitle -->
+    <string name="title_tips_elec">전기 절약 Tip 알아보기</string>
+    <string name="title_tips_gas">가스 절약 Tip 알아보기</string>
+    <string name="title_tips_water">수도 절약 Tip 알아보기</string>
+    <string name="title_tips_hotwater">온수 절약 Tip 알아보기</string>
+    <string name="title_tips_heater">난방 절약 Tip 알아보기</string>
+    <string name="title_tips_indoor">실내환경 조성 Tip 알아보기</string>
+    <string name="title_indoor2">실내환경 조성 Tip 알아보기</string>
+
+    <!-- Document -->
+    <string name="elec_cleaner_subtitle">청소할 때 전기 절약하기</string>
+    <string name="elec_cleaner_docu">청소기 필터를 자주 비워주세요! \n청소기 필터가 가득 차 있으면 효율이 떨어져 같은 면적을 청소해도 전기가 많이 사용됩니다.</string>
+    <string name="elec_washer_subtitle">세탁할 때 전기 절약하기</string>
+    <string name="elec_washer_docu">찬물로 세탁해서 전기를 아껴보세요! \n세탁기를 쓸 때 사용되는 에너지의 90%는 물을 데우는데 사용됩니다. 세척력의 차이는 크지 않답니다.</string>
+    <string name="elec_tv_subtitle">전기먹는 하마, TV 셋톱박스</string>
+    <string name="elec_tv_docu">TV를 보지 않을 땐 TV 셋톱박스 플러그를 뽑아두세요! \nTV 셋톱박스는 대기전력이 큰 기기 중 하나로, TV를 보지 않아도 시간당 무려 약 17kWh를 소모합니다.</string>
+    <string name="elec_aircon_subtitle">에어컨을 사용하실 땐</string>
+    <string name="elec_aircon_docu">선풍기를 함께 사용해보세요! \n선풍기가 에어컨에서 나온 시원한 공기를 순환시켜 빠르게 시원해집니다.</string>
+
+    <string name="gas_subtitle">불 조절로 가스 절약하기</string>
+    <string name="gas_docu">가스레인지를 쓸 땐 불꽃이 냄비 밖으로 나오지 않도록 조절해보세요! \n불꽃이 냄비 밖으로 나올 경우, 불필요하게 새는 가스가 많아져 가스 사용량이 증가하게 됩니다.</string>
+
+    <string name="water_subtitle">설거지 할 때 물 절약하기</string>
+    <string name="water_docu">설거지 할 땐 수도꼭지를 샤워 수(Spray) 형태로 두고 사용해보세요! \n물줄기 형태보다 샤워 수 형태가 설거지도 훨씬 빨리 끝나고 물도 아낄 수 있습니다.</string>
+
+    <string name="hotwater_subtitle">생활 속에서 온수 절약하기</string>
+    <string name="hotwater_docu">샤워 시간을 줄여 온수를 절약해보세요! \n온수를 데우는데 가스비가 가장 많이 듭니다. 그리고 샤워 시에 온수를 가장 많이 사용합니다.</string>
+
+    <string name="heater_subtitle">보일러 아껴쓰기</string>
+    <string name="heater_docu">보일러 희망온도를 겨울철 난방 권장온도인 20℃에 맞추어 가스비를 절약해보세요. \n1℃ 당 약 7%의 난방비가 절약됩니다.</string>
+
+    <string name="indoor_removehumidity_subtitle">난방으로 바닥 습기 제거하기</string>
+    <string name="indoor_removehumidity_docu">습도가 높을 때엔 집안에서 비교적 차가운 마루바닥에 곰팡이가 생기기 쉽습니다. \n잠시 난방을 틀어 습기를 제거하세요.</string>
+    <string name="indoor_restroom_subtitle">화장실 환기하기</string>
+    <string name="indoor_restroom_docu">습도가 높을 때엔 집안에서 비교적 온도가 낮은 욕실에 곰팡이가 생기기 쉽습니다. \n잠시 환기 시켜 욕실 안의 습기를 제거해주세요.</string>
+    <string name="indoor_condensation_subtitle">결로 방지하기</string>
+    <string name="indoor_condensation_docu">현재 우리 집과 외부의 온도차이로 인해, 베란다 등 외벽과 맞닿아 있는 곳에 결로가 발생할 가능성이 높습니다. \n잠시 보일러를 끄고 환기해주세요. 내/외부 온도차를 줄이고 습기를 제거할 수 있습니다.</string>
+    <string name="indoor_maintainhumidity_subtitle">가습기 없이 적정습도 유지하기</string>
+    <string name="indoor_maintainhumidity_docu">가습기가 없는 경우, 뚜껑을 연 채로 물을 끓여 실내습도를 높여보세요. \n빨래나 젖은 수건을 방 안에 널어두는 것도 습도를 유지하는데 도움이 됩니다.</string>
+
+    <!-- Button -->
+    <string name="btn_ems_elec">최근 전기 사용량 보기</string>
+    <string name="btn_ems_gas">최근 가스 사용량 보기</string>
+    <string name="btn_ems_water">최근 수도 사용량 보기</string>
+    <string name="btn_ems_hotwater">최근 온수 사용량 보기</string>
+    <string name="btn_ems_heater">최근 난방 사용량 보기</string>
+    <string name="btn_readypower">대기전력 제어</string>
+    <string name="btn_heater">난방 제어</string>
+    <string name="btn_aircon">에어컨 제어</string>
+
+    <!-- Alert -->
+    <string name="msg_title_alert">알림</string>
+    <string name="check_ems_server">EMS 서버 연결을 확인하세요.</string>
+    <string name="str_ok">확인</string>
+</resources>

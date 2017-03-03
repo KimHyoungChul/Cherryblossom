@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/ic_dc_power01_n"/>
+    <item>
+        <shape android:shape="oval">
+            <size android:width="@dimen/power_btn_size"
+                android:height="@dimen/power_btn_size"/>
+            <stroke
+                android:width="@dimen/power_btn_stroke" android:color="#806a71cc"/>
+        </shape>
+    </item>
+
+</layer-list>

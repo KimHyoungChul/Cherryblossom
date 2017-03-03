@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frmCustomToastMainFrame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF" >
+   	<FrameLayout
+   	    android:layout_width="@dimen/custom_toast_message_background_width"
+   	    android:layout_height="@dimen/custom_toast_message_background_height"
+   	    android:layout_gravity="center_horizontal"
+   	    android:background="@drawable/bg_toast_popup" >
+	    <TextView
+	        android:id="@+id/txtCustomToastMessage"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginBottom="@dimen/custom_toast_message_side_top"
+	        android:layout_marginLeft="@dimen/custom_toast_message_side_left"
+	        android:layout_marginRight="@dimen/custom_toast_message_side_left"
+	        android:layout_marginTop="@dimen/custom_toast_message_side_top"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:paddingLeft="@dimen/custom_toast_message_side_left"
+	        android:paddingRight="@dimen/custom_toast_message_side_left"
+	        android:textColor="#FFFFFF"
+	        android:textSize="@dimen/custom_toast_message_font_size" >
+		</TextView>
+	</FrameLayout>
+</FrameLayout>

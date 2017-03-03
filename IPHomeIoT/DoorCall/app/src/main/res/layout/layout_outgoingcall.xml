@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    >
+
+    <FrameLayout
+        android:id="@+id/outgoingBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_sc_default"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="43.75dp">
+
+        <TextView
+            android:id="@+id/tvReceiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:text="GUARD"/>
+
+            <TextView
+                android:id="@+id/tvCallState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="22.5dp"
+                android:textColor="#4bffffff"
+                android:text="@string/STR_CALL_CONNECTING"/>
+        </LinearLayout>
+
+        <com.commax.iphomiot.doorcall.view.CallingAnimateView
+            android:id="@+id/callingAnimateView"
+            android:layout_width="@dimen/calling_animate_width"
+            android:layout_height="@dimen/calling_animate_width"
+            android:layout_gravity="center"/>
+
+        <FrameLayout
+            android:id="@+id/layoutCallingIconBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img_apps_calling" />
+        </FrameLayout>
+        <Button
+            android:id="@+id/btnEndConnecting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/btn_apps_endcall_n"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/outgoingVolumeControl"
+        android:layout_width="74dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="22dp">
+
+        <fragment
+            android:id="@+id/fragmentOutgoingVolumeControl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.commax.iphomiot.doorcall.view.VolumeControlFragment" />
+    </FrameLayout>
+
+</RelativeLayout>

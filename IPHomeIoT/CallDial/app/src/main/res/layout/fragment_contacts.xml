@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ListView
+        android:id="@+id/lstContactsListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_below="@+id/allSelect_layout"
+        android:scrollbarStyle="outsideOverlay">
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/allSelect_layout"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_checkbox_n"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/cbAllCheck" />
+
+        <TextView
+            android:text="All Select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/cbAllCheck"
+            android:textColor="#44496b"
+            android:textSize="30dp"
+            android:id="@+id/textView" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

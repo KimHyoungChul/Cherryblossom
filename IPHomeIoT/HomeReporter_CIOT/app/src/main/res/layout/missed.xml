@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="@dimen/scroll_height" tools:context=".MainActivity"
+    android:paddingRight="@dimen/missed_right">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_marginTop="@dimen/missed_title_top"
+        android:layout_marginLeft="@dimen/missed_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="@string/info_missed"
+        android:textColor="#fff"
+        android:textSize="@dimen/missed_title_text"/>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/missed_lay_left"
+        android:layout_marginTop="@dimen/missed_lay_top"
+        android:id="@+id/lay_missed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tv_title">
+
+    </LinearLayout>
+
+</RelativeLayout>

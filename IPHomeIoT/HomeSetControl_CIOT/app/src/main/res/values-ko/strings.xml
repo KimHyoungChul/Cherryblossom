@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">홈(세트 컨트롤)</string>
+
+    <string name="need_sync">디바이스 상태를 알 수 없습니다. 디바이스 상태를 확인해주세요.</string>
+    <string name="working">동작중..</string>
+    <string name="control_fail">디바이스 제어를 실패하였습니다. 디바이스 상태를 확인해주세요.</string>
+    <string name="space_name_short">공간이름이 없습니다. 입력해주십시오.</string>
+    <string name="light">전등</string>
+    <string name="apps_long_tap_str">앱 아이콘을 길게 눌러 배경화면에 배치 할 수 있습니다.</string>
+    <string name="device_long_tap_str">디바이스 아이콘을 길게 눌러 배경화면에 배치 할 수 있습니다.</string>
+    <string name="widget_long_tap_str">위젯을 길게 눌러 배경화면에 배치 할 수 있습니다.</string>
+
+    <!--Room-->
+    <string name="living_room">거실</string>
+    <string name="main_room">안방</string>
+    <string name="bed_room">침실</string>
+    <string name="kitchen">주방</string>
+
+    <!--Apps-->
+    <string name="home">홈</string>
+    <string name="home_coach">코치</string>
+    <string name="mode">모드</string>
+    <string name="control">제어</string>
+    <string name="apps">앱스</string>
+    <string name="add_mode">씬</string>
+    <string name="menu">메뉴</string>
+
+    <string name="info_notice">공지사항</string>
+
+    <!--Others-->
+    <string name="more_details">더보기</string>
+    <string name="edit_mode">편집모드</string>
+    <string name="ok">완료</string>
+    <string name="alert_ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="alert">알림</string>
+
+    <!--Add space-->
+    <string name="add_space">공간 추가</string>
+    <string name="edit_space">공간 편집</string>
+    <string name="write_space_name">공간 이름 입력</string>
+    <string name="background">배경사진</string>
+    <string name="space_name"> 공간 이름</string>
+    <string name="check_place_alert_title">공간배경삭제</string>
+    <string name="check_place_alert">공간 배경을 삭제하시겠습니까?\n공간배경에 속해있는 기기아이콘,\n 앱아이콘,위젯들도 동시에 삭제됩니다.</string>
+
+    <!--Edit space-->
+    <string name="edit_space_list">공간 목록 편집</string>
+    <string name="more_space">공간은 최소 1개 이상이어야 합니다.</string>
+    <string name="edit_space_long_tap">배경이미지를 길게 눌러 순서를 변경할 수 있습니다.</string>
+
+    <!--Control-->
+    <string name="auto">자동</string>
+    <string name="manual">수동</string>
+    <string name="unknown">알수없음</string>
+    <string name="home_reporter">리포터</string>
+    <string name="register_doorphone_camera_at_setting">COMMAX 설정에서 현관카메라를 등록해주세요.</string>
+
+    <!--Tips-->
+    <string name="tips_add_space">공간추가</string>
+    <string name="tips_add_space_detail">기기배치를 위한 새로운\n공간을 추가</string>
+    <string name="tips_indicator">공간정보표시</string>
+    <string name="tips_indicator_detail">공간 배경을 좌우로 드래그하면\n다른 공간으로 이동</string>
+    <string name="tips_edit_space">공간편집</string>
+    <string name="tips_edit_space_detail">제어 기기를 공간에 배치하고\n공간이름을 변경</string>
+    <string name="tips_quick_menu">기능메뉴</string>
+    <string name="tips_quick_menu_detail">월패드의 주요기능</string>
+    <string name="tips_scene">씬제어</string>
+    <string name="tips_scene_detail">외출설정, 방범설정 및 상활별 일괄제어 만들기</string>
+    <string name="tips_detail_menu1">우리집 생활의\n유용한 가이드</string>
+    <string name="tips_detail_menu2">월패드의 모든\n애플리케이션</string>
+    <string name="tips_detail_menu3">우리집의 모든\n가치정보 항목</string>
+    <string name="tips_detail_menu4">연동 기기\n정보 및 제어</string>
+    <string name="tips_info">요약가치정보</string>
+    <string name="tips_info_detail">월패드와 연동된 여러가지 가치정보 요약항목</string>
+    <string name="do_not_show_anymore">더 이상 보지 않기</string>
+    <string name="tips_device_placement">↓ 기기아이콘을 길게 눌러 직사각형 영역 안에 끌어서 배치하세요.</string>
+
+    <!--Boot-->
+    <string name="boot_title">환영합니다!</string>
+    <string name="boot_sub_title">운영 시스템을 위한 준비중입니다.\n잠시만 기다려주십시오.</string>
+
+    <!--Gas Lock-->
+    <string name="only_locking">안전을 위해 가스차단기의 원격제어는 잠금설정 기능만 제공됩니다.</string>
+
+    <string name="no_support_text">영문, 숫자, ~!@#$%^<![CDATA[&]]>*()_+=?/";:,. 만 입력 가능합니다.</string>
+
+    <!--Touch Mirror-->
+    <string name="tm_widget">위젯</string>
+    <string name="tm_device">제어 기기 아이콘</string>
+
+    <string name="external_network_pop">외부망과 단절 되어 스마트폰APP을 통한 제어 및 방문객 영상 통화 기능이 제한됩니다. 일시적으로 외부망 연결상태가 불량하거나 공유기, 인터넷을 사용할 수 있는 환경인지 확인해 주세요.</string>
+
+    <string name="guidance">안내</string>
+    <string name="guidance_account">회원가입 후 스마트 폰 App으로 IoT 제어 및 도어 폰 화상 통화를 할 수 있습니다.</string>
+    <string name="create_account">회원가입</string>
+    <string name="space_background">공간배경</string>
+    <string name="device_placement">기기아이콘배치</string>
+    <string name="iot_connection">IoT기기연결</string>
+
+    <!--New Tips-->
+    <string name="hello">안녕하세요!</string>
+    <string name="commax_iot">COMMAX Home IoT 입니다</string>
+    <string name="setting_home">홈스크린 설정</string>
+    <string name="setting_home_tip">배경화면의 빈공간을 2초간 롱탭하면 설정 메뉴가 표출</string>
+
+</resources>

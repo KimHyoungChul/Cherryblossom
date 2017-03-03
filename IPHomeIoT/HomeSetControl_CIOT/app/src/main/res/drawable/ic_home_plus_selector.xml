@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_pressed="true" >
+                <shape android:shape="oval">
+
+                    <size android:width="@dimen/dimming_detail_circle"
+                        android:height="@dimen/dimming_detail_circle"/>
+                    <solid
+                        android:color="#806a71cc"/>
+                </shape>
+            </item>
+
+            <item android:state_focused="true" >
+                <shape android:shape="oval">
+                    <size android:width="@dimen/dimming_detail_circle"
+                        android:height="@dimen/dimming_detail_circle"/>
+                    <solid
+                        android:color="#806a71cc"/>
+                </shape>
+            </item>
+
+            <item>
+                <shape android:shape="oval">
+                    <size android:width="@dimen/dimming_detail_circle"
+                        android:height="@dimen/dimming_detail_circle"/>
+                    <stroke
+                        android:width="2dp" android:color="#806a71cc"/>
+                </shape>
+            </item>
+
+        </selector>
+    </item>
+
+    <item>
+        <selector>
+
+            <item
+                android:state_pressed="true"
+                android:drawable="@mipmap/ic_home_plus_p" />
+            <item
+                android:state_pressed="false"
+                android:drawable="@mipmap/ic_home_plus_n" />
+        </selector>
+
+    </item>
+</layer-list>

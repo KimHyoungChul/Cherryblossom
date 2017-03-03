@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- application 정보-->
+        <RelativeLayout
+            android:id="@+id/application"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_small_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/applicationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/application"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <!-- systemVersion 정보-->
+        <RelativeLayout
+            android:id="@+id/systemVersion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/systemVersionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/systemVersion"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/systemVersionValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/systemVersionLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:lines="1"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <!-- bootloaderVersion 정보-->
+        <RelativeLayout
+        android:id="@+id/bootloaderVersion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_items_big_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/line"
+        android:background="@drawable/main_menu_background_selector">
+
+        <com.commax.settings.font.NotoRegularTextView
+        android:id="@+id/bootloaderVersionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fragment_items_text_height"
+        android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/fragment_items_text_left_margin"
+        android:text="@string/bootloaderVersion"
+        android:textColor="#0c1a3d"
+        android:textSize="@dimen/fragment_items_text_size" />
+
+        <com.commax.settings.font.NotoRegularTextView
+        android:id="@+id/bootloaderVersionValue"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/fragment_items_text_height"
+        android:layout_below="@id/bootloaderVersionLabel"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/fragment_items_text_left_margin"
+        android:lines="1"
+        android:textColor="#6a71cc"
+        android:textSize="@dimen/fragment_value_text_size" />
+
+        <ImageView
+        android:layout_width="@dimen/fragment_arrow_icon_width"
+        android:layout_height="@dimen/fragment_arrow_icon_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+        android:background="@drawable/btn_list_arrow_n"
+        android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_divider_height"
+        android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+        android:layout_marginRight="@dimen/fragment_divider_side_margin"
+        android:background="#dddfe4" />
+
+        <!-- kernelVersion 정보-->
+        <RelativeLayout
+            android:id="@+id/kernelVersion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/kernelVersionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/kernelVersion"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/kernelVersionValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/kernelVersionLabel"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <!-- buildNo 정보-->
+        <RelativeLayout
+            android:id="@+id/buildNo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/buildNoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/buildNo"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/buildNoValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/buildNoLabel"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <!-- androidVersion 정보-->
+        <RelativeLayout
+            android:id="@+id/androidVersion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/androidVersionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/androidVersion"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/androidVersionValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/androidVersionLabel"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <!-- tabletInfo 정보-->
+        <RelativeLayout
+            android:id="@+id/tabletInfo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_small_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/tabletInfoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/tabletInfo"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <!-- Wallpad Update-->
+        <RelativeLayout
+            android:id="@+id/wallpadUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_small_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/wallpadUpdateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/wallpad_update"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4" />
+
+    </LinearLayout>
+
+</ScrollView>

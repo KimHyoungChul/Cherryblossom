@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Llamada</string>
+    <string name="STR_OK">OK</string>
+    <string name="STR_CANCEL">Cancelar</string>
+    <string name="STR_SAVE">Grabar</string>
+    <string name="STR_MODIFY">Modificar</string>
+    <string name="STR_DELETE">Borrar</string>
+
+    <string name="STR_DONG">-</string>
+    <string name="STR_HO"></string>
+    <string name="STR_NEIGHBOR">Vecino</string>
+    <string name="STR_EXTENSION">Extensión</string>
+    <string name="STR_PSTN">PSTN</string>
+    <string name="STR_EMER_CALL">Emergencia</string>
+    <string name="STR_DOOR">Puerta</string>
+    <string name="STR_GUARD">Estación de Guardia</string>
+    <string name="STR_OFFICE">Management office</string>
+    <string name="STR_CONNECTIOG">Llamando...</string>
+
+    <string name="popup_msg_title">OK</string>
+    <string name="popup_msg_content">Al hacer clic en Aceptar, el elemento seleccionado se .</string>
+    <string name="popup_msg_ok">OK</string>
+    <string name="popup_msg_cancel">Cancelar</string>
+    <string name="title_selectitem">Seleccione un artículo</string>
+    <string name="title_selecteditem_count">%d Seleccionado</string>
+    <string name="allSelect">Seleccionar todo</string>
+
+    <!-- tab -->
+    <string name="STR_TAB_DIAL">Teclado</string>
+    <string name="STR_TAB_CALLLOG">Registro de llamadas</string>
+    <string name="STR_TAB_CONTACTS">Contacto</string>
+    <string name="STR_DELETE_CONFIRM">¿Está seguro que desea eliminar?</string>
+    <string name="STR_DELETE_ALL_CONFIRM">¿Está seguro que desea eliminar todo?</string>
+    <string name="STR_NO_DATA">No hay datos</string>
+    <string name="logsection_name_today">Clima de hoy</string>
+    <string name="logsection_name_last7days">Los últimos 7 días</string>
+    <string name="logsection_name_oldDays">Artículos antiguos</string>
+
+    <!-- 연락처 추가 -->
+    <string name="STR_ADD_CONTACT">Agregar contacto</string>
+    <string name="STR_USER_NAME">Nombre</string>
+    <string name="STR_USER_NUMBER">Número de teléfono</string>
+
+    <string name="STR_INVALID_NUMBER_MESSAGE">No es un número válido.</string>
+    <string name="STR_SAVE_INPUT_NUMBER_MESSAGE">Introduzca el número que desea guardar.</string>
+</resources>

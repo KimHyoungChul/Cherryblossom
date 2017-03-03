@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/previewSurface"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/previewTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="78.75dp"
+        android:orientation="horizontal"
+        android:background="@drawable/img_calling_shadow2_top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/backToEnvirontment"
+            android:paddingTop="17.5dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="16.25dp"
+            android:src="@mipmap/btn_title_close_white_n"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="17.25dp"
+            android:paddingBottom="16.25dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:text="@string/preview"
+            android:id="@+id/textView" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_cctv_camera_off"
+        android:id="@+id/disconnectPreview">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/previewComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/comment_preview"
+        android:textColor="#ffffff"
+        android:textSize="22.5dp"
+        android:background="#7f000000"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_marginTop="80dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        />
+
+    <Button
+        android:id="@+id/registerCCTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_roundrect_registration"
+        android:layout_gravity="bottom|center"
+        android:gravity="center"
+        android:layout_marginBottom="13dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:text="@string/registration"/>
+</FrameLayout>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    
+    <!-- 타이틀 바 -->
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_header_layout_height"
+            android:background="#ffffff" >
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/title_back_btn_marginLeft"
+                android:background="@drawable/btn_title_back_n" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/str_sensortest"
+                android:textColor="#44496b"
+                android:textSize="@dimen/title_appname_text_size" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_underline_height"
+            android:background="#b5b6c3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/txt_remind_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="@dimen/stv_timer_marginTop"
+            android:textColor="#AD90FE"
+            android:textSize="@dimen/stv_timer_txt_Size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <!-- 구역 1 -->
+
+            <FrameLayout
+                android:id="@+id/frameSector1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/stv_framework_paddingLeft"
+                android:paddingTop="@dimen/stv_framework_paddingTop" >
+
+                <CheckBox
+                    android:id="@+id/ckb_sector1"
+                    android:layout_width="@dimen/stv_check_width"
+                    android:layout_height="@dimen/stv_check_height"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/tv_sector1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/stv_attribute_txt_paddingLeft"
+                    android:text="@string/str_sector1"
+                    android:textSize="@dimen/stv_attribute_txt_Size" />
+            </FrameLayout>
+
+            <!-- 구역 2 -->
+
+            <FrameLayout
+                android:id="@+id/frameSector2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/stv_framework_paddingLeft"
+                android:paddingTop="@dimen/stv_framework_paddingTop" >
+
+                <CheckBox
+                    android:id="@+id/ckb_sector2"
+                    android:layout_width="@dimen/stv_check_width"
+                    android:layout_height="@dimen/stv_check_height"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/tv_sector2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/stv_attribute_txt_paddingLeft"
+                    android:text="@string/str_sector2"
+                    android:textSize="@dimen/stv_attribute_txt_Size" />
+            </FrameLayout>
+
+            <!-- 구역 3 -->
+
+            <FrameLayout
+                android:id="@+id/frameSector3"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/stv_framework_paddingLeft"
+                android:paddingTop="@dimen/stv_framework_paddingTop" >
+
+                <CheckBox
+                    android:id="@+id/ckb_sector3"
+                    android:layout_width="@dimen/stv_check_width"
+                    android:layout_height="@dimen/stv_check_height"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/tv_sector3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/stv_attribute_txt_paddingLeft"
+                    android:text="@string/str_sector3"
+                    android:textSize="@dimen/stv_attribute_txt_Size" />
+            </FrameLayout>
+
+            <!-- 구역 4 -->
+
+            <FrameLayout
+                android:id="@+id/frameSector4"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/stv_framework_paddingLeft"
+                android:paddingTop="@dimen/stv_framework_paddingTop" >
+
+                <CheckBox
+                    android:id="@+id/ckb_sector4"
+                    android:layout_width="@dimen/stv_check_width"
+                    android:layout_height="@dimen/stv_check_height"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/tv_sector4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/stv_attribute_txt_paddingLeft"
+                    android:text="@string/str_sector4"
+                    android:textSize="@dimen/stv_attribute_txt_Size" />
+            </FrameLayout>
+
+            <!-- 구역 5 -->
+
+            <FrameLayout
+                android:id="@+id/frameSector5"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/stv_framework_paddingLeft"
+                android:paddingTop="@dimen/stv_framework_paddingTop" >
+
+                <CheckBox
+                    android:id="@+id/ckb_sector5"
+                    android:layout_width="@dimen/stv_check_width"
+                    android:layout_height="@dimen/stv_check_height"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/tv_sector5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/stv_attribute_txt_paddingLeft"
+                    android:text="@string/str_sector5"
+                    android:textSize="@dimen/stv_attribute_txt_Size" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <!-- 비상 -->
+
+            <FrameLayout
+                android:id="@+id/frameLayout9"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/stv_framework_paddingLeft"
+                android:paddingTop="@dimen/stv_framework_paddingTop" >
+
+                <CheckBox
+                    android:id="@+id/ckb_emer"
+                    android:layout_width="@dimen/stv_check_width"
+                    android:layout_height="@dimen/stv_check_height"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/stv_attribute_txt_paddingLeft"
+                    android:text="@string/str_emergency"
+                    android:textSize="@dimen/stv_attribute_txt_Size" />
+            </FrameLayout>
+
+            <!-- 화재 -->
+
+            <FrameLayout
+                android:id="@+id/frameLayout10"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/stv_framework_paddingLeft"
+                android:paddingTop="@dimen/stv_framework_paddingTop" >
+
+                <CheckBox
+                    android:id="@+id/ckb_fire"
+                    android:layout_width="@dimen/stv_check_width"
+                    android:layout_height="@dimen/stv_check_height"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/stv_attribute_txt_paddingLeft"
+                    android:text="@string/str_fire"
+                    android:textSize="@dimen/stv_attribute_txt_Size" />
+            </FrameLayout>
+
+            <!-- 가스 -->
+
+            <FrameLayout
+                android:id="@+id/frameLayout11"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/stv_framework_paddingLeft"
+                android:paddingTop="@dimen/stv_framework_paddingTop" >
+
+                <CheckBox
+                    android:id="@+id/ckb_gas"
+                    android:layout_width="@dimen/stv_check_width"
+                    android:layout_height="@dimen/stv_check_height"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:clickable="false"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="@dimen/stv_attribute_txt_paddingLeft"
+                    android:text="@string/str_gas"
+                    android:textSize="@dimen/stv_attribute_txt_Size" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

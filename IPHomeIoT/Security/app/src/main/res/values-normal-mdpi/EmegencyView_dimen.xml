@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="emv_comment1_layout_marginTop">25dp</dimen>
+    <dimen name="emv_comment1_txet_size">60dp</dimen>
+    <dimen name="emv_comment1_sector_txet_size">30dp</dimen>
+    <dimen name="emv_comment2_layout_marginTop">8dp</dimen>
+    <dimen name="emv_comment2_text_size">20dp</dimen>
+    <dimen name="emv_btn_text_size">22dp</dimen>
+    <dimen name="emv_btn_ok_layout_marginTop">37dp</dimen>
+     <dimen name="emv_btn_ok_marginRight">18dp</dimen>
+</resources>

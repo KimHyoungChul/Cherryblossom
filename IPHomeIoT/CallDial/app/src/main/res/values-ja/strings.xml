@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">通話</string>
+	<string name="STR_OK">OK</string>
+	<string name="STR_CANCEL">キャンセル</string>
+	<string name="STR_SAVE">セーブ</string>
+	<string name="STR_MODIFY">修正</string>
+	<string name="STR_DELETE">削除</string>
+
+	<string name="STR_DONG">-</string>
+	<string name="STR_HO"></string>
+	<string name="STR_NEIGHBOR">隣人</string>
+	<string name="STR_EXTENSION">拡張</string>
+	<string name="STR_PSTN">電話</string>
+	<string name="STR_EMER_CALL">エマ. コール</string>
+	<string name="STR_DOOR">ドア</string>
+	<string name="STR_GUARD">ガード</string>
+	<string name="STR_OFFICE">管理所</string>
+	<string name="STR_CONNECTIOG">接続しています...</string>
+
+	<string name="popup_msg_title">OK</string>
+	<string name="popup_msg_content">確認をタッチすると選?された項目は削除され、復元できなくなります。</string>
+	<string name="popup_msg_ok">OK</string>
+	<string name="popup_msg_cancel">キャンセル</string>
+	<string name="title_selectitem">項目選</string>
+	<string name="title_selecteditem_count">%d 選択済み</string>
+	<string name="allSelect">すべて選択</string>
+
+	<!-- tab -->
+	<string name="STR_TAB_DIAL">キーパッド</string>
+	<string name="STR_TAB_CALLLOG">通話記録</string>
+	<string name="STR_TAB_CONTACTS">コンタクト</string>
+	<string name="STR_DELETE_CONFIRM">あなたが削除したいですか?</string>
+	<string name="STR_DELETE_ALL_CONFIRM">あなたはすべてを削除したいですか?</string>
+	<string name="STR_NO_DATA">データなし</string>
+	<string name="logsection_name_today">今日</string>
+	<string name="logsection_name_last7days">前 7週間</string>
+	<string name="logsection_name_oldDays">古い項目</string>
+
+	<!-- 연락처 추가 -->
+	<string name="STR_ADD_CONTACT">連絡先を追加</string>
+	<string name="STR_USER_NAME">名</string>
+	<string name="STR_USER_NUMBER">電話番号</string>
+
+	<string name="STR_INVALID_NUMBER_MESSAGE">それは有効な数値ではありません.</string>
+	<string name="STR_SAVE_INPUT_NUMBER_MESSAGE">保存番号を入力してください.</string>
+</resources>

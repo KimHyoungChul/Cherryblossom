@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/deviceStatus"
+        android:layout_width="@dimen/item_minus_icon_width"
+        android:layout_height="@dimen/item_minus_icon_height"
+        android:layout_marginLeft="@dimen/item_minus_icon_left_margin"
+        android:background="@drawable/btn_ifrun_map_minus_p" />
+
+    <com.commax.settings.font.NotoRegularTextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_items_value_left_margin"
+        android:textColor="#0c1a3d"
+        android:textSize="@dimen/item_value_text_size" />
+
+
+</LinearLayout>

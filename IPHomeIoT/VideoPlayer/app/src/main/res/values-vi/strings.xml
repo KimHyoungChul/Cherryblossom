@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Khách thăm quan</string>
+    <string name="title">Khách thăm quan</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="today">Hôm nay</string>
+    <string name="last7">7 ngày qua</string>
+    <string name="oldDays">Chọn lối vào</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="selectItem">Chọn mục</string>
+    <string name="allSelect">Chọn tất cả</string>
+    <string name="selected">Đã chọn</string>
+    <string name="deletePopTitle">Delete</string>
+    <string name="deletePopContents">Khi bạn bấm OK, các sản phẩm được chọn sẽ bị xóa và không thể phục hồi.</string>
+    <string name="ok">OK</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="absence">nhỡ</string>
+</resources>

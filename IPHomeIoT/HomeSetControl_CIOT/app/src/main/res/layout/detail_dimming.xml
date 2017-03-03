@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/dimming_detail_width"
+    android:layout_height="@dimen/control_detail_height" android:gravity="center"
+    android:layout_marginLeft="@dimen/dimming_detail_left">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tv_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23"
+            android:textSize="@dimen/dimming_detail_text"
+            android:textColor="#312f62"
+            android:includeFontPadding="false"
+            android:layout_marginLeft="@dimen/dimming_detail_right_left"
+            android:layout_marginRight="@dimen/dimming_detail_right_left"/>
+
+        <FrameLayout
+            android:layout_toLeftOf="@+id/tv_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageButton
+                android:id="@+id/bt_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_home_minus_selector"/>
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/bt_minus_back"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_temp">
+
+            <ImageButton
+                android:id="@+id/bt_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_home_plus_selector"/>
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/bt_plus_back"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"/>-->
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bt_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.commax.wirelesssetcontrol.ImageBT
+            android:visibility="invisible"
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.wirelesssetcontrol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/btn_home_more_n"
+            my:imageOpacity="0.6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more_details"
+            android:textSize="@dimen/auto_detail_show_more_text"
+            android:textColor="#800c1a3d"/>
+
+        <com.commax.wirelesssetcontrol.ImageBT
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.wirelesssetcontrol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/btn_home_more_n"
+            my:imageOpacity="0.6"/>
+
+    </LinearLayout>
+
+</LinearLayout>

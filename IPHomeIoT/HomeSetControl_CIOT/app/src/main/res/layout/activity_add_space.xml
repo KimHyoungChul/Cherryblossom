@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/rootview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="#ffffff">
+
+        <com.commax.wirelesssetcontrol.ImageBT
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.wirelesssetcontrol"
+            android:id="@+id/bt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@mipmap/btn_title_close_n"
+            android:layout_marginLeft="@dimen/header_button_right_left_margin"
+            android:layout_marginTop="@dimen/header_button_top_margin"
+            my:imageOpacity="0.6"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_space"
+            android:textSize="@dimen/header_title"
+            android:textColor="#44496b"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <!-- -->
+        <!--<ImageButton-->
+            <!--android:id="@+id/bt_edit"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/bt_delete"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <com.commax.wirelesssetcontrol.ImageBT
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.wirelesssetcontrol"
+            android:id="@+id/bt_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/btn_title_ok_n"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/header_button_top_margin"
+            android:layout_marginRight="@dimen/header_button_right_left_margin"
+            my:imageOpacity="0.6"/>
+
+        <include
+            android:id="@+id/dividerVertical"
+            layout="@layout/divider_vertical"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_space_middle_area">
+
+        <FrameLayout
+            android:id="@+id/lay_space_picture"
+            android:layout_width="@dimen/add_space_selected_picture_width"
+            android:layout_height="@dimen/add_space_selected_picture_height"
+            android:layout_marginTop="@dimen/add_space_selected_picture_top"
+            android:layout_marginLeft="@dimen/add_space_selected_picture_left"
+            android:layout_alignParentLeft="true">
+
+            <ImageView
+                android:id="@+id/iv_space_picture"
+                android:layout_width="@dimen/add_space_selected_picture_width"
+                android:layout_height="@dimen/add_space_selected_picture_height"
+                android:background="@mipmap/bg_home_img_sm_1"
+                android:layout_alignParentLeft="true"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/bg_home_list_dimmed"
+                android:layout_alignParentLeft="true"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/add_space_name_width"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lay_space_picture"
+            android:layout_marginLeft="@dimen/add_space_name_left"
+            android:layout_marginTop="@dimen/add_space_name_top">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_space_name_height"
+                android:gravity="center_vertical"
+                android:text="@string/space_name"
+                android:textSize="@dimen/add_space_name_label_text"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:includeFontPadding="false"
+                android:textColor="@color/labelNormal"/>
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/add_space_name_text"
+                android:includeFontPadding="false"
+                android:gravity="bottom"
+                android:maxLength="12"
+                android:inputType="textEmailAddress"
+                android:hint="@string/write_space_name"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_space_sub_text_height"
+        android:background="@color/subHeaderBG">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/background"
+            android:textSize="@dimen/sub_header_text"
+            android:textColor="@color/subHeaderText"
+            android:layout_marginLeft="@dimen/add_space_sub_text_left"/>
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/ib_info"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="@dimen/add_space_info_icon_left"-->
+            <!--android:background="@mipmap/btn_info_n"/>-->
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_space_scroll_height">
+
+        <LinearLayout
+            android:id="@+id/lay_choice"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

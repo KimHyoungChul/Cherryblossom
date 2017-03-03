@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我が家のコーチ</string>
+
+    <!-- Main Title -->
+    <string name="title_elec">電気 節約術をご覧ください。</string>
+    <string name="title_gas">ガス 節約術をご覧ください。</string>
+    <string name="title_water">水道 節約術をご覧ください。</string>
+    <string name="title_hotwater">温水 節約術をご覧ください。</string>
+    <string name="title_heater">加熱 節約術をご覧ください。</string>
+    <string name="title_indoor">どのように快適な室内環境を学びます。</string>
+
+    <!-- Sub Title -->
+    <string name="sub_title">これは個別的な住居環境に対する一般的な見解であり、少しの差があるのかもしれない。</string>
+
+    <!-- TipButton & ViewTitle -->
+    <string name="title_tips_elec">電気 節約Tipはこちら</string>
+    <string name="title_tips_gas">ガス 節約Tipはこちら</string>
+    <string name="title_tips_water">水道 節約Tipはこちら</string>
+    <string name="title_tips_hotwater">温水 節約Tipはこちら</string>
+    <string name="title_tips_heater">加熱 節約Tipはこちら</string>
+    <string name="title_tips_indoor">屋内環境づくりのコツ</string>
+    <string name="title_indoor2">屋内環境づくりのコツ</string>
+
+    <!-- Document -->
+    <string name="elec_cleaner_subtitle">清掃するときは、電気の節約</string>
+    <string name="elec_cleaner_docu">冷水で洗浄して、電気を節約してみてください！\n洗濯機を使うときに使用されるエネルギーの90％は水をため泣く使用されます。
+洗浄力の差は大きくないんです。</string>
+    <string name="elec_washer_subtitle">洗濯するとき、電気の節約する</string>
+    <string name="elec_washer_docu">冷水で洗浄して、電気を節約してみてください！ \n洗濯機を使うときに使用されるエネルギーの90％は水をため泣く使用されます。 洗浄力の差は大きくないんです。</string>
+    <string name="elec_tv_subtitle">電気を食うカバ、TVセットトップボックス</string>
+    <string name="elec_tv_docu">TVを見ていない時はTVセットトップボックスのプラグを抜いておいてください! \nTVセットトップボックスは、待機電力が大きい機器のいずれか、TVを見ていなくても、時間当たりなんと約17kWhを消費します。</string>
+    <string name="elec_aircon_subtitle">エアコンを使用することが時</string>
+    <string name="elec_aircon_docu">扇風機を一緒に使用してみてください! \n扇風機がエアコンから出た冷たい空気を循環させてすぐにすっきりします。</string>
+
+    <string name="gas_subtitle">火の調節にガスを節約。</string>
+    <string name="gas_docu">ガスレンジを書く時は火花が鍋の外に出ないように調整してみてください! \n火花が鍋の外に出た場合、不必要に漏れガスが多くなり、ガスの使用量が増加することになります。</string>
+
+    <string name="water_subtitle">お皿を洗うとき水節約</string>
+    <string name="water_docu">お皿を洗う時は蛇口をシャワーすることができ（Spray）の形で置いてお試しください! \n水流の形態よりもシャワーすることができ形態が洗い物もはるかに速く終わって水節約することができます。</string>
+
+    <string name="hotwater_subtitle">生活の中で加熱節約</string>
+    <string name="hotwater_docu">シャワーの時間を減らして温水を節約みてください! \n温水をデ泣くガス代が最も多くなります。 そしてシャワー時に熱湯を最も多く使用します。</string>
+
+    <string name="heater_subtitle">ボイラー節約</string>
+    <string name="heater_docu">ボイラー希望の温度を冬の加熱推奨温度である20度に合わせてガス代を節約しましょう。 \n1℃あたり約7％の加熱費が節約されます。</string>
+
+    <string name="indoor_removehumidity_subtitle">加熱床除湿</string>
+    <string name="indoor_removehumidity_docu">湿度が高いときには、家の中では比較的冷たい床にカビが生じやすくなります。 \nしばらく加熱を流し湿気を除去してください。</string>
+    <string name="indoor_restroom_subtitle">トイレ換気</string>
+    <string name="indoor_restroom_docu">湿度が高いときには、家の中では比較的温度が低いバスルームにカビが生じやすくなります。 \nしばらく換気させてバスの中の湿気を除去してください。</string>
+    <string name="indoor_condensation_subtitle">結露を防止</string>
+    <string name="indoor_condensation_docu">現在、私たちの家と外の温度差のために、ベランダなどの外壁と接しているところで結露が発生する可能性があります。\nしばらくボイラーをオフにして換気してください。 内部/外部の温度差を減らし、水分を除去することができます。</string>
+    <string name="indoor_maintainhumidity_subtitle">加湿器なしで適正湿度を維持</string>
+    <string name="indoor_maintainhumidity_docu">加湿器がない場合は、蓋を開けたまま、水を沸かして室内の湿度を高めてみてください。 \n洗濯や濡れたタオルを部屋の中に干しておくのも湿度を維持するのに役立ちます。</string>
+
+    <!-- Button -->
+    <string name="btn_ems_elec">最近の電気使用量の表示</string>
+    <string name="btn_ems_gas">最近のガス使用量の表示</string>
+    <string name="btn_ems_water">最近の水道使用量の表示</string>
+    <string name="btn_ems_hotwater">最近の温水使用量の表示</string>
+    <string name="btn_ems_heater">最近の加熱使用量の表示</string>
+    <string name="btn_readypower">待機電力制御</string>
+    <string name="btn_heater">加熱制御</string>
+    <string name="btn_aircon">에어컨 제어</string>
+
+    <!-- Alert -->
+    <string name="msg_title_alert">お知らせ</string>
+    <string name="check_ems_server">EMSサーバー接続を確認してください。</string>
+    <string name="str_ok">確認</string>
+</resources>

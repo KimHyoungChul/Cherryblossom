@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_sc_default"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/aniLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <!-- 비상 이미지 -->
+        <LinearLayout
+            android:id="@+id/imageLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/emov_btn_close_layout_height"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_emer_background"
+                android:layout_width="@dimen/emov_emer_img_width"
+                android:layout_height="@dimen/emov_emer_img_height" />
+
+            <LinearLayout
+                android:id="@+id/comment_Layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/emv_comment1_layout_marginTop"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/emv_comment1_txet_size" />
+
+                <TextView
+                    android:id="@+id/text_EmerSector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/emov_comment2_layout_marginTop"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/emv_comment1_sector_txet_size" />
+            </LinearLayout>
+
+            <!-- IP HomeIoT 월패드에서는 빠진다.
+            <TextView
+                android:id="@+id/text_comment2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/emov_comment2_layout_marginTop"
+                android:text="@string/msg_occur_call_guard"
+                android:textColor="#ee4f57"
+                android:textSize="@dimen/emv_comment2_text_size" /> -->
+
+            <LinearLayout
+                android:id="@+id/btn_Layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/emov_btn_ok_layout_marginTop"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_stop"
+                    android:layout_width="@dimen/emov_btn_ok_width"
+                    android:layout_height="@dimen/emov_btn_ok_height"
+                    android:background="@drawable/emer_btn_shape"
+                    android:text="@string/str_stop"
+                    android:textColor="@drawable/emer_btn_textcolor"
+                    android:textSize="@dimen/emv_btn_text_size" />
+
+                <Button
+                    android:id="@+id/btn_return"
+                    android:layout_width="@dimen/emov_btn_ok_width"
+                    android:layout_height="@dimen/emov_btn_ok_height"
+                    android:layout_marginLeft="@dimen/emv_btn_ok_marginRight"
+                    android:layout_marginRight="@dimen/emv_btn_ok_marginRight"
+                    android:background="@drawable/emer_btn_shape"
+                    android:text="@string/str_recover"
+                    android:textColor="@drawable/emer_btn_textcolor"
+                    android:textSize="@dimen/emv_btn_text_size" />
+
+                <Button
+                    android:id="@+id/btn_security_release"
+                    android:layout_width="@dimen/emov_btn_ok_width"
+                    android:layout_height="@dimen/emov_btn_ok_height"
+                    android:background="@drawable/emer_btn_shape"
+                    android:text="@string/str_relelase"
+                    android:textColor="@drawable/emer_btn_textcolor"
+                    android:textSize="@dimen/emv_btn_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

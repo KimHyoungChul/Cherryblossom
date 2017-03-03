@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="str_sensortest">Sensor test</string>
+    <string name="str_sensor_use_check">Set sensor use</string>
+    <string name="str_securityset">Set security</string>
+    <string name="str_outmodeset">Away</string>
+    <string name="str_outmodeoption">Away option</string>
+    <string name="str_panic">Emergency operation</string>
+    
+    <!-- Header -->
+    <string name="str_header_mode">Mode</string>
+    <string name="str_header_outmode">Away</string>
+    <string name="str_header_security">Security</string>
+    
+    <!-- 비상 상황 -->
+    <string name="msg_occur_panic">Emergency situations.</string>
+	<string name="msg_occur_fire">The fire occurred.</string>
+	<string name="msg_occur_gas">Gas was leaking.</string>
+	<string name="msg_occur_security">Burglar occurred.</string>
+	<string name="msg_occur_ladder">The evacuation operation was a ladder.</string>
+	<string name="msg_occur_safe">Safe emergency has occurred.</string>
+	<string name="msg_occur_call_guard">It has been sent to the concierge.</string>
+	
+    <!-- Sensor Name -->
+    <string name="str_emergency">Panic</string>
+    <string name="str_fire">Fire</string>
+    <string name="str_gas">Gas</string>
+    <string name="str_sector">Area</string>
+    <string name="str_sector1">Area 01</string>
+    <string name="str_sector2">Area 02</string>
+    <string name="str_sector3">Area 03</string>
+    <string name="str_sector4">Area 04</string>
+    <string name="str_sector5">Area 05</string>    
+    <string name="str_sensor_check">Please check the sensor status.</string>
+    <string name="str_select_sector">Select areas</string>
+    <string name="str_sector_name">Edit name of areas</string>
+    <string name="str_security_sector">Areas</string>
+    
+    <string name="str_capture">Automatic saving of visitor photo</string>
+    <string name="str_all_light_close">Turn off all lights</string>
+    <string name="str_gasclose">Locking gas valve</string>
+    <string name="str_bypass_call">Bypass Call</string>
+    
+    <string name="str_setAll">Set all</string>
+    <string name="str_desetAll">Dismiss all</string>
+    <string name="str_set">Set</string>
+    <string name="str_rename">Rename</string>
+    <string name="str_AllOn">Select all</string>
+    <string name="str_AllOff">Unselect all</string>
+    
+    <!-- Prevent button -->
+    <string name="str_prevset">Set</string>
+    <string name="str_prevrestore">Security\nrestore</string>
+    <string name="str_edit">Edit</string>
+    <string name="str_prevstate_Setup">Setted</string>
+    <string name="str_prevstate_Notset">Not Set</string>   
+    <string name="str_prevstate_on">ON</string> 
+    <string name="str_prevstate_off">OFF</string>  
+    
+    <!-- Emergency button -->
+    <string name="str_stop">Stop</string>
+    <string name="str_recover">Restore</string>
+    
+    <!-- Out mode button -->
+    <string name="str_start">Start</string>
+    <string name="str_changeset">Option</string>
+    <string name="str_close">Close</string>  
+    <string name="str_outtingrelease">Away\nrestore</string>
+    <string name="str_outtingon">Set out in</string>
+    <string name="str_outmode_delaytime">Setting time of Going out delay</string>
+    <string name="str_outmode_returntime">Setting time of Returning</string>
+    <!-- add -->
+    <string name="msg_security_setting_info">Choose security areas : %1$s</string>
+    <string name="msg_visitor_record_setting_info">Visitor Record : %1$s</string>
+	<string name="msg_light_all_off_setting_info">Turn Off All Lights : %1$s</string>
+	<string name="msg_gas_close_setting_info">Close Gas Valve : %1$s</string>
+	<string name="msg_indirection_call_setting_info">Indirection Call : %1$s</string>
+	<string name="msg_setting_fail_sensor_open_outmode">Failed : Sensor %1$s Opened</string>
+	<string name="str_setting">Setting</string>
+	<string name="str_relelase">Release</string>
+	<string name="str_not_support">Not Support.</string>
+	<string name="msg_already_outmode">Already out mode is enabled.</string> 
+	<string name="msg_already_outmode_restore">Has already been set. \nDo you want away restore?</string>
+	<string name="msg_turnoff_security">Enabled security. \nTry after dismiss security.</string>
+	<string name="msg_turnoff_outmode">Enabled out mode. \nTry after dismiss away.</string>
+    
+    <!-- Message -->
+    <string name="msg_check_network">Please check your network connection.</string>
+	<string name="msg_ksoap_fail">Can not connect to server.</string>
+	<string name="msg_setting_success">Set Completed.</string>	
+	<string name="msg_on_working">On Working...</string>
+	<string name="msg_setting_fail_sensor_open">Failed to set the area %1$s</string>
+	<string name="msg_set_sector">Choose crime areas.</string>
+	<string name="msg_set_outmodeoption">Option is not selected.</string> 
+	<string name="msg_title_info">Infomation</string>
+	<string name="msg_title_alert">Alert</string>
+	
+	<!-- Dialog button -->
+    <string name="str_ok">OK</string>
+    <string name="str_cancel">Cancel</string>
+	
+	<!-- 비상 wait Message  -->
+	<string name="msg_is_occur_emergency">Do you want to occur emergency?</string>
+	<string name="on_setting">On Setting...</string>
+    <string name="on_loading">On Loading...</string>
+    <string name="on_search_device">On Search Devices...</string>
+    <string name="on_cont_lcd">On Make Display ...</string>
+    <string name="on_cont_menu">On Make Menu ...</string>	
+    <string name="on_cont_emer">On Search Emergency...</string>
+    <string name="on_cont_snd">On Loading Sound...</string>
+    
+    <!-- 외출지연시간 -->
+    <string-array name="delaytime">
+        <item>1min</item>
+        <item>2min</item>
+        <item>3min</item>
+    </string-array>
+    
+    <!-- 외출복귀시간 -->
+    <string-array name="returntime">
+        <item>0sec</item>
+        <item>10sec</item>
+        <item>20sec</item>
+        <item>30sec</item>
+        <item>40sec</item>
+        <item>50sec</item>
+        <item>60sec</item>
+        <item>70sec</item>
+        <item>80sec</item>
+        <item>90sec</item>
+    </string-array>
+    
+    <string name="msg_setcounting">Time remaining applicable</string>
+    <string name="msg_setprevent">Security has been set up.</string>
+    <string name="msg_releseprevent">Security is turned off.</string>
+    <string name="msg_setoutmode">Away has been set up.</string>
+    <string name="msg_releseoutmode">Away is turned off.</string>
+    
+    <string name="toast_saveed">It has been saved.</string>    
+</resources>

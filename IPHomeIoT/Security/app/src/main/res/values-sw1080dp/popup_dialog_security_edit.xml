@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_scrollview_height">471dp</dimen>
+    <dimen name="edit_scrollview_marginLeftRight">122dp</dimen>
+    <dimen name="edit_scrollview_marginTopBottom">54dp</dimen>
+    
+    <dimen name="edit_width">672dp</dimen>
+    <dimen name="edit_height">72dp</dimen>   
+    <dimen name="edit_paddingLeft">20dp</dimen>
+    <dimen name="edit_marginBottom">48dp</dimen>
+    
+    <dimen name="edit_underline_width">672dp</dimen>
+    <dimen name="edit_underline_height">4dp</dimen>
+    <dimen name="edit_underline_marginBottom">38dp</dimen>
+    <dimen name="edit_textSize">48sp</dimen>     
+</resources>

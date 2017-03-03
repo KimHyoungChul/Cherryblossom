@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/leftMenuBarBody">
+
+
+        <RelativeLayout
+            android:id="@+id/menuUserAccount_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="handleUserAccount"
+            android:background="@drawable/main_menu_background_selector">
+
+            <!--android:background="@drawable/menu_item_background_selector"-->
+            <!--android:clickable="true"-->
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuUserAccount"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/userAccount"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <RelativeLayout
+            android:id="@+id/menuWallpadSetting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="handleWallpadSetting"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuWallpadSetting"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/wallpadSetting"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size"/>
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+
+        <RelativeLayout
+            android:id="@+id/menuDeviceReset_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="initDevice"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuDeviceReset"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/deviceInit"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+
+        <RelativeLayout
+            android:id="@+id/menuDataReset_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="initData"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuDataReset"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/dataInit"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <RelativeLayout
+            android:id="@+id/menuDoorphoneRegistration_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="handleDoorCameraRegistration"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuDoorphoneRegistration"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/doorphoneRegistration"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size"  />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <RelativeLayout
+            android:id="@+id/menuCctvRegistration_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="handleCctvRegistration"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuCctvRegistration"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/cctvRegistration"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+
+        <RelativeLayout
+            android:id="@+id/menuCallSetting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="handleCallSetting"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuCallSetting"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/callSetting"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+
+        <RelativeLayout
+            android:id="@+id/menuHomeThema_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="setHomeScreen"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuHomeThema"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/homeSetting"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <RelativeLayout
+            android:id="@+id/menuValueInfo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="setScreensaver"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuValueInfo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/screensaverSetting"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+
+        <RelativeLayout
+            android:id="@+id/menuRingTone_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="setRingtone"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuRingTone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/ringtoneSetting"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <RelativeLayout
+            android:id="@+id/menuWallpadInfo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:onClick="showWallpadInfo"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/menuWallpadInfo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/left_menubar_items_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/left_menubar_items_left_margin"
+                android:text="@string/wallpadInfo"
+                android:textColor="@drawable/menu_item_text_color_selector"
+                android:textSize="@dimen/left_menubar_items_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

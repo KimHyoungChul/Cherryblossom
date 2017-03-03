@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:background="@mipmap/bg_sc_default">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/lay_main_top"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height"
+            android:gravity="center">
+
+            <com.commax.homereporter.ImageBT
+                xmlns:my="http://schemas.android.com/apk/res/com.commax.homereporter"
+                android:id="@+id/ib_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/btn_title_home_white_n"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/header_button_right_left_margin"
+                my:imageOpacity="0.6"/>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="2dp"
+                android:text="@string/our_home_reporter"
+                android:textSize="@dimen/header_text"
+                android:textColor="#ccffffff"/>
+
+            <com.commax.homereporter.ImageBT
+                xmlns:my="http://schemas.android.com/apk/res/com.commax.homereporter"
+                android:id="@+id/ib_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/header_button_right_left_margin"
+                android:background="@mipmap/btn_title_edit_white_n"
+                my:imageOpacity="0.6"/>
+
+        </RelativeLayout>
+
+        <include
+            layout="@layout/divider_vertical_one_depth"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/scroll_height">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/scroll_height">
+
+                <LinearLayout
+                    android:id="@+id/lay_scroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/scroll_height"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_rp_wrap">
+
+    </LinearLayout>
+
+</FrameLayout>

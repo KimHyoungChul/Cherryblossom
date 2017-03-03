@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">マイホームリポーター</string>
+
+    <!--EMS-->
+    <string name="elec">電気</string>
+    <string name="gas">ガス</string>
+    <string name="water">水道</string>
+    <string name="hot_water">温水</string>
+    <string name="heating">暖房</string>
+
+    <!--Weather-->
+    <string name="weather0">台風</string>
+    <string name="weather1">熱帯暴風</string>
+    <string name="weather2">ハリケーン</string>
+    <string name="weather3">強い雷雨</string>
+    <string name="weather4">雷雨</string>
+    <string name="weather5">みぞれ</string>
+    <string name="weather6">みぞれ</string>
+    <string name="weather7">みぞれ</string>
+    <string name="weather8">みぞれ</string>
+    <string name="weather9">霧雨</string>
+    <string name="weather10">みぞれ</string>
+    <string name="weather11">にわか雨</string>
+    <string name="weather12">にわか雨</string>
+    <string name="weather13">にわか雪</string>
+    <string name="weather14">雪少し</string>
+    <string name="weather15">大雪</string>
+    <string name="weather16">雪</string>
+    <string name="weather17">あら</string>
+    <string name="weather18">みぞれ</string>
+    <string name="weather19">ほこり</string>
+    <string name="weather20">霧</string>
+    <string name="weather21">霧</string>
+    <string name="weather22">煙霧</string>
+    <string name="weather23">強風</string>
+    <string name="weather24">風</string>
+    <string name="weather25">寒さ</string>
+    <string name="weather26">雲</string>
+    <string name="weather27">ほとんど曇り</string>
+    <string name="weather28">ほとんど曇り</string>
+    <string name="weather29">曇り</string>
+    <string name="weather30">曇り</string>
+    <string name="weather31">晴れ</string>
+    <string name="weather32">晴れ</string>
+    <string name="weather33">晴れ</string>
+    <string name="weather34">晴れ</string>
+    <string name="weather35">みぞれ</string>
+    <string name="weather36">猛暑</string>
+    <string name="weather37">局地性雷雨</string>
+    <string name="weather38">散発性雷雨</string>
+    <string name="weather39">散発性雷雨</string>
+    <string name="weather40">散発性にわか雨</string>
+    <string name="weather41">暴雪</string>
+    <string name="weather42">雪</string>
+    <string name="weather43">大雪</string>
+    <string name="weather44">雪少し</string>
+    <string name="weather45">雷雨</string>
+    <string name="weather46">吹雪</string>
+    <string name="weather47">局地性雷雨,夕立</string>
+
+    <!--Air-->
+    <string name="o3">オゾン濃度</string>
+    <string name="dust">現在粉塵濃度</string>
+    <string name="total_air">統合大気指数</string>
+    <string name="uv">紫外線指数</string>
+
+    <string name="good">良い</string>
+    <string name="normal">普通</string>
+    <string name="bad">悪い</string>
+    <string name="so_bad">非常に悪い</string>
+    <string name="danger">危険</string>
+    <string name="high">高い</string>
+    <string name="low">低い</string>
+    <string name="extremely_high">とても高い</string>
+
+    <string name="reference">参照</string>
+    <string name="korea_environment">韓国環境事業団</string>
+    <string name="korea_air">大韓民国気象庁</string>
+
+    <string name="calls">通話</string>
+    <string name="visitor">訪問者</string>
+    <string name="delivery">宅配便</string>
+
+    <!--Pop-up and Header-->
+    <string name="ok">完了</string>
+    <string name="search">検索</string>
+    <string name="cancel">キャンセル</string>
+    <string name="alert">お知らせ</string>
+
+    <!--Toast-->
+    <string name="retry">正確な地域名をもう一度ご入力ください。</string>
+    <string name="connection_err">ネットワークの接続状態をご確認ください。</string>
+    <string name="save_success">地域情報が保存されました。</string>
+    <string name="input_city">地域名をご入力ください。</string>
+    <string name="searching">検索中..</string>
+    <string name="select_location">地域を選択してください。</string>
+    <string name="save_fail">地域情報の保存に失敗しました。\nもう一度行ってください。</string>
+    <string name="no_result">検索結果がありません。</string>
+
+    <!--Setting Info-->
+    <string name="info_weather">今日の天気</string>
+    <string name="info_air">今日の大気汚染状況</string>
+    <string name="info_health_life">今日の生活指数</string>
+    <string name="info_today_ems">今日の電気使用量</string>
+    <string name="info_month_ems">今月のエネルギー使用量</string>
+    <string name="info_missed">不在中の情報</string>
+    <string name="info_parking">駐車情報</string>
+    <string name="info_notice">お知らせ</string>
+    <string name="info_indoor_temp">室内温度の情報</string>
+    <string name="info_indoor_humid">室内の湿度の情報</string>
+    <string name="info_support">サポート</string>
+    <string name="info_smart_plug">スマートプラグ</string>
+
+    <string name="category_weather">今日の天気</string>
+    <string name="category_car">交通情報</string>
+    <string name="category_home">自宅の環境情報</string>
+
+    <string name="category_outdoor">屋外環境</string>
+    <string name="category_energy">エネルギー</string>
+    <string name="category_indoor">室内環境</string>
+    <string name="category_public">団地サービス</string>
+    <string name="category_missed">不在の記録</string>
+
+    <!--Today Energy-->
+    <string name="today_save">昨日対比節約</string>
+    <string name="today_same">昨日対比適正</string>
+    <string name="today_over">昨日対比超過</string>
+
+    <!--Month Energy-->
+    <string name="save">節約</string>
+    <string name="same">適正</string>
+    <string name="over">超過</string>
+
+    <!--Setting Location-->
+    <string name="setting_location_info">地域情報の設定</string>
+    <string name="input_location">地域名をご入力ください</string>
+    <string name="search_result">検索結果</string>
+
+    <!--Others-->
+    <string name="our_home_reporter">マイホームリポーター</string>
+    <string name="notice_list">お知らせリスト</string>
+    <string name="do_not_show_again">再度見ない</string>
+    <string name="parking_area"> 駐車区域</string>
+    <string name="edit_our_home_reporter">我が家レポーター編集</string>
+    <string name="show_more">その他</string>
+    <string name="notice_weather">本情報は、リアルタイムで観測された資料であり、現地の諸事情や受信状態によって誤差が発生することがあります。</string>
+
+    <!--Support-->
+    <string name="user_manuals">ユーザーマニュアル</string>
+
+    <!--Device info-->
+    <string name="indoor_temp">室内温度</string>
+    <string name="indoor_humid">室内湿度</string>
+    <string name="show_details">詳細</string>
+
+    <string name="no_support_text">英数字、~!@#$%^<![CDATA[&]]>*()_+=?/";:,. は入力可能です。</string>
+
+</resources>

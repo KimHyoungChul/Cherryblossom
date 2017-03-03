@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="str_sensortest">センサーテスト</string>
+    <string name="str_sensor_use_check">センサーを有効に</string>
+    <string name="str_securityset">防犯設定</string>
+    <string name="str_outmodeset">外出設定</string>
+    <string name="str_outmodeoption">オプションの設定</string>
+    <string name="str_panic">緊急発生</string>
+    
+    <!-- Header -->
+    <string name="str_header_mode">モード</string>
+    <string name="str_header_outmode">外出</string>
+    <string name="str_header_security">防犯</string>
+    
+    <!-- 비상 상황 -->
+    <string name="msg_occur_panic">緊急事態です。</string>
+    <string name="msg_occur_fire">火災が発生しました。</string>
+    <string name="msg_occur_gas">ガスがリークしていました。</string>
+    <string name="msg_occur_security">盗難が発生しました。</string>
+    <string name="msg_occur_ladder">避難運転をはしごしました。</string>
+    <string name="msg_occur_safe">安全な緊急事態が発生しました。</string>
+    <string name="msg_occur_call_guard">警備室に通報されました。</string>
+    
+    
+    <!-- 센서 -->
+    <string name="str_emergency">緊急の</string>
+    <string name="str_fire">火災</string>
+    <string name="str_gas">ガス</string>
+    <string name="str_sector">エリア</string>
+    <string name="str_sector1">エリア 1</string>
+    <string name="str_sector2">エリア 2</string>
+    <string name="str_sector3">エリア 3</string>
+    <string name="str_sector4">エリア 4</string>
+    <string name="str_sector5">エリア 5</string>
+    <string name="str_sensor_check">センサーの状態を確認してください。</string>
+    <string name="str_select_sector">防犯エリアを選択</string>
+    <string name="str_sector_name">セクション名</string>
+    <string name="str_security_sector">防犯エリア</string>
+    
+    
+    <string name="str_capture">不在中の訪問者の写真の自動保存</string>
+    <string name="str_all_light_close">電灯全てオフ</string>
+    <string name="str_gasclose">ガスバルブロック</string>
+    <string name="str_bypass_call">迂回通話</string>
+    
+    <!-- 메뉴 -->
+    <string name="str_setAll">全体の設定</string>
+    <string name="str_desetAll">全解除</string>
+    <string name="str_set">設定</string>
+    <string name="str_rename">이름 바꾸기</string>
+    <string name="str_AllOn">전체 선택</string>
+    <string name="str_AllOff">전체 해제</string>
+    
+    <!-- 방범 버튼 -->
+    <string name="str_prevset">適用</string>
+    <string name="str_prevrestore">방범 해제</string>
+    <string name="str_edit">編集</string>   
+    <string name="str_prevstate_Setup">설정중</string>
+    <string name="str_prevstate_Notset">설정안됨</string>  
+    <string name="str_prevstate_on">ON</string> 
+    <string name="str_prevstate_off">OFF</string>
+    
+    <!-- 비상 버튼 -->
+    <string name="str_stop">停止</string>
+    <string name="str_recover">復帰</string>
+    
+    <!-- 외출모드 버튼 -->
+    <string name="str_start">시작</string>
+    <string name="str_changeset">プション</string>
+    <string name="str_close">닫기</string>  
+    <string name="str_outtingrelease">외출 해제</string>    
+    <string name="str_outtingon">외출중</string>
+    <string name="str_outmode_delaytime">外出遅延時間の設定</string>
+    <string name="str_outmode_returntime">外出復帰時間の設定</string>
+    <!-- add -->
+    <string name="msg_security_setting_info">設定防犯エリア : %1$s</string>
+    <string name="msg_visitor_record_setting_info">訪問者録画機能 : %1$s</string>
+	<string name="msg_light_all_off_setting_info">電灯全体の電源を切る : %1$s</string>
+	<string name="msg_gas_close_setting_info">ガスバルブロック : %1$s</string>
+	<string name="msg_indirection_call_setting_info">迂回通話 : %1$s</string>	
+	<string name="msg_setting_fail_sensor_open_outmode">失敗 : エリア %1$s 開いた</string>
+	<string name="str_setting">设定</string>
+	<string name="str_relelase">解除</string>
+	<string name="str_not_support">サポートなし</string>
+	<string name="msg_already_outmode">외출 모드가 이미 설정되어 있습니다.</string> 
+    <string name="msg_already_outmode_restore">이미 설정되어 있습니다. \n외출 설정을 해제 하시겠습니까?</string>
+    <string name="msg_turnoff_security">有効なセキュリティ。 \nセキュリティを閉じた後に試してみてください。</string>
+	<string name="msg_turnoff_outmode">モードを有効にします。 \nモードを却下した後、試してみてください。</string>
+    <!-- 
+	<string name="msg_turnoff_security">현재 방범 설정 상태입니다. \n방범 설정을 먼저 해제 해주세요.</string>
+	<string name="msg_turnoff_outmode">현재 외출 설정 상태입니다. \n외출 설정을 먼저 해제 해주세요.</string>
+     -->  
+     
+    <!-- 메시지 -->
+    <string name="msg_check_network">ネットワーク接続を確認してください。</string>
+    <string name="msg_ksoap_fail">서버와 연결할 수 없습니다.</string>
+    <string name="msg_setting_success">설정 완료</string>
+    <string name="msg_on_working">동작 중...</string>
+    <string name="msg_setting_fail_sensor_open">%1$s区域を設定することができません。</string>
+    <string name="msg_set_sector">防犯エリアを選択してください。</string>
+    <string name="msg_set_outmodeoption">外出の設定オプションが選択されていません。</string>      
+    <string name="msg_title_info">情報</string>
+    <string name="msg_title_alert">お知らせ</string>
+	
+	<!-- 다이얼로그 버튼 -->
+    <string name="str_ok">確認</string>
+    <string name="str_cancel">キャンセル</string>
+    
+    <!-- 비상 Wait Message  -->
+    <string name="msg_is_occur_emergency">緊急を発生しますか？</string>
+    <string name="on_setting">設定中...</string>
+    <string name="on_loading">ロード中...</string>
+    <string name="on_search_device">디바이스 검색중 ...</string>
+    <string name="on_cont_lcd">화면 구성중 ...</string>
+    <string name="on_cont_menu">메뉴 구성중 ...</string>
+    <string name="on_cont_emer">비상 검색중 ...</string>
+    <string name="on_cont_snd">사운드 로딩중...</string>
+    
+    <!-- 외출지연시간 -->
+    <string-array name="delaytime">
+        <item>1分</item>
+        <item>2分</item>
+        <item>3分</item>
+    </string-array>
+    
+    <!-- 외출복귀시간 -->
+    <string-array name="returntime">
+        <item>0秒</item>
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+        <item>40秒</item>
+        <item>50秒</item>
+        <item>60秒</item>
+        <item>70秒</item>
+        <item>80秒</item>
+        <item>90秒</item>
+    </string-array>
+
+    <string name="msg_setcounting">残り時間</string>
+    <string name="msg_setprevent">適用された。</string>
+    <string name="msg_releseprevent">防犯センサーが解除されました。</string>
+    <string name="msg_setoutmode">外出モードが設定されました。</string>
+    <string name="msg_releseoutmode">外出モードが解除されました。</string>
+    
+    <string name="toast_saveed">保存された。</string>    
+</resources>

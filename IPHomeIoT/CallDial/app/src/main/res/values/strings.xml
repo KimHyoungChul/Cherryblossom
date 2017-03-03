@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Call</string>
+    <string name="STR_OK">OK</string>
+    <string name="STR_CANCEL">Cancel</string>
+    <string name="STR_SAVE">Save</string>
+    <string name="STR_MODIFY">Modify</string>
+    <string name="STR_DELETE">Delete</string>
+
+    <string name="STR_DONG">-</string>
+    <string name="STR_HO"></string>
+    <string name="STR_NEIGHBOR">Neighbor</string>
+    <string name="STR_EXTENSION">Extension</string>
+    <string name="STR_PSTN">PSTN</string>
+    <string name="STR_EMER_CALL">Emer. call</string>
+    <string name="STR_DOOR">Door</string>
+    <string name="STR_GUARD">Guard Station</string>
+    <string name="STR_OFFICE">Management office</string>
+    <string name="STR_CONNECTIOG">Connecting...</string>
+
+    <string name="popup_msg_title">OK</string>
+    <string name="popup_msg_content">When you click OK, the selected items will be deleted and can not be recovered.</string>
+    <string name="popup_msg_ok">OK</string>
+    <string name="popup_msg_cancel">Cancel</string>
+    <string name="title_selectitem">Select Item</string>
+    <string name="title_selecteditem_count">%d Selected</string>
+    <string name="allSelect">Select All</string>
+
+    <!-- tab -->
+    <string name="STR_TAB_DIAL">Keypad</string>
+    <string name="STR_TAB_CALLLOG">Call Log</string>
+    <string name="STR_TAB_CONTACTS">Contacts</string>
+    <string name="STR_DELETE_CONFIRM">Are you sure you want to delete?</string>
+    <string name="STR_DELETE_ALL_CONFIRM">Are you sure you want to delete all ?</string>
+    <string name="STR_NO_DATA">No data</string>
+    <string name="logsection_name_today">Today</string>
+    <string name="logsection_name_last7days">The last 7 days</string>
+    <string name="logsection_name_oldDays">The old days</string>
+
+    <!-- 연락처 추가 -->
+    <string name="STR_ADD_CONTACT">Add Contact</string>
+    <string name="STR_USER_NAME">Name</string>
+    <string name="STR_USER_NUMBER">Phone number</string>
+
+    <string name="STR_INVALID_NUMBER_MESSAGE">It is not a valid number.</string>
+    <string name="STR_SAVE_INPUT_NUMBER_MESSAGE">Please enter your store number.</string>
+</resources>

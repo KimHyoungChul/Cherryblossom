@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/left_menubar_width"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:id="@+id/menuUserAccount"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="handleUserAccount"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/userAccount"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="handleWallpadSetting"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/wallpadSetting"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size"
+            android:id="@+id/menuWallpadSetting" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="initDevice"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/deviceInit"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="initData"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/dataInit"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:id="@+id/menuDoorphoneRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="handleDoorCameraRegistration"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/doorphoneRegistration"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:id="@+id/menuCctvRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="handleCctvRegistration"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/cctvRegistration"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="handleCallSetting"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/callSetting"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="setHomeScreen"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/homeSetting"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size" />
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="setScreensaver"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/screensaverSetting"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size"
+            android:id="@+id/menuValueInfo" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="setRingtone"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/ringtoneSetting"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_divider_height"
+            android:layout_marginLeft="@dimen/left_menubar_divider_side_margin"
+            android:layout_marginRight="@dimen/left_menubar_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/left_menubar_items_height"
+            android:background="@drawable/menu_item_background_selector"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="showWallpadInfo"
+            android:paddingLeft="@dimen/left_menubar_items_left_margin"
+            android:text="@string/wallpadInfo"
+            android:textColor="@drawable/menu_item_text_color_selector"
+            android:textSize="@dimen/left_menubar_items_text_size" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

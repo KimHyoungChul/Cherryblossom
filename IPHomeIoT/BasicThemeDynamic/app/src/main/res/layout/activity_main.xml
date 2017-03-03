@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_home_img_1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_home_wrap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="@dimen/line_width"
+            android:layout_height="match_parent"
+            android:background="@mipmap/img_basic_line"
+
+            />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+        <View
+            android:layout_width="@dimen/line_width"
+            android:layout_height="match_parent"
+            android:background="@mipmap/img_basic_line"
+
+            />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="@dimen/line_width"
+            android:layout_height="match_parent"
+            android:background="@mipmap/img_basic_line"
+
+            />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="@dimen/line_width"
+            android:layout_height="match_parent"
+            android:background="@mipmap/img_basic_line"
+
+            />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/timeContainer"
+            android:layout_width="@dimen/time_container_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/time_container_right"
+            android:layout_marginTop="@dimen/time_container_top">
+
+            <com.commax.basictheme.font.RobotoLightTextView
+                android:id="@+id/min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/time_min_text" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/colon"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_toLeftOf="@id/min"-->
+                <!--android:background="@mipmap/img_basic_time" />-->
+
+            <com.commax.basictheme.font.RobotoLightTextView
+                android:id="@+id/hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/min"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/time_min_text" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dateTimeContainer"
+            android:layout_width="@dimen/date_container_width"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/timeContainer"
+            android:visibility="gone">
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/day_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/day_right"
+                android:layout_marginTop="@dimen/day_top"
+                android:text="@string/day"
+                android:textColor="#80ffffff"
+                android:textSize="@dimen/day_text" />
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/dayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/day_top"
+                android:layout_toLeftOf="@id/day_7"
+                android:layout_marginRight="@dimen/month_right"
+                android:text="@string/day"
+                android:textColor="#80ffffff"
+                android:textSize="@dimen/day_text" />
+
+            <com.commax.basictheme.font.RobotoLightTextView
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/day"
+                android:layout_toLeftOf="@id/dayText"
+                android:textColor="#80ffffff"
+                android:textSize="@dimen/day_text" />
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/monthText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/month_right"
+                android:layout_marginTop="@dimen/month_text_top"
+                android:layout_toLeftOf="@id/day"
+                android:text="@string/month"
+                android:textColor="#80ffffff"
+                android:textSize="@dimen/day_text" />
+
+            <com.commax.basictheme.font.RobotoLightTextView
+                android:id="@+id/month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/month_top"
+                android:layout_toLeftOf="@id/monthText"
+                android:textColor="#80ffffff"
+                android:textSize="@dimen/day_text" />
+
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/amPm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/day_7"
+                android:layout_below="@id/dayText"
+                android:textColor="#80ffffff"
+                android:textSize="@dimen/day_text" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/englishDateTimeContainer"
+            android:layout_width="@dimen/date_container_width"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/timeContainer"
+           android:visibility="gone">
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/englishTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/english_time_right"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/english_time_top"
+                android:textColor="#80ffffff"
+                android:textSize="@dimen/day_text" />
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/englishAmPm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/englishTime"
+                android:layout_below="@id/englishTime"
+                android:textColor="#80ffffff"
+                android:textSize="@dimen/day_text" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/app1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_rp_default"
+
+                />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <ImageButton
+                android:id="@+id/app2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_rp_default" />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <ImageButton
+                android:id="@+id/app3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_rp_default" />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <ImageButton
+                android:id="@+id/app4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_rp_default" />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <ImageButton
+                android:id="@+id/app5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_rp_default" />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/app_title_text_top">
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.commax.basictheme.font.NotoDemiLightTextView
+                android:id="@+id/appTitle1"
+                android:layout_width="@dimen/app_title_width"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ccffffff"
+                android:textSize="@dimen/app_title_text" />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <com.commax.basictheme.font.NotoDemiLightTextView
+                android:id="@+id/appTitle2"
+                android:layout_width="@dimen/app_title_width"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ccffffff"
+                android:textSize="@dimen/app_title_text" />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <com.commax.basictheme.font.NotoDemiLightTextView
+                android:id="@+id/appTitle3"
+                android:layout_width="@dimen/app_title_width"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ccffffff"
+                android:textSize="@dimen/app_title_text" />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <com.commax.basictheme.font.NotoDemiLightTextView
+                android:id="@+id/appTitle4"
+                android:layout_width="@dimen/app_title_width"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ccffffff"
+                android:textSize="@dimen/app_title_text" />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <com.commax.basictheme.font.NotoDemiLightTextView
+                android:id="@+id/appTitle5"
+                android:layout_width="@dimen/app_title_width"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ccffffff"
+                android:textSize="@dimen/app_title_text" />
+
+            <View
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_menu_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/menu_margin"
+            android:layout_marginLeft="@dimen/menu_margin">
+
+            <ImageButton
+                android:id="@+id/bt_coach_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/btn_home_coach_tip"
+                android:onClick="launchHomeCoach" />
+
+            <com.commax.basictheme.font.NotoRegularTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coach"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/menu_text" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/menu_margin"
+            android:layout_marginLeft="@dimen/menu_margin">
+
+            <ImageButton
+                android:id="@+id/bt_apps_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/btn_home_apps"
+                android:onClick="launchAppList" />
+
+            <com.commax.basictheme.font.NotoRegularTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apps"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/menu_text" />
+
+
+        </LinearLayout>
+
+
+        <!--clickable, focusable이 자신이나 자식 뷰에 있으면 onClick이 fire안됨 -->
+        <FrameLayout
+            android:layout_width="@dimen/menu_mode_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mode_background_selector"
+            android:onClick="launchModeApp">
+
+            <com.commax.basictheme.font.NotoRegularTextView
+                android:id="@+id/bt_mode_normal"
+                android:layout_width="@dimen/menu_mode_text_width"
+                android:layout_height="@dimen/menu_mode_text_height"
+                android:layout_gravity="center"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@drawable/mode_text_color_selector"
+                android:textSize="@dimen/menu_mode_text" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/menu_margin"
+            android:layout_marginLeft="@dimen/menu_margin">
+
+            <ImageButton
+                android:id="@+id/bt_device_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/btn_home_device"
+                android:onClick="launchControl" />
+
+            <com.commax.basictheme.font.NotoRegularTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Control"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/menu_text" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/menu_margin"
+            android:layout_marginLeft="@dimen/menu_margin">
+
+            <ImageButton
+                android:id="@+id/bt_reporter_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/btn_home_reporter"
+                android:onClick="launchHomeReporter" />
+
+            <com.commax.basictheme.font.NotoRegularTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reporter"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/menu_text" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_menu_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/menu_margin"
+            android:layout_marginLeft="@dimen/menu_margin">
+
+            <ImageButton
+                android:id="@+id/bt_coach_simple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/btn_home_coach_tip"
+                android:onClick="launchHomeCoach" />
+
+            <com.commax.basictheme.font.NotoRegularTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coach"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/menu_text" />
+
+
+        </LinearLayout>
+
+
+        <!--clickable, focusable이 자신이나 자식 뷰에 있으면 onClick이 fire안됨 -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mode_background_selector"
+            android:onClick="launchModeApp">
+
+            <com.commax.basictheme.font.NotoRegularTextView
+                android:id="@+id/bt_mode_simple"
+                android:layout_width="@dimen/menu_mode_text_width"
+                android:layout_height="@dimen/menu_mode_text_height"
+                android:layout_gravity="center"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@drawable/mode_text_color_selector"
+                android:textSize="@dimen/menu_mode_text" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/menu_margin"
+            android:layout_marginLeft="@dimen/menu_margin">
+
+
+            <ImageButton
+                android:id="@+id/bt_apps_simple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/btn_home_apps"
+                android:onClick="launchAppList" />
+
+
+            <com.commax.basictheme.font.NotoRegularTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apps"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/menu_text" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/info_width"
+        android:layout_height="@dimen/net_err_height"
+        android:paddingLeft="@dimen/net_err_left"
+        android:layout_marginTop="@dimen/net_err_top">
+
+        <ImageView
+            android:id="@+id/iv_door"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_door_error"
+            android:layout_marginRight="@dimen/net_err_margin"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_uc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_uccall_error"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_network_error"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/lay_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_sc_default"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boot_title"
+            android:textSize="@dimen/boot_title"
+            android:textColor="#fff"
+            android:layout_marginTop="@dimen/boot_title_top"
+            android:layout_gravity="center_horizontal"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_boot_welcome"
+            android:layout_marginTop="@dimen/boot_sub_title_margin"
+            android:layout_gravity="center">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/boot_sub_title"
+            android:textColor="#fff"
+            android:text="@string/boot_sub_title"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="@dimen/boot_sub_title_margin"
+            android:layout_marginBottom="@dimen/boot_sub_title_bottom"/>
+
+        <FrameLayout
+            android:layout_width="@dimen/boot_progress_width"
+            android:layout_height="@dimen/boot_progress_height"
+            android:background="#fff"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="@dimen/boot_progress_margin">
+
+            <LinearLayout
+                android:id="@+id/lay_progress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#5d63b3">
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+</FrameLayout>

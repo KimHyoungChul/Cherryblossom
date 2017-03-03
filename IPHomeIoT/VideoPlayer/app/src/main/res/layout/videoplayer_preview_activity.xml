@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <commax.wallpad.videoplayer.CustomVideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/previewVideoPlayer"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/previewStartVideo"
+            android:layout_gravity="center"
+            android:src="@mipmap/btn_apps_thumbnail_video_n"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/previewShadowBack"
+            android:background="@mipmap/bg_thumbnail2_shadow"
+            android:paddingLeft="45dp"
+            android:paddingBottom="39dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginRight="47.5dp"
+                android:id="@+id/previewAbsence"
+                android:src="@mipmap/ic_list_call_absence"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/previewVideoThirdParty"
+                    android:src="@mipmap/ic_apps_thumbnail_my"
+                    android:layout_gravity="left|center"
+                    android:layout_marginRight="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/previewFilenameView"
+                    android:layout_toRightOf="@id/videoThirdParty"
+                    android:textSize="30dp"
+                    android:text="test"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/previewMediaSeekBar"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:progressBackgroundTint="#32b3c0cf"
+            android:thumb="@mipmap/btn_slider"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="78.75dp"
+        android:id="@+id/previewTitleBar"
+        android:orientation="horizontal"
+        android:background="@drawable/img_calling_shadow2_top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/previewClose"
+            android:paddingTop="17.5dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="16.25dp"
+            android:src="@mipmap/btn_title_close_white_n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="17.25dp"
+            android:paddingBottom="16.25dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/previewDelete"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:paddingRight="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="13dp"
+            android:src="@mipmap/btn_title_delete_white_n"/>
+    </FrameLayout>
+
+</RelativeLayout>

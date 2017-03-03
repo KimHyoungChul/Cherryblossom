@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="#f0f1f9">
+    <com.commax.ipdoorcamerasetting.font.NotoMediumTextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:text="@string/dong_ho_setting"
+        android:textColor="#6b71cc"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_bright"
+        />
+
+    <com.commax.ipdoorcamerasetting.font.NotoMediumTextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="@string/front_camera_registration"
+        android:textColor="#6b71cc"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>

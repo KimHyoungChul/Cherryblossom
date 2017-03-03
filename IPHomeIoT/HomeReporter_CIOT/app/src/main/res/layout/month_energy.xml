@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="@dimen/scroll_height" tools:context=".MainActivity"
+    android:paddingRight="@dimen/month_energy_right">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_marginTop="@dimen/missed_title_top"
+        android:layout_marginLeft="@dimen/missed_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="@string/info_month_ems"
+        android:textColor="#fff"
+        android:textSize="@dimen/missed_title_text"/>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_marginLeft="@dimen/missed_title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:text="2016.03.01 ~ 03.15"
+        android:textColor="#fff"
+        android:textSize="@dimen/month_energy_date_text"
+        android:layout_below="@+id/tv_title"/>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/month_energy_lay_left"
+        android:layout_marginTop="@dimen/month_energy_lay_left"
+        android:id="@+id/lay_energy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tv_date">
+
+    </LinearLayout>
+
+</RelativeLayout>

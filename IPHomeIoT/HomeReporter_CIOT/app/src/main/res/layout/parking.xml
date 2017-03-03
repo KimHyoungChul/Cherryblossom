@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="@dimen/parking_width"
+    android:layout_height="@dimen/scroll_height" tools:context=".MainActivity" android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_rp_parking"/>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center">-->
+
+            <!--<FrameLayout-->
+                <!--android:id="@+id/lay_first"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginRight="12dp">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/icon_parking_circle"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_first"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:includeFontPadding="false"-->
+                    <!--android:text="B3"-->
+                    <!--android:textSize="32sp"-->
+                    <!--android:textColor="#fff"-->
+                    <!--android:layout_gravity="center"/>-->
+
+            <!--</FrameLayout>-->
+
+            <TextView
+                android:id="@+id/tv_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="A13"
+                android:textSize="@dimen/parking_second_text"
+                android:textColor="#fff"
+                android:focusable="true"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginLeft="@dimen/parking_second_text_right_left"
+                android:layout_marginRight="@dimen/parking_second_text_right_left"/>
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_car_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textSize="@dimen/parking_car_number_text"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/parking_area"
+                android:textSize="@dimen/parking_parking_area_text"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

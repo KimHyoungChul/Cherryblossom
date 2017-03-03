@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+
+    <com.commax.settings.font.NotoRegularTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/initdevice_items_top_margin"
+        android:gravity="center"
+        android:text="@string/init_device_help_text"
+        android:textColor="#d71853"
+        android:textSize="@dimen/initdevice_hint_text_size" />
+
+    <com.commax.settings.font.NotoRegularButton
+        android:layout_width="@dimen/initdevice_reset_btn_width"
+        android:layout_height="@dimen/initdevice_reset_btn_height"
+        android:layout_below="@id/line"
+        android:id="@+id/init"
+        android:layout_marginTop="@dimen/initdevice_reset_btn_top_margin"
+        android:background="@drawable/common_button_selector"
+        android:text="@string/init"
+        android:textSize="@dimen/initdevice_reset_btn_text_size"
+        android:layout_centerHorizontal="true"
+        android:textColor="@drawable/common_button_text_color_selector"
+        />
+
+
+
+
+</LinearLayout>

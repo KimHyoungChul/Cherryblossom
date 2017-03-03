@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/contacts_add_user_dialog_background_width"
+    android:layout_height="@dimen/contacts_add_user_dialog_background_height"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_popup"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/contacts_add_user_dialog_message_margin_left"
+        android:layout_marginRight="@dimen/contacts_add_user_dialog_message_margin_right"
+        android:layout_marginTop="@dimen/contacts_add_user_dialog_message_margin_top"
+        android:gravity="center"
+        android:text="@string/STR_ADD_CONTACT"
+        android:textColor="#818294"
+        android:textSize="@dimen/contacts_add_user_dialog_message_font_size" >
+    </TextView>
+	<ImageView
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:layout_marginLeft="@dimen/contacts_add_user_dialog_message_split_margin_left"
+	    android:layout_marginRight="@dimen/contacts_add_user_dialog_message_split_margin_right"
+	    android:layout_marginTop="@dimen/contacts_add_user_dialog_message_split_margin_top"
+	    android:background="#B5B6C4" >
+	</ImageView>
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/contacts_add_user_dialog_scroll_view_height"
+	    android:layout_gravity="center"
+	    android:layout_marginLeft="@dimen/contacts_add_user_dialog_scroll_view_margin_left"
+	    android:layout_marginRight="@dimen/contacts_add_user_dialog_scroll_view_margin_right"
+	    android:layout_marginTop="@dimen/contacts_add_user_dialog_scroll_view_margin_top"
+	    android:orientation="vertical" >
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical" >
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="2"
+	                android:text="@string/STR_USER_NAME"
+	                android:textColor="#0C1A3D"
+	                android:textSize="@dimen/contacts_add_user_dialog_input_content_font_size" >
+	            </TextView>
+	            <EditText
+	                android:id="@+id/edtContactUserName"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="@dimen/contacts_add_user_dialog_input_edit_name_margin_left"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:hint="@string/STR_USER_NAME"
+	                android:maxLength="15"
+	                android:singleLine="true"
+	                android:textColor="#0C1A3D"
+	                android:textSize="@dimen/contacts_add_user_dialog_input_content_font_size" >
+	            </EditText>
+			</LinearLayout>
+			<ImageView
+			    android:id="@+id/imgContactUserNameLine"
+			    android:layout_width="match_parent"
+			    android:layout_height="2dp"
+			    android:layout_marginBottom="@dimen/contacts_add_user_dialog_input_edit_split_margin_bottom"
+			    android:background="#CDCDDF" >
+			</ImageView>
+			<LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	            <TextView
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="2"
+	                android:text="@string/STR_USER_NUMBER"
+	                android:textColor="#0C1A3D"
+	                android:textSize="@dimen/contacts_add_user_dialog_input_content_font_size" >
+	            </TextView>
+	            <EditText
+	                android:id="@+id/edtContactUserNumber"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="@dimen/contacts_add_user_dialog_input_edit_number_margin_left"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:hint="@string/STR_USER_NUMBER"
+	                android:maxLength="18"
+	                android:phoneNumber="true"
+	                android:singleLine="true"
+	                android:textColor="#0C1A3D"
+	                android:textSize="@dimen/contacts_add_user_dialog_input_content_font_size" >
+	            </EditText>
+			</LinearLayout>
+			<ImageView
+			    android:id="@+id/imgContactUserNumberLine"
+			    android:layout_width="match_parent"
+			    android:layout_height="2dp"
+			    android:layout_marginBottom="@dimen/contacts_add_user_dialog_input_edit_split_margin_bottom"
+			    android:background="#CDCDDF" >
+			</ImageView>
+		</LinearLayout>
+	</ScrollView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="@dimen/contacts_add_user_dialog_message_split_margin_left"
+        android:layout_marginRight="@dimen/contacts_add_user_dialog_message_split_margin_right"
+        android:background="#B5B6C4" >
+	</ImageView>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="@dimen/contacts_add_user_dialog_comform_margin_top"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+   		<Button
+   		    android:id="@+id/btnContactsAddDialogCancel"
+   		    android:layout_width="@dimen/contacts_add_user_dialog_conform_button_width"
+   		    android:layout_height="@dimen/contacts_add_user_dialog_conform_button_height"
+   		    android:layout_gravity="center"
+   		    android:background="@drawable/btn_cancel_shape"
+   		    android:text="@string/STR_CANCEL"
+   		    android:textColor="@drawable/btn_cancel_textcolor"
+   		    android:textSize="@dimen/contacts_add_user_dialog_conform_button_font_size" >
+	    </Button>
+		<FrameLayout
+		    android:layout_width="20dp"
+		    android:layout_height="fill_parent" >
+		</FrameLayout>
+	    <Button
+	        android:id="@+id/btnContactsAddDialogOk"
+	        android:layout_width="@dimen/contacts_add_user_dialog_conform_button_width"
+	        android:layout_height="@dimen/contacts_add_user_dialog_conform_button_height"
+	        android:layout_gravity="center"
+	        android:background="@drawable/btn_ok_shape"
+	        android:text="@string/STR_OK"
+	        android:textColor="@drawable/btn_ok_textcolor"
+	        android:textSize="@dimen/contacts_add_user_dialog_conform_button_font_size" >
+	    </Button>
+	</LinearLayout>
+</LinearLayout>

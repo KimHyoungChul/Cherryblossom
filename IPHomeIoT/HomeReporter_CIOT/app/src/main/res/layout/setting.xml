@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="#ffffff">
+
+        <com.commax.homereporter.ImageBT
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.homereporter"
+            android:id="@+id/bt_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/btn_title_close_n"
+            android:layout_marginLeft="@dimen/header_button_right_left_margin"
+            android:layout_marginTop="@dimen/header_button_top_margin"
+            my:imageOpacity="0.6"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_our_home_reporter"
+            android:textSize="@dimen/header_text"
+            android:textColor="#44496b"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <com.commax.homereporter.ImageBT
+            xmlns:my="http://schemas.android.com/apk/res/com.commax.homereporter"
+            android:id="@+id/bt_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/btn_title_ok_n"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/header_button_top_margin"
+            android:layout_marginRight="@dimen/header_button_right_left_margin"
+            my:imageOpacity="0.6"/>
+
+        <include
+            android:id="@+id/dividerVertical"
+            layout="@layout/divider_vertical"/>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/item_title2"
+                android:paddingLeft="@dimen/setting_index_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_index_height"
+                android:background="#f0f1f9">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_outdoor"
+                    android:textSize="@dimen/setting_index_text"
+                    android:textColor="#6b71cc"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="@dimen/setting_guide_width"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/setting_index_left"
+                    android:textSize="@dimen/setting_header_notice"
+                    android:textColor="#6b71cc"
+                    android:text="@string/notice_weather"/>
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/listView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <LinearLayout
+                android:id="@+id/item_title5"
+                android:paddingLeft="@dimen/setting_index_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_index_height"
+                android:background="#f0f1f9">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_indoor"
+                    android:textSize="@dimen/setting_index_text"
+                    android:textColor="#6b71cc"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/item_title"
+                android:paddingLeft="@dimen/setting_index_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_index_height"
+                android:background="#f0f1f9">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_energy"
+                    android:textSize="@dimen/setting_index_text"
+                    android:textColor="#6b71cc"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/item_title3"
+                android:paddingLeft="@dimen/setting_index_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_index_height"
+                android:background="#f0f1f9">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_missed"
+                    android:textSize="@dimen/setting_index_text"
+                    android:textColor="#6b71cc"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <LinearLayout
+                android:id="@+id/item_title4"
+                android:paddingLeft="@dimen/setting_index_left"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_index_height"
+                android:background="#f0f1f9">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category_public"
+                    android:textSize="@dimen/setting_index_text"
+                    android:textColor="#6b71cc"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

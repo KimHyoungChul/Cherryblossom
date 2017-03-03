@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">통화</string>
+	<string name="STR_OK">확인</string>
+	<string name="STR_CANCEL">취소</string>
+	<string name="STR_SAVE">저장</string>
+	<string name="STR_MODIFY">수정</string>
+	<string name="STR_DELETE">삭제</string>
+
+	<string name="STR_DONG">동</string>
+	<string name="STR_HO">호</string>
+	<string name="STR_NEIGHBOR">세대</string>
+	<string name="STR_EXTENSION">내선</string>
+	<string name="STR_PSTN">일반전화</string>
+	<string name="STR_EMER_CALL">비상전화</string>
+	<string name="STR_DOOR">우리집 현관</string>
+	<string name="STR_GUARD">경비실</string>
+	<string name="STR_OFFICE">관리소</string>
+	<string name="STR_CONNECTIOG">연결 중...</string>
+
+	<string name="popup_msg_title">확인</string>
+	<string name="popup_msg_content">확인을 누르면, 선택된 항목은 삭제되며 복구할 수 없습니다.</string>
+	<string name="popup_msg_ok">확인</string>
+	<string name="popup_msg_cancel">취소</string>
+	<string name="title_selectitem">항목 선택</string>
+	<string name="title_selecteditem_count">%d 선택됨</string>
+	<string name="allSelect">전체 선택</string>
+
+	<!-- tab -->
+	<string name="STR_TAB_DIAL">키패드</string>
+	<string name="STR_TAB_CALLLOG">통화기록</string>
+	<string name="STR_TAB_CONTACTS">연락처</string>
+	<string name="STR_DELETE_CONFIRM">삭제하시겠습니까?</string>
+	<string name="STR_DELETE_ALL_CONFIRM">모두 삭제하시겠습니까?</string>
+	<string name="STR_NO_DATA">데이터가 없습니다</string>
+	<string name="logsection_name_today">오늘</string>
+	<string name="logsection_name_last7days">지난 7일</string>
+	<string name="logsection_name_oldDays">오래 된 항목</string>
+
+	<!-- 연락처 추가 -->
+	<string name="STR_ADD_CONTACT">연락처 추가</string>
+	<string name="STR_USER_NAME">이름</string>
+	<string name="STR_USER_NUMBER">전화 번호</string>
+
+	<string name="STR_INVALID_NUMBER_MESSAGE">유효한 번호가 아닙니다.</string>
+	<string name="STR_SAVE_INPUT_NUMBER_MESSAGE">저장할 번호를 입력해주세요.</string>
+</resources>

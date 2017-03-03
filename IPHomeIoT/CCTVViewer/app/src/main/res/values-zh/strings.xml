@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CCTV</string>
+    <string name="favorites">收藏夹</string>
+    <string name="preview">CCTV 预习</string>
+    <string name="registration">注册</string>
+    <string name="comment_preview">If the video is not displayed, check the status of CCTV or contact your administrator.</string>
+</resources>

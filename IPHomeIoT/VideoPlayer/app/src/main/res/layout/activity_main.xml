@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="commax.wallpad.videoplayer.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="78.75dp"
+        android:background="@mipmap/bg_title_1depth">
+
+        <ImageView
+            android:id="@+id/backToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="17.25dp"
+            android:paddingBottom="16.25dp"
+            android:paddingLeft="30dp"
+            android:gravity="center"
+            android:src="@mipmap/btn_title_back_white_n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="17.25dp"
+            android:paddingBottom="16.25dp"
+            android:paddingLeft="37.5dp"
+            android:gravity="center"
+            android:textColor="#44496b"
+            android:textSize="25dp"
+            android:id="@+id/cancelIcon"
+            android:text="@string/cancel"
+            />
+
+        <TextView
+            android:id="@+id/mainTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="17.25dp"
+            android:paddingBottom="16.25dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="@string/title"
+            android:textColor="#ffffffff"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/deleteFile"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:paddingRight="30dp"
+            android:paddingTop="17.5dp"
+            android:paddingBottom="16.25dp"
+            android:src="@mipmap/btn_title_delete_white_n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteIcon"
+            android:layout_gravity="right|center"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:background="@drawable/ok_button_selector"/>
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/mainDivider1"
+        android:background="#b5b6c4"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:id="@+id/allSelect"
+                android:paddingTop="17.5dp"
+                android:paddingBottom="17.5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/allDelete"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="37.5dp"
+                    android:background="@mipmap/btn_checkbox_n"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="18.75dp"
+                    android:layout_marginRight="37.5dp"
+                    android:textSize="30dp"
+                    android:textColor="#0c1a3d"
+                    android:text="@string/allSelect"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/mainDivider2"
+                android:background="#b5b6c4"/>
+
+            <TextView
+                android:id="@+id/todayText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f0f1f9"
+                android:gravity="center_vertical"
+                android:paddingLeft="37.5dp"
+                android:textColor="#6b71cc"
+                android:textSize="25dp"
+                android:text="@string/today"/>
+
+            <commax.wallpad.videoplayer.ExpandableGridView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchMode="columnWidth"
+                android:listSelector="@null"
+                android:verticalSpacing="3dp"
+                android:horizontalSpacing="3dp"
+                android:numColumns="auto_fit"
+                android:scrollingCache="true"
+                android:background="#ffffff"
+                android:id="@+id/today">
+            </commax.wallpad.videoplayer.ExpandableGridView>
+
+            <TextView
+                android:id="@+id/lastSevenDaysText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f0f1f9"
+                android:gravity="center_vertical"
+                android:paddingLeft="37.5dp"
+                android:textColor="#6b71cc"
+                android:textSize="25dp"
+                android:text="@string/last7"/>
+
+            <commax.wallpad.videoplayer.ExpandableGridView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchMode="columnWidth"
+                android:listSelector="@null"
+                android:verticalSpacing="3dp"
+                android:horizontalSpacing="3dp"
+                android:numColumns="auto_fit"
+                android:scrollingCache="true"
+                android:background="#ffffff"
+                android:id="@+id/lastSevenDays">
+            </commax.wallpad.videoplayer.ExpandableGridView>
+
+            <TextView
+                android:id="@+id/oldDaysText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f0f1f9"
+                android:gravity="center_vertical"
+                android:paddingLeft="37.5dp"
+                android:textColor="#6b71cc"
+                android:textSize="25dp"
+                android:text="@string/oldDays"/>
+
+            <commax.wallpad.videoplayer.ExpandableGridView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchMode="columnWidth"
+                android:listSelector="@null"
+                android:verticalSpacing="3dp"
+                android:horizontalSpacing="3dp"
+                android:numColumns="auto_fit"
+                android:scrollingCache="true"
+                android:background="#ffffff"
+                android:id="@+id/oldDays">
+            </commax.wallpad.videoplayer.ExpandableGridView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

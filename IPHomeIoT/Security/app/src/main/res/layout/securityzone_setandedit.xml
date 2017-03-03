@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <!-- 타이틀 바 -->
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_header_layout_height"
+            android:background="#ffffff" >
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/title_back_btn_marginLeft"
+                android:background="@drawable/btn_title_back_n" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/str_security_sector"
+                android:textColor="#44496b"
+                android:textSize="@dimen/title_appname_text_size" />
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="@dimen/title_edit_btn_marginRight"
+                android:background="@drawable/btn_title_edit_n" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_underline_height"
+            android:background="#b5b6c3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- 구역1 -->
+        <LinearLayout
+            android:id="@+id/ll_sector_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_item_layout_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_sector_1"
+                android:layout_width="@dimen/sector_layout_width"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                android:text="@string/str_sector1"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/sector_textSize" />
+
+            <CheckBox
+                android:id="@+id/check_1"
+                android:layout_width="@dimen/check_width"
+                android:layout_height="@dimen/check_height"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="@dimen/detail_checkbox_marginLeft"
+                android:layout_marginRight="@dimen/detail_checkbox_marginRight"
+                android:background="@drawable/onoff_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:checked="false" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/dividerLine1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_divider_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:background="#dddfe4" />
+        
+        <!-- 구역2 -->
+        <LinearLayout
+            android:id="@+id/ll_sector_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_item_layout_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_sector_2"
+                android:layout_width="@dimen/sector_layout_width"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                android:text="@string/str_sector2"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/sector_textSize" />
+
+            <CheckBox
+                android:id="@+id/check_2"
+                android:layout_width="@dimen/check_width"
+                android:layout_height="@dimen/check_height"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="@dimen/detail_checkbox_marginLeft"
+                android:layout_marginRight="@dimen/detail_checkbox_marginRight"
+                android:background="@drawable/onoff_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:checked="false" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/dividerLine2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_divider_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:background="#dddfe4" />
+        
+        <!-- 구역3 -->
+        <LinearLayout
+            android:id="@+id/ll_sector_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_item_layout_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_sector_3"
+                android:layout_width="@dimen/sector_layout_width"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                android:text="@string/str_sector3"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/sector_textSize" />
+
+            <CheckBox
+                android:id="@+id/check_3"
+                android:layout_width="@dimen/check_width"
+                android:layout_height="@dimen/check_height"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="@dimen/detail_checkbox_marginLeft"
+                android:layout_marginRight="@dimen/detail_checkbox_marginRight"
+                android:background="@drawable/onoff_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:checked="false" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/dividerLine3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_divider_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:background="#dddfe4" />
+        
+        <!-- 구역4 -->
+        <LinearLayout
+            android:id="@+id/ll_sector_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_item_layout_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_sector_4"
+                android:layout_width="@dimen/sector_layout_width"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                android:text="@string/str_sector4"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/sector_textSize" />
+
+            <CheckBox
+                android:id="@+id/check_4"
+                android:layout_width="@dimen/check_width"
+                android:layout_height="@dimen/check_height"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="@dimen/detail_checkbox_marginLeft"
+                android:layout_marginRight="@dimen/detail_checkbox_marginRight"
+                android:background="@drawable/onoff_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:checked="false" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/dividerLine4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_divider_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:background="#dddfe4" />
+        
+        <!-- 구역5 -->
+        <LinearLayout
+            android:id="@+id/ll_sector_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/detail_item_layout_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_sector_5"
+                android:layout_width="@dimen/sector_layout_width"
+                android:layout_height="match_parent"
+                android:layout_weight="0.55"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/sector_text_paddingLeftRight"
+                android:text="@string/str_sector5"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/sector_textSize" />
+
+            <CheckBox
+                android:id="@+id/check_5"
+                android:layout_width="@dimen/check_width"
+                android:layout_height="@dimen/check_height"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="@dimen/detail_checkbox_marginLeft"
+                android:layout_marginRight="@dimen/detail_checkbox_marginRight"
+                android:background="@drawable/onoff_checkbox_selector"
+                android:button="@android:color/transparent"
+                android:checked="false" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/dividerLine5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_divider_height"
+            android:layout_marginLeft="@dimen/detail_list_marginLeftRight"
+            android:layout_marginRight="@dimen/detail_list_marginLeftRight"
+            android:background="#dddfe4" />
+    </LinearLayout>
+
+</LinearLayout>

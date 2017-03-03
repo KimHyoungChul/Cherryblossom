@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Visitante</string>
+    <string name="title">Visitante</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="today">Clima de hoy</string>
+    <string name="last7">Los últimos 7 días</string>
+    <string name="oldDays">Artículos antiguos</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Ok</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="delete">Borrar</string>
+    <string name="selectItem">Seleccione un artículo</string>
+    <string name="allSelect">Seleccionar todo</string>
+    <string name="selected">Seleccionado</string>
+    <string name="deletePopTitle">Borrar</string>
+    <string name="deletePopContents">Al hacer clic en Aceptar, el elemento seleccionado se .</string>
+    <string name="absence">Perdido</string>
+</resources>

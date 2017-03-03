@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="@dimen/notice_width"
+    android:layout_height="@dimen/scroll_height" tools:context=".MainActivity" android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_rp_notice"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_marginTop="@dimen/notice_title_right_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="공지사항"
+            android:textSize="@dimen/notice_title_text"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/notice_when_top"
+            android:id="@+id/tv_when"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="2016.08.01~2016.08.02"
+            android:textSize="@dimen/notice_when_text"
+            android:textColor="#fff"/>
+
+        <FrameLayout
+            android:id="@+id/lay_call_security"
+            android:layout_marginTop="@dimen/notice_call_security_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/ib_call_security"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_notice"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/notice_list"
+                android:textColor="@drawable/btn_notice_text_color"
+                android:textSize="@dimen/notice_call_security_text"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/notice_do_not_show_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_rp_check_n_selector"/>
+
+            <TextView
+                android:layout_marginLeft="@dimen/notice_do_not_show_text_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="@string/do_not_show_again"
+                android:textColor="#fff"
+                android:textSize="@dimen/notice_do_not_show_text"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

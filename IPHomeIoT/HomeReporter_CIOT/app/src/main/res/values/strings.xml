@@ -1,0 +1,159 @@
+<resources>
+
+    <string name="app_name">Home Reporter</string>
+
+    <!--EMS-->
+    <string name="elec">Electricity</string>
+    <string name="gas">Gas</string>
+    <string name="water">Water</string>
+    <string name="hot_water">Hot water</string>
+    <string name="heating">Heating</string>
+
+    <!--Weather-->
+    <string name="weather0">Tornado</string>
+    <string name="weather1">Tropical storm</string>
+    <string name="weather2">Hurricane</string>
+    <string name="weather3">Severe thunderstorms</string>
+    <string name="weather4">Thunderstorms</string>
+    <string name="weather5">Mixed rain and snow</string>
+    <string name="weather6">Mixed rain and sleet</string>
+    <string name="weather7">Mixed snow and sleet</string>
+    <string name="weather8">Freezing drizzle</string>
+    <string name="weather9">Drizzle</string>
+    <string name="weather10">Freezing rain</string>
+    <string name="weather11">Showers</string>
+    <string name="weather12">Showers</string>
+    <string name="weather13">Snow flurries</string>
+    <string name="weather14">Light snow showers</string>
+    <string name="weather15">Blowing snow</string>
+    <string name="weather16">Snow</string>
+    <string name="weather17">Hail</string>
+    <string name="weather18">Sleet</string>
+    <string name="weather19">Dust</string>
+    <string name="weather20">Foggy</string>
+    <string name="weather21">Misty</string>
+    <string name="weather22">Haze</string>
+    <string name="weather23">Blustery</string>
+    <string name="weather24">Windy</string>
+    <string name="weather25">Cold</string>
+    <string name="weather26">Cloudy</string>
+    <string name="weather27">Mostly cloudy (night)</string>
+    <string name="weather28">Mostly cloudy (day)</string>
+    <string name="weather29">Partly cloudy (night)</string>
+    <string name="weather30">Partly cloudy (day)</string>
+    <string name="weather31">Clear (night)</string>
+    <string name="weather32">Sunny</string>
+    <string name="weather33">Fair (night)</string>
+    <string name="weather34">Fair (day)</string>
+    <string name="weather35">Mixed rain and hail</string>
+    <string name="weather36">Hot</string>
+    <string name="weather37">Isolated\nthunderstorms</string>
+    <string name="weather38">Scattered\nthunderstorms</string>
+    <string name="weather39">Scattered\nthunderstorms</string>
+    <string name="weather40">Scattered\nshowers</string>
+    <string name="weather41">Heavy snow</string>
+    <string name="weather42">Scattered snow showers</string>
+    <string name="weather43">Heavy snow</string>
+    <string name="weather44">Partly cloudy</string>
+    <string name="weather45">Thundershowers</string>
+    <string name="weather46">Snow showers</string>
+    <string name="weather47">Isolated\nthundershowers</string>
+
+    <!--Air-->
+    <string name="o3">Ozone</string>
+    <string name="dust">Fine dust</string>
+    <string name="total_air">Air quality index</string>
+    <string name="uv">UV levels</string>
+
+    <string name="good">Good</string>
+    <string name="normal">Normal</string>
+    <string name="bad">Bad</string>
+    <string name="so_bad">Very bad</string>
+    <string name="danger">Hazardous</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="extremely_high">Very high</string>
+
+    <string name="reference">Reference</string>
+    <string name="korea_environment">Korea Environment Corporation</string>
+    <string name="korea_air">Korea Meteorological Administration</string>
+
+    <string name="calls">Call</string>
+    <string name="visitor">Visitor</string>
+    <string name="delivery">Delivery</string>
+
+    <!--Pop-up and Header-->
+    <string name="ok">OK</string>
+    <string name="search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert">Notification</string>
+
+    <!--Toast-->
+    <string name="retry">Please re-enter the correct region name.</string>
+    <string name="connection_err">Please check your network connection.</string>
+    <string name="save_success">Local information has been saved.</string>
+    <string name="input_city">Please enter a region name.</string>
+    <string name="searching">Searching..</string>
+    <string name="select_location">Please select your region.</string>
+    <string name="save_fail">Saving region information has failed.\nPlease try again.</string>
+    <string name="no_result">There is no results for your search.</string>
+
+    <!--Setting Info-->
+    <string name="info_weather">Today weather information</string>
+    <string name="info_air">The status of air pollution today</string>
+    <string name="info_health_life">The status of life index today</string>
+    <string name="info_today_ems">Today&#8217;s electricity consumption</string>
+    <string name="info_month_ems">The information of energy usage for this month</string>
+    <string name="info_missed">Missed information</string>
+    <string name="info_parking">Parking information</string>
+    <string name="info_notice">Notification</string>
+    <string name="info_indoor_temp">Indoor temperature information</string>
+    <string name="info_indoor_humid">Indoor humidity information</string>
+    <string name="info_support">Support</string>
+    <string name="info_smart_plug">Smart Plug Information</string>
+
+    <string name="category_weather">Weather</string>
+    <string name="category_car">Traffic Information</string>
+    <string name="category_home">The information of our home environment</string>
+
+    <string name="category_outdoor">Outdoor environment</string>
+    <string name="category_energy">Energy</string>
+    <string name="category_indoor">Indoor environment</string>
+    <string name="category_public">Complex Service</string>
+    <string name="category_missed">Missed record</string>
+
+    <!--Today Energy-->
+    <string name="today_save">Saving compared to yesterday</string>
+    <string name="today_same">Proper compared to yesterday</string>
+    <string name="today_over">Excess compared to yesterday</string>
+
+    <!--Month Energy-->
+    <string name="save">Saving</string>
+    <string name="same">Proper</string>
+    <string name="over">Excess</string>
+
+    <!--Setting Location-->
+    <string name="setting_location_info">Region information Setting</string>
+    <string name="input_location">Please enter a region name.</string>
+    <string name="search_result">Search result</string>
+
+    <!--Others-->
+    <string name="our_home_reporter">Home Reporter</string>
+    <string name="notice_list">The list of notice</string>
+    <string name="do_not_show_again">Don&#8217;t show again</string>
+    <string name="parking_area"> Parking areas</string>
+    <string name="edit_our_home_reporter">Edit</string>
+    <string name="show_more">More details</string>
+    <string name="notice_weather">This is the information from real data and it will be different due to the current condition or reception.</string>
+
+    <!--Support-->
+    <string name="user_manuals">User manuals</string>
+
+    <!--Device info-->
+    <string name="indoor_temp">Indoor temperature</string>
+    <string name="indoor_humid">Indoor humidity</string>
+    <string name="show_details">More details</string>
+
+    <string name="no_support_text">You can enter letters, numbers and ~!@#$%^<![CDATA[&]]>*()_+=?/";:,. </string>
+
+</resources>

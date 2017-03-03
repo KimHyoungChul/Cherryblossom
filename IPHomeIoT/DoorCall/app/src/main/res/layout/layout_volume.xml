@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/layoutVolumeProgress"
+        android:background="@drawable/volume_layout">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_dc_plus_n"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imgIncreaseVolume" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="6dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/imgIncreaseVolume"
+            android:id="@+id/prgbVolume"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:progressDrawable="@drawable/volumeprogressbar_layout"
+            android:max="100"
+            android:progress="50"
+            android:layout_above="@+id/imgDecreaseVolume" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_dc_minus_n"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/imgDecreaseVolume" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgControlVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circle"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/btn_apps_talk_n">
+    </ImageView>
+</LinearLayout>

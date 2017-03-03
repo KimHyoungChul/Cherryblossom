@@ -1,0 +1,12 @@
+<resources>
+<string name="app_name">基本テーマ</string>
+<string name="month">月</string>
+<string name="day">日</string>
+<string name="am">AM</string>
+<string name="pm">PM</string>
+<string name="add_mode">モードを追加</string>
+
+    <!--Boot-->
+    <string name="boot_title">Welcome!</string>
+    <string name="boot_sub_title">Preparing for the operating system.\nPlease wait a moment.</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/popup_alerts_bg_width"
+    android:layout_height="@dimen/popup_alerts_bg_height"
+    android:layout_marginBottom="@dimen/popup_bg_marginTopBottom"
+    android:layout_marginTop="@dimen/popup_bg_marginTopBottom"
+    android:background="@mipmap/bg_popup"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/popup_title_marginLeftRight"
+        android:layout_marginRight="@dimen/popup_title_marginLeftRight"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/popup_title_text_marginBottom"
+            android:layout_marginTop="@dimen/popup_title_text_marginTop"
+            android:gravity="center"
+            android:text="@string/msg_title_alert"
+            android:textColor="#818294"
+            android:textSize="@dimen/popup_title_textSize" />
+
+        <ImageView
+            android:layout_width="@dimen/popup_alerts_title_underline_width"
+            android:layout_height="@dimen/popup_title_underline_height"
+            android:background="#ebecf0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_alerts_docu_height"
+        android:layout_marginBottom="@dimen/popup_alerts_text_marginTopBottom"
+        android:layout_marginLeft="@dimen/popup_alerts_text_marginLeftRight"
+        android:layout_marginRight="@dimen/popup_alerts_text_marginLeftRight"
+        android:layout_marginTop="@dimen/popup_alerts_text_marginTopBottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/docu_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#0c1a3d"
+            android:textSize="@dimen/popup_alerts_textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+		<!--
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="@dimen/popup_btn_width"
+            android:layout_height="@dimen/popup_btn_height"
+            android:background="@drawable/popup_btn_cancel_shape"
+            android:text="@string/str_cancel"
+            android:textColor="@drawable/popup_btn_cancel_textcolor"
+            android:textSize="@dimen/popup_btn_textSize" />
+		-->
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="@dimen/popup_btn_width"
+            android:layout_height="@dimen/popup_btn_height"
+            android:layout_marginLeft="@dimen/popup_btn_marginLeft"
+            android:background="@drawable/popup_btn_ok_shape"
+            android:text="@string/str_ok"
+            android:textColor="@drawable/popup_btn_ok_textcolor"
+            android:textSize="@dimen/popup_btn_textSize" />
+    </LinearLayout>
+
+</LinearLayout>

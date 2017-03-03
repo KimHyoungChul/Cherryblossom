@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_titlebar_height"
+    android:background="@drawable/bg_title_1depth">
+
+    <!--<Button-->
+        <!--android:id="@+id/goBackBtn"-->
+        <!--android:layout_width="@dimen/back_icon_width"-->
+        <!--android:layout_height="@dimen/back_icon_height"-->
+        <!--android:layout_marginLeft="@dimen/back_icon_left_margin"-->
+        <!--android:layout_marginTop="@dimen/back_icon_top_margin"-->
+        <!--android:background="@drawable/back_button_selector"-->
+        <!--android:onClick="goBack (CommonActivity)" />-->
+
+    <Button
+        android:id="@+id/goBackBtn"
+        android:layout_width="@dimen/back_icon_width"
+        android:layout_height="@dimen/back_icon_height"
+        android:layout_marginLeft="@dimen/back_icon_left_margin"
+        android:layout_marginTop="@dimen/back_icon_top_margin"
+        android:background="@drawable/back_button_selector" />
+        <!--android:onClick="goBack"/>-->
+
+    <com.commax.settings.font.NotoDemiLightTextView
+        android:id="@+id/screenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/top_title_text_size" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|center">
+
+        <Button
+            android:id="@+id/editBtn"
+            android:layout_width="@dimen/edit_icon_width"
+            android:layout_height="@dimen/edit_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/edit_icon_item_margin"
+            android:background="@drawable/edit_button_selector"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="@dimen/activity_trash_icon_width"
+            android:layout_height="@dimen/trash_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/trash_icon_right_margin"
+            android:background="@drawable/delete_button_selector"
+            tools:layout_width="@dimen/trash_icon_width"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</RelativeLayout>

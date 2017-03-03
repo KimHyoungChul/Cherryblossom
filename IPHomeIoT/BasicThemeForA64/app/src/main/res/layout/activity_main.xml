@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_home_img_1_d"
+    android:orientation="vertical">
+
+
+    <!--필터 이미지-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_home_wrap" />
+
+
+    <!--RelativeLayout에서 width를 wrap_content로 주면 상대적 위치 지정 문제로 화면에 레이아웃이 제대로 표시안 될수 있음-->
+    <!--고정값으로 지정-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/timeContainer"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp">
+
+            <com.commax.basictheme.font.RobotoLightTextView
+                android:id="@+id/min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="#ffffff"
+                android:textSize="44dp" />
+
+            <ImageView
+                android:id="@+id/colon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/min"
+                android:background="@mipmap/img_basic_time" />
+
+            <com.commax.basictheme.font.RobotoLightTextView
+                android:id="@+id/hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/colon"
+                android:textColor="#ffffff"
+                android:textSize="44dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dateTimeContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/timeContainer"
+            android:visibility="gone">
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/dayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/day"
+                android:textColor="#80ffffff"
+                android:textSize="16dp" />
+
+            <com.commax.basictheme.font.RobotoLightTextView
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_toLeftOf="@id/dayText"
+                android:textColor="#80ffffff"
+                android:textSize="16dp" />
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/monthText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_toLeftOf="@id/day"
+                android:text="@string/month"
+                android:textColor="#80ffffff"
+                android:textSize="16dp" />
+
+            <com.commax.basictheme.font.RobotoLightTextView
+                android:id="@+id/month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_toLeftOf="@id/monthText"
+                android:textColor="#80ffffff"
+                android:textSize="16dp" />
+
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/amPm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/dayText"
+                android:layout_below="@id/dayText"
+                android:textColor="#80ffffff"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/englishDateTimeContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/timeContainer"
+            android:visibility="gone">
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/englishTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#80ffffff"
+                android:textSize="16dp" />
+
+            <com.commax.basictheme.font.NotoLightTextView
+                android:id="@+id/englishAmPm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/englishTime"
+                android:layout_below="@id/englishTime"
+                android:textColor="#80ffffff"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/app1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_basic_door"
+                android:onClick="launchDoor" />
+
+            <com.commax.basictheme.font.NotoDemiLightTextView
+                android:id="@+id/appTitle1"
+                android:layout_width="170dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="@string/door"
+                android:textColor="#ccffffff"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/app2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_basic_cctv"
+                android:onClick="launchCctv" />
+
+            <com.commax.basictheme.font.NotoDemiLightTextView
+                android:id="@+id/appTitle2"
+                android:layout_width="170dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="@string/cctv"
+                android:textColor="#ccffffff"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/app3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_basic_recview"
+                android:onClick="launchRecordView" />
+
+            <com.commax.basictheme.font.NotoDemiLightTextView
+                android:id="@+id/appTitle3"
+                android:layout_width="170dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="@string/record_view"
+                android:textColor="#ccffffff"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/app4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_basic_commax_setting"
+                android:onClick="launchCommaxSetting" />
+
+            <com.commax.basictheme.font.NotoDemiLightTextView
+                android:id="@+id/appTitle4"
+                android:layout_width="170dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="@string/commax_setting"
+                android:textColor="#ccffffff"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/icon_setting_android"
+        android:onClick="launchSetting" />
+
+</FrameLayout>

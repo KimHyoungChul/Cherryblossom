@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trang chủ Reporter</string>
+
+    <!--EMS-->
+    <string name="elec">Điện</string>
+    <string name="gas">ga</string>
+    <string name="water">nước</string>
+    <string name="hot_water">nước nóng</string>
+    <string name="heating">sưởi</string>
+
+    <!--Weather-->
+    <string name="weather0">vòi rồng</string>
+    <string name="weather1">bão nhiệt đới</string>
+    <string name="weather2">bão</string>
+    <string name="weather3">giông bão nghiêm trọng</string>
+    <string name="weather4">giông bão</string>
+    <string name="weather5">mưa trộn \nand tuyết</string>
+    <string name="weather6">mưa trộn \nand mưa đá</string>
+    <string name="weather7">hỗn hợp tuyết \nand mưa đá</string>
+    <string name="weather8">mưa phùn lạnh giá</string>
+    <string name="weather9">mưa phùn</string>
+    <string name="weather10">mưa lạnh</string>
+    <string name="weather11">vòi hoa sen</string>
+    <string name="weather12">vòi hoa sen</string>
+    <string name="weather13">cơn gió tuyết</string>
+    <string name="weather14">mưa tuyết nhẹ</string>
+    <string name="weather15">thổi tuyết</string>
+    <string name="weather16">tuyết</string>
+    <string name="weather17">mưa tuyết</string>
+    <string name="weather18">mưa tuyết</string>
+    <string name="weather19">bụi bặm</string>
+    <string name="weather20">có sương mù</string>
+    <string name="weather21">mơ hồ</string>
+    <string name="weather22">sương mù</string>
+    <string name="weather23">sự thẹn</string>
+    <string name="weather24">nhiều gió</string>
+    <string name="weather25">lạnh</string>
+    <string name="weather26">nhiều mây</string>
+    <string name="weather27">nhiều mây\n(ban đêm)</string>
+    <string name="weather28">nhiều mây\n(ngày)</string>
+    <string name="weather29">mây (ban đêm)</string>
+    <string name="weather30">mây (ngày)</string>
+    <string name="weather31">rõ ràng (ban đêm)</string>
+    <string name="weather32">nắng</string>
+    <string name="weather33">công bằng (ban đêm)</string>
+    <string name="weather34">công bằng (ngày)</string>
+    <string name="weather35">mưa hỗn hợp và mưa đá</string>
+    <string name="weather36">nóng bức</string>
+    <string name="weather37">dông cô lập</string>
+    <string name="weather38">sấm chớp rải rác</string>
+    <string name="weather39">sấm chớp rải rác</string>
+    <string name="weather40">mưa rải rác</string>
+    <string name="weather41">tuyết nặng</string>
+    <string name="weather42">tuyết mưa rải rác</string>
+    <string name="weather43">tuyết nặng</string>
+    <string name="weather44">mây</string>
+    <string name="weather45">thundershowers</string>
+    <string name="weather46">mưa tuyết</string>
+    <string name="weather47">thundershowers địa phương</string>
+
+    <!--Air-->
+    <string name="o3">Nồng độ Ozone</string>
+    <string name="dust">bụi mịn hôm nay</string>
+    <string name="total_air">Chỉ số chất lượng\nkhông khí</string>
+    <string name="uv">mức UV</string>
+
+    <string name="good">tốt</string>
+    <string name="normal">bình thường</string>
+    <string name="bad">Xấu</string>
+    <string name="so_bad">Rất tệ</string>
+    <string name="danger">Nguy hiểm</string>
+    <string name="high">Cao</string>
+    <string name="low">thấp</string>
+    <string name="extremely_high">Rất cao</string>
+
+    <string name="reference">Nguồn</string>
+    <string name="korea_environment">Công ty Môi trường Hàn Quốc</string>
+    <string name="korea_air">National Weather Service</string>
+
+    <string name="calls">cuộc gọi</string>
+    <string name="visitor">khách nhỡ</string>
+    <string name="delivery">giao hàng nhỡ</string>
+
+    <!--Pop-up and Header-->
+    <string name="ok">được</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="cancel">hủy bỏ</string>
+    <string name="alert">thông báo</string>
+
+    <!--Toast-->
+    <string name="retry">Vui lòng nhập tên khu vực chính xác.</string>
+    <string name="connection_err">Vui lòng kiểm tra kết nối mạng của bạn.</string>
+    <string name="save_success">hasbeen thông tin địa phương lưu.</string>
+    <string name="input_city">Vui lòng nhập một tên miền.</string>
+    <string name="searching">Đang tìm kiếm..</string>
+    <string name="select_location">Vui lòng chọn khu vực của bạn.</string>
+    <string name="save_fail">Đang lưu thông tin khu vực đã thất bại. Vui lòng thử lại.</string>
+    <string name="no_result">Không có resultsfor tìm kiếm của bạn.</string>
+
+    <!--Setting Info-->
+    <string name="info_weather">thông tin thời tiết hôm nay</string>
+    <string name="info_air">Tình trạng của pollutiontoday khí</string>
+    <string name="info_health_life">Các trạng thái của cuộc sống indextodday</string>
+    <string name="info_today_ems">Hôm nay của tiêu thụ điện</string>
+    <string name="info_month_ems">Các thông tin về sử dụng năng lượng cho thông tin này trong tháng</string>
+    <string name="info_missed">thông tin bị bỏ lỡ</string>
+    <string name="info_parking">thông tin bãi đậu xe</string>
+    <string name="info_notice">thông báo</string>
+    <string name="info_indoor_temp">thông tin nhiệt độ trong nhà</string>
+    <string name="info_indoor_humid">thông tin ẩm trong nhà</string>
+    <string name="info_support">User manuals</string>
+    <string name="info_smart_plug">Thông minh Thông tin cắm</string>
+
+    <string name="category_weather">thời tiết</string>
+    <string name="category_car">Thông tin giao thông</string>
+    <string name="category_home">The information of our home environment</string>
+
+    <string name="category_outdoor">môi trường ngoài trời</string>
+    <string name="category_energy">Năng lượng</string>
+    <string name="category_indoor">điều kiện trong nhà</string>
+    <string name="category_public">Dịch vụ Complex</string>
+    <string name="category_missed">kỷ lục nhỡ</string>
+
+    <!--Today Energy-->
+    <string name="today_save">Tiết kiệm so với ngày hôm qua</string>
+    <string name="today_same">đúng so với ngày hôm qua</string>
+    <string name="today_over">dư thừa so với ngày hôm qua</string>
+
+    <!--Month Energy-->
+    <string name="save">Tiết kiệm</string>
+    <string name="same">đúng</string>
+    <string name="over">dư thừa</string>
+
+    <!--Setting Location-->
+    <string name="setting_location_info">Thiết lập thông tin khu vực</string>
+    <string name="input_location">Vui lòng nhập một tên miền.</string>
+    <string name="search_result">kết quả tìm kiếm</string>
+
+    <!--Others-->
+    <string name="our_home_reporter">Trang chủ Reporter</string>
+    <string name="notice_list">Danh sách các thông báo</string>
+    <string name="do_not_show_again">Không hiển thị lần nữa</string>
+    <string name="parking_area"> khu vực đậu xe</string>
+    <string name="edit_our_home_reporter">Chỉnh sửa</string>
+    <string name="show_more">Thêm các chi tiết</string>
+    <string name="notice_weather">Đây là thông tin từ dữ liệu thực tế và nó sẽ khác nhau do điều kiện hiện tại hoặc tiếp nhận.</string>
+
+    <!--Support-->
+    <string name="user_manuals">User manuals</string>
+
+    <!--Device info-->
+    <string name="indoor_temp">nhiệt độ trong nhà</string>
+    <string name="indoor_humid">độ ẩm trong nhà</string>
+    <string name="show_details">Thêm các chi tiết</string>
+
+    <string name="no_support_text">Bạn có thể nhập các chữ cái, số ,~!@#$%^<![CDATA[&]]>*()_+=?/";:,.</string>
+</resources>

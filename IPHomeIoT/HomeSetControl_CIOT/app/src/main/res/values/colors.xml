@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#6a71cc</color>
+    <color name="divider">#b5b6c3</color>
+    <color name="labelNormal">#8c8ccd</color>
+    <color name="labelDisable">#b5b6c4</color>
+    <color name="subHeaderText">#6b71cc</color>
+    <color name="subHeaderBG">#f0f1f9</color>
+    <color name="onDepthHeaderBG">#26ffffff</color>
+</resources>

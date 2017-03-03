@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/entranceRingtoneSetting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/entranceRingtoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="우리집 현관"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/entranceRingtoneName"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/entranceRingtoneLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="벨소리 1"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#dddfe4"
+
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/extensionRingtoneSetting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/extensionRingtoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="내선 전화"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/extensionRingtoneName"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/extensionRingtoneLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="벨소리 3"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/guardHouseRingtoneSetting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/guardHouseRingtoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="경비실 및 관리소"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/guardHouseRingtoneName"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/guardHouseRingtoneLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="벨소리 5"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/pstnRingtoneSetting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/pstnRingtoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="일반 전화"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/pstnRingtoneName"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/pstnRingtoneLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="벨소리 6"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/publicAreaRingtoneSetting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:layout_below="@id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/publicAreaRingtoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="공동 구역 (공동현관, 세대)"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/publicAreaRingtoneName"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/publicAreaRingtoneLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="벨소리 4"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+
+            />
+    </LinearLayout>
+</ScrollView>

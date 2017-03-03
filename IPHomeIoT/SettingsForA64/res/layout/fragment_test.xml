@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#ffffff">
+    <TextView
+        android:id="@+id/idLabel"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:text="@string/yes"
+        android:textColor="#0c1a3d"
+        android:textSize="20sp" />
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dddfe4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/idLabel"
+
+        />
+    
+</RelativeLayout>

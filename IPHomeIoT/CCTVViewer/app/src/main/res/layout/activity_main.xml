@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00000000"
+    tools:context="commax.wallpad.cctvview.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="78.75dp"
+        android:id="@+id/actionBarLayout"
+        android:orientation="horizontal"
+        android:background="@mipmap/bg_title_1depth">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/back"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="17.25dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="16.25dp"
+            android:src="@mipmap/btn_title_back_white_n"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/goToEnvironmentApp"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:paddingRight="30dp"
+            android:paddingTop="17.25dp"
+            android:paddingBottom="16.25dp"
+            android:src="@mipmap/btn_apps_setting_n"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="17.25dp"
+            android:paddingBottom="16.25dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="CCTV"
+            android:textColor="#ffffff"
+            android:id="@+id/textView2" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/listviewLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFFFF"
+            android:layout_weight="0.65">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/subtitle"
+                android:background="#ffffff"
+                android:layout_marginBottom="16.25dp"
+                android:layout_marginTop="16.25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/subtitleFavorites"
+                    android:id="@+id/subtitleFavorites"
+                    android:text="@string/favorites"
+                    android:textColor="#0c1a3d"
+                    android:background="@drawable/shape_rounded_rectangle"/>
+
+                <Button
+                    style="@style/subtitleCCTVList"
+                    android:id="@+id/subtitleCCTVList"
+                    android:text="CCTV"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/shape_rounded_rectangle"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dddfe4"
+            />
+
+            <ListView
+                android:id="@+id/cameraList"
+                android:dividerHeight="1px"
+                android:cacheColorHint="#00000000"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="#dddfe4"
+                android:choiceMode="singleChoice"
+                android:listSelector="@android:color/transparent"
+                android:background="#ffffffff"
+                android:drawSelectorOnTop="false"
+                 >
+
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#00000000"
+            android:layout_weight="0.35">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/playerRelativeLayout">
+
+                <SurfaceView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/videoSurfaceView"/>
+
+                <ImageView
+                    android:id="@+id/previousButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@mipmap/btn_thumbnail_arrow_left_n"/>
+
+                <ImageView
+                    android:id="@+id/nextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="50dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/btn_thumbnail_arrow_right_n"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/snapshot"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="26dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/shape_circle"
+                    android:src="@mipmap/btn_apps_camera_n"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/bg_cctv_basic"
+                    android:id="@+id/disconnectView">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/disconnectLogo"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:src="@mipmap/img_logo_splash_n"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+
+                </FrameLayout>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

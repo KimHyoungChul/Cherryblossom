@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_header_layout_height">63dp</dimen>
+    <dimen name="title_tab_layout_height">56dp</dimen>
+    <dimen name="title_back_btn_marginLeft">24dp</dimen>
+    <dimen name="title_edit_btn_marginRight">24dp</dimen>
+    <dimen name="title_appname_text_size">23dp</dimen>
+    <dimen name="title_btn_size">36dp</dimen>
+    <dimen name="title_underline_height">1dp</dimen>    
+    
+    <dimen name="title_tab_btn_width">75dp</dimen>
+    <dimen name="title_tab_btn_height">38dp</dimen>
+    <dimen name="title_tab_btn_textsize">18dp</dimen>
+    <dimen name="title_tab_btn_marginLeft">20dp</dimen>
+    <dimen name="title_tab_btn_paddingLeftRight">24dp</dimen>
+
+    <dimen name="sub_title_paddingLeftRight">30dp</dimen>
+    <dimen name="sub_title_height">40dp</dimen>
+    <dimen name="sub_title_textSize">15dp</dimen>
+
+    <!-- Main -->
+    <dimen name="main_linear_marginLeftRight">56dp</dimen>
+    <dimen name="main_vertical_dividerLine_width">1dp</dimen>
+    <dimen name="main_vertical_dividerLine_marginBottom">25dp</dimen>
+    <dimen name="main_ll_elec_marginTop">25dp</dimen>
+    <dimen name="main_ll_etc_marginTop">17dp</dimen>
+    <dimen name="main_icon_width_height">50dp</dimen>
+    <dimen name="main_icon_marginRight">20dp</dimen>
+    <dimen name="main_subtitle_height">55dp</dimen>
+    <dimen name="main_subtitle_marginRight">20dp</dimen>
+    <dimen name="main_subtitle_textSize">21dp</dimen>
+    <dimen name="main_btn_ll_height">30dp</dimen>
+    <dimen name="main_btn_ll_paddingLeftRight">15dp</dimen>
+    <dimen name="main_btn_textSize">15dp</dimen>
+    <dimen name="main_btn_arrow_width">9dp</dimen>
+    <dimen name="main_btn_arrow_height">24dp</dimen>
+    <dimen name="main_btn_arrow_marginLeft">4dp</dimen>
+
+    <!-- Views -->
+    <dimen name="view_icon_marginTop">45dp</dimen>
+    <dimen name="view_text1_textSize">32dp</dimen>
+    <dimen name="view_text2_textSize">18dp</dimen>
+    <dimen name="view_text1_marginTop">27dp</dimen>
+    <dimen name="view_text2_marginTop">8dp</dimen>
+    <dimen name="view_text2_lineSpacingExtra">5sp</dimen>
+    <!--<dimen name="view_button_width">308dp</dimen>-->
+    <dimen name="view_button_height">40dp</dimen>
+    <dimen name="view_button_marginTop">27dp</dimen>
+    <dimen name="view_button_marginRight">10dp</dimen>
+    <dimen name="view_button_marginBottom">105dp</dimen>
+    <dimen name="view_button_paddingLeftRight">12dp</dimen>
+    <dimen name="view_button_arrow_width">19dp</dimen>
+    <dimen name="view_button_arrow_height">30dp</dimen>
+    <dimen name="view_button_textSize">18dp</dimen>
+
+    <dimen name="view_pager_layout_height">285dp</dimen>
+
+    <dimen name="view_indicator_height">58dp</dimen>
+    <dimen name="view_indicator_img_width">8dp</dimen>
+    <dimen name="view_indicator_img_height">8dp</dimen>
+    <dimen name="view_indicator_img_marginRight">3dp</dimen>
+
+    <!--
+    <dimen name="toast_symbol_marginTop">216dp</dimen>
+    <dimen name="toast_symbol_marginBottom">22dp</dimen>
+    <dimen name="toast_text_height">112dp</dimen>
+    <dimen name="toast_header_marginBottom">238dp</dimen>
+    <dimen name="toast_header_textsize">94dp</dimen>
+    <dimen name="toast_bottom_textsize">58dp</dimen>     
+    
+    <dimen name="common_toast_width">1168dp</dimen>
+    <dimen name="common_toast_height">122dp</dimen>
+    <dimen name="common_toast_textSize">40dp</dimen>
+    
+    <dimen name="goout_header_marginBottom">30dp</dimen>
+    <dimen name="goout_timer_height">218dp</dimen>
+    <dimen name="goout_timer_textsize">226dp</dimen>
+    <dimen name="goout_timer_marginBottom">-30dp</dimen>
+    <dimen name="goout_btn_close_height">216dp</dimen>
+    <dimen name="goout_btn_close_img_width">72dp</dimen>
+    <dimen name="goout_btn_close_img_height">72dp</dimen>
+    <dimen name="goout_btn_close_layout_marginLeft">48dp</dimen>
+    <dimen name="goout_btn_close_layout_marginTop">28dp</dimen>
+    -->
+    <!--12.5 inch-->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--dpinner-->
+    <!--
+    <dimen name="component_dpinner_text_size">42dp</dimen>
+    <dimen name="component_dpinner_height">83dp</dimen>   
+    <dimen name="component_layout_bottom_padding">20dp</dimen>
+    <dimen name="component_line_right_padding">20dp</dimen>
+    <dimen name="spinner_dropdown_height">108dp</dimen>
+    <dimen name="spinner_test_left_padding">20dp</dimen>
+    <dimen name="spinner_test_bottom_padding">2dp</dimen>
+    <dimen name="spinner_check_image_right_padding">26dp</dimen>
+    <dimen name="spinner_down_image_right_padding">20dp</dimen>
+    <dimen name="spinner_line_top_padding">74dp</dimen>
+    <dimen name="spinner_dropdown_top_padding">42dp</dimen>
+    -->
+    <!--about circle button-->
+    <!--
+    <dimen name="circle_size">192dp</dimen>
+    <dimen name="round_under_btn_radius">52dip</dimen>
+    -->
+    <!--custom toast-->
+    <!--
+    <dimen name="toast_text_size">30dp</dimen>
+    -->
+</resources>

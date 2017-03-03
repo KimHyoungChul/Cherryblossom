@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- 타이틀 바 -->
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_header_layout_height"
+            android:background="@mipmap/bg_title_1depth">
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/title_back_btn_marginLeft"
+                android:background="@mipmap/btn_title_close_white_n" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/app_name"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/title_appname_text_size" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/subtitle_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/sub_title_height"
+        android:paddingRight="@dimen/sub_title_paddingLeftRight"
+        android:paddingLeft="@dimen/sub_title_paddingLeftRight"
+        android:gravity="center_vertical"
+        android:background="#f0f1f9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_title"
+            android:textSize="@dimen/sub_title_textSize"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/main_linear_marginLeftRight"
+        android:layout_marginRight="@dimen/main_linear_marginLeftRight"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/dividerLine"
+            android:layout_width="@dimen/main_vertical_dividerLine_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/main_vertical_dividerLine_marginBottom"
+            android:background="#b5b6c4" />
+
+        <LinearLayout
+            android:id="@+id/ll_elec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_ll_elec_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_elec"
+                android:layout_width="@dimen/main_icon_width_height"
+                android:layout_height="@dimen/main_icon_width_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/main_icon_marginRight"
+                android:background="@mipmap/ic_coach04_eletric" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_subtitle_height"
+                android:layout_marginRight="@dimen/main_subtitle_marginRight"
+                android:gravity="center_vertical"
+                android:text="@string/title_elec"
+                android:textSize="@dimen/main_subtitle_textSize" />
+
+            <LinearLayout
+                android:id="@+id/btn_tip_elec"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_btn_ll_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/view_button_marginRight"
+                android:background="@drawable/main_btn_shape"
+                android:paddingLeft="@dimen/main_btn_ll_paddingLeftRight"
+                android:paddingRight="@dimen/main_btn_ll_paddingLeftRight">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/title_tips_elec"
+                    android:textColor="#6a71cc"
+                    android:textSize="@dimen/main_btn_textSize" />
+
+                <ImageView
+                    android:layout_width="@dimen/main_btn_arrow_width"
+                    android:layout_height="@dimen/main_btn_arrow_height"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/main_btn_arrow_marginLeft"
+                    android:background="@mipmap/ic_line_purple_more" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_water"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_gas"
+            android:layout_marginTop="@dimen/main_ll_etc_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_water"
+                android:layout_width="@dimen/main_icon_width_height"
+                android:layout_height="@dimen/main_icon_width_height"
+                android:layout_marginRight="@dimen/main_icon_marginRight"
+                android:background="@mipmap/ic_coach04_water" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_subtitle_height"
+                android:layout_marginRight="@dimen/main_subtitle_marginRight"
+                android:gravity="center_vertical"
+                android:text="@string/title_water"
+                android:textSize="@dimen/main_subtitle_textSize" />
+
+            <LinearLayout
+                android:id="@+id/btn_tip_water"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_btn_ll_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/view_button_marginRight"
+                android:background="@drawable/main_btn_shape"
+                android:paddingLeft="@dimen/main_btn_ll_paddingLeftRight"
+                android:paddingRight="@dimen/main_btn_ll_paddingLeftRight">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/title_tips_water"
+                    android:textColor="#6a71cc"
+                    android:textSize="@dimen/main_btn_textSize" />
+
+                <ImageView
+                    android:layout_width="@dimen/main_btn_arrow_width"
+                    android:layout_height="@dimen/main_btn_arrow_height"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/main_btn_arrow_marginLeft"
+                    android:background="@mipmap/ic_line_purple_more" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_hotwater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_water"
+            android:layout_marginTop="@dimen/main_ll_etc_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_hotwater"
+                android:layout_width="@dimen/main_icon_width_height"
+                android:layout_height="@dimen/main_icon_width_height"
+                android:layout_marginRight="@dimen/main_icon_marginRight"
+                android:background="@mipmap/ic_coach04_hotwater" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_subtitle_height"
+                android:layout_marginRight="@dimen/main_subtitle_marginRight"
+                android:gravity="center_vertical"
+                android:text="@string/title_hotwater"
+                android:textSize="@dimen/main_subtitle_textSize" />
+
+            <LinearLayout
+                android:id="@+id/btn_tip_hotwater"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_btn_ll_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/view_button_marginRight"
+                android:background="@drawable/main_btn_shape"
+                android:paddingLeft="@dimen/main_btn_ll_paddingLeftRight"
+                android:paddingRight="@dimen/main_btn_ll_paddingLeftRight">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/title_tips_hotwater"
+                    android:textColor="#6a71cc"
+                    android:textSize="@dimen/main_btn_textSize" />
+
+                <ImageView
+                    android:layout_width="@dimen/main_btn_arrow_width"
+                    android:layout_height="@dimen/main_btn_arrow_height"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/main_btn_arrow_marginLeft"
+                    android:background="@mipmap/ic_line_purple_more" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_heater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_hotwater"
+            android:layout_marginTop="@dimen/main_ll_etc_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_heater"
+                android:layout_width="@dimen/main_icon_width_height"
+                android:layout_height="@dimen/main_icon_width_height"
+                android:layout_marginRight="@dimen/main_icon_marginRight"
+                android:background="@mipmap/ic_coach04_heater" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_subtitle_height"
+                android:layout_marginRight="@dimen/main_subtitle_marginRight"
+                android:gravity="center_vertical"
+                android:text="@string/title_heater"
+                android:textSize="@dimen/main_subtitle_textSize" />
+
+            <LinearLayout
+                android:id="@+id/btn_tip_heater"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_btn_ll_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/view_button_marginRight"
+                android:background="@drawable/main_btn_shape"
+                android:paddingLeft="@dimen/main_btn_ll_paddingLeftRight"
+                android:paddingRight="@dimen/main_btn_ll_paddingLeftRight">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/title_tips_heater"
+                    android:textColor="#6a71cc"
+                    android:textSize="@dimen/main_btn_textSize" />
+
+                <ImageView
+                    android:layout_width="@dimen/main_btn_arrow_width"
+                    android:layout_height="@dimen/main_btn_arrow_height"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/main_btn_arrow_marginLeft"
+                    android:background="@mipmap/ic_line_purple_more" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_indoor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_heater"
+            android:layout_marginTop="@dimen/main_ll_etc_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_indoor"
+                android:layout_width="@dimen/main_icon_width_height"
+                android:layout_height="@dimen/main_icon_width_height"
+                android:layout_marginRight="@dimen/main_icon_marginRight"
+                android:background="@mipmap/ic_coach04_homeair" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_subtitle_height"
+                android:layout_marginRight="@dimen/main_subtitle_marginRight"
+                android:gravity="center_vertical"
+                android:text="@string/title_indoor"
+                android:textSize="@dimen/main_subtitle_textSize" />
+
+            <LinearLayout
+                android:id="@+id/btn_tip_indoor"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_btn_ll_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/view_button_marginRight"
+                android:background="@drawable/main_btn_shape"
+                android:paddingLeft="@dimen/main_btn_ll_paddingLeftRight"
+                android:paddingRight="@dimen/main_btn_ll_paddingLeftRight">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/title_tips_indoor"
+                    android:textColor="#6a71cc"
+                    android:textSize="@dimen/main_btn_textSize" />
+
+                <ImageView
+                    android:layout_width="@dimen/main_btn_arrow_width"
+                    android:layout_height="@dimen/main_btn_arrow_height"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/main_btn_arrow_marginLeft"
+                    android:background="@mipmap/ic_line_purple_more" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_gas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ll_elec"
+            android:layout_marginTop="@dimen/main_ll_etc_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_gas"
+                android:layout_width="@dimen/main_icon_width_height"
+                android:layout_height="@dimen/main_icon_width_height"
+                android:layout_marginRight="@dimen/main_icon_marginRight"
+                android:background="@mipmap/ic_coach04_gas" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_subtitle_height"
+                android:layout_marginRight="@dimen/main_subtitle_marginRight"
+                android:gravity="center_vertical"
+                android:text="@string/title_gas"
+                android:textSize="@dimen/main_subtitle_textSize" />
+
+            <LinearLayout
+                android:id="@+id/btn_tip_gas"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/main_btn_ll_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/view_button_marginRight"
+                android:background="@drawable/main_btn_shape"
+                android:paddingLeft="@dimen/main_btn_ll_paddingLeftRight"
+                android:paddingRight="@dimen/main_btn_ll_paddingLeftRight">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/title_tips_gas"
+                    android:textColor="#6a71cc"
+                    android:textSize="@dimen/main_btn_textSize" />
+
+                <ImageView
+                    android:layout_width="@dimen/main_btn_arrow_width"
+                    android:layout_height="@dimen/main_btn_arrow_height"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/main_btn_arrow_marginLeft"
+                    android:background="@mipmap/ic_line_purple_more" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

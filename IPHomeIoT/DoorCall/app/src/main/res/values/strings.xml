@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Door</string>
+    <string name="STR_REGISTER_DOOR">Please register your front door camera</string>
+    <string name="STR_CALL_DOOR">Door</string>
+    <string name="STR_CALL_MONITORING">Monitoring</string>
+    <string name="STR_CALL_OFFERING">Call coming</string>
+    <string name="STR_CALL_ACCEPT">Call</string>
+    <string name="STR_CALL_CONNECTING">Connecting</string>
+    <string name="STR_DOOR_OPENED">The door was opened</string>
+    <string name="STR_CHOOSE_DOOR">Select the entrance</string>
+    <string name="STR_CLOSE">Close</string>
+    <string name="STR_CAMERA_PREVIEW">Camera Preview</string>
+    <string name="STR_COMMENT_PREVIEW">If the video is not displayed, enter the correct IP with the IP setting on the upper right.\nIf the video is not shown even after setting IP, please press the reset button on the door camera.</string>
+    <string name="STR_REGISTRATION">Registration</string>
+    <string name="STR_LOBBY">Lobby</string>
+    <string name="STR_GUARD">Guard Station</string>
+    <string name="STR_OFFICE">Management office</string>
+    <string name="STR_IPSETTING">IP Setting</string>
+    <string name="STR_IP_DHCP">DHCP</string>
+    <string name="STR_IP_STATIC">STATIC</string>
+    <string name="STR_IP_ADDRESS">IP Addresss</string>
+    <string name="STR_IP_SUBNETMASK">Subnet Mask</string>
+    <string name="STR_IP_Gateway">Gateway</string>
+    <string name="STR_IP_DNS">DNS Server</string>
+</resources>

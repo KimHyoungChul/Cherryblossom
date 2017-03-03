@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.commax.settings.util.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkableLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_items_big_height"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:layout_width="@dimen/item_checkbox_icon_width"
+        android:layout_height="@dimen/item_checkbox_icon_height"
+        android:layout_marginLeft="@dimen/item_checkbox_icon_left_margin"
+        android:duplicateParentState="true"
+        android:src="@drawable/checkbox_selector"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_items_value_left_margin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:id="@+id/deviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0c1a3d"
+            android:textSize="@dimen/item_value_text_size" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:id="@+id/deviceIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0c1a3d"
+            android:textSize="@dimen/item_subvalue_text_size" />
+    </LinearLayout>
+
+    <com.commax.settings.font.NotoRegularButton
+        android:id="@+id/preview"
+        android:layout_width="@dimen/item_registered_preview_btn_width"
+        android:layout_height="@dimen/item_registered_preview_btn_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/item_registered_preview_btn_right"
+        android:background="@drawable/preview_button_selector"
+        android:text="@string/preview"
+        android:focusable="false"
+        android:textColor="@drawable/preview_button_text_color_selector"
+        android:textSize="@dimen/item_preview_btn_text_size" />
+
+</com.commax.settings.util.CheckableLinearLayout>

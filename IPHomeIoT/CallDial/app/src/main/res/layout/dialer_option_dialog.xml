@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dialer_option_dialog_width"
+    android:layout_height="@dimen/dialer_option_dialog_height"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_popup"
+    android:orientation="vertical" >
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/dialer_option_dialog_scroll_view_height"
+	    android:layout_gravity="center"
+	    android:layout_marginLeft="@dimen/dialer_option_dialog_scroll_view_margin_left"
+	    android:layout_marginRight="@dimen/dialer_option_dialog_scroll_view_margin_right"
+	    android:layout_marginTop="@dimen/dialer_option_dialog_scroll_view_margin_top"
+	    android:orientation="vertical" >
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	        <CheckBox
+	            android:id="@+id/chkCallOptonPstn"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/dialer_option_dialog_check_box_height"
+	            android:layout_marginBottom="@dimen/dialer_option_dialog_check_box_margin_bottom"
+	            android:layout_marginTop="@dimen/dialer_option_dialog_check_box_margin_top"
+	            android:button="@drawable/dialer_option_checkbox_selector"
+	            android:checked="false"
+	            android:paddingLeft="@dimen/dialer_option_dialog_check_box_padding_left"
+	            android:text="@string/STR_PSTN"
+	            android:textColor="#0C1A3D"
+	            android:textSize="@dimen/dialer_option_dialog_check_box_font_size" >
+	        </CheckBox>
+			<ImageView
+			    android:layout_width="match_parent"
+			    android:layout_height="2dp"
+			    android:background="#B5B6C4" >
+			</ImageView>
+	        <CheckBox
+	            android:id="@+id/chkCallOptonGener"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/dialer_option_dialog_check_box_height"
+	            android:layout_marginBottom="@dimen/dialer_option_dialog_check_box_margin_bottom"
+	            android:layout_marginTop="@dimen/dialer_option_dialog_check_box_margin_top"
+	            android:button="@drawable/dialer_option_checkbox_selector"
+	            android:checked="false"
+	            android:paddingLeft="@dimen/dialer_option_dialog_check_box_padding_left"
+	            android:text="@string/STR_NEIGHBOR"
+	            android:textColor="#0C1A3D"
+	            android:textSize="@dimen/dialer_option_dialog_check_box_font_size" >
+	        </CheckBox>
+			<ImageView
+			    android:layout_width="match_parent"
+			    android:layout_height="2dp"
+			    android:background="#B5B6C4" >
+			</ImageView>
+	        <CheckBox
+	            android:id="@+id/chkCallOptonInside"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/dialer_option_dialog_check_box_height"
+	            android:layout_marginBottom="@dimen/dialer_option_dialog_check_box_margin_bottom"
+	            android:layout_marginTop="@dimen/dialer_option_dialog_check_box_margin_top"
+	            android:button="@drawable/dialer_option_checkbox_selector"
+	            android:checked="false"
+	            android:paddingLeft="@dimen/dialer_option_dialog_check_box_padding_left"
+	            android:text="@string/STR_EXTENSION"
+	            android:textColor="#0C1A3D"
+	            android:textSize="@dimen/dialer_option_dialog_check_box_font_size" >
+	        </CheckBox>
+			<ImageView
+			    android:layout_width="match_parent"
+			    android:layout_height="2dp"
+			    android:background="#B5B6C4" >
+			</ImageView>
+	        <CheckBox
+	            android:id="@+id/chkCallOptonDoor"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/dialer_option_dialog_check_box_height"
+	            android:layout_marginBottom="@dimen/dialer_option_dialog_check_box_margin_bottom"
+	            android:layout_marginTop="@dimen/dialer_option_dialog_check_box_margin_top"
+	            android:button="@drawable/dialer_option_checkbox_selector"
+	            android:checked="false"
+	            android:paddingLeft="@dimen/dialer_option_dialog_check_box_padding_left"
+	            android:text="@string/STR_DOOR"
+	            android:textColor="#0C1A3D"
+	            android:textSize="@dimen/dialer_option_dialog_check_box_font_size" >
+	        </CheckBox>
+			<ImageView
+			    android:layout_width="match_parent"
+			    android:layout_height="2dp"
+			    android:background="#B5B6C4" >
+			</ImageView>
+	        <CheckBox
+	            android:id="@+id/chkCallOptonGuard"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/dialer_option_dialog_check_box_height"
+	            android:layout_marginBottom="@dimen/dialer_option_dialog_check_box_margin_bottom"
+	            android:layout_marginTop="@dimen/dialer_option_dialog_check_box_margin_top"
+	            android:button="@drawable/dialer_option_checkbox_selector"
+	            android:checked="false"
+	            android:paddingLeft="@dimen/dialer_option_dialog_check_box_padding_left"
+	            android:text="@string/STR_GUARD"
+	            android:textColor="#0C1A3D"
+	            android:textSize="@dimen/dialer_option_dialog_check_box_font_size" >
+	        </CheckBox>
+			<ImageView
+			    android:layout_width="match_parent"
+			    android:layout_height="2dp"
+			    android:background="#B5B6C4" >
+			</ImageView>
+	        <CheckBox
+	            android:id="@+id/chkCallOptonOffice"
+	            android:layout_width="match_parent"
+	            android:layout_height="@dimen/dialer_option_dialog_check_box_height"
+	            android:layout_marginBottom="@dimen/dialer_option_dialog_check_box_margin_bottom"
+	            android:layout_marginTop="@dimen/dialer_option_dialog_check_box_margin_top"
+	            android:button="@drawable/dialer_option_checkbox_selector"
+	            android:checked="false"
+	            android:paddingLeft="@dimen/dialer_option_dialog_check_box_padding_left"
+	            android:text="@string/STR_OFFICE"
+	            android:textColor="#0C1A3D"
+	            android:textSize="@dimen/dialer_option_dialog_check_box_font_size" >
+	        </CheckBox>
+		</LinearLayout>
+	</ScrollView>
+	<ImageView
+	    android:layout_width="match_parent"
+	    android:layout_height="2dp"
+	    android:layout_marginLeft="@dimen/dialer_option_dialog_scroll_end_line_margin_left"
+	    android:layout_marginRight="@dimen/dialer_option_dialog_scroll_end_line_margin_right"
+	    android:layout_marginTop="@dimen/dialer_option_dialog_scroll_end_line_margin_top"
+	    android:background="#B5B6C4" >
+	</ImageView>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="@dimen/dialer_option_dialog_conform_margin_top"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+   		<Button
+   		    android:id="@+id/btnDialerOptionDialogCancel"
+   		    android:layout_width="@dimen/dialer_option_dialog_conform_button_width"
+   		    android:layout_height="@dimen/dialer_option_dialog_conform_button_height"
+   		    android:layout_gravity="center"
+   		    android:background="@drawable/btn_cancel_shape"
+   		    android:text="@string/STR_CANCEL"
+   		    android:textColor="@drawable/btn_cancel_textcolor"
+   		    android:textSize="@dimen/dialer_option_dialog_conform_button_font_size" >
+	    </Button>
+		<FrameLayout
+		    android:layout_width="20dp"
+		    android:layout_height="fill_parent" >
+		</FrameLayout>
+	    <Button
+	        android:id="@+id/btnDialerOptionDialogOk"
+	        android:layout_width="@dimen/dialer_option_dialog_conform_button_width"
+	        android:layout_height="@dimen/dialer_option_dialog_conform_button_height"
+	        android:layout_gravity="center"
+	        android:background="@drawable/btn_ok_shape"
+	        android:text="@string/STR_OK"
+	        android:textColor="@drawable/btn_ok_textcolor"
+	        android:textSize="@dimen/dialer_option_dialog_conform_button_font_size" >
+	    </Button>
+	</LinearLayout>
+</LinearLayout>

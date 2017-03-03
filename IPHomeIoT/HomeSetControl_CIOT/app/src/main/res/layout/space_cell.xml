@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/space_cell_width"
+    android:layout_height="@dimen/space_cell_height" android:gravity="center">
+
+    <FrameLayout
+        android:id="@+id/valid_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/space_cell_width"
+            android:layout_height="@dimen/space_cell_height"
+            android:layout_gravity="center"
+            android:background="@mipmap/bg_home_list_wrap"/>
+
+        <ImageView
+            android:id="@+id/space_img"
+            android:layout_width="@dimen/space_cell_img_width"
+            android:layout_height="@dimen/space_cell_img_height"
+            android:background="@mipmap/bg_home_img_sm_1"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="@dimen/space_cell_img_width"
+            android:layout_height="@dimen/space_cell_img_height"
+            android:layout_gravity="center"
+            android:background="@mipmap/bg_home_list_dimmed"/>
+
+        <TextView
+            android:id="@+id/space_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#b3ffffff"
+            android:textSize="@dimen/space_cell_name_text"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="@dimen/space_cell_name_bottom"/>
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/btn_space_delete_selector"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/invalid_space"
+        android:layout_width="@dimen/space_cell_width"
+        android:layout_height="@dimen/space_cell_height"
+        android:layout_gravity="center"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="@dimen/space_cell_img_width"
+            android:layout_height="@dimen/space_cell_img_height"
+            android:background="@drawable/empty_cell"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_home_list_add"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+
+</FrameLayout>

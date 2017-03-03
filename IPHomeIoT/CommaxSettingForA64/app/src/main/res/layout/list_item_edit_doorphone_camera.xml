@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checkableLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_items_big_height"
+    android:orientation="horizontal">
+
+
+
+    <com.commax.settings.font.NotoRegularEditText
+        android:id="@+id/deviceNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_edit_left_margin"
+        android:layout_marginTop="@dimen/item_edit_top_margin"
+        android:textColor="#0c1a3d"
+        android:textSize="@dimen/item_value_text_size"
+        android:maxLength="52" />
+
+
+
+    <com.commax.settings.font.NotoRegularButton
+        android:id="@+id/deleteText"
+        android:layout_width="@dimen/item_deltext_icon_width"
+        android:layout_height="@dimen/item_deltext_icon_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/item_deltext_icon_right_margin"
+        android:background="@drawable/btn_info_s"
+        android:focusable="false"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

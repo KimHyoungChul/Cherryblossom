@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CCTV</string>
+    <string name="favorites">즐겨찾기</string>
+    <string name="preview">CCTV 미리보기</string>
+    <string name="registration">등록하기</string>
+    <string name="comment_preview">영상이 보이지 않을 경우 CCTV의 상태를 확인하시거나 관리자에게 문의 하십시오</string>
+</resources>

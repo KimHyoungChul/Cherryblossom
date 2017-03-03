@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_commax_application"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.commax.settings.wallpad_info.CommaxApplicationActivity">
+
+    <!--타이틀바-->
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/topTitleBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/top_titlebar_height"-->
+        <!--android:background="@drawable/bg_title_1depth">-->
+
+        <!--<Button-->
+            <!--android:layout_width="@dimen/back_icon_width"-->
+            <!--android:layout_height="@dimen/back_icon_height"-->
+            <!--android:layout_marginLeft="@dimen/back_icon_left_margin"-->
+            <!--android:layout_marginTop="@dimen/back_icon_top_margin"-->
+            <!--android:background="@drawable/back_button_selector"-->
+            <!--android:onClick="goBack" />-->
+
+        <!--<com.commax.settings.font.NotoDemiLightTextView-->
+            <!--android:id="@+id/screenTitle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:text="@string/application"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="@dimen/top_title_text_size" />-->
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/topTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_toptitle_height"
+        android:background="#ffffff">
+
+        <Button
+            android:layout_width="@dimen/back_icon_width"
+            android:layout_height="@dimen/back_icon_height"
+            android:layout_marginLeft="@dimen/back_icon_left_margin"
+            android:layout_marginTop="@dimen/back_icon_top_margin"
+            android:background="@drawable/close_button_white_selector"
+            android:onClick="goBack" />
+
+        <com.commax.settings.font.NotoDemiLightTextView
+            android:id="@+id/screenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/application"
+            android:textColor="#44496b"
+            android:textSize="@dimen/top_title_text_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_height="@dimen/activity_topline_height"
+        android:layout_width="fill_parent"
+        android:background="@color/title_bar_underline" />
+
+    <!-- 앱리스트-->
+    <ScrollView
+        android:id="@+id/AppListContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--코맥스 앱 리스트-->
+            <com.commax.settings.font.NotoMediumTextView
+                android:id="@+id/commaxAppListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_subtitle_height"
+                android:background="#f0f1f9"
+                android:paddingLeft="@dimen/activity_subtitle_left_margin"
+                android:gravity="center_vertical"
+                android:textColor="#6b71cc"
+                android:textSize="@dimen/activity_subtitle_text_size"
+                 />
+
+            <ListView
+                android:id="@+id/commaxAppList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topTitleBar"
+                android:divider="@drawable/applist_divider"
+                android:dividerHeight="@dimen/activity_divider_item_height"
+                android:layout_weight="1" />
+
+            <!--시스템 앱 리스트-->
+            <com.commax.settings.font.NotoMediumTextView
+                android:id="@+id/systemAppListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_subtitle_height"
+                android:background="#f0f1f9"
+                android:textColor="#6b71cc"
+                android:paddingLeft="@dimen/activity_subtitle_left_margin"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/activity_subtitle_text_size"
+                />
+            <ListView
+                android:id="@+id/systemAppList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topTitleBar"
+                android:divider="@drawable/applist_divider"
+                android:dividerHeight="@dimen/activity_divider_item_height"
+                android:layout_weight="1" />
+
+            <!--기타 앱 리스트-->
+            <com.commax.settings.font.NotoMediumTextView
+                android:id="@+id/otherAppListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_subtitle_height"
+                android:background="#f0f1f9"
+                android:textColor="#6b71cc"
+                android:paddingLeft="@dimen/activity_subtitle_left_margin"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/activity_subtitle_text_size"
+                />
+            <ListView
+                android:id="@+id/otherAppList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topTitleBar"
+                android:divider="@drawable/applist_divider"
+                android:dividerHeight="@dimen/activity_divider_item_height"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

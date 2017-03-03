@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.commax.settings.MainActivity">
+
+    <include
+        android:id="@+id/topTitleBar"
+        layout="@layout/top_title_bar" />
+
+    <include
+        android:id="@+id/leftMenuBar"
+        layout="@layout/left_menu_bar"
+        android:layout_width="@dimen/left_menubar_width"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topTitleBar" />
+
+    <View
+        android:id="@+id/menuBarLine"
+        android:layout_width="@dimen/left_menubar_linebar_width"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topTitleBar"
+        android:layout_toRightOf="@id/leftMenuBar"
+        android:background="#b5b6c4" />
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topTitleBar"
+        android:layout_toRightOf="@id/menuBarLine" />
+
+    <!--fragment 태그를 사용하면 static으로 되어 replace했을 때 뒤에 이전 content가 표시되는 버그 발생 -->
+    <!--<fragment-->
+    <!--android:id="@+id/fragmentContainer"-->
+    <!--android:layout_below="@id/topTitleBar"-->
+    <!--android:layout_toRightOf="@id/menuBarLine"-->
+    <!--android:name="com.commax.newsetting.user_account.UserAccountFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:layout="@layout/activity_main" />-->
+
+</RelativeLayout>

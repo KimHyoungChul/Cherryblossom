@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Camera Registration</string>
+    <string name="dong_ho_setting">동/호 설정</string>
+    <string name="front_camera_registration">현관 카메라 등록</string>
+    <string name="dongho_help_text">단독세대에 등록하는 경우 동/호 입력 없이 다음과정으로 진행합니다.</string>
+    <string name="dong">동</string>
+    <string name="ho">호</string>
+    <string name="next">다음</string>
+    <string name="registration_help_text">현관 카메라의 종모양 버튼을 3초간 누르면 현관 카메라 정보항목이 표시됩니다.</string>
+    <string name="registration">등록</string>
+    <string name="previous">이전</string>
+    <string name="put_in_dong">동을 입력해주세요</string>
+    <string name="put_in_ho">호를 입력해주세요</string>
+    <string name="put_in_dong_number">동을 숫자로 입력해주세요</string>
+    <string name="put_in_ho_number">호를 숫자로 입력해주세요</string>
+    <string name="preview">미리보기</string>
+    <string name="choose_camera">카메라를 선택해주세요.</string>
+    <string name="not_same_sync">sync값이 일치하지 않음</string>
+    <string name="registered">등록되었습니다.</string>
+</resources>

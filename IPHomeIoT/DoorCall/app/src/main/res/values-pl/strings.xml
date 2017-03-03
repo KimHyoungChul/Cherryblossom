@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Drzwi</string>
+    <string name="STR_REGISTER_DOOR">Proszę zarejestrować swoją kamerę na drzwiach od frontu</string>
+    <string name="STR_CALL_DOOR">Drzwi</string>
+    <string name="STR_CALL_MONITORING">Monitorowania</string>
+    <string name="STR_CALL_OFFERING">Łączenie się</string>
+    <string name="STR_CALL_ACCEPT">Połączenie</string>
+    <string name="STR_CALL_CONNECTING">złączony</string>
+    <string name="STR_DOOR_OPENED">Drzwi otworzyła</string>
+    <string name="STR_CHOOSE_DOOR">Wybierz wejście</string>
+    <string name="STR_CLOSE">Zamknięte</string>
+    <string name="STR_CAMERA_PREVIEW">Przegląd</string>
+    <string name="STR_COMMENT_PREVIEW">Jeśli nie jest wyświetlone wideo, wprowadź poprawne IP w ustawieniach IP na górze po prawej.\nJeśli wideo nie jest pokazane, nawet po ustawieniu IP, proszę wcisnąć przycisk resetowania na kamerze w drzwiach.</string>
+    <string name="STR_REGISTRATION">Rejestracja</string>
+    <string name="STR_LOBBY">Lobby</string>
+    <string name="STR_GUARD">Stróżówka</string>
+    <string name="STR_OFFICE">Biuro zarządu</string>
+    <string name="STR_IPSETTING">IP Setting</string>
+    <string name="STR_IP_DHCP">DHCP</string>
+    <string name="STR_IP_STATIC">STATIC</string>
+    <string name="STR_IP_ADDRESS">IP Addresss</string>
+    <string name="STR_IP_SUBNETMASK">Subnet Mask</string>
+    <string name="STR_IP_Gateway">Gateway</string>
+    <string name="STR_IP_DNS">DNS Server</string>
+</resources>

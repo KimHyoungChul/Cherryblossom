@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/screenOffTimeSetting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/screenOffTimeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="디스플레이 꺼짐 시간 설정"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/screenOffTimeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/screenOffTimeLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="5분 이상 동작이 없을 때 디스플레이 꺼짐"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/screensaverTimeSetting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/screensaverTimeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="스크린세이버 시간 설정"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/screensaverTimeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/screensaverTimeLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="매 시간 마다 N 분 켜짐"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>

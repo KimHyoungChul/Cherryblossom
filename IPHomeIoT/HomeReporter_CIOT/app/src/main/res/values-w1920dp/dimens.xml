@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Header-->
+    <dimen name="sub_header_text">40dp</dimen>
+    <dimen name="header_text">48dp</dimen>
+    <dimen name="header_height">128dp</dimen>
+    <dimen name="header_button_right_left_margin">48dp</dimen>
+    <dimen name="header_button_top_margin">28dp</dimen>
+    <dimen name="header_button_text">40dp</dimen>
+    <dimen name="main_title_button_left">6dp</dimen>
+
+    <!--DetailButton-->
+    <dimen name="auto_detail_text">44dp</dimen>
+    <dimen name="auto_detail_show_more_text">28dp</dimen>
+    <dimen name="auto_detail_button_width">208dp</dimen>
+    <dimen name="auto_detail_button_height">96dp</dimen>
+    <dimen name="auto_detail_button_radius">48dip</dimen>
+    <dimen name="auto_detail_button_stroke">4dp</dimen>
+
+    <!--Toast-->
+    <dimen name="toast_text">40dp</dimen>
+    <dimen name="toast_text_bottom">12dp</dimen>
+    <dimen name="toast_text_left_right">40dp</dimen>
+    <dimen name="toast_right_left">394dp</dimen>
+    <dimen name="toast_height">122dp</dimen>
+    <dimen name="toast_width">1150dp</dimen>
+
+    <!--Location Setting-->
+    <dimen name="location_edit_height">120dp</dimen>
+    <dimen name="location_edit_layout_height">148dp</dimen>
+    <dimen name="location_edit_text">48dp</dimen>
+    <dimen name="location_edit_right_padding">80dp</dimen>
+    <dimen name="location_edit_clear_right">20dp</dimen>
+    <dimen name="location_edit_left">60dp</dimen>
+    <dimen name="location_search_btn_right">60dp</dimen>
+    <dimen name="location_edit_right">20dp</dimen>
+    <dimen name="location_result_height">80dp</dimen>
+    <dimen name="location_result_left">60dp</dimen>
+    <dimen name="location_result_text">40dp</dimen>
+
+    <!--Scroll-->
+    <dimen name="scroll_height">952dp</dimen>
+    <dimen name="scroll_width">400dp</dimen>
+
+    <!--Air-->
+    <dimen name="air_width">400dp</dimen>
+    <dimen name="air_status_text">104dp</dimen>
+    <dimen name="air_status_text_big">80dp</dimen>
+    <dimen name="air_status_text_other">60dp</dimen>
+    <dimen name="air_status_text_height">144dp</dimen>
+    <dimen name="air_status_top">44dp</dimen>
+    <dimen name="air_type_top">6dp</dimen>
+    <dimen name="air_type_text">32dp</dimen>
+    <dimen name="air_value_text">36dp</dimen>
+    <dimen name="air_status_left_right">20dp</dimen>
+    <dimen name="air_unit_bottom">0dp</dimen>
+
+    <!--EnergyItem-->
+    <dimen name="energy_item_width">240dp</dimen>
+    <dimen name="energy_type_top">12dp</dimen>
+    <dimen name="energy_type_left">20dp</dimen>
+    <dimen name="energy_value_top">8dp</dimen>
+    <dimen name="energy_value_text">52dp</dimen>
+    <dimen name="energy_unit_text">32dp</dimen>
+    <dimen name="energy_status_text">32dp</dimen>
+
+    <!--ListItem-->
+    <dimen name="list_top_bottom">24dp</dimen>
+    <dimen name="list_icon_left_right">60dp</dimen>
+    <dimen name="list_text_left">24dp</dimen>
+    <dimen name="list_text">48dp</dimen>
+    <dimen name="power_btn_size">76dp</dimen>
+    <dimen name="power_btn_stroke">4dp</dimen>
+
+    <!--MissedView-->
+    <dimen name="missed_right">98dp</dimen>
+    <dimen name="missed_title_top">146dp</dimen>
+    <dimen name="missed_title_left">132dp</dimen>
+    <dimen name="missed_title_text">68dp</dimen>
+    <dimen name="missed_lay_left">98dp</dimen>
+    <dimen name="missed_lay_top">80dp</dimen>
+
+    <!--MonthEnergy-->
+    <dimen name="month_energy_right">84dp</dimen>
+    <dimen name="month_energy_date_text">32dp</dimen>
+    <dimen name="month_energy_lay_left">112dp</dimen>
+    <dimen name="month_energy_lay_top">36dp</dimen>
+
+    <!--Notice-->
+    <dimen name="notice_width">640dp</dimen>
+    <dimen name="notice_title_right_left">60dp</dimen>
+    <dimen name="notice_title_text">64dp</dimen>
+    <dimen name="notice_when_top">44dp</dimen>
+    <dimen name="notice_when_text">32dp</dimen>
+    <dimen name="notice_call_security_top">40dp</dimen>
+    <dimen name="notice_call_security_text">32dp</dimen>
+    <dimen name="notice_do_not_show_top">130dp</dimen>
+    <dimen name="notice_do_not_show_text">32dp</dimen>
+    <dimen name="notice_do_not_show_text_left">8dp</dimen>
+
+    <dimen name="notice_call_security_width">296dp</dimen>
+    <dimen name="notice_call_security_height">72dp</dimen>
+    <dimen name="notice_call_security_stroke">2dp</dimen>
+
+    <!--Parking-->
+    <dimen name="parking_width">640dp</dimen>
+    <dimen name="parking_second_text">128dp</dimen>
+    <dimen name="parking_second_text_right_left">80dp</dimen>
+    <dimen name="parking_car_number_text">32dp</dimen>
+    <dimen name="parking_parking_area_text">36dp</dimen>
+
+    <!--Setting-->
+    <dimen name="setting_index_left">60dp</dimen>
+    <dimen name="setting_index_height">80dp</dimen>
+    <dimen name="setting_index_text">40dp</dimen>
+    <dimen name="setting_header_notice">28dp</dimen>
+    <dimen name="setting_guide_width">1640dp</dimen>
+    <dimen name="setting_index_right">20dp</dimen>
+
+    <!--TodayEnergy-->
+    <dimen name="today_energy_width">640dp</dimen>
+    <dimen name="today_energy_value_top">44dp</dimen>
+    <dimen name="today_energy_value_text">128dp</dimen>
+    <dimen name="today_energy_unit_text">64dp</dimen>
+    <dimen name="today_energy_status_text">32dp</dimen>
+    <dimen name="today_energy_status_top">6dp</dimen>
+
+    <!--ShowMore-->
+    <dimen name="show_more_text">32dp</dimen>
+    <dimen name="show_more_height">80dp</dimen>
+
+    <!--Weather-->
+    <dimen name="weather_temp_text">128dp</dimen>
+    <dimen name="weather_dop_text">84dp</dimen>
+    <dimen name="weather_scale_text">84dp</dimen>
+    <dimen name="weather_scale_top">10dp</dimen>
+    <dimen name="weather_scale_bottom">-10dp</dimen>
+    <dimen name="weather_status_text">32dp</dimen>
+    <dimen name="weather_status_top">18dp</dimen>
+    <dimen name="weather_temp_text_long">100dp</dimen>
+    <dimen name="weather_temp_text_so_long">84dp</dimen>
+
+    <!--MissedItem-->
+    <dimen name="missed_item_width">240dp</dimen>
+    <dimen name="missed_item_img">180dp</dimen>
+    <dimen name="missed_item_img_height">120dp</dimen>
+    <dimen name="missed_item_img_top">12dp</dimen>
+    <dimen name="missed_item_img_left">30dp</dimen>
+    <dimen name="missed_item_img_right">30dp</dimen>
+    <dimen name="missed_item_badge_top">64dp</dimen>
+    <dimen name="missed_item_badge_left">104dp</dimen>
+    <dimen name="missed_item_badge_padding">10dp</dimen>
+    <dimen name="missed_item_badge_text">24dp</dimen>
+    <dimen name="missed_item_type_width">180dp</dimen>
+    <dimen name="missed_item_type_text">40dp</dimen>
+    <dimen name="missed_item_type_top">28dp</dimen>
+    <dimen name="missed_item_badge_height">40dp</dimen>
+    <dimen name="missed_item_badge_radius">20dp</dimen>
+
+</resources>

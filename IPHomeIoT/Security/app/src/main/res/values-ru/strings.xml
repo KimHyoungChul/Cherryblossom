@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="str_sensortest">Тест датчика</string>
+    <string name="str_sensor_use_check">Установка датчика</string>
+    <string name="str_securityset">Датчики</string>
+    <string name="str_outmodeset">Таймер</string>
+    <string name="str_outmodeoption">Режим охраны</string>
+    <string name="str_panic">Тревога</string>
+    
+    <!-- 비상 상황 -->
+    <string name="msg_occur_panic">Черезвычайная ситуация</string>
+    <string name="msg_occur_fire">Произошло возгарание</string>
+    <string name="msg_occur_gas">Утечка газа</string>
+    <string name="msg_occur_security">Произошол взлом</string>
+    <string name="msg_occur_safe">Безопасный чрезвычайное происшествие произошло.</string>
+    
+    <!-- 센서 -->
+    <string name="str_emergency">Тревога</string>
+    <string name="str_fire">Пожар</string>
+    <string name="str_gas">Газ</string>
+    <string name="str_sector">Зона</string>
+    <string name="str_sector1">Зона 01</string>
+    <string name="str_sector2">Зона 02</string>
+    <string name="str_sector3">Зона 03</string>
+    <string name="str_sector4">Зона 04</string>
+    <string name="str_sector5">Зона 05</string>
+    <string name="str_sensor_check">Проверьте статус датчика</string>
+    
+    <string name="str_capture">Запись фото посетителя</string>
+    <string name="str_all_light_close">Выключить освещение</string>
+    <string name="str_gasclose">Закрытие газового клапана</string>
+    <string name="str_bypass_call">переключатель</string>
+    
+    <!-- 메뉴 -->
+    <string name="str_setAll">Выбрать все</string>
+    <string name="str_desetAll">Отменить все</string>
+    <string name="str_set">Настройки</string>
+    <string name="str_rename">перекрестить</string>
+    <string name="str_AllOn">Выбрать все</string>
+    <string name="str_AllOff">Очистить все</string>
+    
+    <!-- 방범 버튼 -->
+    <string name="str_prevset">Настройка безопасности</string>
+    <string name="str_prevrestore">Off\nпреступления</string>   
+    <string name="str_prevstate_Setup">установки</string>
+    <!--<string name="str_prevstate_Notset">Ошибка установки</string> -->
+    <string name="str_prevstate_Notset">не установлен</string> 
+    <string name="str_prevstate_on">ON</string> 
+    <string name="str_prevstate_off">OFF</string>    
+    
+    <!-- 비상 버튼 -->
+    <string name="str_stop">Стоп</string>
+    <string name="str_recover">Отмена</string>
+    
+    <!-- 외출모드 버튼 -->
+    <string name="str_start">Старт</string>
+    <string name="str_changeset">Настройки</string>
+    <string name="str_close">Закрыть</string>  
+    <string name="str_outtingrelease">Изложенный\nвыключение</string>    
+    <string name="str_outtingon">Нет на месте</string>
+    <string name="str_outmode_delaytime">Задержка постановки\nна охрану</string>
+    <string name="str_outmode_returntime">Задержка после\nтревоги</string>
+    <!-- add -->
+    <string name="msg_security_setting_info">Зона безопасности : %1$s</string>
+    <string name="msg_visitor_record_setting_info">Фото посетителей : %1$s</string>
+	<string name="msg_light_all_off_setting_info">Выключить\nосвещение : %1$s</string>
+	<string name="msg_gas_close_setting_info">Закрытие газового\nклапана : %1$s</string>
+	<string name="msg_indirection_call_setting_info">переключатель : %1$s</string>	
+	<string name="msg_setting_fail_sensor_open_outmode">Ошибка: датчик %1$s открыт</string>
+	<string name="str_setting">Настройки</string>
+	<string name="str_relelase">Отмена</string>
+	<string name="str_not_support">Не поддерживается</string>
+	<string name="msg_already_outmode">Режим "нет на месте" установлен</string> 
+    <string name="msg_already_outmode_restore">Уже установлено. Отменить режим</string>
+	<string name="msg_turnoff_security">В режиме охраны. Сначала снимите режим охраны</string>
+	<string name="msg_turnoff_outmode">Доступно из режима. \nПопробуйте после восстановления из режима.
+переименовать.</string>
+           
+    <!-- 메시지 -->
+    <string name="msg_check_network">Проверьте подключение к сети</string>
+    <string name="msg_ksoap_fail">Нет соединения с сервером</string>
+    <string name="msg_setting_success">Установка завершена</string>
+    <string name="msg_on_working">В работе...</string>
+    <string name="msg_setting_fail_sensor_open">Ошибка установки зоны %1$s</string>
+    <string name="msg_set_sector">Выбрать зону охраны</string>     
+    <string name="msg_set_outmodeoption">Вариант не выбран.</string> 
+    <string name="msg_title_info">Информация</string>
+	
+	<!-- 다이얼로그 버튼 -->
+    <string name="str_ok">Применить</string>
+    <string name="str_cancel">Отмена</string>
+    
+    <!-- 비상 Wait Message  -->
+    <string name="msg_is_occur_emergency">Будете ли оповещать о тревоге?</string>
+    <string name="on_setting">по установке...</string>
+    <string name="on_loading">Загрузка...</string>
+    <string name="on_search_device">Поиск устройства ...</string>
+    <string name="on_cont_lcd">Экран готов к установке ...</string>
+    <string name="on_cont_menu">Состав меню ...</string>
+    <string name="on_cont_emer">Поиск тревоги ...</string>
+    <string name="on_cont_snd">Загрузка звука...</string>
+    
+    <!-- 외출지연시간 -->
+    <string-array name="delaytime">
+        <item>1минута</item>
+        <item>2минута</item>
+        <item>3минута</item>
+    </string-array>
+    
+    <!-- 외출복귀시간 -->
+    <string-array name="returntime">
+        <item>0 секунд</item>
+        <item>10секунд</item>
+        <item>20секунд</item>
+        <item>30секунд</item>
+        <item>40секунд</item>
+        <item>50секунд</item>
+        <item>60секунд</item>
+        <item>70секунд</item>
+        <item>80секунд</item>
+        <item>90секунд</item>
+    </string-array>
+
+</resources>

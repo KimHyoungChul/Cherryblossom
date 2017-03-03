@@ -1,0 +1,268 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default screen resoulition (7 inch : 800x480)-->
+    <dimen name="SCREEN_WIDTH">800dp</dimen>
+    <dimen name="SCREEN_HEIGHT">480dp</dimen>
+
+
+    <!-- #drawable dimension -->
+    <dimen name="applist_divider_left">30dp</dimen>
+    <dimen name="applist_divider_right">30dp</dimen>
+    <dimen name="button_stroke_width">1dp</dimen>
+    <dimen name="button_radius_width">26dp</dimen>
+    <dimen name="button_radius_height">26dp</dimen>
+    <dimen name="status_circle_width">15dp</dimen>
+    <dimen name="status_circle_height">15dp</dimen>
+
+    <!-- #font dimension -->
+    <dimen name="top_title_text_size">24dp</dimen>
+    <dimen name="left_menubar_items_text_size">22dp</dimen>
+
+    <dimen name="fragment_items_text_size">24dp</dimen>
+    <dimen name="fragment_value_text_size">20dp</dimen>
+    <dimen name="userid_signup_btn_text_size">20dp</dimen>
+    <dimen name="initdevice_hint_text_size">24dp</dimen>
+    <dimen name="initdevice_reset_btn_text_size">20dp</dimen>
+    <dimen name="userid_item_text_size">24dp</dimen>
+    <dimen name="userid_hint_text_size">18dp</dimen>
+    <dimen name="camera_title_text_size">20dp</dimen>
+    <dimen name="camera_edit_btn_text_size">17dp</dimen>
+    <dimen name="camera_add_btn_text_size">20dp</dimen>
+
+    <dimen name="activity_toptitle_text_size">24dp</dimen>
+    <dimen name="activity_subtitle_text_size">20dp</dimen>
+    <dimen name="activity_helptitle_text_size">18dp</dimen>
+    <dimen name="activity_reg_btn_text_size">17dp</dimen>
+    <dimen name="activity_ipconfig_mode_text_size">20dp</dimen>
+    <dimen name="activity_ipconfig_item_text_size">22dp</dimen>
+
+    <dimen name="item_title_text_size">24dp</dimen>
+    <dimen name="item_value_text_size">20dp</dimen>
+    <dimen name="item_subvalue_text_size">16dp</dimen>
+    <dimen name="item_preview_btn_text_size">17dp</dimen>
+    <dimen name="item_applist_name_text_size">18dp</dimen>
+    <dimen name="item_applist_ver_text_size">15dp</dimen>
+
+    <dimen name="popup_title_text_size">22dp</dimen>
+    <dimen name="popup_item_text_size">22dp</dimen>
+    <dimen name="progress_bar_text_size">22dp</dimen>
+
+
+    <!-- #layout dimension -->
+
+    <!-- common dimension -->
+    <dimen name="top_titlebar_height">64dp</dimen>
+    <dimen name="back_icon_width">36dp</dimen>
+    <dimen name="back_icon_height">36dp</dimen>
+    <dimen name="back_icon_top_margin">14dp</dimen>
+    <dimen name="back_icon_left_margin">24dp</dimen>
+    <dimen name="edit_icon_width">36dp</dimen>
+    <dimen name="edit_icon_height">36dp</dimen>
+    <dimen name="edit_icon_item_margin">18dp</dimen>
+    <dimen name="trash_icon_width">36dp</dimen>
+    <dimen name="trash_icon_height">36dp</dimen>
+    <dimen name="trash_icon_right_margin">24dp</dimen>
+
+    <dimen name="left_menubar_width">320dp</dimen>
+    <dimen name="left_menubar_items_height">74dp</dimen>
+    <dimen name="left_menubar_items_left_margin">30dp</dimen>
+    <dimen name="left_menubar_divider_height">1dp</dimen>
+    <dimen name="left_menubar_divider_side_margin">20dp</dimen>
+    <dimen name="left_menubar_linebar_width">1dp</dimen>
+
+
+    <!-- #fragment layout dimension -->
+    <dimen name="fragment_items_text_height">36dp</dimen>
+    <dimen name="fragment_items_text_top_margin">20dp</dimen>
+    <dimen name="fragment_items_text_left_margin">30dp</dimen>
+    <dimen name="fragment_items_text_right_margin">30dp</dimen>
+    <dimen name="fragment_items_big_height">100dp</dimen>
+    <dimen name="fragment_items_small_height">70dp</dimen>
+    <dimen name="fragment_arrow_icon_width">40dp</dimen>
+    <dimen name="fragment_arrow_icon_height">40dp</dimen>
+    <dimen name="fragment_arrow_icon_right_margin">30dp</dimen>
+    <dimen name="fragment_switch_icon_width">60dp</dimen>
+    <dimen name="fragment_switch_icon_height">34dp</dimen>
+    <dimen name="fragment_switch_icon_top_margin">17dp</dimen>
+    <dimen name="fragment_switch_icon_right_margin">36dp</dimen>
+    <dimen name="fragment_divider_height">1dp</dimen>
+    <dimen name="fragment_divider_side_margin">20dp</dimen>
+
+    <dimen name="userid_divider_top_margin">19dp</dimen>
+    <dimen name="userid_items_left_margin">36dp</dimen>
+    <dimen name="userid_signup_btn_height">52dp</dimen>
+    <dimen name="userid_signup_btn_top_margin">30dp</dimen>
+    <dimen name="userid_signup_btn_side_margin">20dp</dimen>
+
+    <dimen name="initdevice_items_top_margin">45dp</dimen>
+    <dimen name="initdevice_reset_btn_width">188dp</dimen>
+    <dimen name="initdevice_reset_btn_height">52dp</dimen>
+    <dimen name="initdevice_reset_btn_top_margin">30dp</dimen>
+
+    <dimen name="camera_title_height">40dp</dimen>
+    <dimen name="camera_title_left_margin">30dp</dimen>
+    <dimen name="camera_edit_btn_width">120dp</dimen>
+    <dimen name="camera_edit_btn_height">30dp</dimen>
+    <dimen name="camera_edit_btn_right_margin">20dp</dimen>
+    <dimen name="camera_add_box_height">100dp</dimen>
+    <dimen name="camera_add_icon_width">40dp</dimen>
+    <dimen name="camera_add_icon_height">40dp</dimen>
+    <dimen name="camera_add_icon_left_margin">10dp</dimen>
+    <dimen name="camera_divider_list_height">2dp</dimen>
+    <dimen name="camera_divider_item_height">1dp</dimen>
+
+    <!-- #activity layout dimension -->
+    <dimen name="activity_toptitle_height">63dp</dimen> <!--? 72 or 63-->
+    <dimen name="activity_topline_height">1dp</dimen>
+    <dimen name="activity_subtitle_height">40dp</dimen>
+    <dimen name="activity_subtitle_left_margin">30dp</dimen>
+    <dimen name="activity_helptitle_height">58dp</dimen>
+    <dimen name="activity_helptitle_left_margin">11dp</dimen>
+    <dimen name="activity_items_big_height">100dp</dimen>
+    <dimen name="activity_items_small_height">70dp</dimen>
+
+    <dimen name="activity_close_icon_width">36dp</dimen> <!--? 40 -->
+    <dimen name="activity_close_icon_height">36dp</dimen>
+    <dimen name="activity_ok_icon_width">36dp</dimen>
+    <dimen name="activity_ok_icon_height">36dp</dimen>
+    <dimen name="activity_trash_icon_width">36dp</dimen>
+    <dimen name="activity_trash_icon_height">36dp</dimen>
+    <dimen name="activity_bell_icon_width">36dp</dimen>
+    <dimen name="activity_bell_icon_height">19dp</dimen>
+    <dimen name="activity_icon_left_margin">30dp</dimen>
+    <dimen name="activity_icon_right_margin">30dp</dimen>
+    <dimen name="activity_divider_list_height">2dp</dimen>
+    <dimen name="activity_divider_item_height">1dp</dimen>
+
+    <dimen name="activity_reg_box_height">104dp</dimen>
+    <dimen name="activity_reg_btn_width">148dp</dimen>
+    <dimen name="activity_reg_btn_height">52dp</dimen>
+    <dimen name="activity_reg_btn_left_margin">10dp</dimen>
+
+    <dimen name="activity_ipconfig_mode_top_margin">50dp</dimen>
+    <dimen name="activity_ipconfig_mode_left_margin">5dp</dimen>
+    <dimen name="activity_ipconfig_mode_item_left">150dp</dimen>
+    <dimen name="activity_ipconfig_item_height">40dp</dimen>
+    <dimen name="activity_ipconfig_item_width">150dp</dimen>
+    <dimen name="activity_ipconfig_value_width">336dp</dimen>
+    <dimen name="activity_ipconfig_item_right_margin">20dp</dimen>
+    <dimen name="activity_ipconfig_item_top_margin">60dp</dimen>
+    <dimen name="activity_ipconfig_item_top2_margin">30dp</dimen>
+    <dimen name="activity_ipconfig_underline_height">2dp</dimen>
+
+    <!-- #list_item layout dimension -->
+    <dimen name="list_items_big_height">80dp</dimen>
+    <dimen name="list_items_small_height">60dp</dimen>
+    <dimen name="list_items_text_height">36dp</dimen>
+    <dimen name="list_items_value_left_margin">15dp</dimen>
+
+    <dimen name="item_radiobtn_icon_width">30dp</dimen>
+    <dimen name="item_radiobtn_icon_height">30dp</dimen>
+    <dimen name="item_radiobtn_icon_left_margin">30dp</dimen>
+    <dimen name="item_radiobtn_value_left_margin">15dp</dimen>
+    <dimen name="item_checkbox_icon_width">30dp</dimen>
+    <dimen name="item_checkbox_icon_height">30dp</dimen>
+    <dimen name="item_checkbox_icon_left_margin">30dp</dimen>
+    <dimen name="item_minus_icon_width">36dp</dimen>
+    <dimen name="item_minus_icon_height">36dp</dimen>
+    <dimen name="item_minus_icon_left_margin">30dp</dimen>
+    <dimen name="item_deltext_icon_width">24dp</dimen>
+    <dimen name="item_deltext_icon_height">24dp</dimen>
+    <dimen name="item_deltext_icon_right_margin">40dp</dimen>
+
+    <dimen name="item_edit_top_margin">10dp</dimen>
+    <dimen name="item_edit_left_margin">80dp</dimen>
+    <dimen name="item_edit_right_margin">30dp</dimen>
+
+    <dimen name="item_registered_name_width">420dp</dimen>
+    <dimen name="item_registered_name_top_margin">10dp</dimen>
+    <dimen name="item_registered_name_left_margin">95dp</dimen>
+    <dimen name="item_registered_status_icon_width">15dp</dimen>
+    <dimen name="item_registered_status_icon_height">15dp</dimen>
+    <dimen name="item_registered_status_status_left">25dp</dimen>
+    <dimen name="item_registered_preview_btn_width">140dp</dimen>
+    <dimen name="item_registered_preview_btn_height">45dp</dimen>
+    <dimen name="item_registered_preview_btn_right">40dp</dimen>
+    <dimen name="item_registered_preview_btn2_right">20dp</dimen>
+    <dimen name="item_registered_ipconfig_btn_width">140dp</dimen>
+    <dimen name="item_registered_ipconfig_btn_height">45dp</dimen>
+    <dimen name="item_registered_ipconfig_btn_right">10dp</dimen>
+
+    <dimen name="item_applist_body_height">70dp</dimen>
+    <dimen name="item_applist_icon_width">40dp</dimen>
+    <dimen name="item_applist_icon_height">40dp</dimen>
+    <dimen name="item_applist_top_margin">15dp</dimen>
+    <dimen name="item_applist_left_margin">30dp</dimen>
+
+
+    <!-- #popup layout dimension -->
+    <dimen name="popup_dlg_normal_width">488dp</dimen>
+    <dimen name="popup_dlg_normal_height">433dp</dimen>
+    <dimen name="popup_dlg_big_height">463dp</dimen>
+    <dimen name="popup_dlg_small_height">283dp</dimen>
+    <dimen name="popup_body_normal_height">250dp</dimen>
+    <dimen name="popup_body_small_height">100dp</dimen>
+    <dimen name="popup_title_top_margin">24dp</dimen>
+
+    <dimen name="popup_divider_height">2dp</dimen>
+    <dimen name="popup_divider_top_margin">10dp</dimen>
+    <dimen name="popup_divider_side_margin">29dp</dimen>
+
+    <dimen name="popup_input_item_width">336dp</dimen>
+    <dimen name="popup_input_item_height">50dp</dimen>
+    <dimen name="popup_input_item_top_margin">15dp</dimen>
+
+    <dimen name="popup_list_item_height">240dp</dimen>
+    <dimen name="popup_list_item_top_margin">12dp</dimen>
+
+    <dimen name="popup_yesno_topline_width">458dp</dimen>
+    <dimen name="popup_yesno_topline_top_margin">12dp</dimen>
+    <dimen name="popup_yesno_topline_side_margin">15dp</dimen>
+    <dimen name="popup_yesno_box_height">52dp</dimen>
+    <dimen name="popup_yesno_updown_margin">19dp</dimen>
+    <dimen name="popup_yesno_btn_width">148dp</dimen>
+    <dimen name="popup_yesno_btn_height">52dp</dimen>
+    <dimen name="popup_yesno_btn_margin">10dp</dimen>
+
+    <dimen name="popup_calltime_item_width">250dp</dimen>
+
+    <dimen name="popup_cctvid_name_width">120dp</dimen>
+    <dimen name="popup_cctvid_value_width">286dp</dimen>
+
+    <dimen name="popup_password_box_height">100dp</dimen>
+    <dimen name="popup_password_item_width">250dp</dimen>
+    <dimen name="popup_password_item_height">50dp</dimen>
+    <dimen name="popup_password_item_top_margin">15dp</dimen>
+
+    <dimen name="popup_delete_item_side_margin">20dp</dimen>
+
+    <dimen name="popup_ip_item_height">50dp</dimen>
+    <dimen name="popup_ip_name_width">50dp</dimen>
+    <dimen name="popup_ip_value_width">336dp</dimen>
+
+    <dimen name="popup_phone_name_width">150dp</dimen>
+    <dimen name="popup_phone_value_width">280dp</dimen>
+
+    <dimen name="popup_dongho_item_height">50dp</dimen>
+    <dimen name="popup_dongho_name_width">70dp</dimen>
+    <dimen name="popup_dongho_value_width">336dp</dimen>
+    <dimen name="popup_dongho_item_top_margin">15dp</dimen>
+    <dimen name="popup_dongho_help_top_margin">20dp</dimen>
+
+
+    <!-- #custom dlg layout dimension -->
+    <dimen name="progress_dlg_normal_width">488dp</dimen>
+    <dimen name="progress_dlg_normal_height">100dp</dimen>
+    <dimen name="progress_bar_width">58dp</dimen>
+    <dimen name="progress_bar_height">58dp</dimen>
+    <dimen name="progress_bar_left_margin">24dp</dimen>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_framelayout_layout_height">50px</dimen>
+    <dimen name="title_home_btn_layout_width">113px</dimen>
+    <dimen name="title_home_btn_layout_height">50px</dimen>
+    <dimen name="title_txtSize">15sp</dimen>  
+    
+    <dimen name="bottom_btn_txtSize">13sp</dimen>  
+    <dimen name="bottom_btn_img_layout_width">174px</dimen>
+    <dimen name="bottom_btn_img_layout_height">51px</dimen>
+    <dimen name="bottom_btn_txt_paddingLeft">18dp</dimen>
+</resources>

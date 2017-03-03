@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我家玄关</string>
+    <string name="STR_REGISTER_DOOR">请登录小门口机</string>
+    <string name="STR_CALL_DOOR">我家玄关</string>
+    <string name="STR_CALL_MONITORING">监控中</string>
+    <string name="STR_CALL_OFFERING">呼叫中</string>
+    <string name="STR_CALL_ACCEPT">通话</string>
+    <string name="STR_CALL_CONNECTING">连接中</string>
+    <string name="STR_DOOR_OPENED">門打開</string>
+    <string name="STR_CHOOSE_DOOR">选门口</string>
+    <string name="STR_CLOSE">关闭</string>
+    <string name="STR_CAMERA_PREVIEW">预览</string>
+    <string name="STR_COMMENT_PREVIEW">视频不能显示时, 请活用右上方 IP设定功能\n如你已重新设定 IP也不能显示视频， 请按小门口机的复位键</string>
+    <string name="STR_REGISTRATION">注册</string>
+    <string name="STR_LOBBY">梯口</string>
+    <string name="STR_GUARD">物业中心</string>
+    <string name="STR_OFFICE">物业中心</string>
+    <string name="STR_IPSETTING">IP Setting</string>
+    <string name="STR_IP_DHCP">DHCP</string>
+    <string name="STR_IP_STATIC">STATIC</string>
+    <string name="STR_IP_ADDRESS">IP Addresss</string>
+    <string name="STR_IP_SUBNETMASK">Subnet Mask</string>
+    <string name="STR_IP_Gateway">Gateway</string>
+    <string name="STR_IP_DNS">DNS Server</string>
+</resources>

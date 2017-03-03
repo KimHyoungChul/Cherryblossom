@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="str_sensortest">Test czujników</string>
+    <string name="str_sensor_use_check">Ustawienia czujników</string>
+    <string name="str_securityset">Ustawienia zabezpieczeń</string>
+    <string name="str_outmodeset">Ustawienia wyjścia</string>
+    <string name="str_outmodeoption">Go Out mode option</string>
+    <string name="str_panic">Uruchomienie alarmu</string>
+    
+    <!-- 비상 상황 -->
+    <string name="msg_occur_panic">Sytuacje awaryjne.</string>
+    <string name="msg_occur_fire">Uruchomienie alarmu przeciwpożarowego</string>
+    <string name="msg_occur_gas">Uruchomienie alarmu - awaria instalacji gazowej</string>
+    <string name="msg_occur_security">Uruchomienie alarmu przeciwwłamaniowego</string>
+    <string name="msg_occur_ladder">Uruchomienie alarmu - drabina ewakuacyjna</string>
+    <string name="msg_occur_safe">Uruchomienie alarmu - nieuprawnione otwarcie sejfu</string>
+    
+    
+    <!-- 센서 -->
+    <string name="str_emergency">Alarm</string>
+    <string name="str_fire">Pożar</string>
+    <string name="str_gas">Gaz</string>
+    <string name="str_sector">Strefa</string>
+    <string name="str_sector1">Strefa 01</string>
+    <string name="str_sector2">Strefa 02</string>
+    <string name="str_sector3">Strefa 03</string>
+    <string name="str_sector4">Strefa 04</string>
+    <string name="str_sector5">Strefa 05</string>
+    <string name="str_sensor_check">Please check the sensor status.</string>
+    
+    <string name="str_capture">Baza odwiedzających</string>
+    <string name="str_all_light_close">Wyłączyć wszystkie światła</string>
+    <string name="str_gasclose">Zamknięcie instalacji gazowej</string>
+    <string name="str_bypass_call">Połączenie bypass</string>
+    
+    <!-- 메뉴 -->
+    <string name="str_setAll">Zaznacz wszystkie</string>
+    <string name="str_desetAll">Restore all</string>
+    <string name="str_set">Set</string>
+    <string name="str_rename">Rename</string>
+    <string name="str_AllOn">Select all</string>
+    <string name="str_AllOff">Unselect all</string>
+    
+    <!-- 방범 버튼 -->
+    <string name="str_prevset">Ustawienia zabezpieczeń</string>
+    <string name="str_prevrestore">Przywrócenie zabezpieczeń</string>   
+    <string name="str_prevstate_Setup">Setted</string>
+    <string name="str_prevstate_Notset">Not Set</string>   
+    <string name="str_prevstate_on">ON</string> 
+    <string name="str_prevstate_off">OFF</string>    
+    
+    <!-- 비상 버튼 -->
+    <string name="str_stop">Zatrzymanie</string>
+    <string name="str_recover">Przywrócenie</string>
+    
+    <!-- 외출모드 버튼 -->
+    <string name="str_start">Start</string>
+    <string name="str_changeset">Option</string>
+    <string name="str_close">Close</string>  
+    <string name="str_outtingrelease">\tGo out restore</string>
+    <string name="str_outtingon">Set out in</string>
+    <string name="str_outmode_delaytime">Set outing\ndelay time</string>
+    <string name="str_outmode_returntime">Restore outing\ndelay time</string>
+    <!-- add -->
+    <string name="msg_security_setting_info">security Area : %1$s</string>
+    <string name="msg_visitor_record_setting_info">Visitor Record : %1$s</string>
+	<string name="msg_light_all_off_setting_info">Turn Off\nAll Lights : %1$s</string>
+	<string name="msg_gas_close_setting_info">Close Gas Valve : %1$s</string>
+	<string name="msg_indirection_call_setting_info">Indirection Call : %1$s</string>
+	<string name="msg_setting_fail_sensor_open_outmode">Failed : Sensor %1$s Opened</string>
+	<string name="str_setting">Setting</string>
+	<string name="str_relelase">Restore</string>
+	<string name="str_not_support">Not Support.</string>
+	<string name="msg_already_outmode">Already out mode is enabled.</string> 
+	<string name="msg_already_outmode_restore">Has already been set. \nDo you want Go out restore?</string>
+	<string name="msg_turnoff_security">Enabled security. \nTry after Restore security.</string>
+	<string name="msg_turnoff_outmode">Enabled out mode. \nTry after Restore out mode.</string>
+    
+    <!-- Message -->
+    <string name="msg_check_network">Please check your network connection.</string>
+	<string name="msg_ksoap_fail">Can not connect to server.</string>
+	<string name="msg_setting_success">Set Completed.</string>	
+	<string name="msg_on_working">On Working...</string>
+	<string name="msg_setting_fail_sensor_open">Failed to set the area %1$s</string>
+	<string name="msg_set_sector">Choose crime areas.</string>
+	<string name="msg_set_outmodeoption">Option is not selected.</string> 
+	<string name="msg_title_info">Info.</string>
+	
+	<!-- 다이얼로그 버튼 -->
+    <string name="str_ok">Potwierdzenie</string>
+    <string name="str_cancel">Anuluj</string>
+    
+    <!-- 비상 Wait Message  -->
+    <string name="msg_is_occur_emergency">Chcesz wystąpić alarm?</string>
+	<string name="on_setting">On Setting...</string>
+    <string name="on_loading">On Loading...</string>
+    <string name="on_search_device">On Search Devices...</string>
+    <string name="on_cont_lcd">On Make Display ...</string>
+    <string name="on_cont_menu">On Make Menu ...</string>	
+    <string name="on_cont_emer">On Search Emergency...</string>
+    <string name="on_cont_snd">On Loading Sound...</string>
+    
+    <!-- 외출지연시간 -->
+    <string-array name="delaytime">
+        <item>1Minuta</item>
+        <item>2Minuta</item>
+        <item>3Minuta</item>
+    </string-array>
+    
+    <!-- 외출복귀시간 -->
+    <string-array name="returntime">
+        <item>0Sekunda</item>
+        <item>10Sekunda</item>
+        <item>20Sekunda</item>
+        <item>30Sekunda</item>
+        <item>40Sekunda</item>
+        <item>50Sekunda</item>
+        <item>60Sekunda</item>
+        <item>70Sekunda</item>
+        <item>80Sekunda</item>
+        <item>90Sekunda</item>
+    </string-array>
+
+    <string name="msg_setprevent">Uzbrojono</string>
+    <string name="msg_releseprevent">Przywracanie uzbrojenia zakończone</string>
+    <string name="msg_setoutmode">Zakończenie ustawienia trybu WYJŚCIE</string>
+    <string name="msg_releseoutmode">Zakończenie przywrócenia trybu WYJŚCIE</string>
+</resources>

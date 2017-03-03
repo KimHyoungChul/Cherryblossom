@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="szv_ckb_layout_width">140dp</dimen>
+    <dimen name="szv_ckb_layout_height">48dp</dimen>
+    <dimen name="szv_on_off_txtSize">20sp</dimen>
+    <dimen name="szv_on_off_txt_paddingLeft">60dp</dimen>
+    <dimen name="szv_sector_name_txtSize">13sp</dimen>
+    <dimen name="szv_sector_name_paddingTop">5dp</dimen>
+    <dimen name="szv_sector_name_paddingLeft">0dp</dimen>
+  	<dimen name="szv_sector_name_paddingRight">7dp</dimen>
+  	<dimen name="szv_sector_name_marginTop">7dp</dimen>
+
+    <dimen name="secv_release_btn_textSize">29sp</dimen>
+    <dimen name="secv_set_btn_textSize">29sp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="omov_menubar_txtSize">33sp</dimen>
+    <dimen name="omov_menubar_layout_height">75dp</dimen>
+    <dimen name="omov_menubar_img_layout_width">20dp</dimen>
+    <dimen name="omov_menubar_img_layout_height">33dp</dimen>
+    <dimen name="omov_menubar_img_marginRight">8dp</dimen>
+    <dimen name="omov_menubar_text_marginLeft">8dp</dimen>
+    
+    <dimen name="omov_attribute_img_layout_width">173dp</dimen>
+    <dimen name="omov_attribute_img_layout_height">40dp</dimen>
+    <dimen name="omov_attribute_sensor_layout_width">120px</dimen>
+    <dimen name="omov_attribute_timename_layout_width">213dp</dimen>
+    <dimen name="omov_attribute_etcname_layout_width">220dp</dimen>
+    <dimen name="omov_attribute_name_txtSize">20sp</dimen>
+    <dimen name="omov_attribute_time_txtSize">20sp</dimen>
+    <dimen name="omov_attribute_name_paddingLeft1">56dp</dimen>
+    <dimen name="omov_attribute_name_paddingLeft2">80dp</dimen>
+    <dimen name="omov_attribute_name_paddingLeft3">73dp</dimen>
+    <dimen name="omov_attribute_time_paddingLeft">188dp</dimen>
+    <dimen name="omov_attribute_paddingTop">8dp</dimen>
+    <dimen name="omov_attribute_sensor_name_width">260dp</dimen>
+    
+    <dimen name="omov_bottom_bg_layout_height">51dp</dimen>
+    <dimen name="omov_btn_marginRight">6dp</dimen>
+    <dimen name="omov_btn_marginLeft">6dp</dimen>
+    
+    <!-- PXD UI -->
+    <dimen name="omov_check_width">80dp</dimen>
+    <dimen name="omov_check_height">45dp</dimen>
+
+	<dimen name="omov_spinner_frame_width">126dp</dimen>
+    <dimen name="omov_spinner_frame_height">52dp</dimen>
+    <dimen name="omov_spinner_text_marginLeft">4dp</dimen>
+    <dimen name="omov_spinner_text_marginRight">8dp</dimen>
+    <dimen name="omov_spinner_img_marginBottom">1dp</dimen>
+    <dimen name="omov_spinner_bottomline_height">2.5dp</dimen>
+</resources>

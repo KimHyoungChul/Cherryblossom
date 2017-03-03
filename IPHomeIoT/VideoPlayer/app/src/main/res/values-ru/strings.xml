@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Посетитель</string>
+    <string name="title">Посетитель</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="today">Сегодня</string>
+    <string name="last7">Последние 7 дней</string>
+    <string name="oldDays">Старые пункты</string>
+    <string name="cancel">Отменить</string>
+    <string name="delete">Удалить</string>
+    <string name="selectItem">Выбрать позицию</string>
+    <string name="allSelect">Выбрать все</string>
+    <string name="selected">Выбран</string>
+    <string name="deletePopTitle">Удалить</string>
+    <string name="deletePopContents">Если вы нажмете "ок", выбранные позицию будут удалены без возможности восстановления</string>
+    <string name="ok">OK</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="absence">Пропущен</string>
+</resources>

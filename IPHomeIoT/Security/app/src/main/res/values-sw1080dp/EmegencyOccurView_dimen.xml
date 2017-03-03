@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <dimen name="emov_btn_close_layout_height">128dp</dimen>
+    <dimen name="emov_btn_close_layout_marginLeft">52dp</dimen>
+    <dimen name="emov_btn_close_img_width">72dp</dimen>
+    <dimen name="emov_btn_close_img_height">72dp</dimen>
+    
+    <dimen name="emov_emer_img_layout_marginTop">24dp</dimen>
+    <dimen name="emov_emer_img_width">300dp</dimen>
+    <dimen name="emov_emer_img_height">240dp</dimen>
+    
+    <dimen name="emov_comment1_layout_marginTop">20dp</dimen>
+    <dimen name="emov_comment1_textSize">100sp</dimen>
+    <dimen name="emov_comment2_layout_marginTop">24dp</dimen>
+    <dimen name="emov_comment2_textSize">44sp</dimen>
+    
+    <dimen name="emov_btn_ok_width">284dp</dimen>
+    <dimen name="emov_btn_ok_height">104dp</dimen>
+    <dimen name="emov_btn_ok_layout_marginTop">84dp</dimen>
+    <dimen name="emov_btn_ok_textSize">36sp</dimen>
+</resources>

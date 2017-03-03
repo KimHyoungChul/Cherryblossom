@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/icon_grid_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:id="@+id/icon_grid_fragment_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <com.commax.wirelesssetcontrol.touchmirror.view.GridFrameLayout
+        android:id="@+id/icon_grid_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6">
+    </com.commax.wirelesssetcontrol.touchmirror.view.GridFrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </FrameLayout>
+</LinearLayout>

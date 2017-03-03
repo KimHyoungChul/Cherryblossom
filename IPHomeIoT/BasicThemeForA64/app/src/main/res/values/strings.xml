@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Basic Theme</string>
+    <string name="month">Mon</string>
+    <string name="day">Day</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <!--모드추가를 Scene으로 변경해달라고 요청받음 -->
+    <!--<string name="add_mode">모드추가</string>-->
+    <string name="add_mode">Scene</string>
+    <string name="door">Door</string>
+    <string name="cctv">CCTV</string>
+    <string name="record_view">Record View</string>
+    <string name="commax_setting">Commax Setting</string>
+    <string name="app_is_not_installed">App is not installed</string>
+    <string name="register_doorphone_camera_at_setting">Register doorphone camera at Commax settings.</string>
+</resources>

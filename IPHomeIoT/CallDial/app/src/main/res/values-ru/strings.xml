@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Вызов</string>
+	<string name="STR_OK">ОК</string>
+	<string name="STR_CANCEL">Отмена</string>
+	<string name="STR_SAVE">Сохранить</string>
+	<string name="STR_MODIFY">изменять</string>
+	<string name="STR_DELETE">Удалить</string>
+
+	<string name="STR_DONG">-</string>
+	<string name="STR_HO"></string>
+	<string name="STR_NEIGHBOR">сосед</string>
+	<string name="STR_EXTENSION">расширение</string>
+	<string name="STR_PSTN">PSTN</string>
+	<string name="STR_EMER_CALL">Тревожный вызов</string>
+	<string name="STR_DOOR">дверь</string>
+	<string name="STR_GUARD">Станция охраны</string>
+	<string name="STR_OFFICE">Настройки</string>
+	<string name="STR_CONNECTIOG">Подключение...</string>
+
+	<string name="popup_msg_title">OK</string>
+	<string name="popup_msg_content">Если вы нажмете "ок", выбранные позицию будут удалены без возможности восстановления</string>
+	<string name="popup_msg_ok">OK</string>
+	<string name="popup_msg_cancel">Отменить</string>
+	<string name="title_selectitem">Выбрать позицию</string>
+	<string name="title_selecteditem_count">%d Выбран</string>
+	<string name="allSelect">Выбрать все</string>
+
+	<!-- tab -->
+	<string name="STR_TAB_DIAL">клавиатура</string>
+	<string name="STR_TAB_CALLLOG">Журнал вызовов</string>
+	<string name="STR_TAB_CONTACTS">связи</string>
+	<string name="STR_DELETE_CONFIRM">Вы уверены, что хотите удалить?</string>
+	<string name="STR_DELETE_ALL_CONFIRM">Вы уверены, что хотите удалить все?</string>
+	<string name="STR_NO_DATA">Нет данных</string>
+	<string name="logsection_name_today">Сегодня</string>
+	<string name="logsection_name_last7days">Последние 7 дней</string>
+	<string name="logsection_name_oldDays">Старые пункты</string>
+
+	<!-- 연락처 추가 -->
+	<string name="STR_ADD_CONTACT">Добавить контакт</string>
+	<string name="STR_USER_NAME">имя</string>
+	<string name="STR_USER_NUMBER">номер телефона</string>
+
+	<string name="STR_INVALID_NUMBER_MESSAGE">Это не является допустимым числом.</string>
+	<string name="STR_SAVE_INPUT_NUMBER_MESSAGE">Пожалуйста, введите номер вашего магазина.</string>
+</resources>

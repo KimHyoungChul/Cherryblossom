@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!--타이틀-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_toptitle_height"
+        android:background="#eeeeee">
+
+        <!--<Button-->
+            <!--android:layout_width="@dimen/activity_close_icon_width"-->
+            <!--android:layout_height="@dimen/activity_close_icon_height"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/activity_icon_left_margin"-->
+            <!--android:background="@drawable/btn_title_close_n"-->
+            <!--android:onClick="closeActivity" />-->
+
+        <com.commax.settings.font.NotoDemiLightTextView
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_icon_left_margin"
+            android:onClick="closeActivity"
+            android:text="@string/cancel"
+            android:textColor="@drawable/savedelete_text_color_selector"
+            android:textSize="@dimen/activity_subtitle_text_size" />
+
+        <com.commax.settings.font.NotoDemiLightTextView
+            android:id="@+id/screenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/delete_doorphone_camera"
+            android:textColor="#44496b"
+            android:textSize="@dimen/activity_toptitle_text_size" />
+
+
+        <!--<Button-->
+            <!--android:id="@+id/saveDelete"-->
+            <!--android:layout_width="@dimen/activity_ok_icon_width"-->
+            <!--android:layout_height="@dimen/activity_ok_icon_height"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="@dimen/activity_icon_right_margin"-->
+            <!--android:background="@drawable/btn_title_ok_n"-->
+            <!--android:onClick="saveDelete" />-->
+
+        <com.commax.settings.font.NotoDemiLightTextView
+            android:id="@+id/saveDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_icon_right_margin"
+            android:onClick="saveDelete"
+            android:text="@string/delete"
+            android:textColor="@drawable/savedelete_text_color_selector"
+            android:textSize="@dimen/activity_subtitle_text_size" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_height="@dimen/activity_topline_height"
+        android:layout_width="fill_parent"
+        android:background="@color/title_bar_underline" />
+
+    <!--도움말-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_helptitle_height"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/item_checkbox_icon_width"
+            android:layout_height="@dimen/item_checkbox_icon_height"
+            android:layout_marginLeft="@dimen/item_checkbox_icon_left_margin"
+            android:duplicateParentState="false"
+            android:src="@drawable/checkbox_selector"
+            android:id="@+id/selectAllCheckbox"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="true"
+            android:clickable="true" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:id="@+id/selectAllText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0c1a3d"
+            android:textSize="@dimen/item_value_text_size"
+            android:layout_marginLeft="@dimen/list_items_value_left_margin"
+            android:text="@string/select_all"
+            android:layout_toEndOf="@id/selectAllCheckbox"
+            android:layout_centerVertical="true" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/activity_helptitle_left_margin"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/activity_helptitle_text_size"
+            android:textColor="#6b73c9"
+            android:text="@string/delete_help_text_doorphone_camera"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/registeredDoorphoneCameraList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="@dimen/activity_divider_list_height" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_divider_item_height"
+        android:background="#d8d9e0" />
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="str_sensortest">센서 테스트</string>
+    <string name="str_sensor_use_check">센서 사용 설정</string>
+    <string name="str_securityset">방범 설정</string>
+    <string name="str_outmodeset">외출 설정</string>
+    <string name="str_outmodeoption">옵션 설정</string>
+    <string name="str_panic">비상 발생</string>
+    
+    <!-- Header -->
+    <string name="str_header_mode">모드</string>
+    <string name="str_header_outmode">외출</string>
+    <string name="str_header_security">방범</string>
+    
+    <!-- 비상 상황 -->
+    <string name="msg_occur_panic">비상 상황입니다.</string>
+    <string name="msg_occur_fire">화재가 발생 했습니다.</string>
+    <string name="msg_occur_gas">가스가 누출되었습니다.</string>
+    <string name="msg_occur_security">방범 비상이 발생 했습니다.</string>
+    <string name="msg_occur_ladder">피난 사다리가 동작 되었습니다.</string>
+    <string name="msg_occur_safe">금고 비상이 발생 되었습니다.</string>
+    <string name="msg_occur_call_guard">컨시어지에 통보 되었습니다.</string>
+    
+    
+    <!-- 센서 -->
+    <string name="str_emergency">비상</string>
+    <string name="str_fire">화재</string>
+    <string name="str_gas">가스</string>
+    <string name="str_sector">구역</string>
+    <string name="str_sector1">방범 구역 1</string>
+    <string name="str_sector2">방범 구역 2</string>
+    <string name="str_sector3">방범 구역 3</string>
+    <string name="str_sector4">방범 구역 4</string>
+    <string name="str_sector5">방범 구역 5</string>
+    <string name="str_sensor_check">센서 상태를 확인해 주세요.</string>
+    <string name="str_select_sector">방범 구역 선택</string>
+    <string name="str_sector_name">구역 이름</string>
+    <string name="str_security_sector">방범구역</string>
+    
+    
+    <string name="str_capture">부재중 방문객 사진 자동저장</string>
+    <string name="str_all_light_close">전등 모두 끄기</string>
+    <string name="str_gasclose">가스 벨브 잠그기</string>
+    <string name="str_bypass_call">우회 통화</string>
+    
+    <!-- 메뉴 -->
+    <string name="str_setAll">전체 선택</string>
+    <string name="str_desetAll">전체 해제</string>
+    <string name="str_set">설정</string>
+    <string name="str_rename">이름 바꾸기</string>
+    <string name="str_AllOn">전체 선택</string>
+    <string name="str_AllOff">전체 해제</string>
+    
+    <!-- 방범 버튼 -->
+    <string name="str_prevset">적용</string>
+    <string name="str_prevrestore">방범 해제</string>
+    <string name="str_edit">편집</string>   
+    <string name="str_prevstate_Setup">설정중</string>
+    <string name="str_prevstate_Notset">설정안됨</string>  
+    <string name="str_prevstate_on">ON</string> 
+    <string name="str_prevstate_off">OFF</string>
+    
+    <!-- 비상 버튼 -->
+    <string name="str_stop">정지</string>
+    <string name="str_recover">복귀</string>
+    
+    <!-- 외출모드 버튼 -->
+    <string name="str_start">시작</string>
+    <string name="str_changeset">옵션</string>
+    <string name="str_close">닫기</string>  
+    <string name="str_outtingrelease">외출 해제</string>    
+    <string name="str_outtingon">외출중</string>
+    <string name="str_outmode_delaytime">외출기능설정시간</string>
+    <string name="str_outmode_returntime">외출기능해제시간</string>
+    <!-- add -->
+    <string name="msg_security_setting_info">설정 방범 구역 : %1$s</string>
+    <string name="msg_visitor_record_setting_info">방문자 녹화기능 : %1$s</string>
+	<string name="msg_light_all_off_setting_info">전등 전체 끄기 : %1$s</string>
+	<string name="msg_gas_close_setting_info">가스 잠금 : %1$s</string>
+	<string name="msg_indirection_call_setting_info">우회 통화 : %1$s</string>	
+	<string name="msg_setting_fail_sensor_open_outmode">실패 : 센서 %1$s 열림</string>
+	<string name="str_setting">설정</string>
+	<string name="str_relelase">해제</string>
+	<string name="str_not_support">지원 안함</string>
+	<string name="msg_already_outmode">외출모드가 이미 설정되어 있습니다.</string>
+    <string name="msg_already_outmode_restore">이미 설정되어 있습니다. \n외출 설정을 해제 하시겠습니까?</string>
+    <string name="msg_turnoff_security">방범모드 적용 중에는 외출모드를 적용할 수 없습니다. \n방범모드를 해제 하시겠습니까?</string>
+	<string name="msg_turnoff_outmode">외출모드 적용 중에는 방범모드를 적용할 수 없습니다. \n외출모드를 해제 하시겠습니까?</string>
+    <!-- 
+	<string name="msg_turnoff_security">현재 방범 설정 상태입니다. \n방범 설정을 먼저 해제 해주세요.</string>
+	<string name="msg_turnoff_outmode">현재 외출 설정 상태입니다. \n외출 설정을 먼저 해제 해주세요.</string>
+     -->  
+     
+    <!-- 메시지 -->
+    <string name="msg_check_network">네트워크 접속을 확인 해주세요.</string>
+    <string name="msg_ksoap_fail">서버와 연결할 수 없습니다.</string>
+    <string name="msg_setting_success">설정 완료</string>
+    <string name="msg_on_working">동작 중...</string>
+    <string name="msg_setting_fail_sensor_open">%1$s구역을 설정할 수 없습니다.</string>
+    <string name="msg_set_sector">방범 구역을 선택하세요.</string>
+    <string name="msg_set_outmodeoption">외출설정 옵션이 선택되지 않았습니다.</string>      
+    <string name="msg_title_info">정보</string>
+    <string name="msg_title_alert">알림</string>
+	
+	<!-- 다이얼로그 버튼 -->
+    <string name="str_ok">확인</string>
+    <string name="str_cancel">취소</string>
+    
+    <!-- 비상 Wait Message  -->
+    <string name="msg_is_occur_emergency">비상을 발생 하시겠습니까?</string>
+    <string name="on_setting">설정중...</string>
+    <string name="on_loading">로딩 중...</string>
+    <string name="on_search_device">디바이스 검색중 ...</string>
+    <string name="on_cont_lcd">화면 구성중 ...</string>
+    <string name="on_cont_menu">메뉴 구성중 ...</string>
+    <string name="on_cont_emer">비상 검색중 ...</string>
+    <string name="on_cont_snd">사운드 로딩중...</string>
+    
+    <!-- 외출지연시간 -->
+    <string-array name="delaytime">
+        <item>1분</item>
+        <item>2분</item>
+        <item>3분</item>
+    </string-array>
+    
+    <!-- 외출복귀시간 -->
+    <string-array name="returntime">
+        <item>0초</item>
+        <item>10초</item>
+        <item>20초</item>
+        <item>30초</item>
+        <item>40초</item>
+        <item>50초</item>
+        <item>60초</item>
+        <item>70초</item>
+        <item>80초</item>
+        <item>90초</item>
+    </string-array>
+
+    <string name="msg_setcounting">적용까지 남은시간</string>
+    <string name="msg_setprevent">적용 되었습니다.</string>
+    <string name="msg_releseprevent">방범센서가 해제 되었습니다.</string>
+    <string name="msg_setoutmode">외출모드가 설정 되었습니다.</string>
+    <string name="msg_releseoutmode">외출모드가 해제 되었습니다.</string>
+    
+    <string name="toast_saveed">저장 되었습니다.</string>    
+</resources>

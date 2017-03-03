@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">우리집 현관</string>
+    <string name="STR_REGISTER_DOOR">현관 카메라를 등록해주십시요</string>
+    <string name="STR_CALL_DOOR">우리집 현관</string>
+    <string name="STR_CALL_MONITORING">모니터링 중</string>
+    <string name="STR_CALL_OFFERING">전화가 왔습니다</string>
+    <string name="STR_CALL_ACCEPT">통화</string>
+    <string name="STR_CALL_CONNECTING">연결중입니다</string>
+    <string name="STR_DOOR_OPENED">현관이 열렸습니다.</string>
+    <string name="STR_CHOOSE_DOOR">현관 선택</string>
+    <string name="STR_CLOSE">닫기</string>
+    <string name="STR_CAMERA_PREVIEW">현관 미리보기</string>
+    <string name="STR_COMMENT_PREVIEW">영상이 보이지 않을 경우 우측상단의 IP설정 기능으로 올바른 IP를 입력해주세요.\nIP 설정을 해도 영상이 보이지 않을 경우 현관 카메라의 리셋버튼을 눌러주세요</string>
+    <string name="STR_REGISTRATION">등록하기</string>
+    <string name="STR_LOBBY">공동현관</string>
+    <string name="STR_GUARD">경비실</string>
+    <string name="STR_OFFICE">관리소</string>
+    <string name="STR_IPSETTING">IP 설정</string>
+    <string name="STR_IP_DHCP">DHCP</string>
+    <string name="STR_IP_STATIC">STATIC</string>
+    <string name="STR_IP_ADDRESS">IP Addresss</string>
+    <string name="STR_IP_SUBNETMASK">Subnet Mask</string>
+    <string name="STR_IP_Gateway">Gateway</string>
+    <string name="STR_IP_DNS">DNS Server</string>
+</resources>

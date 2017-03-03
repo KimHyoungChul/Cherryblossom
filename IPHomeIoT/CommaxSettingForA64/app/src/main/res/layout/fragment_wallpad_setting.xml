@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 비밀번호 -->
+        <RelativeLayout
+            android:id="@+id/wallpadPassword"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/wallpadPasswordLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/wallpadPassword"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/wallpadPasswordHint"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/wallpadPasswordLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/wallpad_password_hint"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4" />
+
+        <!-- 동호 -->
+        <RelativeLayout
+            android:id="@+id/dongHo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/dongHoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/dongHo"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/dongHoValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/dongHoLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+            android:id="@+id/dongho_divider_bar" />
+
+        <!-- 경비실 번호 -->
+        <RelativeLayout
+            android:id="@+id/guardPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/guardPhoneNumberLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/guardPhoneNumber"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/guardPhoneNumberValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/guardPhoneNumberLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+            android:id="@+id/guardPhoneNumber_divider_bar" />
+
+        <!-- 관리실 번호 -->
+        <RelativeLayout
+            android:id="@+id/centerPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/line"
+            android:background="@drawable/main_menu_background_selector">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/centerPhoneNumberLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/managementPhoneNumber"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/centerPhoneNumberValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/centerPhoneNumberLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+            android:id="@+id/centerPhoneNumber_divider_bar" />
+
+        <!-- 디바이스 서버 -->
+        <RelativeLayout
+            android:id="@+id/deviceServerIp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:background="@drawable/main_menu_background_selector"
+            android:layout_below="@+id/line"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:id="@+id/deviceServerIpLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fragment_items_text_height"
+            android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/fragment_items_text_left_margin"
+            android:text="@string/deviceServerIp"
+            android:textColor="#0c1a3d"
+            android:textSize="@dimen/fragment_items_text_size" />
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:id="@+id/deviceServerIpValue"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fragment_items_text_height"
+            android:layout_below="@id/deviceServerIpLabel"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/fragment_items_text_left_margin"
+            android:textColor="#6a71cc"
+            android:textSize="@dimen/fragment_value_text_size" />
+
+        <ImageView
+            android:layout_width="@dimen/fragment_arrow_icon_width"
+            android:layout_height="@dimen/fragment_arrow_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+            android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+            android:id="@+id/serverip_divider_bar" />
+
+        <!-- 업데이트 서버 -->
+        <RelativeLayout
+            android:id="@+id/updateServerIp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:background="@drawable/main_menu_background_selector"
+            android:layout_below="@+id/line"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/updateServerIpLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/updateServerIp"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/updateServerIpValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/updateServerIpLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+            android:id="@+id/updateip_divider_bar" />
+
+        <!-- 단지서버 -->
+        <RelativeLayout
+            android:id="@+id/localServerIp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_items_big_height"
+            android:background="@drawable/main_menu_background_selector"
+            android:layout_below="@+id/line"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/localServerIpLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:text="@string/localServerIp"
+                android:textColor="#0c1a3d"
+                android:textSize="@dimen/fragment_items_text_size" />
+
+            <com.commax.settings.font.NotoRegularTextView
+                android:id="@+id/localServerIpValue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/fragment_items_text_height"
+                android:layout_below="@id/localServerIpLabel"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/fragment_items_text_left_margin"
+                android:textColor="#6a71cc"
+                android:textSize="@dimen/fragment_value_text_size" />
+
+            <ImageView
+                android:layout_width="@dimen/fragment_arrow_icon_width"
+                android:layout_height="@dimen/fragment_arrow_icon_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/fragment_arrow_icon_right_margin"
+                android:background="@drawable/btn_list_arrow_n" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_divider_height"
+            android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+            android:layout_marginRight="@dimen/fragment_divider_side_margin"
+            android:background="#dddfe4"
+            android:id="@+id/localip_divider_bar" />
+
+    </LinearLayout>
+
+</ScrollView>

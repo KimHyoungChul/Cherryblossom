@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>        
+    <dimen name="control_layout_marginLeft">170dp</dimen>
+    <dimen name="control_layout_marginRight">10dp</dimen>
+    <dimen name="control_layout_width">320dp</dimen>
+    <dimen name="control_textSize">34dp</dimen>
+    <dimen name="control_text_marginTop">46dp</dimen>
+    <dimen name="control_symbol_bg_Size">118dp</dimen>
+    <dimen name="control_symbol_img_Size">90dp</dimen>
+    <dimen name="control_symbol_bg_marginTop">60dp</dimen>
+    <dimen name="control_symbol_bg_marginBottom">10dp</dimen>
+    <dimen name="control_btn_marginTop">52dp</dimen>
+    <dimen name="control_layout_paddingLeftRight">42dp</dimen>
+    
+    <dimen name="control_btn_width">114dp</dimen>
+    <dimen name="control_btn_height">44dp</dimen>
+    <dimen name="control_btn_textSize">22dp</dimen>
+    <dimen name="control_btn_marginRight">8dp</dimen>
+
+    <dimen name="sector_layout_width">310dp</dimen>
+    <dimen name="sector_layout_height">75dp</dimen>
+    <dimen name="sector_layout_marginTop">46dp</dimen>
+    <dimen name="sector_layout_marginLeft">34dp</dimen>
+    <dimen name="sector_layout_marginRight">35dp</dimen>
+    <dimen name="sector_underline_height">3dp</dimen> 
+    <dimen name="sector_textSize">24dp</dimen>
+    <dimen name="sector_text_paddingLeftRight">16dp</dimen>
+    <dimen name="sector_onoff_Size">26dp</dimen>
+    
+    <dimen name="detail_list_marginLeftRight">20dp</dimen>
+        
+    <dimen name="detail_message_item_layout_height">101dp</dimen>
+    <dimen name="detail_item_layout_height">74dp</dimen>
+      
+    <dimen name="detail_item_text_marginLeft">10dp</dimen>
+    <dimen name="detail_itme_text_marginRight">24dp</dimen>
+    
+    <dimen name="detail_message_item_layout_marginTop">20dp</dimen>
+    <dimen name="detail_message_item_layout_marginBottom">16dp</dimen>
+    
+    <dimen name="detail_message_edit_paddingTop">10dp</dimen>
+     
+    <dimen name="detail_onoff_text_marginLeftRight">24dp</dimen>
+        
+    <dimen name="detail_1line_text_size">18dp</dimen>
+    <dimen name="detail_2line_edittext_text_size">24dp</dimen>
+    <dimen name="detail_onoff_text_size">26dp</dimen>
+    
+    <dimen name="detail_arrow_checkbox_marginTop">-7dp</dimen>
+    <dimen name="detail_arrow_checkbox_marginRight">10dp</dimen>
+    
+    <dimen name="detail_homenumber_marginLeftRight">38dp</dimen>
+    
+    <dimen name="detail_checkbox_marginLeft">30dp</dimen>
+    <dimen name="detail_checkbox_marginRight">30dp</dimen>
+    
+    <dimen name="list_item_divider_height">2dp</dimen>
+
+    <dimen name="check_width">60dp</dimen>
+    <dimen name="check_height">34dp</dimen>
+
+    <dimen name="secv_release_btn_textSize">22sp</dimen>
+    <dimen name="secv_set_btn_textSize">22sp</dimen>
+</resources>

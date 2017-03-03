@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="stv_timer_marginTop">10dip</dimen>
+  <dimen name="stv_timer_txt_Size">64sp</dimen>
+  <dimen name="stv_framework_paddingLeft">100dip</dimen>
+  <dimen name="stv_framework_paddingTop">50dip</dimen>
+  <dimen name="stv_attribute_txt_paddingLeft">80dip</dimen>
+  <dimen name="stv_attribute_txt_Size">50sp</dimen>
+  <dimen name="stv_check_width">60dp</dimen>
+  <dimen name="stv_check_height">60dp</dimen>
+</resources>

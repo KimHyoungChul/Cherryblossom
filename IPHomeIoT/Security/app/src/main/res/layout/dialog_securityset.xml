@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/popup_bg_width"
+    android:layout_height="@dimen/popup_bg_height"
+    android:layout_marginBottom="@dimen/popup_bg_marginTopBottom"    
+    android:layout_marginTop="@dimen/popup_bg_marginTopBottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/popup_title_marginLeftRight"
+        android:layout_marginRight="@dimen/popup_title_marginLeftRight"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="@dimen/popup_title_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/popup_title_text_marginBottom"
+            android:layout_marginTop="@dimen/popup_title_text_marginTop"
+            android:gravity="center"
+            android:text="@string/str_select_sector"
+            android:textColor="#818294"
+            android:textSize="@dimen/popup_title_textSize" />
+
+        <ImageView
+            android:layout_width="@dimen/popup_title_underline_width"
+            android:layout_height="@dimen/popup_title_underline_height"
+            android:background="#ebecf0" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/selction_scrollview_height"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/selction_marginLeftRight"
+    	android:layout_marginRight="@dimen/selction_marginLeftRight"
+        android:layout_marginTop="@dimen/selction_marginTopBottom"
+        android:layout_marginBottom="@dimen/selction_marginTopBottom"        
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 구역1 -->
+
+            <LinearLayout
+                android:id="@+id/sector1"
+                android:layout_width="@dimen/selction_width"
+                android:layout_height="@dimen/selction_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/selction_checkbox_marginBottom"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="@dimen/selction_checkbox_marginRight"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:checked="false" />
+
+                <TextView
+                    android:id="@+id/sector_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/str_sector1"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/selction_textSize" />
+            </LinearLayout>
+
+            <!-- 구역2 -->
+
+            <LinearLayout
+                android:id="@+id/sector2"
+                android:layout_width="@dimen/selction_width"
+                android:layout_height="@dimen/selction_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/selction_checkbox_marginBottom"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkbox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="@dimen/selction_checkbox_marginRight"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:checked="false" />
+
+                <TextView
+                    android:id="@+id/sector_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/str_sector2"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/selction_textSize" />
+            </LinearLayout>
+
+            <!-- 구역3 -->
+
+            <LinearLayout
+                android:id="@+id/sector3"
+                android:layout_width="@dimen/selction_width"
+                android:layout_height="@dimen/selction_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/selction_checkbox_marginBottom"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkbox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="@dimen/selction_checkbox_marginRight"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:checked="false" />
+
+                <TextView
+                    android:id="@+id/sector_text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/str_sector3"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/selction_textSize" />
+            </LinearLayout>
+
+            <!-- 구역4 -->
+
+            <LinearLayout
+                android:id="@+id/sector4"
+                android:layout_width="@dimen/selction_width"
+                android:layout_height="@dimen/selction_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/selction_checkbox_marginBottom"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkbox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="@dimen/selction_checkbox_marginRight"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:checked="false" />
+
+                <TextView
+                    android:id="@+id/sector_text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/str_sector4"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/selction_textSize" />
+            </LinearLayout>
+
+            <!-- 구역5 -->
+
+            <LinearLayout
+                android:id="@+id/sector5"
+                android:layout_width="@dimen/selction_width"
+                android:layout_height="@dimen/selction_height"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/checkbox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="@dimen/selction_checkbox_marginRight"
+                    android:background="@drawable/popup_set_checkbox_selector"
+                    android:button="@android:color/transparent"
+                    android:checked="false" />
+
+                <TextView
+                    android:id="@+id/sector_text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/str_sector5"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/selction_textSize" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/popup_btn_layout_height"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="@dimen/selction_underline_width"
+            android:layout_height="@dimen/selction_underline_height"
+            android:layout_marginBottom="@dimen/selction_underline_marginBottom"
+            android:layout_gravity="center"
+            android:background="#ebecf0" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="@dimen/popup_btn_width"
+                android:layout_height="@dimen/popup_btn_height"
+                android:background="@drawable/popup_btn_cancel_shape"
+                android:text="@string/str_cancel"
+                android:textColor="@drawable/popup_btn_cancel_textcolor"
+                android:textSize="@dimen/popup_btn_textSize" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="@dimen/popup_btn_width"
+                android:layout_height="@dimen/popup_btn_height"
+                android:layout_marginLeft="@dimen/popup_btn_marginLeft"
+                android:background="@drawable/popup_btn_ok_shape"
+                android:text="@string/str_ok"
+                android:textColor="@drawable/popup_btn_ok_textcolor"
+                android:textSize="@dimen/popup_btn_textSize" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

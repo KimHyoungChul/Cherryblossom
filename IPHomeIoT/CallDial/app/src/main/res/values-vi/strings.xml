@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">cuộc gọi</string>
+    <string name="STR_OK">Đồng ý</string>
+    <string name="STR_CANCEL">hủy bỏ</string>
+    <string name="STR_SAVE">Lưu</string>
+    <string name="STR_MODIFY">sửa đổi</string>
+    <string name="STR_DELETE">xóa</string>
+
+    <string name="STR_DONG">-</string>
+    <string name="STR_HO"></string>
+    <string name="STR_NEIGHBOR">Hàng xóm</string>
+    <string name="STR_EXTENSION">Sự mở rộng</string>
+    <string name="STR_PSTN">PSTN</string>
+    <string name="STR_EMER_CALL">Trường hợp khẩn cấp</string>
+    <string name="STR_DOOR">Cửa</string>
+    <string name="STR_GUARD">Đồn</string>
+    <string name="STR_OFFICE">Quản lý văn phòng</string>
+    <string name="STR_CONNECTIOG">Kết nối...</string>
+
+    <string name="popup_msg_title">Đồng ý</string>
+    <string name="popup_msg_content">Khi bạn bấm OK, các sản phẩm được chọn sẽ bị xóa và không thể phục hồi.</string>
+    <string name="popup_msg_ok">Đồng ý</string>
+    <string name="popup_msg_cancel">hủy bỏ</string>
+    <string name="title_selectitem">Chọn mục</string>
+    <string name="title_selecteditem_count">%d Đã chọn</string>
+
+
+    <!-- tab -->
+    <string name="STR_TAB_DIAL">Bàn phím</string>
+    <string name="STR_TAB_CALLLOG">Nhật ký cuộc gọi</string>
+    <string name="STR_TAB_CONTACTS">Tiếp xúc</string>
+    <string name="STR_DELETE_CONFIRM">Bạn có chắc chắn muốn xóa??</string>
+    <string name="STR_DELETE_ALL_CONFIRM">Bạn có chắc chắn bạn muốn xóa tất cả?</string>
+    <string name="STR_NO_DATA">Không có dữ liệu</string>
+    <string name="logsection_name_today">Hôm nay</string>
+    <string name="logsection_name_last7days">7 ngày qua</string>
+    <string name="logsection_name_oldDays">Chọn lối vào</string>
+    <string name="allSelect">Chọn tất cả</string>
+
+    <!-- 연락처 추가 -->
+    <string name="STR_ADD_CONTACT">Thêm số liên lạc</string>
+    <string name="STR_USER_NAME">Tên</string>
+    <string name="STR_USER_NUMBER">Số điện thoại</string>
+
+    <string name="STR_INVALID_NUMBER_MESSAGE">Nó không phải là một số hợp lệ.</string>
+    <string name="STR_SAVE_INPUT_NUMBER_MESSAGE">Vui lòng nhập numberthat bạn lưu trữ.</string>
+</resources>

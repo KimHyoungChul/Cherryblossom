@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="str_sensortest">传感器测试</string>
+    <string name="str_sensor_use_check">设置传感器的使用</string>
+    <string name="str_securityset">防犯設定</string>
+    <string name="str_outmodeset">输出設定</string>
+    <string name="str_outmodeoption">输出模式</string>
+    <string name="str_panic">非常 發生</string>
+    
+    <!-- Header -->
+    <string name="str_header_mode">模式</string>
+    <string name="str_header_outmode">游览</string>
+    <string name="str_header_security">安全</string>
+    
+    <!-- 비상 상황 -->
+    <string name="msg_occur_panic">紧急报警.</string>
+    <string name="msg_occur_fire">火灾探测.</string>
+    <string name="msg_occur_gas">煤气探测.</string>
+    <string name="msg_occur_security">红外探测.</string>
+    <string name="msg_occur_ladder">撤离操作是梯子。</string>
+    <string name="msg_occur_safe">安全紧急情况发生.</string>
+    <string name="msg_occur_call_guard">向物业中心通知了</string>
+    
+    <!-- Sensor Name -->
+  	<string name="str_emergency">紧急</string>
+    <string name="str_fire">火灾</string>
+    <string name="str_gas">煤气</string>
+    <string name="str_sector">区域</string>
+    <string name="str_sector1">区域 01</string>
+    <string name="str_sector2">区域 02</string>
+    <string name="str_sector3">区域 03</string>
+    <string name="str_sector4">区域 04</string>
+    <string name="str_sector5">区域 05</string>
+    <string name="str_sensor_check">請檢查傳感器的狀態.</string>
+    <string name="str_select_sector">选择区</string>
+    <string name="str_sector_name">科更名</string>
+    <string name="str_security_sector">防范区域</string>
+    
+    <string name="str_capture">自动存储没接来访客侧片</string>
+    <string name="str_all_light_close">關閉所有的燈</string>
+    <string name="str_gasclose">鎖定煤氣閥</string>
+    <string name="str_bypass_call">迂回通话</string>
+    
+    <string name="str_setAll">全部设置</string>
+    <string name="str_desetAll">全部还原</string>
+    <string name="str_set">设置</string>
+    <string name="str_rename">名称改变</string>
+    <string name="str_AllOn">全部照明</string>
+    <string name="str_AllOff">全部淬火</string>
+    
+    <!-- 방범 버튼 -->
+    <string name="str_prevset">防犯 设置</string>
+    <string name="str_prevrestore">防犯 还原</string>   
+    <string name="str_edit">编辑</string>   
+    <string name="str_prevstate_Setup">設定中</string>
+    <string name="str_prevstate_Notset">不設定</string> 
+    <string name="str_prevstate_on">ON</string> 
+    <string name="str_prevstate_off">OFF</string>  
+    
+    <!-- 비상 버튼 -->
+    <string name="str_stop">停止</string>
+    <string name="str_recover">回复</string>
+    
+    <!-- 외출모드 버튼 -->
+    <string name="str_start">始作</string>
+    <string name="str_changeset">選項</string>
+    <string name="str_close">關閉</string>  
+    <string name="str_outtingrelease">输出解除</string>
+    <string name="str_outtingon">外出中</string>
+    <string name="str_outmode_delaytime">适用外出模式前待机时间编辑</string>    
+    <string name="str_outmode_returntime">回家时间设定</string>
+    <!-- add -->
+    <string name="msg_security_setting_info">设置防区 : %1$s</string>
+    <string name="msg_visitor_record_setting_info">访客记录功能 : %1$s</string>
+	<string name="msg_light_all_off_setting_info">全部灯光关闭 : %1$s</string>
+	<string name="msg_gas_close_setting_info">关闭煤气阀门 : %1$s</string>
+	<string name="msg_indirection_call_setting_info">转接通话 : %1$s</string>	
+	<string name="msg_setting_fail_sensor_open_outmode">失败 : 传感器  %1$s 已打开</string>
+	<string name="str_setting">设置</string>
+	<string name="str_relelase">还原</string>
+	<string name="str_not_support">不支持</string>
+	<string name="msg_already_outmode">已經出模式已啟用.</string> 
+	<string name="msg_already_outmode_restore">已设置. \n你要关闭?</string>
+	<string name="msg_turnoff_security">防区已设定. \n解除后请重新设置.</string>
+	<string name="msg_turnoff_outmode">输出狀態. \n尝试后恢复状态.</string>
+    
+    <!-- Messages -->
+    <string name="msg_check_network">请检查网络连接.</string>
+    <string name="msg_ksoap_fail">不能连接服务器.</string>
+    <string name="msg_setting_success">设置完成</string>
+    <string name="msg_on_working">工作中...</string>
+    <string name="msg_setting_fail_sensor_open">不能设置，%1$s防区.</string>
+    <string name="msg_set_sector">選擇犯罪領域.</string>     
+    <string name="msg_set_outmodeoption">选项​​不被选中.</string> 
+    <string name="msg_title_info">信息</string>
+	<string name="msg_title_alert">提醒</string>
+
+	<!-- Dialog button -->
+    <string name="str_ok">确定</string>
+    <string name="str_cancel">取消</string>
+    
+    <!-- 비상 wait Message  -->
+    <string name="msg_is_occur_emergency">发生紧急情况？</string>
+    <string name="on_setting">設定中...</string>
+    <string name="on_loading">加载中...</string>
+    <string name="on_search_device">搜索设备 ...</string>
+    <string name="on_cont_lcd">屏幕配置 ...</string>
+    <string name="on_cont_menu">菜单的配置 ...</string>
+    <string name="on_cont_emer">紧急设备 ...</string>
+    <string name="on_cont_snd">声音加载...</string> 
+    
+    <!-- 외출지연시간 -->
+    <string-array name="delaytime">
+        <item>1分</item>
+        <item>2分</item>
+        <item>3分</item>
+    </string-array>
+    
+    <!-- 외출복귀시간 -->
+    <string-array name="returntime">
+        <item>0秒</item>
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+        <item>40秒</item>
+        <item>50秒</item>
+        <item>60秒</item>
+        <item>70秒</item>
+        <item>80秒</item>
+        <item>90秒</item>
+    </string-array>
+    
+    
+    <string name="msg_setcounting">剩余时间</string>
+    <string name="msg_setprevent">已成立安全。</string>
+    <string name="msg_releseprevent">安全性是关闭的。</string>
+    <string name="msg_setoutmode">已成立了出去。</string>
+    <string name="msg_releseoutmode">走出被禁用。</string>
+    
+    <string name="toast_saveed">以保存</string>   
+</resources>

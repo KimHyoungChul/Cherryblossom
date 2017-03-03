@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="szrn_edit_layout_width">180dp</dimen>
+    <dimen name="szrn_edit_layout_height">48dp</dimen>
+    <dimen name="szrn_edit_paddingLeft">20dp</dimen>
+    
+    <dimen name="szrn_sector_edit_txtSize">15sp</dimen>
+    <dimen name="szrn_sector_name_txtSize">13sp</dimen>
+    <dimen name="szrn_sector_name_paddingTop">5dp</dimen>
+    <dimen name="szrn_sector_name_paddingLeft">0dp</dimen>
+  	<dimen name="szrn_sector_name_paddingRight">7dp</dimen>
+  	<dimen name="szrn_sector_name_marginTop">7dp</dimen>
+</resources>

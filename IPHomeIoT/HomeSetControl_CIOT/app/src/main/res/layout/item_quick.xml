@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/quick_width"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/quick_icon_width"
+            android:layout_height="@dimen/quick_icon_height"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="@dimen/quick_icon_width"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="2"
+            android:text=""
+            android:textSize="@dimen/quick_icon_text"
+            android:textColor="#fff"
+            android:layout_marginTop="@dimen/quick_icon_text_top"/>
+
+    </LinearLayout>
+
+</LinearLayout>

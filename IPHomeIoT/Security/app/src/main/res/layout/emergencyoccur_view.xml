@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_emergency01"
+    android:orientation="vertical" >
+
+    <!-- 타이틀 닫기 버튼 -->
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/emov_btn_close_layout_height"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/emov_btn_close_img_width"
+            android:layout_height="@dimen/emov_btn_close_img_height"
+            android:layout_marginLeft="@dimen/emov_btn_close_layout_marginLeft"
+            android:background="@drawable/btn_coach_close" />
+    </LinearLayout>
+
+    <!-- 비상 이미지 -->
+    <LinearLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_emer_background"
+            android:layout_width="@dimen/emov_emer_img_width"
+            android:layout_height="@dimen/emov_emer_img_height"
+            android:layout_marginTop="@dimen/emov_emer_img_layout_marginTop"
+            android:src="@drawable/ic_coach02_alarm" />
+        
+        <TextView
+            android:id="@+id/text_comment1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/emov_comment1_layout_marginTop"
+            android:textSize="@dimen/emov_comment1_textSize"
+            android:text="@string/str_panic"
+            android:textColor="#ea3233" />
+        
+        <TextView
+            android:id="@+id/text_comment2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/emov_comment2_layout_marginTop"
+            android:textSize="@dimen/emov_comment2_textSize"
+            android:text="@string/msg_is_occur_emergency"
+            android:textColor="#bfea3233" />
+        
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="@dimen/emov_btn_ok_width"
+            android:layout_height="@dimen/emov_btn_ok_height"
+            android:layout_marginTop="@dimen/emov_btn_ok_layout_marginTop"
+            android:background="@drawable/emeroccur_btn_ok_shape"
+            android:text="@string/str_ok"
+            android:textSize="@dimen/emov_btn_ok_textSize"
+            android:textColor="#534e7f" />        
+        
+    </LinearLayout>
+    
+    
+    
+
+</LinearLayout>

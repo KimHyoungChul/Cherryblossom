@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--title-->
+    <color name="title_text">#44496b</color>
+    <color name="title_bar_underline">#b5b6c3</color>
+    <color name="main_header_bg">#ffffff</color>
+    <color name="selmode_header_bg">#eeeeee</color>
+
+    <!--component bar-->
+    <color name="component_bar">#dddfe4</color>
+
+    <!--drawable-->
+    <color name="menu_item_selected_text">#ffffff</color>
+    <color name="menu_item_unselected_text">#0c1a3d</color>
+    <color name="common_button_unpressed_text">#ffffff</color>
+    <color name="common_button_pressed_text">#e5e5e5</color>
+    <color name="cancel_button_unpressed_text">#534e7f</color>
+    <color name="cancel_button_pressed_text">#423e66</color>
+    <drawable name="menu_item_selected">#6b73c9</drawable>
+    <drawable name="menu_item_unselected">#ffffff</drawable>
+    <drawable name="main_menu_pressed">#dddddd</drawable>
+    <drawable name="main_menu_unpressed">#00000000</drawable>
+    <color name="preview_button_unpressed_text">#7b7aa2</color>
+    <color name="preview_button_pressed_text">#e5e5e5</color>
+    <color name="mode_unpressed_text">#34325c</color>
+    <color name="mode_pressed_text">#252442</color>
+    <color name="savedelete_unpressed_text">#ff44496b</color>
+    <color name="savedelete_pressed_text">#8044496b</color>
+</resources>

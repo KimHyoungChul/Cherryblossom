@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/useValueInfo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_items_small_height"
+        android:background="@drawable/main_menu_background_selector">
+
+        <com.commax.settings.font.NotoRegularTextView
+            android:id="@+id/useValueInfoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fragment_items_text_height"
+            android:layout_marginTop="@dimen/fragment_items_text_top_margin"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/fragment_items_text_left_margin"
+            android:text="@string/showScreensaver"
+            android:textColor="#0c1a3d"
+            android:textSize="@dimen/fragment_items_text_size" />
+
+        <CheckBox
+            android:id="@+id/useValueInfoSwitch"
+            android:layout_width="@dimen/fragment_switch_icon_width"
+            android:layout_height="@dimen/fragment_switch_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/fragment_switch_icon_right_margin"
+            android:layout_marginTop="@dimen/fragment_switch_icon_top_margin"
+            android:button="@drawable/switch_background_selector" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_divider_height"
+        android:layout_marginLeft="@dimen/fragment_divider_side_margin"
+        android:layout_marginRight="@dimen/fragment_divider_side_margin"
+        android:background="#dddfe4" />
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/screensaverTimeSetting"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="@drawable/main_menu_background_selector"-->
+    <!--android:layout_height="100dp">-->
+
+    <!--<com.commax.setting.font.NotoRegularTextView-->
+    <!--android:id="@+id/screensaverTimeLabel"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="36dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:paddingLeft="30dp"-->
+    <!--android:text="@string/screensaver_time_setting"-->
+    <!--android:textColor="#0c1a3d"-->
+    <!--android:textSize="24dp" />-->
+
+    <!--<com.commax.setting.font.NotoRegularTextView-->
+    <!--android:id="@+id/screensaverTimeValue"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="36dp"-->
+    <!--android:layout_below="@id/screensaverTimeLabel"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:paddingLeft="30dp"-->
+    <!--android:textColor="#6a71cc"-->
+    <!--android:textSize="20dp" />-->
+
+    <!--<ImageView-->
+
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="30dp"-->
+    <!--android:background="@drawable/btn_list_arrow_n" />-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<View-->
+
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:background="#dddfe4"-->
+
+
+    <!--/>-->
+
+
+</LinearLayout>

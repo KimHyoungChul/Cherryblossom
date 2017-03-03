@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.commax.ipdoorcamerasetting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_basic_registration"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".dongho.DonghoActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".registration.CameraRegistrationActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <!--exported를 false로 주면 다른 앱에서 접근할 때 security exception 발생 -->
+        <provider
+            android:authorities="com.commax.ipdoorcamerasetting.app"
+            android:name=".content_provider.IpdoorcameraSettingProvider"
+            android:exported="true"
+            android:syncable="true"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popup_bg_width">610.6dp</dimen>
+    <dimen name="popup_bg_height">612dp</dimen>
+    <dimen name="popup_bg_marginTopBottom">8dp</dimen>
+    <dimen name="popup_bg_marginLeftRight">12dp</dimen>
+    
+    <dimen name="popup_title_width">530.6dp</dimen>
+    <dimen name="popup_title_textSize">29sp</dimen>
+    <dimen name="popup_title_marginLeftRight">38.6dp</dimen>
+    <dimen name="popup_title_text_marginTop">32dp</dimen>
+    <dimen name="popup_title_text_marginBottom">13dp</dimen>
+    <dimen name="popup_title_underline_width">533dp</dimen>
+    <dimen name="popup_title_underline_height">2.6dp</dimen>
+    
+    <dimen name="popup_btn_layout_height">137dp</dimen>
+    <dimen name="popup_btn_width">197dp</dimen>
+    <dimen name="popup_btn_height">69dp</dimen>
+    <dimen name="popup_btn_marginLeft">13dp</dimen>
+    <dimen name="popup_btn_textSize">29sp</dimen>
+    
+    <!-- Alerts -->
+    <dimen name="popup_alerts_bg_width">650.6dp</dimen>
+    <dimen name="popup_alerts_bg_height">430.6dp</dimen>
+    <dimen name="popup_alerts_title_underline_width">573dp</dimen>
+    <dimen name="popup_alerts_docu_height">144dp</dimen>
+    <dimen name="popup_alerts_textSize">32dp</dimen>
+    <dimen name="popup_alerts_text_marginTopBottom">42.6dp</dimen>
+    <dimen name="popup_alerts_text_marginLeftRight">60dp</dimen>
+    
+</resources>

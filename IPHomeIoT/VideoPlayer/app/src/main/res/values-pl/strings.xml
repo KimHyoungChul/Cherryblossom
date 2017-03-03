@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Odwiedzający</string>
+    <string name="title">Odwiedzający</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="today">Dzisiaj</string>
+    <string name="last7">Ostatnich 7 dni</string>
+    <string name="oldDays">Stare pozycje</string>
+    <string name="cancel">Anuluj</string>
+    <string name="delete">Usuń</string>
+    <string name="selectItem">Wybierz pozycję</string>
+    <string name="allSelect">Wybierz wszystkie</string>
+    <string name="selected">Wybrane</string>
+    <string name="deletePopTitle">Usuń</string>
+    <string name="deletePopContents">Kiedy klikniesz OK, wybrane pozycja zostanie usunięte i nie może być odzyskane.</string>
+    <string name="ok">OK</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="absence">Brak</string>
+</resources>

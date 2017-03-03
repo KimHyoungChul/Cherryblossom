@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr format="boolean" name="textStroke"/>
+        <attr format="float" name="textStrokeWidth"/>
+        <attr format="color" name="textStrokeColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="ImageBT">
+        <attr format="float" name="imageOpacity"/>
+    </declare-styleable>
+</resources>

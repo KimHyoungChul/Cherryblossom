@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.commax.iphomeiot.calldial.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/topMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/bg_title_1depth" >
+        <ImageView
+            android:id="@+id/imgBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/activity_main_btn_title_back_margin_left"
+            android:background="@mipmap/btn_title_back_white_n" >
+        </ImageView>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/activity_main_title_bard_font_size" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imgChangeRemoveMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/activity_main_btn_title_back_margin_left"
+                android:background="@mipmap/btn_title_delete_white_n"
+            />
+
+            <ImageView
+                android:id="@+id/imgContactsAddUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/activity_main_btn_title_back_margin_left"
+                android:background="@mipmap/btn_title_add_white_n"
+                />
+        </LinearLayout>
+
+        <Button
+            android:text="@string/STR_CANCEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical|left"
+            android:textColor="#44496b"
+            android:textSize="25dp"
+            android:id="@+id/btnCancelRemove" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:text="@string/STR_DELETE"
+            android:layout_gravity="center_vertical|right"
+            android:textColor="#ffffffff"
+            android:textSize="25dp"
+            android:background="@drawable/ok_button_selector"
+            android:id="@+id/btnRemove" />
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/fragmentTabView"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/activity_main_tab_body_height"
+        android:background="@mipmap/bg_tab"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/txtDialerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/activity_main_tab_button_height"
+            android:layout_marginRight="@dimen/activity_main_tab_button_margin"
+            android:background="@drawable/tab_btn_shape"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_main_tab_button_padding"
+            android:paddingRight="@dimen/activity_main_tab_button_padding"
+            android:text="@string/STR_TAB_DIAL"
+            android:textColor="#26FFFFFF"
+            android:textSize="@dimen/activity_main_tab_button_font_size" >
+        </TextView>
+        <TextView
+            android:id="@+id/txtCallLogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/activity_main_tab_button_height"
+            android:layout_marginLeft="@dimen/activity_main_tab_button_margin"
+            android:layout_marginRight="@dimen/activity_main_tab_button_margin"
+            android:background="@drawable/tab_btn_shape"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_main_tab_button_padding"
+            android:paddingRight="@dimen/activity_main_tab_button_padding"
+            android:text="@string/STR_TAB_CALLLOG"
+            android:textColor="#26FFFFFF"
+            android:textSize="@dimen/activity_main_tab_button_font_size" >
+        </TextView>
+        <TextView
+            android:id="@+id/txtContactButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/activity_main_tab_button_height"
+            android:layout_marginLeft="@dimen/activity_main_tab_button_margin"
+            android:background="@drawable/tab_btn_shape"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_main_tab_button_padding"
+            android:paddingRight="@dimen/activity_main_tab_button_padding"
+            android:text="@string/STR_TAB_CONTACTS"
+            android:textColor="#26FFFFFF"
+            android:textSize="@dimen/activity_main_tab_button_font_size" >
+        </TextView>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/layContextFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+</LinearLayout>

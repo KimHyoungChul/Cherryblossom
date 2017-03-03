@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Home(Set control)</string>
+
+    <string name="need_sync">Do not know the device status. Please check your device status.</string>
+    <string name="working">Working..</string>
+    <string name="control_fail">The device control has failed. Please check your device status.</string>
+    <string name="space_name_short">Please write a name of space.</string>
+    <string name="light">Lamp</string>
+
+    <string name="apps_long_tap_str">Tap and hold the app icon to put it on the backdrop.</string>
+    <string name="device_long_tap_str">Tap and hold the device icon to put it on the backdrop.</string>
+    <string name="widget_long_tap_str">Tap and hold the widget to put it on the backdrop.</string>
+
+    <!--Room-->
+    <string name="living_room">Living room</string>
+    <string name="main_room">Main room</string>
+    <string name="bed_room">Bedroom</string>
+    <string name="kitchen">Kitchen</string>
+
+    <!--Apps-->
+    <string name="home">Home</string>
+    <string name="home_coach">Coach</string>
+    <string name="mode">mode</string>
+    <string name="control">Control</string>
+    <string name="apps">Apps</string>
+    <string name="add_mode">Scene</string>
+    <string name="menu">Menu</string>
+
+    <string name="info_notice">Notice</string>
+
+    <!--Others-->
+    <string name="more_details">More details</string>
+    <string name="edit_mode">Edit mode</string>
+    <string name="ok">OK</string>
+    <string name="alert_ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert">Notification</string>
+
+    <!--Add space-->
+    <string name="add_space">Add a space</string>
+    <string name="edit_space">Space editing</string>
+    <string name="write_space_name">Write a name of new space.</string>
+    <string name="background">Background photo</string>
+    <string name="space_name"> Space name</string>
+    <string name="check_place_alert_title">Delete Space background</string>
+    <string name="check_place_alert">Are you sure you want to delete the space background? The device icon, the app icon, and widgets that belong to the space background will be deleted at the same time.</string>
+
+    <!--Edit space-->
+    <string name="edit_space_list">Space of edit List</string>
+    <string name="more_space">Space must be at least one more.</string>
+    <string name="edit_space_long_tap">You can change the order by pressing and holding the background image.</string>
+
+    <!--Control-->
+    <string name="auto">Auto</string>
+    <string name="manual">Manual</string>
+    <string name="unknown">Unknown</string>
+    <string name="home_reporter">Reporter</string>
+    <string name="register_doorphone_camera_at_setting">Register the door camera in COMMAX setting.</string>
+
+    <!--Tips-->
+    <string name="tips_add_space">Add a space</string>
+    <string name="tips_add_space_detail">Add new space\nfor device placement</string>
+    <string name="tips_indicator">Space Information display</string>
+    <string name="tips_indicator_detail">Move other space dragging the background from side to side</string>
+    <string name="tips_edit_space">Space Editing</string>
+    <string name="tips_edit_space_detail">Placing control device in space and changing space name</string>
+    <string name="tips_quick_menu">Function menu</string>
+    <string name="tips_quick_menu_detail">Main function of Wallpad</string>
+    <string name="tips_scene">Scene control</string>
+    <string name="tips_scene_detail">Contextual batch control about Away and Security mode</string>
+    <string name="tips_detail_menu1">Useful guide\nfor\nhome life</string>
+    <string name="tips_detail_menu2">All application\nof Wallpad</string>
+    <string name="tips_detail_menu3">All value information items of my home</string>
+    <string name="tips_detail_menu4">Connected device information and control</string>
+    <string name="tips_info">Summary value information</string>
+    <string name="tips_info_detail">Summary of\nall value information\nconnected to Wallpad</string>
+    <string name="do_not_show_anymore">No more seen</string>
+    <string name="tips_device_placement">↓ Drag and drop your device icon into the rectangular area</string>
+
+    <!--Boot-->
+    <string name="boot_title">Welcome!</string>
+    <string name="boot_sub_title">Preparing for the operating system.\nPlease wait.</string>
+
+    <!--Gas Lock-->
+    <string name="only_locking">Gas locking is only available by remote control for safety.</string>
+
+    <string name="no_support_text">You can enter letters, numbers and ~!@#$%^<![CDATA[&]]>*()_+=?/";:,. </string>
+
+    <!--Touch Mirror-->
+    <string name="tm_widget">Widget</string>
+    <string name="tm_device">Device icon</string>
+
+    <string name="external_network_pop">It is disconnected from the external network and the control of the smartphone APP and the video call function of the visitor are restricted. Please temporarily check whether the external network connection is bad, or whether you can use router or internet.</string>
+
+    <string name="guidance">Guidance</string>
+    <string name="guidance_account">After registering, you can control IoT with smart phone app and make video call of door phone.</string>
+    <string name="create_account">Sign up</string>
+    <string name="space_background">Space background</string>
+    <string name="device_placement">Device icon placement</string>
+    <string name="iot_connection">IoT device connection</string>
+
+    <!--New Tips-->
+    <string name="hello">Hello!</string>
+    <string name="commax_iot">COMMAX Home IoT 입니다</string>
+    <string name="setting_home">홈스크린 설정</string>
+    <string name="setting_home_tip">배경화면의 빈공간을 2초간 롱탭하면 설정 메뉴가 표출</string>
+
+</resources>

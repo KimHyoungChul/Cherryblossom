@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <!--타이틀-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_toptitle_height"
+        android:background="#ffffff">
+
+        <Button
+            android:layout_width="@dimen/activity_close_icon_width"
+            android:layout_height="@dimen/activity_close_icon_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_icon_left_margin"
+            android:background="@drawable/close_button_white_selector"
+            android:onClick="closeActivity" />
+
+        <com.commax.settings.font.NotoDemiLightTextView
+            android:id="@+id/screenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/registration_doorphone_camera"
+            android:textColor="#44496b"
+            android:textSize="@dimen/activity_toptitle_text_size" />
+
+
+        <Button
+            android:id="@+id/saveRegistration"
+            android:layout_width="@dimen/activity_ok_icon_width"
+            android:layout_height="@dimen/activity_ok_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_icon_right_margin"
+            android:background="@drawable/ok_button_white_selector"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_height="@dimen/activity_topline_height"
+        android:layout_width="fill_parent"
+        android:background="@color/title_bar_underline" />
+
+    <!-- 도움말 -->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_helptitle_height"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+    android:layout_width="@dimen/activity_bell_icon_width"
+    android:layout_height="@dimen/activity_bell_icon_height"
+    android:layout_marginLeft="@dimen/activity_icon_left_margin"
+    android:background="@drawable/icon_bell" />
+
+    <com.commax.settings.font.NotoRegularTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/activity_helptitle_left_margin"
+    android:gravity="center_vertical"
+    android:text="@string/registration_help_text"
+    android:textColor="#6b73c9"
+    android:textSize="@dimen/activity_helptitle_text_size"
+    android:id="@+id/registerationHelpText" />
+
+
+    </LinearLayout>
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_divider_list_height"
+    android:background="#d8d9e0" />
+
+
+    <!--등록된 현관카메라 리스트-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="#f0f1f9"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<com.commax.settings.font.NotoMediumTextView-->
+            <!--android:layout_width="0px"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:paddingLeft="30dp"-->
+            <!--android:text="@string/registered_doorphone_camera"-->
+            <!--android:textColor="#6b71cc"-->
+            <!--android:textSize="20dp" />-->
+
+        <!--<com.commax.settings.font.NotoRegularButton-->
+            <!--android:id="@+id/edit"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:background="@drawable/common_button_selector"-->
+            <!--android:enabled="false"-->
+            <!--android:text="@string/edit"-->
+            <!--android:textColor="@drawable/common_button_text_color_selector"-->
+            <!--android:textSize="17dp" />-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--<ListView-->
+        <!--android:id="@+id/registeredDoorphoneCameraList"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:divider="@drawable/list_divider"-->
+        <!--android:dividerHeight="2dp" />-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="#d8d9e0" />-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/registerDoorphoneCamera"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="@drawable/main_menu_background_selector"-->
+        <!--android:gravity="center">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="@drawable/ic_mode_add_n" />-->
+
+        <!--<com.commax.settings.font.NotoRegularTextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:text="@string/register_doorphone_camera"-->
+            <!--android:textColor="#6a71cc"-->
+            <!--android:textSize="20dp" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="#d8d9e0" />-->
+
+
+    <!--스캔된 디바이스 리스트-->
+
+    <com.commax.settings.font.NotoMediumTextView
+    android:id="@+id/scannedDeviceListTitle"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_subtitle_height"
+    android:background="#f0f1f9"
+    android:paddingLeft="@dimen/activity_subtitle_left_margin"
+    android:gravity="center_vertical"
+    android:textColor="#6b71cc"
+    android:textSize="@dimen/activity_subtitle_text_size"
+    android:text="@string/scanned_doorphone_camera" />
+
+
+    <ListView
+    android:id="@+id/scannedDeviceList"
+    android:layout_width="match_parent"
+    android:layout_height="0px"
+    android:layout_weight="1"
+    android:choiceMode="multipleChoice"
+    android:divider="@drawable/list_divider"
+    android:dividerHeight="@dimen/activity_divider_list_height" />
+
+
+    하단바
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_divider_item_height"
+    android:background="#cccccc" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/activity_reg_box_height"
+    android:gravity="center"
+    android:orientation="vertical"
+        android:id="@+id/registration_layout">
+
+    <com.commax.settings.font.NotoRegularButton
+    android:id="@+id/registration"
+    android:layout_width="@dimen/activity_reg_btn_width"
+    android:layout_height="@dimen/activity_reg_btn_height"
+    android:layout_marginLeft="@dimen/activity_reg_btn_left_margin"
+    android:background="@drawable/common_button_selector"
+    android:enabled="false"
+    android:text="@string/registration"
+    android:textColor="@drawable/common_button_text_color_selector"
+    android:textSize="@dimen/activity_reg_btn_text_size" />
+    </LinearLayout>
+
+
+</LinearLayout>

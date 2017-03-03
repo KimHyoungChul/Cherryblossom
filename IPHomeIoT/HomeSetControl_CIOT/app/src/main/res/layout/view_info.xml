@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_marginBottom="@dimen/info_margin" android:layout_marginTop="@dimen/info_margin">
+
+    <ImageView
+        android:id="@+id/iv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/lay_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_marginTop="@dimen/info_temp_top"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tv_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="20"
+            android:textSize="@dimen/info_temp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/tv_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="˚"
+            android:textSize="@dimen/info_dot"
+            android:textColor="#fff"
+            android:layout_toRightOf="@+id/tv_temp"
+            android:layout_alignTop="@+id/tv_temp"
+            android:layout_marginTop="@dimen/info_unit_margin"/>
+
+        <TextView
+            android:id="@+id/tv_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="C"
+            android:textSize="@dimen/info_scale"
+            android:textColor="#fff"
+            android:layout_toRightOf="@+id/tv_dot"
+            android:layout_alignBottom="@+id/tv_temp"
+            android:layout_marginBottom="@dimen/info_unit_margin"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_notice"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/info_notice"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:text="@string/info_notice"/>
+
+    <ImageView
+        android:id="@+id/iv_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_rp_default"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+</RelativeLayout>

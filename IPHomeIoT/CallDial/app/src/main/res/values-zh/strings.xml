@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">呼叫</string>
+	<string name="STR_OK">确认</string>
+	<string name="STR_CANCEL">取消</string>
+	<string name="STR_SAVE">保存</string>
+	<string name="STR_MODIFY">修改</string>
+	<string name="STR_DELETE">删除</string>
+
+	<string name="STR_DONG">-</string>
+	<string name="STR_HO"></string>
+	<string name="STR_NEIGHBOR">住户</string>
+	<string name="STR_EXTENSION">社区内</string>
+	<string name="STR_PSTN">电话</string>
+	<string name="STR_EMER_CALL">急诊</string>
+	<string name="STR_DOOR">门口</string>
+	<string name="STR_GUARD">物业中心</string>
+	<string name="STR_OFFICE">物业中心</string>
+	<string name="STR_CONNECTIOG">连接...</string>
+
+	<string name="popup_msg_title">OK</string>
+	<string name="popup_msg_content">选择“确认”就项永久删除.</string>
+	<string name="popup_msg_ok">OK</string>
+	<string name="popup_msg_cancel">取消</string>
+	<string name="title_selectitem">选项</string>
+	<string name="title_selecteditem_count">%d 选择了</string>
+	<string name="allSelect">全部选择</string>
+
+	<!-- tab -->
+	<string name="STR_TAB_DIAL">键盘</string>
+	<string name="STR_TAB_CALLLOG">通话记录</string>
+	<string name="STR_TAB_CONTACTS">联系</string>
+	<string name="STR_DELETE_CONFIRM">你确定要删除?</string>
+	<string name="STR_DELETE_ALL_CONFIRM">你确定要删除吗?</string>
+	<string name="STR_NO_DATA">没有数据</string>
+	<string name="logsection_name_today">今天</string>
+	<string name="logsection_name_last7days">前 7天</string>
+	<string name="logsection_name_oldDays">旧项目</string>
+
+	<!-- 연락처 추가 -->
+	<string name="STR_ADD_CONTACT">增加联系人</string>
+	<string name="STR_USER_NAME">名字</string>
+	<string name="STR_USER_NUMBER">电话号码</string>
+
+	<string name="STR_INVALID_NUMBER_MESSAGE">这不是一个有效的数字.</string>
+	<string name="STR_SAVE_INPUT_NUMBER_MESSAGE">请输入您的门店数量.</string>
+</resources>

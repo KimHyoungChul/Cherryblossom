@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="selction_scrollview_height">314dp</dimen>
+    <dimen name="selction_width">517dp</dimen>
+    <dimen name="selction_height">48dp</dimen>
+    <dimen name="selction_marginLeftRight">46.6dp</dimen>
+    <dimen name="selction_marginTopBottom">36dp</dimen>
+    <dimen name="selction_checkbox_marginRight">20dp</dimen>
+    <dimen name="selction_checkbox_marginBottom">32dp</dimen>
+    <dimen name="selction_underline_width">600dp</dimen>
+    <dimen name="selction_underline_height">2.6dp</dimen>
+    <dimen name="selction_underline_marginBottom">25dp</dimen>
+    <dimen name="selction_textSize">32sp</dimen>
+</resources>

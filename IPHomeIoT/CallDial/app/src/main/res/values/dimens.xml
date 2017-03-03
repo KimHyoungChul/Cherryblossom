@@ -1,0 +1,173 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Font Size -->
+    <dimen name="custom_toast_message_font_size">25sp</dimen>
+    <dimen name="activity_main_title_bard_font_size">24sp</dimen>
+    <dimen name="activity_main_tab_button_font_size">18sp</dimen>
+    <dimen name="fragment_dialer_input_dial_number_font_size">42sp</dimen>
+    <dimen name="fragment_dialer_call_place_font_size">18sp</dimen>
+    <dimen name="fragment_dialer_call_number_font_size">34sp</dimen>
+    <dimen name="fragment_dialer_direct_call_font_size">16sp</dimen>
+    <dimen name="dialer_option_dialog_check_box_font_size">24sp</dimen>
+    <dimen name="dialer_option_dialog_conform_button_font_size">22sp</dimen>
+    <dimen name="fragment_calllog_no_data_font_size">24sp</dimen>
+    <dimen name="item_calllog_call_name_font_size">24sp</dimen>
+    <dimen name="item_calllog_call_date_font_size">16sp</dimen>
+    <dimen name="item_calllog_call_duration_font_size">12sp</dimen>
+    <dimen name="calllog_delete_dialog_message_font_size">24sp</dimen>
+    <dimen name="calllog_delete_dialog_conform_button_font_size">22sp</dimen>
+    <dimen name="calllog_delete_all_dialog_message_font_size">24sp</dimen>
+    <dimen name="calllog_delete_all_dialog_conform_button_font_size">224sp</dimen>
+    <dimen name="fragment_contacts_no_data_font_size">24sp</dimen>
+    <dimen name="contacts_delete_dialog_message_font_size">24sp</dimen>
+    <dimen name="contacts_delete_dialog_conform_button_font_size">22sp</dimen>
+    <dimen name="contacts_delete_all_dialog_message_font_size">24sp</dimen>
+    <dimen name="contacts_delete_all_dialog_conform_button_font_size">22sp</dimen>
+    <dimen name="contacts_add_user_dialog_message_font_size">24sp</dimen>
+    <dimen name="contacts_add_user_dialog_input_content_font_size">24sp</dimen>
+    <dimen name="contacts_add_user_dialog_conform_button_font_size">22sp</dimen>
+    <dimen name="item_contacts_user_name_font_size">30sp</dimen>
+    <dimen name="item_contacts_user_number_font_size">12sp</dimen>
+
+    <!-- Custom Toast Activity -->
+    <dimen name="custom_toast_message_background_width">584dp</dimen>
+    <dimen name="custom_toast_message_background_height">61dp</dimen>
+    <dimen name="custom_toast_message_side_left">20dp</dimen>
+    <dimen name="custom_toast_message_side_top">6dp</dimen>
+
+    <!-- Activity Main -->
+    <dimen name="activity_main_btn_title_back_margin_left">24dp</dimen>
+    <dimen name="activity_main_tab_body_height">56dp</dimen>
+    <dimen name="activity_main_tab_button_height">44dp</dimen>
+    <dimen name="activity_main_tab_button_margin">12.5dp</dimen>
+    <dimen name="activity_main_tab_button_padding">30dp</dimen>
+
+    <!-- Fragment Dialer Activity -->
+    <dimen name="fragment_dialer_call_place_split_width">133dp</dimen>
+    <dimen name="fragment_dialer_input_number_split_width">133dp</dimen>
+    <dimen name="fragment_dialer_input_number_call_split_width">135dp</dimen>
+    <dimen name="fragment_dialer_direct_call_split_width">190dp</dimen>
+    <dimen name="fragment_dialer_call_place_gap_height">34dp</dimen>
+    <dimen name="fragment_dialer_call_place_height">44dp</dimen>
+    <dimen name="fragment_dialer_call_place_padding">22dp</dimen>
+    <dimen name="fragment_dialer_call_place_margin_top">10dp</dimen>
+    <dimen name="fragment_dialer_call_place_margin_bottom">10dp</dimen>
+    <dimen name="fragment_dialer_call_place_margin_left">10dp</dimen>
+    <dimen name="fragment_dialer_call_place_margin_right">5dp</dimen>
+    <dimen name="fragment_dialer_direct_call_margin_top">2dp</dimen>
+    <dimen name="fragment_dialer_direct_call_margin_bottom">21dp</dimen>
+
+    <!-- Dialer Option Dialog -->
+    <dimen name="dialer_option_dialog_width">458dp</dimen>
+    <dimen name="dialer_option_dialog_height">459dp</dimen>
+    <dimen name="dialer_option_dialog_scroll_view_height">310dp</dimen>
+    <dimen name="dialer_option_dialog_scroll_view_margin_left">30dp</dimen>
+    <dimen name="dialer_option_dialog_scroll_view_margin_right">30dp</dimen>
+    <dimen name="dialer_option_dialog_scroll_view_margin_top">30dp</dimen>
+    <dimen name="dialer_option_dialog_check_box_height">36dp</dimen>
+    <dimen name="dialer_option_dialog_check_box_margin_bottom">17dp</dimen>
+    <dimen name="dialer_option_dialog_check_box_margin_top">17dp</dimen>
+    <dimen name="dialer_option_dialog_check_box_padding_left">15dp</dimen>
+    <dimen name="dialer_option_dialog_scroll_end_line_margin_left">9dp</dimen>
+    <dimen name="dialer_option_dialog_scroll_end_line_margin_right">9dp</dimen>
+    <dimen name="dialer_option_dialog_scroll_end_line_margin_top">22dp</dimen>
+    <dimen name="dialer_option_dialog_conform_margin_top">19dp</dimen>
+    <dimen name="dialer_option_dialog_conform_button_width">148dp</dimen>
+    <dimen name="dialer_option_dialog_conform_button_height">52dp</dimen>
+
+    <!-- Fragment Call Log Activity -->
+    <dimen name="fragment_calllog_left_function_button_margin">15dp</dimen>
+
+    <!-- Call Log Delete Dialog -->
+    <dimen name="calllog_delete_dialog_background_width">458dp</dimen>
+    <dimen name="calllog_delete_dialog_background_height">180dp</dimen>
+    <dimen name="calllog_delete_dialog_message_margin_left">30dp</dimen>
+    <dimen name="calllog_delete_dialog_message_margin_right">30dp</dimen>
+    <dimen name="calllog_delete_dialog_message_margin_top">27dp</dimen>
+    <dimen name="calllog_delete_dialog_message_split_margin_left">9dp</dimen>
+    <dimen name="calllog_delete_dialog_message_split_margin_right">9dp</dimen>
+    <dimen name="calllog_delete_dialog_message_split_margin_top">22dp</dimen>
+    <dimen name="calllog_delete_dialog_comform_margin_top">19dp</dimen>
+    <dimen name="calllog_delete_dialog_conform_button_width">148dp</dimen>
+    <dimen name="calllog_delete_dialog_conform_button_height">52dp</dimen>
+
+    <!-- Call Log Delete All Dialog -->
+    <dimen name="calllog_delete_all_dialog_background_width">458dp</dimen>
+    <dimen name="calllog_delete_all_dialog_background_height">180dp</dimen>
+    <dimen name="calllog_delete_all_dialog_message_margin_left">30dp</dimen>
+    <dimen name="calllog_delete_all_dialog_message_margin_right">30dp</dimen>
+    <dimen name="calllog_delete_all_dialog_message_margin_top">27dp</dimen>
+    <dimen name="calllog_delete_all_dialog_message_split_margin_left">9dp</dimen>
+    <dimen name="calllog_delete_all_dialog_message_split_margin_right">9dp</dimen>
+    <dimen name="calllog_delete_all_dialog_message_split_margin_top">22dp</dimen>
+    <dimen name="calllog_delete_all_dialog_comform_margin_top">19dp</dimen>
+    <dimen name="calllog_delete_all_dialog_conform_button_width">148dp</dimen>
+    <dimen name="calllog_delete_all_dialog_conform_button_height">52dp</dimen>
+
+    <!-- Item Call Log -->
+    <dimen name="item_calllog_delete_button_margin">12dp</dimen>
+    <dimen name="item_calllog_call_status_margin_left">12dp</dimen>
+    <dimen name="item_calllog_call_status_margin_right">12dp</dimen>
+    <dimen name="item_calllog_call_message_padding_left">3dp</dimen>
+    <dimen name="item_calllog_call_status_duration_margin_top">6dp</dimen>
+    <dimen name="item_calllog_call_connect_request_button_margin">12dp</dimen>
+
+    <!-- Fragment Contacts Activity -->
+    <dimen name="fragment_contacts_left_function_button_margin">15dp</dimen>
+
+    <!-- Contacts Delete Dialog -->
+    <dimen name="contacts_delete_dialog_background_width">458dp</dimen>
+    <dimen name="contacts_delete_dialog_background_height">180dp</dimen>
+    <dimen name="contacts_delete_dialog_message_margin_left">30dp</dimen>
+    <dimen name="contacts_delete_dialog_message_margin_right">30dp</dimen>
+    <dimen name="contacts_delete_dialog_message_margin_top">27dp</dimen>
+    <dimen name="contacts_delete_dialog_message_split_margin_left">9dp</dimen>
+    <dimen name="contacts_delete_dialog_message_split_margin_right">9dp</dimen>
+    <dimen name="contacts_delete_dialog_message_split_margin_top">22dp</dimen>
+    <dimen name="contacts_delete_dialog_comform_margin_top">19dp</dimen>
+    <dimen name="contacts_delete_dialog_conform_button_width">148dp</dimen>
+    <dimen name="contacts_delete_dialog_conform_button_height">52dp</dimen>
+
+    <!-- Contacts Delete all Dialog -->
+    <dimen name="contacts_delete_all_dialog_background_width">458dp</dimen>
+    <dimen name="contacts_delete_all_dialog_background_height">180dp</dimen>
+    <dimen name="contacts_delete_all_dialog_message_margin_left">30dp</dimen>
+    <dimen name="contacts_delete_all_dialog_message_margin_right">30dp</dimen>
+    <dimen name="contacts_delete_all_dialog_message_margin_top">27dp</dimen>
+    <dimen name="contacts_delete_all_dialog_message_split_margin_left">9dp</dimen>
+    <dimen name="contacts_delete_all_dialog_message_split_margin_right">9dp</dimen>
+    <dimen name="contacts_delete_all_dialog_message_split_margin_top">22dp</dimen>
+    <dimen name="contacts_delete_all_dialog_comform_margin_top">19dp</dimen>
+    <dimen name="contacts_delete_all_dialog_conform_button_width">148dp</dimen>
+    <dimen name="contacts_delete_all_dialog_conform_button_height">52dp</dimen>
+
+    <!-- Contacts Add User Dialog -->
+    <dimen name="contacts_add_user_dialog_background_width">458dp</dimen>
+    <dimen name="contacts_add_user_dialog_background_height">301dp</dimen>
+    <dimen name="contacts_add_user_dialog_message_margin_left">30dp</dimen>
+    <dimen name="contacts_add_user_dialog_message_margin_right">30dp</dimen>
+    <dimen name="contacts_add_user_dialog_message_margin_top">27dp</dimen>
+    <dimen name="contacts_add_user_dialog_message_split_margin_left">9dp</dimen>
+    <dimen name="contacts_add_user_dialog_message_split_margin_right">9dp</dimen>
+    <dimen name="contacts_add_user_dialog_message_split_margin_top">11dp</dimen>
+    <dimen name="contacts_add_user_dialog_scroll_view_height">105dp</dimen>
+    <dimen name="contacts_add_user_dialog_scroll_view_margin_left">30dp</dimen>
+    <dimen name="contacts_add_user_dialog_scroll_view_margin_right">30dp</dimen>
+    <dimen name="contacts_add_user_dialog_scroll_view_margin_top">27dp</dimen>
+    <dimen name="contacts_add_user_dialog_input_edit_name_margin_left">10dp</dimen>
+    <dimen name="contacts_add_user_dialog_input_edit_split_margin_bottom">24dp</dimen>
+    <dimen name="contacts_add_user_dialog_input_edit_number_margin_left">10dp</dimen>
+    <dimen name="contacts_add_user_dialog_comform_margin_top">19dp</dimen>
+    <dimen name="contacts_add_user_dialog_conform_button_width">148dp</dimen>
+    <dimen name="contacts_add_user_dialog_conform_button_height">52dp</dimen>
+
+    <!-- Item Contacts -->
+    <dimen name="item_contacts_edit_button_margin">12dp</dimen>
+    <dimen name="item_contacts_delete_button_margin">12dp</dimen>
+    <dimen name="item_contacts_number_margin_top">6dp</dimen>
+    <dimen name="item_contacts_number_padding_left">12dp</dimen>
+    <dimen name="item_contacts_call_connect_request_button_margin">12dp</dimen>
+</resources>

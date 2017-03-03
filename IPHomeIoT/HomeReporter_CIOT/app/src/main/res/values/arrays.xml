@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units">
+        <item>kWh</item>
+        <item>m³</item>
+        <item>m³</item>
+        <item>m³</item>
+        <item>m³</item>
+    </string-array>
+
+</resources>

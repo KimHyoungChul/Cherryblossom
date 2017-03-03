@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 타이틀 바 -->
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_header_layout_height"
+            android:background="@drawable/bg_title_1depth" >
+
+            <ImageButton
+                android:id="@+id/btn_close"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/title_back_btn_marginLeft"
+                android:background="@drawable/btn_title_close_white_n" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/str_header_mode"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/title_appname_text_size" />
+
+            <!-- 
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="@dimen/title_edit_btn_marginRight"
+                android:background="@drawable/btn_title_edit_white_n" />
+            -->
+        </FrameLayout>
+
+      
+
+        <LinearLayout
+            android:id="@+id/tab"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_tab_layout_height"
+            android:background="@drawable/bg_tab"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/tab_outmode"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/title_tab_btn_height"   
+                android:paddingLeft="@dimen/title_tab_btn_paddingLeftRight"
+                android:paddingRight="@dimen/title_tab_btn_paddingLeftRight"
+                android:text="@string/str_header_outmode"  
+                android:textSize="@dimen/title_tab_btn_textsize"
+                android:textColor="@drawable/tab_btn_textcolor"           
+                android:background="@drawable/tab_btn_shape" />
+
+            <Button
+                android:id="@+id/tab_security"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/title_tab_btn_height"
+                android:layout_marginLeft="@dimen/title_tab_btn_marginLeft"
+                android:paddingLeft="@dimen/title_tab_btn_paddingLeftRight"
+                android:paddingRight="@dimen/title_tab_btn_paddingLeftRight"
+                android:text="@string/str_header_security"  
+                android:textSize="@dimen/title_tab_btn_textsize" 
+                android:textColor="@drawable/tab_btn_textcolor"           
+                android:background="@drawable/tab_btn_shape" />
+        </LinearLayout>
+    </LinearLayout>
+
+    
+        
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/itemCalllogLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgRemove"
+        android:background="@drawable/btn_checkbox_n"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSection"
+        android:layout_gravity="center_vertical"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_list_call_receive"
+        android:id="@+id/imgCallState"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="17dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tvOtherParty"
+        android:textSize="27.5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="8.48" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDatetime"
+        android:layout_gravity="center_vertical"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imgRecord"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="17dp"
+        android:background="@drawable/ic_apps_thumbnail_video" />
+    </LinearLayout>
+</FrameLayout>

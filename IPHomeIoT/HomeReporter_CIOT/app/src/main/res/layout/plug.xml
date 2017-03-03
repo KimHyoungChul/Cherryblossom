@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="@dimen/scroll_width"
+    android:layout_height="@dimen/scroll_height" tools:context=".MainActivity" android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:visibility="invisible"
+            android:layout_marginTop="@dimen/notice_call_security_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_notice"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/show_details"
+                android:textColor="@drawable/btn_notice_text_color"
+                android:textSize="@dimen/notice_call_security_text"/>
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/iv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/air_status_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top">
+
+            <TextView
+                android:id="@+id/tv_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textSize="@dimen/weather_temp_text"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/tv_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="˚"
+                android:textSize="@dimen/weather_dop_text"
+                android:textColor="#fff"
+                android:layout_toRightOf="@+id/tv_temp"
+                android:layout_alignTop="@+id/tv_temp"/>
+
+            <TextView
+                android:id="@+id/tv_scale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textSize="@dimen/weather_scale_text"
+                android:textColor="#fff"
+                android:layout_marginBottom="@dimen/weather_scale_top"
+                android:layout_toRightOf="@+id/tv_dot"
+                android:layout_alignBottom="@+id/tv_temp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text=""
+            android:gravity="center"
+            android:textSize="@dimen/weather_status_text"
+            android:textColor="#fff"
+            android:layout_marginTop="@dimen/weather_status_top"/>
+
+        <FrameLayout
+            android:id="@+id/lay_detail_plug"
+            android:layout_marginTop="@dimen/notice_call_security_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/ib_detail_plug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_notice"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/show_details"
+                android:textColor="@drawable/btn_notice_text_color"
+                android:textSize="@dimen/notice_call_security_text"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

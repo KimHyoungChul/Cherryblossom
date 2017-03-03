@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:background="@color/settings_notification_bg"
+    android:orientation="vertical"
+    tools:context="com.commax.commaxwidget.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/settings_notification_wifi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/settings_notification_wifi_icon"
+                android:layout_width="@dimen/notification_icon_width"
+                android:layout_height="@dimen/notification_icon_width"
+                android:background="@drawable/notification_icon_bg"
+                android:padding="@dimen/notification_icon_padding"
+                android:src="@drawable/ic_network_wifi_white_36dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/notification_wifi"
+                android:textColor="@color/settings_notification_icon_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settings_notification_local_network"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/notification_icon_width"
+                android:layout_height="@dimen/notification_icon_width"
+                android:background="@drawable/notification_icon_bg"
+                android:padding="@dimen/notification_icon_padding"
+                android:src="@drawable/ic_local_network" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/notification_local_network"
+                android:textColor="@color/settings_notification_icon_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settings_notification_external_network"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/settings_notification_external_network_icon"
+                android:layout_width="@dimen/notification_icon_width"
+                android:layout_height="@dimen/notification_icon_width"
+                android:background="@drawable/notification_icon_bg"
+                android:padding="@dimen/notification_icon_padding"
+                android:src="@drawable/ic_external_network_ng" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/notification_external_network"
+                android:textColor="@color/settings_notification_icon_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/settings_notification_door_camera"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/settings_notification_door_camera_icon"
+                android:layout_width="@dimen/notification_icon_width"
+                android:layout_height="@dimen/notification_icon_width"
+                android:background="@drawable/notification_icon_bg"
+                android:padding="@dimen/notification_icon_padding"
+                android:src="@drawable/ic_condition_door_camera_ng" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/notification_door_camera"
+                android:textColor="@color/settings_notification_icon_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settings_notification_sing_up"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/settings_notification_sing_up_icon"
+                android:layout_width="@dimen/notification_icon_width"
+                android:layout_height="@dimen/notification_icon_width"
+                android:background="@drawable/notification_icon_bg"
+                android:padding="@dimen/notification_icon_padding"
+                android:src="@drawable/ic_condition_account" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/notification_sign_up"
+                android:textColor="@color/settings_notification_icon_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settings_notification_iot_paring"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/notification_icon_width"
+                android:layout_height="@dimen/notification_icon_width"
+                android:background="@drawable/notification_icon_bg"
+                android:padding="@dimen/notification_icon_padding"
+                android:src="@drawable/ic_iot_pairing" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/notification_iot_pairing"
+                android:textColor="@color/settings_notification_icon_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/settings_notification_wallpad_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/notification_icon_width"
+                android:layout_height="@dimen/notification_icon_width"
+                android:background="@drawable/notification_icon_bg"
+                android:padding="@dimen/notification_icon_padding"
+                android:src="@drawable/ic_wallpad_setting" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/notification_wallpad_setting"
+                android:textColor="@color/settings_notification_icon_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/settings_notification_os_settings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/notification_icon_width"
+                android:layout_height="@dimen/notification_icon_width"
+                android:background="@drawable/notification_icon_bg"
+                android:padding="@dimen/notification_icon_padding"
+                android:src="@drawable/ic_os_setting" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="@string/notification_os_settings"
+                android:textColor="@color/settings_notification_icon_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

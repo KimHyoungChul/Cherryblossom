@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/popup_bg_width"
+    android:layout_height="@dimen/popup_bg_height"
+    android:layout_marginBottom="@dimen/popup_bg_marginTopBottom"
+    android:layout_marginTop="@dimen/popup_bg_marginTopBottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/popup_title_marginLeftRight"
+        android:layout_marginRight="@dimen/popup_title_marginLeftRight"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="@dimen/popup_title_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/popup_title_text_marginBottom"
+            android:layout_marginTop="@dimen/popup_title_text_marginTop"
+            android:gravity="center"
+            android:text="@string/str_sector_name"
+            android:textColor="#818294"
+            android:textSize="@dimen/popup_title_textSize" />
+
+        <ImageView
+            android:layout_width="@dimen/popup_title_underline_width"
+            android:layout_height="@dimen/popup_title_underline_height"
+            android:background="#ebecf0" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edit_scrollview_height"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/edit_scrollview_marginTopBottom"
+        android:layout_marginLeft="@dimen/edit_scrollview_marginLeftRight"
+        android:layout_marginRight="@dimen/edit_scrollview_marginLeftRight"
+        android:layout_marginTop="@dimen/edit_scrollview_marginTopBottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 구역1 -->
+
+            <LinearLayout
+                android:id="@+id/sector1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edit_sector1"
+                    android:layout_width="@dimen/edit_width"
+                    android:layout_height="@dimen/edit_height"      
+                    android:paddingLeft="@dimen/edit_paddingLeft"              
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:maxLength="11"
+                    android:text="@string/str_sector1"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/edit_textSize"
+                    android:textCursorDrawable="@drawable/edit_cursor_shape"
+                    android:background="@null" />
+
+                <ImageView
+                    android:id="@+id/underLine1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_underline_height"
+                    android:layout_marginBottom="@dimen/edit_marginBottom"
+                    android:background="#cdcddf" />
+            </LinearLayout>
+
+            <!-- 구역2 -->
+            <LinearLayout
+                android:id="@+id/sector2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edit_sector2"
+                    android:layout_width="@dimen/edit_width"
+                    android:layout_height="@dimen/edit_height"      
+                    android:paddingLeft="@dimen/edit_paddingLeft"              
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:maxLength="11"
+                    android:text="@string/str_sector2"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/edit_textSize"
+                    android:textCursorDrawable="@drawable/edit_cursor_shape"
+                    android:background="@null" />
+
+                <ImageView
+                    android:id="@+id/underLine2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_underline_height"
+                    android:layout_marginBottom="@dimen/edit_marginBottom"
+                    android:background="#cdcddf" />
+            </LinearLayout>
+
+            <!-- 구역3 -->
+            <LinearLayout
+                android:id="@+id/sector3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edit_sector3"
+                    android:layout_width="@dimen/edit_width"
+                    android:layout_height="@dimen/edit_height"      
+                    android:paddingLeft="@dimen/edit_paddingLeft"              
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:maxLength="11"
+                    android:text="@string/str_sector3"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/edit_textSize"
+                    android:textCursorDrawable="@drawable/edit_cursor_shape"
+                    android:background="@null" />
+
+                <ImageView
+                    android:id="@+id/underLine3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_underline_height"
+                    android:layout_marginBottom="@dimen/edit_marginBottom"
+                    android:background="#cdcddf" />
+            </LinearLayout>
+
+            <!-- 구역4 -->
+            <LinearLayout
+                android:id="@+id/sector4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edit_sector4"
+                    android:layout_width="@dimen/edit_width"
+                    android:layout_height="@dimen/edit_height"      
+                    android:paddingLeft="@dimen/edit_paddingLeft"              
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:maxLength="11"
+                    android:text="@string/str_sector4"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/edit_textSize"
+                    android:textCursorDrawable="@drawable/edit_cursor_shape"
+                    android:background="@null" />
+
+                <ImageView
+                    android:id="@+id/underLine4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_underline_height"
+                    android:layout_marginBottom="@dimen/edit_marginBottom"
+                    android:background="#cdcddf" />
+            </LinearLayout>
+
+            <!-- 구역5 -->
+            <LinearLayout
+                android:id="@+id/sector5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edit_sector5"
+                    android:layout_width="@dimen/edit_width"
+                    android:layout_height="@dimen/edit_height"      
+                    android:paddingLeft="@dimen/edit_paddingLeft"              
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:maxLength="11"
+                    android:text="@string/str_sector5"
+                    android:textColor="#0c1a3d"
+                    android:textSize="@dimen/edit_textSize"
+                    android:textCursorDrawable="@drawable/edit_cursor_shape"
+                    android:background="@null" />
+
+                <ImageView
+                    android:id="@+id/underLine5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edit_underline_height"
+                    android:layout_marginBottom="@dimen/edit_marginBottom"
+                    android:background="#cdcddf" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/popup_btn_layout_height"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/edit_underline_height"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/edit_underline_marginBottom"
+            android:background="#ebecf0" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="@dimen/popup_btn_width"
+                android:layout_height="@dimen/popup_btn_height"
+                android:background="@drawable/popup_btn_cancel_shape"
+                android:text="@string/str_cancel"
+                android:textColor="@drawable/popup_btn_cancel_textcolor"
+                android:textSize="@dimen/popup_btn_textSize" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="@dimen/popup_btn_width"
+                android:layout_height="@dimen/popup_btn_height"
+                android:layout_marginLeft="@dimen/popup_btn_marginLeft"
+                android:background="@drawable/popup_btn_ok_shape"
+                android:text="@string/str_ok"
+                android:textColor="@drawable/popup_btn_ok_textcolor"
+                android:textSize="@dimen/popup_btn_textSize" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

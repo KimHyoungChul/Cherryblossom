@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">主项(控制中心)</string>
+
+    <string name="need_sync">重新确认系统动作状态</string>
+    <string name="working">启动中..</string>
+    <string name="control_fail">装置控制失败，请重新确认终端状况。</string>
+    <string name="space_name_short">请输入空间名字</string>
+    <string name="light">灯光</string>
+
+    <!--Room-->
+    <string name="living_room">大厅</string>
+    <string name="main_room">房屋1</string>
+    <string name="bed_room">卧室</string>
+    <string name="kitchen">厨房</string>
+
+    <!--Apps-->
+    <string name="home">主项</string>
+    <string name="home_coach">Coach</string>
+    <string name="mode">模式</string>
+    <string name="control">控制</string>
+    <string name="apps">Apps</string>
+    <string name="add_mode">场景</string>
+    <string name="menu">菜单</string>
+
+    <string name="info_notice">公告</string>
+
+    <!--Others-->
+    <string name="more_details">更多</string>
+    <string name="edit_mode">编辑</string>
+    <string name="ok">存储</string>
+    <string name="alert_ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="alert">提醒</string>
+
+    <!--Add space-->
+    <string name="add_space">新加空间</string>
+    <string name="edit_space">编辑</string>
+    <string name="write_space_name">请输入空间名字</string>
+    <string name="background">编辑目录</string>
+    <string name="space_name"> 空间名字</string>
+    <string name="check_place_alert">您确定要删除空间的背景？属于背景区域图标设备，应用程序图标，窗口小部件也将在同一时间删除。</string>
+
+    <!--Edit space-->
+    <string name="edit_space_list">编辑目录</string>
+    <string name="more_space">空间至少要1个以上</string>
+
+    <!--Control-->
+    <string name="auto">自动</string>
+    <string name="manual">手动</string>
+    <string name="unknown">无知</string>
+    <string name="home_reporter">Reporter</string>
+    <string name="register_doorphone_camera_at_setting">在Commax设置中注册门摄像头</string>
+
+    <string name="do_not_show_anymore">以后不再弹出窗口 </string>
+
+    <!--Boot-->
+    <string name="boot_title">Welcome!</string>
+    <string name="boot_sub_title">Preparing for the operating system.\nPlease wait a moment.</string>
+
+    <!--Gas Lock-->
+    <string name="only_locking">Only available lock setting feature for safety</string>
+
+    <string name="no_support_text">只能输入英文、数字和 ~!@#$%^<![CDATA[&]]>*()_+=?/";:,.</string>
+
+</resources>

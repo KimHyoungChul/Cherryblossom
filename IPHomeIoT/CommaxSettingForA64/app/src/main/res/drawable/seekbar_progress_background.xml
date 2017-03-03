@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@android:id/secondaryProgress"
+        android:drawable="@drawable/secondary_progress_background"/>
+    <item>
+        <clip
+            android:id="@android:id/progress"
+            android:drawable="@drawable/progress_background" >
+        </clip>
+    </item>
+
+</layer-list>

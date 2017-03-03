@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dongho"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <!--타이틀-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@drawable/bg_title_1depth"
+        >
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/back_button_selector"
+            android:onClick="goBack" />
+
+        <com.commax.ipdoorcamerasetting.font.NotoDemiLightTextView
+            android:id="@+id/screenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/front_camera_registration"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d5d6e1" />
+    <!--내비게이션-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f0f1f9"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.commax.ipdoorcamerasetting.font.NotoMediumTextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:text="@string/dong_ho_setting"
+            android:textColor="#d1d5e0"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/btn_list_arrow_n" />
+
+        <com.commax.ipdoorcamerasetting.font.NotoMediumTextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="@string/front_camera_registration"
+            android:textColor="#9096d6"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <!--도움말-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/icon_bell" />
+
+        <com.commax.ipdoorcamerasetting.font.NotoRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:gravity="center_vertical"
+            android:text="@string/registration_help_text"
+            android:textColor="#6b73c9"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#d8d9e0" />
+
+
+    <!--디바이스 리스트-->
+
+    <ListView
+        android:id="@+id/deviceList"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:choiceMode="multipleChoice"
+        android:dividerHeight="2dp"
+        android:divider="@drawable/list_divider"
+        />
+
+
+    <!--하단바-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#cccccc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.commax.ipdoorcamerasetting.font.NotoRegularButton
+                android:id="@+id/cancel"
+                android:layout_width="148dp"
+                android:layout_height="52dp"
+                android:background="@drawable/cancel_button_selector"
+                android:text="@string/previous"
+                android:onClick="goBack"
+                android:textColor="@drawable/cancel_button_text_color_selector"
+                android:textSize="17dp" />
+
+            <com.commax.ipdoorcamerasetting.font.NotoRegularButton
+                android:id="@+id/registration"
+                android:layout_width="148dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/common_button_selector"
+                android:text="@string/registration"
+                android:textColor="@drawable/common_button_text_color_selector"
+                android:enabled="false"
+                android:onClick="registerDevice"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

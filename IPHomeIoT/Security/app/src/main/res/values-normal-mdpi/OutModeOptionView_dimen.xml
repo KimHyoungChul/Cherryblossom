@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="omov_menubar_txtSize">15sp</dimen>
+    <dimen name="omov_menubar_layout_height">45px</dimen>
+    <dimen name="omov_menubar_img_layout_width">30px</dimen>
+    <dimen name="omov_menubar_img_layout_height">45px</dimen>
+    <dimen name="omov_menubar_img_marginRight">12dp</dimen>
+    <dimen name="omov_menubar_text_marginLeft">12dp</dimen>
+
+    <dimen name="omov_bottom_bg_layout_height">77dp</dimen>
+    <dimen name="omov_btn_marginRight">5dp</dimen>
+    <dimen name="omov_btn_marginLeft">5dp</dimen>
+    
+    <!-- PXD UI -->
+    <dimen name="omov_check_width">60dp</dimen>
+    <dimen name="omov_check_height">34dp</dimen>
+
+	<dimen name="omov_spinner_frame_width">95dp</dimen>
+    <dimen name="omov_spinner_frame_height">39dp</dimen>
+    <dimen name="omov_spinner_img_marginBottom">1dp</dimen>
+    <dimen name="omov_spinner_bottomline_height">2dp</dimen>
+</resources>

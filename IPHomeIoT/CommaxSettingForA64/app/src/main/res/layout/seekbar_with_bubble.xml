@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.commax.settings.font.NotoRegularTextView
+        android:id="@+id/bubble"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@drawable/img_slider_bubble"
+        android:gravity="center"
+        android:paddingBottom="7dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <com.commax.settings.util.MySeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:progressDrawable="@drawable/seekbar_progress_background" />
+</LinearLayout>

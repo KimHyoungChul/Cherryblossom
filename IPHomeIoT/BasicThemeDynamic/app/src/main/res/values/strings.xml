@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">베이직테마</string>
+    <string name="month">월</string>
+    <string name="day">일</string>
+    <string name="am">오전</string>
+    <string name="pm">오후</string>
+    <!--모드추가를 Scene으로 변경해달라고 요청받음 -->
+    <!--<string name="add_mode">모드추가</string>-->
+    <string name="add_mode">Scene</string>
+
+    <!--Boot-->
+    <string name="boot_title">Welcome!</string>
+    <string name="boot_sub_title">Preparing for the operating system.\nPlease wait a moment.</string>
+</resources>

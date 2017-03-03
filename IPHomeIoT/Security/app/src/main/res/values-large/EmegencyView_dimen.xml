@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="emv_title_txtSize">15sp</dimen>
+    <dimen name="emv_emer_status_img_layout_width">474px</dimen>
+    <dimen name="emv_emer_status_img_layout_height">340px</dimen>
+    <dimen name="emv_state_txt_marginTop">30dip</dimen>
+    <dimen name="emv_state_txt_size">16sp</dimen>
+    <dimen name="emv_state_img_marginBottom">20dip</dimen>
+    <dimen name="emv_btn_linearlayout_height">55dip</dimen>
+    <dimen name="emv_btn_linearlayout_marginBottom">20dip</dimen>
+    <dimen name="emv_btn_marginBottom">5dip</dimen>
+    <dimen name="emv_btn_marginLeft">15dip</dimen>
+    <dimen name="emv_btn_marginRight">15dip</dimen>
+    <dimen name="emv_btn_txt_size">13sp</dimen>
+    <dimen name="emv_btn_img_layout_width">176px</dimen>
+    <dimen name="emv_btn_img_layout_height">60px</dimen>
+    <dimen name="emv_btn_txt_paddingLeft">22dp</dimen>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home coach</string>
+
+    <!-- Main Title -->
+    <string name="title_elec">Electricity learn how to save the energy.</string>
+    <string name="title_gas">Gas learn how to save the energy.</string>
+    <string name="title_water">Water learn how to save the energy.</string>
+    <string name="title_hotwater">Warm Water learn how to save the energy.</string>
+    <string name="title_heater">Heating learn how to save the energy.</string>
+    <string name="title_indoor">Learn how comfortable indoor environment.</string>
+
+    <!-- Sub Title -->
+    <string name="sub_title">This is a common tip.Depending on individual residential conditions, there may be some differences.</string>
+
+    <!-- TipButton & ViewTitle -->
+    <string name="title_tips_elec">Electricity Energysaving Tips</string>
+    <string name="title_tips_gas">GasEnergysaving Tips</string>
+    <string name="title_tips_water">Water Energysaving Tips</string>
+    <string name="title_tips_hotwater">Warm Water Energysaving Tips</string>
+    <string name="title_tips_heater">Heating Energysaving Tips</string>
+    <string name="title_tips_indoor">Tips for making indoor condition</string>
+    <string name="title_indoor2">Indoor condition tips</string>
+
+    <!-- Document -->
+    <string name="elec_cleaner_subtitle">To save electricity when cleaning</string>
+    <string name="elec_cleaner_docu">Please empty the vacuum cleaner filter frequently! \nWhen the filter is full, more electricity will be used even if you clean the same area.</string>
+    <string name="elec_washer_subtitle">To save electricity when doing the laundry</string>
+    <string name="elec_washer_docu">Washing with cold water to try to save electricity! \nDuring laundry, 90% of the energy is used when heating the water.
+The differences are minor.</string>
+    <string name="elec_tv_subtitle">Main consumer of electricity, TV Settop Box</string>
+    <string name="elec_tv_docu">Pull the plug out of settop box when you do not watch TV! \nIt is one of main consumer of electricity and consumes 17kWh per hour even if you do not watch TV.</string>
+    <string name="elec_aircon_subtitle">When you use the airconditioner</string>
+    <string name="elec_aircon_docu">Using also the fan! \nThe fan makes the air cool quickly circulating the air from the airconditioner.</string>
+
+    <string name="gas_subtitle">Saving gas adjusting the heat</string>
+    <string name="gas_docu">Using gas stove, adjust the heat not to exceed out of the pot! \nIf the gas flame is too high, more gas is consumed leaking gas unnecessarily.</string>
+
+    <string name="water_subtitle">Saving water when wasing the dishes</string>
+    <string name="water_docu">
+Wash the dishes with spray mode of the faucet! \nYou can finish dish washing more quickly saving the water.</string>
+
+    <string name="hotwater_subtitle">To save warm water in daily lives</string>
+    <string name="hotwater_docu">Save warm water by shortening shower time! \nTo heat warm water, most gas is consumed. And most warm water is used during shower.</string>
+
+    <string name="heater_subtitle">To save gas through using the boiler</string>
+    <string name="heater_docu">Set the boiler temprature to 20℃, recommendable heating temprature in winter. \nYou can save 7% per 1℃.</string>
+
+    <string name="indoor_removehumidity_subtitle">Reducing moisture by heating the floor</string>
+    <string name="indoor_removehumidity_docu">When it is humid, mold tends to reproduce easily on the cold floor. \nGet rid of the humidity by heating the floor for some time.</string>
+    <string name="indoor_restroom_subtitle">Ventilating the bathroom</string>
+    <string name="indoor_restroom_docu">When it is humid, mold tends to reproduce easily in the bathroom \nwhere the temperature is low relatively.</string>
+    <string name="indoor_condensation_subtitle">Preventing condensation</string>
+    <string name="indoor_condensation_docu">High probability of condensation on the external wall through temperature difference.
+Ventilate for some time after turning off the boiler. \nIt can reduce temperature difference and humidity.</string>
+    <string name="indoor_maintainhumidity_subtitle">To keep optimal humidity without humidifier</string>
+    <string name="indoor_maintainhumidity_docu">When there is no humidifier, boil the water without cover to raise humidity. \nHanging out the wet towel in the room also helps to keep the humidity.</string>
+
+    <!-- Button -->
+    <string name="btn_ems_elec">Check recent consumption of electricity</string>
+    <string name="btn_ems_gas">Check recent consumption of gas</string>
+    <string name="btn_ems_water">Check recent consumption of water</string>
+    <string name="btn_ems_hotwater">Check recent consumption of warm water</string>
+    <string name="btn_ems_heater">Check recent consumption of heating</string>
+    <string name="btn_readypower">Control Standby Power</string>
+    <string name="btn_heater">Control heating</string>
+    <string name="btn_aircon">에어컨 제어</string>
+
+    <!-- Alert -->
+    <string name="msg_title_alert">Alert</string>
+    <string name="check_ems_server">Check the EMS server connection.</string>
+    <string name="str_ok">OK</string>
+</resources>

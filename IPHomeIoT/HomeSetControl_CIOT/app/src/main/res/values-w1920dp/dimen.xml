@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Header-->
+    <dimen name="sub_header_text">40dp</dimen>
+    <dimen name="header_height">128dp</dimen>
+    <dimen name="header_button_right_left_margin">48dp</dimen>
+    <dimen name="header_button_top_margin">28dp</dimen>
+    <dimen name="header_button_text">40dp</dimen>
+
+    <!--Space Cell-->
+    <dimen name="cell_width">496dp</dimen>
+    <dimen name="cell_height">308dp</dimen>
+
+    <!--List Item-->
+    <dimen name="list_device_max_width">330dp</dimen>
+    <dimen name="list_device_height">96dp</dimen>
+    <dimen name="list_device_left_margin">24dp</dimen>
+    <dimen name="list_device_middle_margin">4dp</dimen>
+    <dimen name="list_device_right_margin">40dp</dimen>
+    <dimen name="list_back_margin">26dp</dimen>
+    <dimen name="list_device_margin">10dp</dimen>
+    <dimen name="list_device_name_text">40dp</dimen>
+    <dimen name="list_device_bg_radius">10dp</dimen>
+    <dimen name="list_device_bg_stroke">2dp</dimen>
+
+    <dimen name="offset_x">115dp</dimen>
+    <dimen name="offset_y">116dp</dimen>
+
+    <!--AddSpace-->
+    <dimen name="header_title">48dp</dimen>
+    <dimen name="add_space_middle_area">588dp</dimen>
+    <dimen name="add_space_selected_picture_width">624dp</dimen>
+    <dimen name="add_space_selected_picture_height">376dp</dimen>
+    <dimen name="add_space_selected_picture_top">106dp</dimen>
+    <dimen name="add_space_selected_picture_left">72dp</dimen>
+    <dimen name="add_space_name_width">992dp</dimen>
+    <dimen name="add_space_name_left">104dp</dimen>
+    <dimen name="add_space_name_top">194dp</dimen>
+    <dimen name="add_space_name_height">64dp</dimen>
+    <dimen name="add_space_name_label_text">36dp</dimen>
+    <dimen name="add_space_name_text">48dp</dimen>
+    <dimen name="add_space_sub_text_left">60dp</dimen>
+    <dimen name="add_space_sub_text_height">80dp</dimen>
+    <dimen name="add_space_info_icon_left">12dp</dimen>
+    <dimen name="add_space_scroll_height">284dp</dimen>
+    <dimen name="add_space_scroll_img_width">472dp</dimen>
+    <dimen name="add_space_scroll_img_left">6dp</dimen>
+
+    <!--EditSpace-->
+    <dimen name="edit_space_grid_top">61dp</dimen>
+    <dimen name="edit_space_grid_left">196dp</dimen>
+    <dimen name="edit_space_grid_vertical_spacing">20dp</dimen>
+    <dimen name="edit_space_grid_horizontal_spacing">20dp</dimen>
+    <dimen name="empty_cell_stroke">2dp</dimen>
+
+    <!--MainActivity-->
+    <dimen name="main_pick_height">168dp</dimen>
+    <dimen name="main_iv_area_height">782dp</dimen>
+    <dimen name="main_lay_menu_height">216dp</dimen>
+    <dimen name="main_title_padding">6dp</dimen>
+    <dimen name="main_title_button_left">12dp</dimen>
+    <dimen name="main_indicator_width_height">16dp</dimen>
+    <dimen name="main_indicator_right_left">6dp</dimen>
+    <dimen name="main_lay_menu_mode_text">20dp</dimen>
+    <dimen name="main_lay_menu_mode_text_small">36dp</dimen>
+    <dimen name="main_lay_menu_mode_max_width">156dp</dimen>
+
+    <dimen name="app_name_text">16dp</dimen>
+    <dimen name="app_margin">0dp</dimen>
+
+    <!--ControlDetails-->
+    <dimen name="control_detail_width">472dp</dimen>
+    <dimen name="control_detail_height">272dp</dimen>
+    <dimen name="control_detail_right_limit">242dp</dimen>
+    <dimen name="control_detail_left_limit">1668dp</dimen>
+    <dimen name="control_detail_center_limit">540dp</dimen>
+
+    <!--AutoDetail-->
+    <dimen name="auto_detail_text">44dp</dimen>
+    <dimen name="auto_detail_show_more_text">28dp</dimen>
+    <dimen name="auto_detail_button_width">208dp</dimen>
+    <dimen name="auto_detail_button_height">96dp</dimen>
+    <dimen name="auto_detail_button_radius">48dip</dimen>
+    <dimen name="auto_detail_button_stroke">4dp</dimen>
+
+    <!--DimmingDetail-->
+    <dimen name="dimming_detail_width">368dp</dimen>
+    <dimen name="dimming_detail_left">52dp</dimen>
+    <dimen name="dimming_detail_text">100dp</dimen>
+    <dimen name="dimming_detail_right_left">40dp</dimen>
+    <dimen name="dimming_detail_circle">72dp</dimen>
+    <dimen name="dimming_detail_circle_stroke">4dp</dimen>
+
+    <!--TempDetail-->
+    <dimen name="temp_detail_width">368dp</dimen>
+    <dimen name="temp_detail_temp_left">20dp</dimen>
+    <dimen name="temp_detail_circle_text">80dp</dimen>
+
+    <!--Dialog-->
+    <dimen name="dialog_title_top">44dp</dimen>
+    <dimen name="dialog_width">916dp</dimen>
+    <dimen name="dialog_height">652dp</dimen>
+    <dimen name="dialog_title_width">796dp</dimen>
+    <dimen name="dialog_title_text">44dp</dimen>
+    <dimen name="dialog_title_text_bottom">20dp</dimen>
+    <dimen name="dialog_title_line_height">4dp</dimen>
+    <dimen name="dialog_contents_top">64dp</dimen>
+    <dimen name="dialog_contents_height">216dp</dimen>
+    <dimen name="dialog_contents_text">48dp</dimen>
+    <dimen name="dialog_button_top">64dp</dimen>
+    <dimen name="dialog_button_width">296dp</dimen>
+    <dimen name="dialog_button_height">104dp</dimen>
+    <dimen name="dialog_button_radius">52dp</dimen>
+    <dimen name="dialog_button_stroke">2dp</dimen>
+    <dimen name="dialog_button_margin">20dp</dimen>
+
+    <dimen name="divider_height">1dp</dimen>
+
+    <!--MovableItem-->
+    <dimen name="movable_device_width">230dp</dimen>
+    <dimen name="movable_device_height">180dp</dimen>
+    <dimen name="movable_device_iv_type_top_left">28dp</dimen>
+    <dimen name="movable_device_name_text">28dp</dimen>
+    <dimen name="movable_device_name_top">154dp</dimen>
+    <dimen name="movable_device_name_height">104dp</dimen>
+    <dimen name="movable_device_delete_top">8dp</dimen>
+    <dimen name="movable_device_delete_left">153dp</dimen>
+
+    <!--SpaceCell-->
+    <dimen name="space_cell_width">496dp</dimen>
+    <dimen name="space_cell_height">308dp</dimen>
+    <dimen name="space_cell_img_width">468dp</dimen>
+    <dimen name="space_cell_img_height">280dp</dimen>
+    <dimen name="space_cell_name_text">44dp</dimen>
+    <dimen name="space_cell_name_bottom">36dp</dimen>
+
+    <dimen name="move_start">128dp</dimen>
+    <dimen name="move_end">906dp</dimen>
+
+    <!--Toast-->
+    <dimen name="toast_text">40dp</dimen>
+    <dimen name="toast_text_bottom">12dp</dimen>
+    <dimen name="toast_text_left_right">40dp</dimen>
+    <dimen name="toast_right_left">394dp</dimen>
+    <dimen name="toast_height">122dp</dimen>
+    <dimen name="toast_width">1150dp</dimen>
+
+    <dimen name="text_stroke_width">6dp</dimen>
+
+    <!--Quick-->
+    <dimen name="quick_margin">24dp</dimen>
+    <dimen name="quick_size">254dp</dimen>
+    <dimen name="quick_text">28dp</dimen>
+    <dimen name="quick_width">1692dp</dimen>
+
+    <!--Info-->
+    <dimen name="info_top">128dp</dimen>
+    <dimen name="info_width">304dp</dimen>
+    <dimen name="info_height">228dp</dimen>
+    <dimen name="info_margin">10dp</dimen>
+    <dimen name="logo_margin">40dp</dimen>
+
+    <!--InfoView-->
+    <dimen name="info_temp">96dp</dimen>
+    <dimen name="info_dot">60dp</dimen>
+    <dimen name="info_scale">60dp</dimen>
+    <dimen name="info_notice">48dp</dimen>
+    <dimen name="info_temp_top">120dp</dimen>
+    <dimen name="info_unit_margin">10dp</dimen>
+    <dimen name="info_temp_long">66dp</dimen>
+    <dimen name="info_temp_so_long">56dp</dimen>
+
+    <dimen name="quick_left">36dp</dimen>
+    <dimen name="quick_bottom">176dp</dimen>
+    <dimen name="quick_btn_bottom">48dp</dimen>
+
+</resources>

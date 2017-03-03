@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home Coach</string>
+
+    <!-- Main Title -->
+    <string name="title_elec">更了解</string>
+    <string name="title_gas">更了解</string>
+    <string name="title_water">更了解</string>
+    <string name="title_hotwater">更了解</string>
+    <string name="title_heater">更了解</string>
+    <string name="title_indoor">让我们来了解一下营造舒适的室内环境吧</string>
+
+    <!-- Sub Title -->
+    <string name="sub_title">这是一种常见的。视乎个人的居住条件,可能有一些差异。</string>
+
+    <!-- TipButton & ViewTitle -->
+    <string name="title_tips_elec">生活节能小窍门</string>
+    <string name="title_tips_gas">生活节能小窍门</string>
+    <string name="title_tips_water">生活节能小窍门</string>
+    <string name="title_tips_hotwater">生活节能小窍门</string>
+    <string name="title_tips_heater">生活节能小窍门</string>
+    <string name="title_tips_indoor">改善室内环境小窍门</string>
+    <string name="title_indoor2">改善室内环境小窍门</string>
+
+    <!-- Document -->
+    <string name="elec_cleaner_subtitle">打扫时节能小窍门</string>
+    <string name="elec_cleaner_docu">常常清好吸尘器过滤器 \n如过滤器满，效率不好， 耗能量大。</string>
+    <string name="elec_washer_subtitle">洗衣时节能小窍门</string>
+    <string name="elec_washer_docu">用常温水可以节能 \n洗衣机耗能的 90%以上都是开水的。 其实洗涤效果差不多。 </string>
+    <string name="elec_tv_subtitle">电视设备节能小窍门</string>
+    <string name="elec_tv_docu">没人看电视时， 请你把TV机顶盒插头拨出来。  \nTV机顶盒是待机电力最大的家电之一。 没开电视也消耗一个小时 17KWH的电力。</string>
+    <string name="elec_aircon_subtitle">开空调时节能小窍门</string>
+    <string name="elec_aircon_docu">建议您开空调同时开风扇 \n开风扇空气循环更顺利，加快降温。</string>
+
+    <string name="gas_subtitle">调节煤气灶火力</string>
+    <string name="gas_docu">开煤气灶时， 火力不要超过锅底面积\n大火浪费煤气</string>
+
+    <string name="water_subtitle">洗碗时</string>
+    <string name="water_docu">洗碗时，把水龙头调整雨水式，\n可节省您更多水费。</string>
+
+    <string name="hotwater_subtitle">节省煤气</string>
+    <string name="hotwater_docu">洗澡时间短，节约烧水费\n烧水需要大量煤气。</string>
+
+    <string name="heater_subtitle">节省锅炉耗电量小窍门</string>
+    <string name="heater_docu">建议您锅炉设定温度设定为 20℃。\n低 1‘C， 节省 7%能源。</string>
+
+    <string name="indoor_removehumidity_subtitle">供暖除湿</string>
+    <string name="indoor_removehumidity_docu">家内湿度高，易生霉菌。 \n建议您供暖除湿。 </string>
+    <string name="indoor_restroom_subtitle">卫生间通风</string>
+    <string name="indoor_restroom_docu">家内湿度高， 卫生间易生霉菌。 \n以通风除湿。 </string>
+    <string name="indoor_condensation_subtitle">防结露。</string>
+    <string name="indoor_condensation_docu">室内外温差大，可以发生结露。\n建议你暂时关锅炉通风。让温差少一些才能除湿。\n如在家内发生霉菌，请您联系物业中心。</string>
+    <string name="indoor_maintainhumidity_subtitle">保持室内最适宜湿度。</string>
+    <string name="indoor_maintainhumidity_docu">如家内没有加湿器，活用开水调节湿度。\n或房间里晒衣也能保持湿度。</string>
+
+    <!-- Button -->
+    <string name="btn_ems_elec">用电量查询</string>
+    <string name="btn_ems_gas">用煤气量查询</string>
+    <string name="btn_ems_water">用水量查询</string>
+    <string name="btn_ems_hotwater">用温水量查询</string>
+    <string name="btn_ems_heater">用锅炉量查询</string>
+    <string name="btn_readypower">控制待机电力</string>
+    <string name="btn_heater">控制锅炉</string>
+    <string name="btn_aircon">에어컨 제어</string>
+
+    <!-- Alert -->
+    <string name="msg_title_alert">提醒</string>
+    <string name="check_ems_server">EMS服务器。</string>
+    <string name="str_ok">确定</string>
+</resources>

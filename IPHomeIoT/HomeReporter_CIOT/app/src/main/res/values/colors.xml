@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#6a71cc</color>
+    <color name="onDepthHeaderBG">#26ffffff</color>
+    <color name="divider">#b5b6c3</color>
+    <color name="selectionModeHeaderBG">#b5b6c3</color>
+</resources>

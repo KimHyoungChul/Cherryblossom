@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_mode_dimmed"
+    android:orientation="vertical" >
+    
+    <!-- 타이틀 닫기 버튼 -->
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/goout_btn_close_height" >
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/goout_btn_close_img_width"
+            android:layout_height="@dimen/goout_btn_close_img_height"
+            android:layout_marginLeft="@dimen/goout_btn_close_layout_marginLeft"
+            android:layout_marginTop="@dimen/goout_btn_close_layout_marginTop"
+            android:background="@drawable/btn_title_close_white_n" />
+    </LinearLayout>
+    
+    <FrameLayout
+        android:id="@+id/btn_control_bg"
+        android:layout_width="@dimen/control_symbol_bg_Size"
+        android:layout_height="@dimen/control_symbol_bg_Size"
+        android:layout_marginBottom="@dimen/toast_symbol_marginBottom"
+        android:background="@drawable/bg_mode_icon_s" >
+
+        <ImageView
+            android:id="@+id/btn_control_icon"
+            android:layout_width="@dimen/control_symbol_img_Size"
+            android:layout_height="@dimen/control_symbol_img_Size"
+            android:layout_gravity="center"
+            android:background="@drawable/mode_outdoor_icon_s" />
+    </FrameLayout>
+    
+    <TextView 
+        android:layout_width="1920dp"
+        android:layout_height="@dimen/toast_text_height"
+        android:text="@string/str_header_outmode"
+        android:gravity="center"
+        android:textSize="@dimen/toast_header_textsize"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:id="@+id/ll_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/goout_timer_marginBottom"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/timer_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/goout_timer_textsize" />
+
+        <TextView
+            android:id="@+id/timer_colon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/goout_timer_textsize" />
+
+        <TextView
+            android:id="@+id/timer_sec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/goout_timer_textsize" />
+
+        <TextView
+            android:id="@+id/timer_sec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/goout_timer_textsize" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_setstate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toast_text_height"
+        android:gravity="center"
+        android:text="@string/msg_setcounting"
+        android:textColor="#6b73c9"
+        android:textSize="@dimen/toast_bottom_textsize" />
+
+</LinearLayout>

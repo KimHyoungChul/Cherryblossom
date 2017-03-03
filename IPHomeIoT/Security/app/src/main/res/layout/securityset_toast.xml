@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_mode_dimmed"
+    android:orientation="vertical" >
+    
+    <FrameLayout
+        android:id="@+id/btn_control_bg"
+        android:layout_width="@dimen/control_symbol_bg_Size"
+        android:layout_height="@dimen/control_symbol_bg_Size"
+        android:layout_marginBottom="@dimen/toast_symbol_marginBottom"
+        android:layout_marginTop="@dimen/toast_symbol_marginTop"
+        android:background="@drawable/bg_mode_icon_s" >
+
+        <ImageView
+            android:id="@+id/btn_control_icon"
+            android:layout_width="@dimen/control_symbol_img_Size"
+            android:layout_height="@dimen/control_symbol_img_Size"
+            android:layout_gravity="center"
+            android:background="@drawable/mode_security_icon_s" />
+    </FrameLayout>
+    
+    <TextView
+        android:id="@+id/text_modename"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/toast_text_height"
+        android:layout_marginBottom="@dimen/toast_header_marginBottom"
+        android:text="@string/str_header_security"
+        android:textSize="@dimen/toast_header_textsize"
+        android:textColor="#ffffff" />
+    
+    <TextView
+        android:id="@+id/custom_toast_text"
+        android:layout_width="1920dp"
+        android:layout_height="@dimen/toast_text_height"
+        android:gravity="center"
+        android:text="@string/msg_setprevent"
+        android:textSize="@dimen/toast_bottom_textsize"
+        android:textColor="#6b73c9" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">确认访客</string>
+    <string name="title">确认访客</string>
+    <string name="pm">PM</string>
+    <string name="am">AM</string>
+    <string name="today">今天</string>
+    <string name="last7">前 7天</string>
+    <string name="oldDays">旧项目</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="selectItem">选项</string>
+    <string name="allSelect">全部选择</string>
+    <string name="selected">选择了</string>
+    <string name="deletePopTitle">删除</string>
+    <string name="deletePopContents">选择“确认”就项永久删除.</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">取消</string>
+    <string name="absence">不在中</string>
+</resources>

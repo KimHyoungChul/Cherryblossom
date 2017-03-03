@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Połączenie</string>
+    <string name="STR_OK">OK</string>
+    <string name="STR_CANCEL">Anuluj</string>
+    <string name="STR_SAVE">Zapisz</string>
+    <string name="STR_MODIFY">Modyfikować</string>
+    <string name="STR_DELETE">Usuń</string>
+
+    <string name="STR_DONG">-</string>
+    <string name="STR_HO"></string>
+    <string name="STR_NEIGHBOR">Sąsiad</string>
+    <string name="STR_EXTENSION">Rozszerzenie</string>
+    <string name="STR_PSTN">PSTN</string>
+    <string name="STR_EMER_CALL">Sytuacja awaryjna</string>
+    <string name="STR_DOOR">Drzwi</string>
+    <string name="STR_GUARD">Stróżówka</string>
+    <string name="STR_OFFICE">Biuro zarządu</string>
+    <string name="STR_CONNECTIOG">złączony...</string>
+
+    <string name="popup_msg_title">OK</string>
+    <string name="popup_msg_content">Kiedy klikniesz OK, wybrane pozycja zostanie usunięte i nie może być odzyskane..</string>
+    <string name="popup_msg_ok">OK</string>
+    <string name="popup_msg_cancel">Usuń</string>
+    <string name="title_selectitem">Wybierz pozycję</string>
+    <string name="title_selecteditem_count">%d Wybrane</string>
+    <string name="allSelect">Wybierz wszystkie</string>
+
+    <!-- tab -->
+    <string name="STR_TAB_DIAL">Klawiatura</string>
+    <string name="STR_TAB_CALLLOG">Log połączenia</string>
+    <string name="STR_TAB_CONTACTS">Kontakt</string>
+    <string name="STR_DELETE_CONFIRM">Jesteś pewien, że chcesz usunąć?</string>
+    <string name="STR_DELETE_ALL_CONFIRM">Jesteś pewien, że chcesz usunąć wszystko?</string>
+    <string name="STR_NO_DATA">Nie ma danych</string>
+    <string name="logsection_name_today">Dzisiaj</string>
+    <string name="logsection_name_last7days">Ostatnich 7 dni</string>
+    <string name="logsection_name_oldDays">Stare pozycje</string>
+
+    <!-- 연락처 추가 -->
+    <string name="STR_ADD_CONTACT">Dodaj kontakt</string>
+    <string name="STR_USER_NAME">Nazwa</string>
+    <string name="STR_USER_NUMBER">Numer telefonu</string>
+
+    <string name="STR_INVALID_NUMBER_MESSAGE">To nie jest ważny numer.</string>
+    <string name="STR_SAVE_INPUT_NUMBER_MESSAGE">Proszę wprowadzić numer, który zapisałeś.</string>
+</resources>

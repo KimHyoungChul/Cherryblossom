@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="omv_title_txtSize">10sp</dimen>
+    <dimen name="omv_bg_layout_height">533dp</dimen>
+    
+    <dimen name="omv_timerbox_layout_width">386dp</dimen>
+    <dimen name="omv_timerbox_layout_height">146dp</dimen>
+    
+    <dimen name="omv_timernumber_layout_width">80dp</dimen>
+    <dimen name="omv_timernumber_layout_height">103dp</dimen>
+    
+    <dimen name="omv_timecolon_layout_width">12dp</dimen>
+    
+    <dimen name="omv_outing_img_layout_width">200dp</dimen>
+    <dimen name="omv_outing_img_layout_height">130dp</dimen>
+    
+    <dimen name="omv_bottom_bg_layout_height">100dp</dimen>
+    
+    <dimen name="omv_bottom_bg_paddingTop">10dp</dimen>
+    <dimen name="omv_bg_linearlayout_marginBottom">6.5dp</dimen>
+    <dimen name="omv_timer_framwlayout_marginTop">6.5dp</dimen>
+    <dimen name="omv_num_linearlayout_paddingTop">16.5dp</dimen>
+    <dimen name="omv_min1_linearlayout_paddingLeft">16.5dp</dimen>
+    <dimen name="omv_min2_linearlayout_paddingLeft">74.5dp</dimen>
+    <dimen name="omv_colon_linearlayout_paddingLeft">135dp</dimen>
+    <dimen name="omv_sec1_linearlayout_paddingLeft">153dp</dimen>
+    <dimen name="omv_sec2_linearlayout_paddingLeft">212dp</dimen>
+    <dimen name="omv_outing_framwlayout_marginTop">6.5dp</dimen>
+    <dimen name="omv_outing_txt_Size">20dp</dimen>
+    <dimen name="omv_outing_txt_paddingBottom">13dp</dimen>
+    <dimen name="omv_btn_marginLeft">6.5dp</dimen>
+    <dimen name="omv_btn_marginRight">6.5dp</dimen>
+
+    <dimen name="omv_release_btn_textSize">29sp</dimen>
+    <dimen name="omv_set_btn_textSize">29sp</dimen>
+</resources>

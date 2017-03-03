@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Home Reporter</string>
+
+    <!--EMS-->
+    <string name="elec">电气</string>
+    <string name="gas">煤气</string>
+    <string name="water">水</string>
+    <string name="hot_water">温水</string>
+    <string name="heating">暖气</string>
+
+    <!--Weather-->
+    <string name="weather0">台风</string>
+    <string name="weather1">热带风暴</string>
+    <string name="weather2">飓风</string>
+    <string name="weather3">强雷雨</string>
+    <string name="weather4">雷雨</string>
+    <string name="weather5">雨夹雪</string>
+    <string name="weather6">雨夹雪</string>
+    <string name="weather7">雨夹雪</string>
+    <string name="weather8">雨夹雪</string>
+    <string name="weather9">小雨</string>
+    <string name="weather10">雨夹雪</string>
+    <string name="weather11">阵雨</string>
+    <string name="weather12">阵雨 </string>
+    <string name="weather13">阵雪</string>
+    <string name="weather14">小雪</string>
+    <string name="weather15">大雪</string>
+    <string name="weather16">雪</string>
+    <string name="weather17">冰雹</string>
+    <string name="weather18">雨夹雪</string>
+    <string name="weather19">沙尘</string>
+    <string name="weather20">雾</string>
+    <string name="weather21">雾</string>
+    <string name="weather22">烟雾</string>
+    <string name="weather23">大风</string>
+    <string name="weather24">中风</string>
+    <string name="weather25">冷</string>
+    <string name="weather26">多云</string>
+    <string name="weather27">阴</string>
+    <string name="weather28">阴</string>
+    <string name="weather29">中云</string>
+    <string name="weather30">中云</string>
+    <string name="weather31">晴</string>
+    <string name="weather32">晴</string>
+    <string name="weather33">晴</string>
+    <string name="weather34">晴</string>
+    <string name="weather35">雨夹雪</string>
+    <string name="weather36">酷热</string>
+    <string name="weather37">局部雷雨</string>
+    <string name="weather38">阵雷雨</string>
+    <string name="weather39">阵雷雨</string>
+    <string name="weather40">阵雨</string>
+    <string name="weather41">暴雪</string>
+    <string name="weather42">中雪</string>
+    <string name="weather43">大雪</string>
+    <string name="weather44">微云</string>
+    <string name="weather45">雷雨</string>
+    <string name="weather46">风雪</string>
+    <string name="weather47">局部雷阵雨</string>
+
+    <!--Air-->
+    <string name="o3">臭氧浓度</string>
+    <string name="dust">沙尘公报</string>
+    <string name="total_air">空气污染公报</string>
+    <string name="uv">紫外线情况</string>
+
+    <string name="good">好</string>
+    <string name="normal">一般</string>
+    <string name="bad">不太好</string>
+    <string name="so_bad">差</string>
+    <string name="danger">危险</string>
+    <string name="high">高</string>
+    <string name="low">低</string>
+    <string name="extremely_high">很高</string>
+
+    <string name="reference">参考</string>
+    <string name="korea_environment">韩国环境公司</string>
+    <string name="korea_air">韩国气象厅</string>
+
+    <string name="calls">通话</string>
+    <string name="visitor">访客</string>
+    <string name="delivery">快递</string>
+
+    <!--Pop-up and Header-->
+    <string name="ok">存储</string>
+    <string name="search">搜索</string>
+    <string name="cancel">取消</string>
+    <string name="alert">提醒</string>
+
+    <!--Toast-->
+    <string name="retry">地区名错误，请重新输入地区名</string>
+    <string name="connection_err">网络错误，请重新确认网络连接状态</string>
+    <string name="save_success">存储成功</string>
+    <string name="input_city">请输入地区名</string>
+    <string name="searching">搜索中..</string>
+    <string name="select_location">选择地区</string>
+    <string name="save_fail">存储失败，请重新输入</string>
+    <string name="no_result">没有搜索结果</string>
+
+    <!--Setting Info-->
+    <string name="info_weather">天气预报</string>
+    <string name="info_air">空气状况</string>
+    <string name="info_health_life">生活指数</string>
+    <string name="info_today_ems">今天用电量</string>
+    <string name="info_month_ems">本月用电量</string>
+    <string name="info_missed">不在中信息</string>
+    <string name="info_parking">停车信息</string>
+    <string name="info_notice">公告</string>
+    <string name="info_indoor_temp">室内温度信息</string>
+    <string name="info_indoor_humid">室内湿度的信息</string>
+    <string name="info_support">支持</string>
+    <string name="info_smart_plug">智能插头</string>
+
+    <string name="category_weather">天气预报</string>
+    <string name="category_car">交通情况查询</string>
+    <string name="category_home">我们的家庭环境的信息</string>
+
+    <string name="category_outdoor">户外条件</string>
+    <string name="category_energy">能源</string>
+    <string name="category_indoor">室内环境</string>
+    <string name="category_public">小区服务</string>
+    <string name="category_missed">未接纪录</string>
+
+    <!--Today Energy-->
+    <string name="today_save">比昨天少</string>
+    <string name="today_same">比昨天合适</string>
+    <string name="today_over">比昨天多</string>
+
+    <!--Month Energy-->
+    <string name="save">少</string>
+    <string name="same">合适</string>
+    <string name="over">多</string>
+
+    <!--Setting Location-->
+    <string name="setting_location_info">地区信息设定</string>
+    <string name="input_location">请输入地区名</string>
+    <string name="search_result">搜索结果</string>
+
+    <!--Others-->
+    <string name="our_home_reporter">Home Reporter</string>
+    <string name="notice_list">公告目录</string>
+    <string name="do_not_show_again">始终不弹出</string>
+    <string name="parking_area"> 停车场</string>
+    <string name="edit_our_home_reporter">编辑</string>
+    <string name="show_more">更多</string>
+    <string name="notice_weather">此信息是实时观测的细聊。但按照观测地点情况或接收信号状态会存在差异</string>
+
+    <!--Support-->
+    <string name="user_manuals">用户手册</string>
+
+    <!--Device info-->
+    <string name="indoor_temp">室内温度</string>
+    <string name="indoor_humid">室内湿度</string>
+    <string name="show_details">详细</string>
+
+    <string name="no_support_text">只能输入英文、数字和 ~!@#$%^<![CDATA[&]]>*()_+=?/";:,.</string>
+
+</resources>

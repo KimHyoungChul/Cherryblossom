@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- 타이틀 바 -->
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_header_layout_height"
+            android:background="#ffffff">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/title_back_btn_marginLeft"
+                android:background="@mipmap/btn_title_back_n" />
+
+            <TextView
+                android:id="@+id/views_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/title_tips_elec"
+                android:textColor="#44496b"
+                android:textSize="@dimen/title_appname_text_size" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_underline_height"
+            android:background="#b5b6c3" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/img_Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/view_icon_marginTop"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:background="@mipmap/ic_coach04_eletric" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tips_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/view_pager_layout_height" />
+
+    <LinearLayout
+        android:id="@+id/indicator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/indicator_img_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_indicator_height"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/indicator_1"
+                android:layout_width="@dimen/view_indicator_img_width"
+                android:layout_height="@dimen/view_indicator_img_height"
+                android:layout_marginRight="@dimen/view_indicator_img_marginRight"
+                android:background="@drawable/view_indicator_shape_select" />
+
+            <ImageView
+                android:id="@+id/indicator_2"
+                android:layout_width="@dimen/view_indicator_img_width"
+                android:layout_height="@dimen/view_indicator_img_height"
+                android:layout_marginRight="@dimen/view_indicator_img_marginRight"
+                android:background="@drawable/view_indicator_shape_normal" />
+
+            <ImageView
+                android:id="@+id/indicator_3"
+                android:layout_width="@dimen/view_indicator_img_width"
+                android:layout_height="@dimen/view_indicator_img_height"
+                android:layout_marginRight="@dimen/view_indicator_img_marginRight"
+                android:background="@drawable/view_indicator_shape_normal" />
+
+            <ImageView
+                android:id="@+id/indicator_4"
+                android:layout_width="@dimen/view_indicator_img_width"
+                android:layout_height="@dimen/view_indicator_img_height"
+                android:background="@drawable/view_indicator_shape_normal" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <!--등록된 CCTV 카메라 리스트-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/camera_title_height"
+        android:background="#f0f1f9"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/registeredCctvListTitle">
+
+        <com.commax.settings.font.NotoMediumTextView
+            android:layout_width="0px"
+            android:layout_height="@dimen/camera_title_height"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/camera_title_left_margin"
+            android:text="@string/registered_cctv_camera"
+            android:textColor="#6b71cc"
+            android:textSize="@dimen/camera_title_text_size" />
+
+        <com.commax.settings.font.NotoRegularButton
+            android:id="@+id/edit"
+            android:layout_width="@dimen/camera_edit_btn_width"
+            android:layout_height="@dimen/camera_edit_btn_height"
+            android:layout_marginRight="@dimen/camera_edit_btn_right_margin"
+            android:background="@drawable/common_button_selector"
+            android:enabled="false"
+            android:text="@string/edit"
+            android:textColor="@drawable/common_button_text_color_selector"
+            android:textSize="@dimen/camera_edit_btn_text_size" />
+
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/registeredCctvList"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:choiceMode="multipleChoice"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="@dimen/camera_divider_list_height" />
+
+    <!--미등록된 CCTV 카메라 리스트-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/camera_title_height"
+        android:background="#f0f1f9"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/unregisteredCctvListTitle">
+
+        <com.commax.settings.font.NotoMediumTextView
+            android:layout_width="0px"
+            android:layout_height="@dimen/camera_title_height"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/camera_title_left_margin"
+            android:text="@string/unregistered_cctv_camera"
+            android:textColor="#6b71cc"
+            android:textSize="@dimen/camera_title_text_size" />
+
+        <!--<com.commax.setting.font.NotoRegularButton-->
+            <!--android:id="@+id/registration"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:paddingRight="15dp"-->
+            <!--android:background="@drawable/common_button_selector"-->
+            <!--android:enabled="false"-->
+            <!--android:text="@string/registration"-->
+            <!--android:textColor="@drawable/common_button_text_color_selector"-->
+            <!--android:textSize="17dp" />-->
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/unregisteredCctvList"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="@dimen/camera_divider_list_height" />
+
+<!--MultiChoice 모드-->
+    <!--<ListView-->
+        <!--android:id="@+id/unregisteredCctvList"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0px"-->
+        <!--android:layout_weight="1"-->
+        <!--android:choiceMode="multipleChoice"-->
+        <!--android:divider="@drawable/list_divider"-->
+        <!--android:dividerHeight="2dp" />-->
+
+
+
+    <!--&lt;!&ndash;하단바&ndash;&gt;-->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:background="#cccccc" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="104dp"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<com.commax.setting.font.NotoRegularButton-->
+            <!--android:id="@+id/registration"-->
+            <!--android:layout_width="148dp"-->
+            <!--android:layout_height="52dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="@drawable/common_button_selector"-->
+            <!--android:enabled="false"-->
+            <!--android:text="@string/registration"-->
+            <!--android:textColor="@drawable/common_button_text_color_selector"-->
+            <!--android:textSize="17dp" />-->
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg_img_1_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_widget_weather_sunny_1x1"
+    tools:context="com.commax.commaxwidget.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layer_top"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/layer_top_first"
+            android:layout_width="110dp"
+            android:layout_height="96dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/condition_image_1_1"
+                android:layout_width="110dp"
+                android:layout_height="96dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_widget_sunny" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layer_top_second"
+            android:layout_width="36dp"
+            android:layout_height="96dp"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/layer_top_first"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/weather_update_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/btn_widget_refresh" />
+
+            <ImageView
+                android:id="@+id/weather_setting_btn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/weather_update_btn"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/btn_widget_setting" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layer_middle_third"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/temp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="-20"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/temp_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/temp_text"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/temp_text"
+            android:text="℃"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+    </RelativeLayout>
+</RelativeLayout>

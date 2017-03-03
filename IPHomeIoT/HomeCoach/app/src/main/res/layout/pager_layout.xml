@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_Subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_text1_marginTop"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#6b73c9"
+        android:textSize="@dimen/view_text1_textSize"
+        tools:text="@string/elec_cleaner_subtitle" />
+
+    <TextView
+        android:id="@+id/text_Docu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/main_linear_marginLeftRight"
+        android:layout_marginRight="@dimen/main_linear_marginLeftRight"
+        android:layout_marginTop="@dimen/view_text2_marginTop"
+        android:lineSpacingExtra="@dimen/view_text2_lineSpacingExtra"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#818294"
+        android:textSize="@dimen/view_text2_textSize"
+        tools:text="@string/elec_cleaner_docu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_text1_marginTop"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/view_button_height"
+            android:layout_marginRight="@dimen/view_button_marginRight"
+            android:background="@drawable/view_btn_shape"
+            android:gravity="center"
+            android:paddingLeft="@dimen/view_button_paddingLeftRight"
+            android:paddingRight="@dimen/view_button_paddingLeftRight">
+
+            <TextView
+                android:id="@+id/btn_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_aircon"
+                android:textColor="@drawable/view_btn_textcolor"
+                android:textSize="@dimen/view_button_textSize" />
+
+            <ImageView
+                android:layout_width="@dimen/view_button_arrow_width"
+                android:layout_height="@dimen/view_button_arrow_height"
+                android:background="@mipmap/ic_arrow_n" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/view_button_height"
+            android:layout_marginRight="@dimen/view_button_marginRight"
+            android:background="@drawable/view_btn_shape"
+            android:gravity="center"
+            android:paddingLeft="@dimen/view_button_paddingLeftRight"
+            android:paddingRight="@dimen/view_button_paddingLeftRight">
+
+            <TextView
+                android:id="@+id/btn_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_ems_elec"
+                android:textColor="@drawable/view_btn_textcolor"
+                android:textSize="@dimen/view_button_textSize" />
+
+            <ImageView
+                android:layout_width="@dimen/view_button_arrow_width"
+                android:layout_height="@dimen/view_button_arrow_height"
+                android:background="@mipmap/ic_arrow_n" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

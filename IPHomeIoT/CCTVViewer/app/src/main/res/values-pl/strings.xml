@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CCTV</string>
+    <string name="favorites">Ulubione</string>
+    <string name="preview">CCTV Przegląd</string>
+    <string name="registration">Rejestracja</string>
+    <string name="comment_preview">If the video is not displayed, check the status of CCTV or contact your administrator.</string>
+</resources>
