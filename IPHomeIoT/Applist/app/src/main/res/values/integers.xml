@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="column_1">2</integer>
+    <integer name="column_2">2</integer>
+    <integer name="column_3">3</integer>
+
+    <integer name="max_apps_column">5</integer>
+
+
+</resources>

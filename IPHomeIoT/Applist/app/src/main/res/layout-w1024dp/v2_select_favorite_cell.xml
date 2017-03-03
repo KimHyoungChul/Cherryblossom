@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <!--
+    <CheckBox
+        android:layout_width="388dp"
+        android:layout_height="36dp"
+        android:id="@+id/checkBox"
+        android:text="Name"
+
+        android:textSize = "22sp"
+        android:textColor = "#818294"
+
+
+        android:layout_gravity="center_vertical" />
+
+-->
+
+    <ImageView
+        android:layout_height="37dp"
+        android:layout_width="37dp"
+        android:id="@+id/checkBox"
+        android:src="@drawable/btn_checkbox_s"
+
+        android:scaleType ="fitXY"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft = "19dp"
+        android:textSize= "27dp"
+        android:textColor="#0c1a3d"
+        android:text="samplegfdgfdsfsdfsadf"
+
+
+        />
+
+
+
+
+
+    <!-- 아래 것들은 보여 주지 않는다. -->
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="3dp"
+        android:visibility="gone" />
+
+
+
+
+</LinearLayout>

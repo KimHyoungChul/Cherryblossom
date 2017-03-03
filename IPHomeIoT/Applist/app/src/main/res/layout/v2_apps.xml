@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:clipChildren="false"
+    >
+
+
+    <TextView
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_category1"
+        android:id="@+id/textViewCategory"
+        android:layout_marginLeft="37dp"
+
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="#00000000"
+        android:autoText="false"
+        android:typeface="normal"
+         />
+
+    <!-- android:fontFamily="noto" -->
+
+    <TextView
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_category_under1"
+        android:id="@+id/textViewCategory_Under"
+        android:layout_below="@id/textViewCategory"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="37dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="#00000000"
+        android:autoText="false" />
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="488dp"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:id="@+id/layoutAppsLines"
+        android:layout_marginLeft="52dp"
+        android:background="@drawable/draw_list"
+        android:layout_toRightOf="@id/textViewCategory"
+        >
+
+        <!--Datas For Test
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_apps_line" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_apps_line_dummy" />
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_apps_line" />
+
+-->
+
+
+    </LinearLayout>
+
+
+    <!--  Datas For Test
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="488dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="52dp"
+        android:clipChildren="false"
+
+
+
+
+        android:id="@+id/layoutApps"
+        android:background="@drawable/draw_list"
+        android:layout_toRightOf="@id/textViewCategory">
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell_dummy" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell_dummy" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell_dummy" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell_dummy" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell" />
+
+
+
+    </LinearLayout>
+
+    -->
+
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/inch12_app_height"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:clipChildren="false"
+
+    >
+
+
+    <TextView
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_favorite"
+        android:id="@+id/textViewCategory"
+        android:textSize="34dp"
+        android:layout_alignParentTop="false"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop = "12dp"
+        android:textColor="#FFFFFF"
+       />
+
+    <!--  android:fontFamily="@string/font_noto"  -->
+
+
+    <Button
+        android:layout_width="98dp"
+        android:layout_height="48dp"
+        android:text="@string/title_edit"
+        android:id="@+id/buttonEdit"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop = "20dp"
+        android:layout_centerVertical="true"
+
+        android:layout_below= "@id/textViewCategory"
+
+        android:background="@drawable/button_edit_favorite"
+
+        android:textColor="#CCFFFFFF"
+        android:textSize="28dp" />
+
+
+    <!--  android:fontFamily="@string/font_noto" -->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="976dp"
+        android:layout_height="@dimen/inch12_app_height"
+        android:layout_marginLeft="114dp"
+        android:id="@+id/layoutApps"
+        android:background="@color/colorAppsBG"
+        android:paddingTop="0dp"
+        android:layout_toRightOf="@id/textViewCategory"
+
+        android:layout_marginRight="10dp"
+
+        android:clipChildren="false"
+
+
+
+
+
+    >
+
+        <!-- Datas For Test
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cell_1"
+
+            layout="@layout/v2_item_cell" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell_dummy" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cell_2"
+            layout="@layout/v2_item_cell" />
+
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell_dummy" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cell_3"
+            layout="@layout/v2_item_cell" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/v2_item_cell_dummy" />
+
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cell_4"
+            layout="@layout/v2_item_cell" />
+
+
+            -->
+    </LinearLayout>
+
+
+
+</RelativeLayout>

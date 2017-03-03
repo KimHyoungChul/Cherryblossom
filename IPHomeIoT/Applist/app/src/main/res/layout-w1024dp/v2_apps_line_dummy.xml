@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="12dp"
+    android:layout_height="22dp"
+    android:clipChildren="false"
+    android:background="@drawable/draw_list"
+   >
+
+    <View
+        android:layout_width="12dp"
+        android:layout_height="22dp">
+
+    </View>
+
+
+
+</LinearLayout>
+

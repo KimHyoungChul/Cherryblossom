@@ -1,0 +1,21 @@
+<!--
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="8dp"
+    android:layout_height="48dp"
+    android:orientation="horizontal" >
+
+
+
+
+
+    <View xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="8dp"
+        android:layout_height="48dp"
+        />
+
+
+<!-- -->
+</LinearLayout>
+
+

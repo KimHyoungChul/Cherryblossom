@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">AppList</string>
+
+
+    <string name="no_menu_file">\"\"</string>
+    <string name="all_apps">\"\"</string>
+
+    <!--Menu-->
+    <string name="call">\"\"</string>
+    <string name="security">\"\"</string>
+    <string name="control">\"\"</string>
+    <string name="service">\"\"</string>
+
+
+    <string name="title_apps">アップス</string>
+
+
+    <string name="title_favorite">お気に入り</string>
+    <string name="title_edit">編集</string>
+    <string name="title_edit_favorite">お気に入りの編集</string>
+
+
+    <string name="title_category1">我が家の記録</string>
+
+    <string name="title_category2">団地サービス</string>
+
+    <string name="title_category3">セキュリティ</string>
+    <string name="title_category_under3">" "</string>
+
+    <string name="title_category4">インターホン</string>
+    <string name="title_category_under4">" "</string>
+
+
+    <string name="title_category5">その他</string>
+    <string name="title_category_under5">"  "</string>
+
+
+
+
+    <string name="title_Ok">確認</string>
+    <string name="title_Cancel">キャンセル</string>
+
+
+
+
+    <string name="title_select_favorite">アプリを選択してください。</string>
+    <string name="title_select_favorite_notify_max">You Can Choose 5 apps.</string>
+
+
+
+
+    <string name="font_noto">serif</string>
+    <string name="font_roboto">sans-serif</string>
+
+
+
+    <string name="alert_select_one_favorite">最低1つ以上のアプリを選択してください。</string>
+
+    <string name="alert_select_favorite_over">\"\"</string>
+    <string name="title_category_under1">" "</string>
+    <string name="title_category_under2">" "</string>
+
+
+</resources>

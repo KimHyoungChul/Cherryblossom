@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">AppList</string>
+
+
+
+    <string name="no_menu_file">\"\"</string>
+    <string name="all_apps">\"\"</string>
+
+    <!--Menu-->
+    <string name="call">\"\"</string>
+    <string name="security">\"\"</string>
+    <string name="control">\"\"</string>
+    <string name="service">\"\"</string>
+
+
+    <string name="title_apps">应用程序</string>
+
+
+    <string name="title_favorite">收藏夹</string>
+    <string name="title_edit">编辑</string>
+    <string name="title_edit_favorite">编辑收藏夹</string>
+
+
+    <string name="title_category1">我家信息</string>
+
+    <string name="title_category2">小区服务</string>
+
+    <string name="title_category3">保安</string>
+    <string name="title_category_under3">" "</string>
+
+    <string name="title_category4">对讲机</string>
+    <string name="title_category_under4">" "</string>
+
+
+    <string name="title_category5">ETC</string>
+    <string name="title_category_under5">" "</string>
+
+    <string name="title_Ok">确认</string>
+    <string name="title_Cancel">取消</string>
+
+
+
+
+    <string name="title_select_favorite">请您选择 APP</string>
+    <string name="title_select_favorite_notify_max">收藏夹最多可以选5个</string>
+
+
+
+
+    <string name="font_noto">serif</string>
+    <string name="font_roboto">sans-serif</string>
+
+
+
+    <string name="alert_select_one_favorite">新您选择APP</string>
+
+
+    <string name="alert_select_favorite_over">\"\"</string>
+    <string name="title_category_under2">" "</string>
+    <string name="title_category_under1">" "</string>
+
+
+</resources>

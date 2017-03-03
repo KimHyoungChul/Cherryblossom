@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame" android:orientation="vertical"
+    android:background="#88000000"
+    android:focusable="false">
+
+
+    <!-- android:background="@drawable/bg_popup" -->
+
+    <RelativeLayout
+        android:layout_width="916dp"
+        android:layout_height="888dp"
+        android:background="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/title_edit_favorite"
+            android:id="@+id/textViewTitle"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="44dp"
+            android:textSize = "44dp"
+            android:textColor = "#818294"    />
+
+
+        <View
+
+            android:id="@+id/titleSplit"
+            android:layout_width="800dp"
+            android:layout_height="4dp"
+            android:background="#ebecf0"
+
+            android:layout_marginTop="20dp"
+
+
+            android:layout_below="@id/textViewTitle"
+            android:layout_centerHorizontal="true"
+
+
+            ></View>
+
+        <ScrollView
+            android:layout_width="800dp"
+            android:layout_height="460dp"
+            android:id="@+id/scrollView"
+            android:layout_alignWithParentIfMissing="false"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"
+
+
+            android:layout_below="@id/titleSplit"
+
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/layoutApps">
+
+                <!--   Test Data
+
+                <include layout="@layout/v2_select_favorite_cell" android:id="@+id/category1"/>
+
+                <include layout="@layout/v2_select_favorite_cell_dummy" android:id="@+id/categorydummy1"/>
+
+                <include layout="@layout/v2_select_favorite_cell" android:id="@+id/category2"/>
+
+                <include layout="@layout/v2_select_favorite_cell_dummy" android:id="@+id/categorydummy2"/>
+
+                <include layout="@layout/v2_select_favorite_cell" android:id="@+id/category3"/>
+
+                <include layout="@layout/v2_select_favorite_cell_dummy" android:id="@+id/categorydummy3"/>
+
+                <include layout="@layout/v2_select_favorite_cell" android:id="@+id/category4"/>
+
+                <include layout="@layout/v2_select_favorite_cell_dummy" android:id="@+id/categorydummy4"/>
+
+                <include layout="@layout/v2_select_favorite_cell" android:id="@+id/category5"/>
+
+
+-->
+
+            </LinearLayout>
+        </ScrollView>
+
+        <View
+
+            android:id="@+id/titleSplitBottom"
+            android:layout_width="800dp"
+            android:layout_height="4dp"
+            android:background="#ebecf0"
+
+            android:layout_below="@id/scrollView"
+            android:layout_centerHorizontal="true"
+
+         ></View>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/title_select_favorite_notify_max"
+            android:id="@+id/textViewTitleAlert"
+            android:layout_below="@id/scrollView"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="24dp"
+            android:textSize = "28dp"
+            android:textColor = "#312f62"    />
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="64dp">
+
+
+
+
+
+            <View
+                android:id="@+id/viewCenter"
+                android:layout_width="40dp"
+                android:layout_height="10dp"
+                android:layout_centerHorizontal="true"
+                >
+
+
+            </View>
+
+            <Button
+                android:layout_width="296dp"
+                android:layout_height="104dp"
+                android:text="@string/title_Cancel"
+                android:id="@+id/buttonCancel"
+                android:layout_toLeftOf="@id/viewCenter"
+                android:background="@drawable/dialog_button_cancel"
+                android:textSize="44dp"
+                android:textColor="@color/cancel_button"
+
+
+                android:focusableInTouchMode="true" />
+
+
+            <!--
+            android:fontFamily="@string/font_noto"
+            -->
+
+            <Button
+                android:layout_width="296dp"
+                android:layout_height="104dp"
+                android:text="@string/title_Ok"
+                android:id="@+id/buttonOK"
+               android:layout_toRightOf="@id/viewCenter"
+                android:background="@drawable/dialog_button_ok"
+                android:textSize="44dp"
+                android:textColor="@color/ok_button"
+
+
+                 />
+
+
+            <!--
+            android:fontFamily="@string/font_noto"
+            -->
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

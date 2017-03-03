@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame" android:orientation="vertical"
+    android:background="@drawable/bg_apps_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:id="@+id/title_layout"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:text="@string/title_apps"
+            android:textSize="48dp"
+            android:alpha="0.8" />
+
+
+        <View android:background="#ffffff"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:alpha="0.15"
+            android:layout_marginTop="127dp"
+            android:id="@+id/view">
+
+        </View>
+
+        <ImageButton
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:id="@+id/imageButtonHome"
+
+
+            android:background="@drawable/btn_title_home_white_n"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="48dp"
+
+            />
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="52dp"
+
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            >
+
+
+
+
+                <View android:background="#00000000"
+                    android:layout_width="10dp"
+                    android:layout_height="16dp">
+
+                </View>
+
+
+
+               <include layout="@layout/v2_apps_favorite" android:id="@+id/favorite"   />
+
+              <View android:background="#ffffff"
+                  android:layout_height="2dp"
+                  android:layout_width="match_parent"
+                  android:alpha="0.1"
+                  android:layout_marginTop="20dp"
+                  android:layout_marginBottom="68dp">
+
+              </View>
+
+
+
+              <include layout="@layout/v2_apps" android:id="@+id/category1"     />
+
+              <View android:background="#00000000"
+                  android:layout_height="30dp"
+                  android:layout_width="match_parent"
+                  android:alpha="0"
+                  android:id="@+id/category_dummy1"
+                  >
+
+              </View>
+
+
+              <include layout="@layout/v2_apps" android:id="@+id/category2"  android:visibility="gone"/>
+
+              <View android:background="#00000000"
+                  android:layout_height="30dp"
+                  android:layout_width="match_parent"
+                  android:alpha="0"
+                  android:id="@+id/category_dummy2"
+                  android:visibility="gone"
+                  >
+
+              </View>
+
+
+              <include layout="@layout/v2_apps" android:id="@+id/category3"  android:visibility="gone"/>
+
+              <View android:background="#00000000"
+                  android:layout_height="30dp"
+                  android:layout_width="match_parent"
+                  android:alpha="0"
+
+                  android:id="@+id/category_dummy3"
+                  android:visibility="gone"
+                  >
+
+              </View>
+
+
+              <include layout="@layout/v2_apps" android:id="@+id/category4"  android:visibility="gone"/>
+
+              <View android:background="#00000000"
+                  android:layout_height="30dp"
+                  android:layout_width="match_parent"
+                  android:alpha="0"
+                  android:id="@+id/category_dummy4"
+                  android:visibility="gone"
+                  >
+
+              </View>
+
+              <include layout="@layout/v2_apps" android:id="@+id/category5"  android:visibility="gone"/>
+
+              <View android:background="#00000000"
+                  android:layout_height="68dp"
+                  android:layout_width="match_parent"
+                  android:alpha="0"
+                  android:id="@+id/category_dummy5"
+
+                  android:visibility="visible"
+                  >
+
+              </View>
+
+    <!--   -->
+
+       </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

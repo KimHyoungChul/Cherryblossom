@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="122dp"
+    android:layout_height="@dimen/inch12_app_height"
+    android:orientation="vertical"
+    android:clipChildren="false"
+
+
+
+    >
+
+        <LinearLayout
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewIcon"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginBottom="0dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:lines="2"
+                android:text="Name\r\nName2lsdkjflsdkjfkl"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:alpha = "0.8"
+                android:singleLine="false"
+                android:ellipsize="end"
+                android:layout_marginTop="9dp"
+
+
+                android:lineSpacingMultiplier="1.1"/>
+
+        </LinearLayout>
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/imageViewBadge"
+
+        android:src="@drawable/ic_badge_notify"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="-8dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="4"
+        android:id="@+id/textViewBadge"
+        android:layout_alignParentEnd="false"
+
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="-8dp"
+
+        />
+
+    <!--  android:fontFamily="@string/font_roboto" -->
+
+</RelativeLayout>
