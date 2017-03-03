@@ -191,6 +191,7 @@ public class Customdialog_password_change extends Dialog implements View.OnClick
             } else {
                 if(TextUtils.isEmpty(source))
                 {
+                    //3rd 키보드에서 백스페이스가 필터에 걸리는 현상 발생으로 인한 예외 처리 적용
                     Log.d(TAG, " back space ");
                 }
                 else {

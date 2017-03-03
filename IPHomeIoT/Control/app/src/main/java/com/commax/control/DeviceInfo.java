@@ -2,8 +2,6 @@ package com.commax.control;
 
 import com.commax.control.Common.TypeDef;
 
-import java.util.ArrayList;
-
 /**
  * Created by gbg on 2016-08-01.
  */
@@ -169,7 +167,6 @@ public class DeviceInfo {
     /* Class End -----------------------------*/
 
 
-    ArrayList<SubDevice_new> subDevices;
 
 
 }

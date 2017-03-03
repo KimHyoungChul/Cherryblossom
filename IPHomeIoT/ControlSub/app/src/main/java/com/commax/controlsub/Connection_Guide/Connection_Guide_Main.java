@@ -74,9 +74,6 @@ public class Connection_Guide_Main extends LinearLayout implements View.OnClickL
 
     public void init()
     {
-
-
-
         inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         rootView = inflater.inflate(R.layout.activity_connect_guide, this);
 
@@ -112,9 +109,7 @@ public class Connection_Guide_Main extends LinearLayout implements View.OnClickL
         exitButton_detail.setOnClickListener(this);
         connectButton.setOnClickListener(this);
 
-
         List_component_add();
-
     }
 
     public void change_mode(String mode , Connection_Guide_ListCell listCell)
@@ -201,15 +196,12 @@ public class Connection_Guide_Main extends LinearLayout implements View.OnClickL
         else if(view.equals(connectButton))
         {
             try {
-
-
                 //TODO for test tap id  = 11
                 Intent intent = new Intent();
                 intent.setClassName("com.commax.control" , "com.commax.control.DialogActivity");
                 intent.putExtra("tapid",11);
                 MainActivity.getInstance().startActivityForResult(intent ,0);
-
-               /* MainActivity.getInstance().startActivityForResult(new Intent(MainActivity.getInstance(), DialogActivity.class) , 0);*/
+                //send add command
                 MainActivity.getInstance().sendDeviceAddCommand();
             }
             catch (Exception e)
@@ -239,6 +231,7 @@ public class Connection_Guide_Main extends LinearLayout implements View.OnClickL
         }
     }
 
+    //사용 안함
     public void more_device_guide(Connection_Guide_ListCell listCell)
     {
         Log.d(TAG, "more_device_guide");

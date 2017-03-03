@@ -595,6 +595,7 @@ public class Card_MainSwitch extends LinearLayout implements View.OnClickListene
                     if (m_devicedata.getGroupID().equalsIgnoreCase(TypeDef.GroupID.eCurtain.value()))
                         m_text_powervalue.setText(getResources().getString(R.string.card_curtain_status_close));
                     else
+                    //TODO 해당 카운트를 settext에 추가 해주어야 하는 것으로 판단됨
                         m_text_powervalue.setText(getResources().getString(R.string.card_light_status_off_number));
                 }
 

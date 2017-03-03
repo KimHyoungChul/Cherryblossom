@@ -55,7 +55,7 @@ public class DialogActivity extends Activity {
     boolean add_report_send = false;
     boolean add_report_setcontrol_send = false;
 
-    //TODO for test
+    //for timer counter
     CountDown m_countDown;
     TextView timercount;
 
@@ -65,7 +65,6 @@ public class DialogActivity extends Activity {
         Log.d(TAG, "onCreate()");
         super.onCreate(saveInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        //TODO for layout customizing
         setContentView(R.layout.custom_dialog_one_button_timer);
         _instance = this;
         mContext = this;
@@ -82,9 +81,12 @@ public class DialogActivity extends Activity {
         }
 
         add_raw_list = new ArrayList<String>();
-        hideNavigationBar();
-        init();
+        if (TypeDef.IPHomeIoT_NAVIGATION_BAR)
+        {
+            hideNavigationBar();
+        }
 
+        init();
     }
 
     public void init()
@@ -100,10 +102,9 @@ public class DialogActivity extends Activity {
         circle_progressbar = (TwoLevelCircularProgressBar)findViewById(R.id.circle_progressbar);
 
         mHandler.sendEmptyMessage(0);
-        //TODO for test
-        m_countDown = new CountDown(60000, 1000);//2분 카운트 , 1초 간격으로
+        //for timer counter
+        m_countDown = new CountDown(60000, 1000);//1분 카운트 , 1초 간격으로
         m_countDown.start();
-
         timercount = (TextView)findViewById(R.id.timer);
         timercount.setVisibility(View.VISIBLE);
 

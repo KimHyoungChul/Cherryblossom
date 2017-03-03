@@ -28,7 +28,6 @@ import java.util.regex.Pattern;
 
 public class ControlName_Edit_List_Adapter extends ArrayAdapter<ControlName_Edit_ListCell> {
 	private static final String TAG = ControlName_Edit_List_Adapter.class.getSimpleName();
-	DeviceNameEdit deviceNameEdit;
 	ControlName_Edit_Main controlNameEdit;
 
 	LayoutInflater inflater;
@@ -139,7 +138,7 @@ public class ControlName_Edit_List_Adapter extends ArrayAdapter<ControlName_Edit
 					Log.d(TAG, "cell.nickname = " + cell.nickname);
 					cell.updated=true;
 					cell.update_nickname = s.toString();
-					//TODO for test
+					//TODO able/disable 에서 hide and show 로 변경
 					ControlName_Edit_Main edit_main = ControlName_Edit_Main.getInstance();
 					edit_main.savebutton.setVisibility(View.VISIBLE);
 					edit_main.savebutton.setAlpha(1.0F);
@@ -276,6 +275,7 @@ public class ControlName_Edit_List_Adapter extends ArrayAdapter<ControlName_Edit
 			} else {
 				if(TextUtils.isEmpty(source))
 				{
+					//3rd 파티 키보드에서 백 스페이스 까지 필터를 치기때문에 해당 예외 처리
 					Log.d(TAG, " back space ");
 				}
 				else

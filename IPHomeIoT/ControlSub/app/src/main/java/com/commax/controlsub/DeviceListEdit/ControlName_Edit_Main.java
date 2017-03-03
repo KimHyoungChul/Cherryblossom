@@ -200,7 +200,7 @@ public class ControlName_Edit_Main extends LinearLayout implements View.OnClickL
 
 
         Log.d(TAG, "save button setAlpha 0.2F");
-        //TODO for test
+        //TODO sava button able/ disable 에서 hide and show 로 변경
         savebutton.setVisibility(GONE);
         if(savebutton.getVisibility() == GONE)
         {
@@ -448,10 +448,6 @@ public class ControlName_Edit_Main extends LinearLayout implements View.OnClickL
         //check box count 초기화
         checkbox_count = 0;
         mAdapterIndoor.mDelete_List.clear();
-        //TODO for test
-        //nickname changed 체크버튼 초기화
-       /* savebutton.setAlpha(0.2F);
-        savebutton.setEnabled(false);*/
 
         if(mode.equals("delete_mode"))
         {
@@ -787,7 +783,7 @@ public class ControlName_Edit_Main extends LinearLayout implements View.OnClickL
                                 e.printStackTrace();
                             }
                         }
-                        //TODO for test
+                        //TODO save button able/ disable 에서 hide and show 로 변경
 //                        okay_text.setEnabled(true);
                         okay_text.setVisibility(VISIBLE);
                     }

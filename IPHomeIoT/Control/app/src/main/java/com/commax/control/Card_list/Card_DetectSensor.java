@@ -19,6 +19,7 @@ import com.commax.control.R;
 /**
  * Created by gbg on 2016-08-03.
  */
+// 일반적인 센서 카드 (디텍트)
 public class Card_DetectSensor extends LinearLayout implements View.OnClickListener {
 
     static final String TAG = "Card_DetectSensor";

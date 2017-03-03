@@ -313,28 +313,6 @@ public class MainActivity extends Activity {
         Log.d(TAG, "Lifecycle onActivityResult()...");
 //        Selected_TapId();
         mbKeep_currentMenu = true; //ACK가 오면 More창을 호출한 것으로 간주함-> 이전화면을 유지함
-        /*//TODO for test : Extra 사용시 추가요망!
-        if(resultCode == RESULT_OK)
-        {
-            ArrayList<String> arrayList = new ArrayList<String>();
-            Bundle bundle = new Bundle();
-            bundle = data.getExtras();
-            arrayList = bundle.getStringArrayList("EXTRA_ADD_STRING");
-            boolean cancel = bundle.getBoolean("ADD_CANCEL");
-
-            try
-            {
-                for (int i = 0 ; i < arrayList.size() ; i++)
-                {
-                    Log.d(TAG , "arraylist (" +i + ") : " + arrayList.get(i));
-                }
-            }
-            catch (Exception e)
-            {
-                e.printStackTrace();
-            }
-            Log.d(TAG, "cancel : " + cancel);
-        }*/
     }
 
 

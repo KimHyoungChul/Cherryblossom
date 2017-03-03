@@ -64,6 +64,7 @@ public class AboutFile {
             try {
                 //Well it seems that you can't chmod because the storage is emulated (emulated storage systems normally use FAT file systems, which do not support chmod).
                //The only way to solve this issue is to change the installation path using a separate partition with different file system (ext).
+                //TODO A64에서는 적용되는 것처럼 보이지 않음
                 int i = changePermissons(file,0777);
             Log.d(TAG, "file permission : " + i);
             } catch (Exception e) {

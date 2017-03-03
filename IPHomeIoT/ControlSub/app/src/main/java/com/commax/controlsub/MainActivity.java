@@ -29,7 +29,6 @@ import com.commax.controlsub.Connection_Guide.Connection_Guide_Component;
 import com.commax.controlsub.Connection_Guide.Connection_Guide_ListCell;
 import com.commax.controlsub.Connection_Guide.Connection_Guide_Main;
 import com.commax.controlsub.DeviceListEdit.ControlName_Edit_Main;
-import com.commax.controlsub.DeviceListEdit.DeviceNameEdit;
 import com.commax.controlsub.MoreActivity.More_FCU;
 import com.commax.controlsub.MoreActivity.More_FCU_no_ventilation_nofanspeed;
 import com.commax.controlsub.MoreActivity.More_HVAC;
@@ -50,11 +49,11 @@ public class MainActivity extends Activity {
     public More_HVAC more_fcu1;
     public More_FCU more_fcu3;
 
-    public DeviceNameEdit deviceListEdit;
+//    public DeviceNameEdit deviceListEdit;
     public ControlName_Edit_Main editView_test;
 
     public Connection_Guide_Main connectionGuideMain;
-    public BuyerID mBuyerID ;
+    public BuyerID mBuyerID = new BuyerID();
 
     //flags
     String ROOTUUID ;
@@ -100,11 +99,10 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d(TAG ,"onCreate()");
+
         //IP Home IoT navigation bar hide
         hideNavigationBar();
         setContentView(R.layout.activity_main);
-        //buyer ID
-        mBuyerID = new BuyerID();
 
         //2016-09-15 join 사용으로 인한 UI 멈춤 현상으로 loading 사용 할 수 없음
         container = (LinearLayout)findViewById(R.id.container);
@@ -182,7 +180,6 @@ public class MainActivity extends Activity {
 
     public void check_more_device(String more_cmx_device , String ROOTUUID , ArrayList<DeviceInfoSimple> arrayList , Connection_Guide_ListCell listCell)
     {
-
         /* intent 에서 받아온 값으로 판단하여 어떤 디바이시의 상세 페이지 인지 파악 및 view add */
         try
         {
@@ -246,10 +243,6 @@ public class MainActivity extends Activity {
             LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
             container.addView(editView_test, layoutParams);
 
-          //현재 해당 view는 clear edit text 가 먹히지 않는다 이유를 파악 못함
-          /*   deviceListEdit = new DeviceNameEdit(mContext , nicknamelist);
-            LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-            container.addView(deviceListEdit, layoutParams);*/
         }
         else if(more_cmx_device.equalsIgnoreCase(TypeDef.Connection_Guide))
         {
@@ -320,7 +313,6 @@ public class MainActivity extends Activity {
     public void add_updateReport(String add_raw)
     {
         try{
-            //TODO 기기 추가 리포트가 오면 해당 디바이스 카테고리 파악해서 카테코리 리스트에 해당 디바이스 추가
             try
             {
                 if(editView_test.mArrayList.isEmpty())
@@ -388,7 +380,6 @@ public class MainActivity extends Activity {
                     }
                 }
 
-                //TODO 1분다마 갱신시 대기전력1과 대기전력 2가 동시에 bind됨 => 구별해야함
                 if(device_data != null && rootUuid.equals(device_data.getRootUuid())) {
                     Log.e(TAG, "---- devicd bind----- ");
                     String nickName = readNickName(rootUuid);
@@ -441,39 +432,7 @@ public class MainActivity extends Activity {
                     //Update value 과정 : bUpdated flag set -> Thread -> handler call ->  UI Update value
                     Log.d(TAG, "updateReport : " + device_data.nickName + "-" + get_value);
                 }
-
                 rootUuid = null;
-                //TODO 보슬이 소스 주석 처리
-        /*try {
-            new Thread(new Runnable() {
-
-                @Override
-                public void run() {
-                    String updateRoot = dataManager.mysql_getRootUuid(add_raw);
-                    String sort = dataManager.mysql_getSort(add_raw);
-                    Log.d(TAG, "updateReport : rootUuid : " + updateRoot + " / sort :" + sort);
-
-                    try {
-                        if ((!updateRoot.isEmpty()) && (!updateRoot.equalsIgnoreCase("String"))) {
-
-                            if ((sort.equalsIgnoreCase(TypeDef.SUB_DEVICE_SWITCHBINARY))) {
-                                updateDeviceByRootUuid(updateRoot, add_raw, sort);
-
-                            }else if(sort.equalsIgnoreCase(TypeDef.SUB_DEVICE_ELECTRICMETER)){
-                                updateMeterState(updateRoot, add_raw, sort);
-                            }
-
-                        }
-                    }catch (Exception e){
-                        e.printStackTrace();
-                    }
-                }
-            }).start();
-
-
-        }catch (Exception e){
-            e.printStackTrace();
-        }*/
             }
         }catch (Exception e)
         {
@@ -485,7 +444,7 @@ public class MainActivity extends Activity {
     public void nicknameUpdate_report(String rootuuid , String nickname)
     {
         //현재는 닉네임 변경 하자마자 해당 페이지 나가서 필요가 없음
-        DeviceNameEdit.getInstance().nickname_update_report(rootuuid , nickname);
+        ControlName_Edit_Main.getInstance().nickname_update_report(rootuuid , nickname);
     }
 
     public String readNickName(String rootUuid) {
@@ -573,102 +532,6 @@ public class MainActivity extends Activity {
         if(!bfind) return null;
 
         return device_data;
-    }
-
-    private void updateMeterState(String rootUuid, String raw, final String sort){
-
-/*        try {
-            Pair<String, String> result_val = dataManager.getValueFromRaw(raw);
-
-            String value = "String", scale = "String";
-            if (!TextUtils.isEmpty(result_val.first)) {
-                value = result_val.first;
-            }
-            if (!TextUtils.isEmpty(result_val.second)) {
-                scale = dataManager.getScale(result_val.second);
-            }
-
-            android.util.Log.d(TAG, "updateDeviceViewByRootUuid value : " + value + scale + " / sort : " + sort);
-
-            final String mValue = value;
-            final String mScale = scale;
-
-            if ((!TextUtils.isEmpty(value)) && (!TextUtils.isEmpty(scale))) {
-                for (int i = 0; i < container.getChildCount(); i++) {
-
-                    if (container.getChildAt(i) instanceof DeviceElement) {
-                        final DeviceElement deviceElement = (DeviceElement) container.getChildAt(i);
-                        if (deviceElement.getRootUuid().equals(rootUuid)) {
-                            if (sort.equals(DataManager.ELECTRIC_METER)) {
-                                runOnUiThread(new Runnable() {
-                                    @Override
-                                    public void run() {
-                                        try {
-                                            deviceElement.updateMeter(mValue, mScale);
-                                        }catch (Exception e){
-                                            e.printStackTrace();
-                                        }
-                                    }
-                                });
-                            }
-                        }
-                    }
-                }
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }*/
-    }
-
-    private void updateDeviceByRootUuid(final String rootUuid, String raw, String sort){
-       /* try {
-
-            String result_val = "";
-            result_val = dataManager.getStatusFromRaw(raw);
-
-            if (!TextUtils.isEmpty(result_val)) {
-
-                String status = "";
-                status = result_val;
-
-                Log.d(TAG, "updateDeviceByRootUuid value : " + status + " / sort : " + sort);
-
-                final String mStatus = status;
-
-                try {
-                    for (int i = 0; i < container.getChildCount(); i++) {
-
-                        if (container.getChildAt(i) instanceof DeviceElement) {
-
-                            final DeviceElement deviceElement = (DeviceElement) container.getChildAt(i);
-
-                            if (deviceElement.getRootUuid().equalsIgnoreCase(rootUuid)) {
-                                if (deviceElement.getControlType().equalsIgnoreCase(sort)) {
-
-                                    runOnUiThread(new Runnable() {
-                                        @Override
-                                        public void run() {
-
-                                            try {
-                                                Log.d(TAG, "updateDeviceByRootUuid :" + deviceElement.getRootUuid() + " updated / " + mStatus);
-                                                deviceElement.initStatus(mStatus);
-                                            }catch (Exception e){
-                                                e.printStackTrace();
-                                            }
-                                        }
-                                    });
-                                }
-                            }
-                        }
-                    }
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-*/
     }
 
     public void OpenDB() {
@@ -774,7 +637,7 @@ public class MainActivity extends Activity {
     }
 
     private void readDevicesAll(boolean controlname_edit_flag) {
-        //TODO controlname_deit_flag 사용 할지 말지 판단 해야한다.a
+        //TODO controlname_edit_flag 사용 할지 말지 판단 해야한다.
         // Note: DB 액세스는 꼭 thread를 이용해야 한다.
 
         if (!dataManager.mConnect) {
@@ -795,9 +658,6 @@ public class MainActivity extends Activity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        //TODO 추후 해당 TAB에 대해서 판별 하는 함수 하나 구현해서 해당 카테고리 분류해서
-        //TODO 그 영역 디바이스 Read 하도록 설정 해놓고 디바이스 기기편집은 넘겨주는 data값으로만 적용
 
         //Scan All Device by Category
         if(!controlname_edit_flag)
@@ -843,6 +703,7 @@ public class MainActivity extends Activity {
 
     private void readDevices(int category_number) {
         // Note: DB 액세스는 꼭 thread를 이용해야 한다.
+        //TODO 더보기가 추가되는 디바이스 군을 주석 해제 해주어야 한다.
 
         if (!dataManager.mConnect) {
             Log.d(TAG, "*** Not connected to MySQL DB !!!");
@@ -861,7 +722,7 @@ public class MainActivity extends Activity {
 
                 case 1 : // eFavorite
                     categorytype = TypeDef.CategoryType.eFavorite;
-                    // TODO: 2016-08-02
+
                     break;
                 */
 
@@ -878,7 +739,7 @@ public class MainActivity extends Activity {
                     readDeviceList.clear();
                     Log.d(TAG, " --> readAllDevices() -> size  " + mCategory_eLight.size());
 
-                  *//*  //for test(to be del) : // TODO: 2016-08-17
+                  *//*  //for test(to be del) :
                     DeviceInfo device_data;
                     device_data = mCategory_eLight.get(mCategory_eLight.size()-1);
                     device_data.nCardType = TypeDef.CardType.eDimmerSwitch;
@@ -1184,8 +1045,7 @@ public class MainActivity extends Activity {
         }
     }
 
-    //TODO for test
-
+    // 기기연동 상세 가이드에서 기기 연결 다이얼로그 호출 후 result 값으로 addcancel 보낼지 여부 판단하기
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

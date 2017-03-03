@@ -48,8 +48,8 @@ public class BuyerID {
 
                 /* Compile Option */
                 TypeDef.DEF_FCU_MODE = 0; //(0: No FAN, 1: with FAN, 2: with FAN Auto)
-
                 TypeDef.OPTION_DELETE_MODE = false; // 디바이스 삭제 모드 사용 (default : false)
+                TypeDef.OPTION_NAVIGATION_LOTTE = true;
                 break;
 
             case BUYER_ID_IP_HOME_IOT:
@@ -57,6 +57,7 @@ public class BuyerID {
                 /* Compile Option */
                 TypeDef.DEF_FCU_MODE = 3; //(0: No FAN, 1: with FAN, 2: with FAN Auto , 3: FCU full 기능)
                 TypeDef.OPTION_DELETE_MODE = true; // 디바이스 삭제 모드 사용 (default : false)
+                TypeDef.OPTION_NAVIGATION_IPHomeIoT = true;
 
 
             case BUYER_ID_DEVELOPVERSION: //개발용

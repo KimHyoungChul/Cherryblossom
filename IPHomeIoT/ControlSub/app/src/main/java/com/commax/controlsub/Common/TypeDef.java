@@ -67,6 +67,9 @@ public class TypeDef extends Application {
 
     /* 디바이스 삭제 기능 사용 여부 */
     public static boolean OPTION_DELETE_MODE = false; //디바이스 삭제 모드 사용 여부 (default : flase)
+    /* 네비게이션 바 컴파일 옵션*/
+    public static boolean OPTION_NAVIGATION_IPHomeIoT = false;
+    public static boolean OPTION_NAVIGATION_LOTTE = false;
 
     /* Thread period */
 //    public static final int DEVICE_SETUP_TIME_MS = 500; //need to adjust
